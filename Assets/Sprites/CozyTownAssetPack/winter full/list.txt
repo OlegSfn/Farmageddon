@@ -1,0 +1,132 @@
+SNOWMEN
+1. Small Snowman
+2. Snowman with Gloves
+3. Snowman with Top Hat
+4. Snowman with Beanie
+5. Snowman Santa
+6. Messed up Snowman
+7. Snow Cat
+8. Snow Dog
+9. Melting Snowman
+10. Melted Snowman
+
+DECORATIONS
+1. Streetlight Empty
+2. Streetlight Wreath
+3. Wreath Bow
+4. Wreath Star
+5. Candle
+6. Holiday Stocking
+7. Holiday Stocking mounted
+8. Light Tree
+9. Light Reindeer
+10. Small Green Ornament
+11. Medium Red Ornament
+12. Big Golden Ornament
+13. Combined Ornaments
+
+FESTIVAL STANDS
+1. Gingerbread Heart Stand
+2. Mulled Wine and Hot Chocolate Stand
+3. Roasted Almonds Stand
+4. Jewelry Stand
+5. Decorations Stand
+6. Sausage Stand
+7. Candy Apple and Gingerbread Men Stand
+8. Pretzel Stand
+9. Cotton Candy Stand
+10. Flower Stand
+
+ITEMS
+1. Candy Apple
+2. Roasted Almonds
+3. Hot Chocolate
+4. Mulled Wine
+5. Eggnog
+6. Snowglobe with Snowman
+7. Snowglobe with Pine Tree
+8. Snowglobe with House
+9. Little Rudolph
+10. Sitting Santa
+11. Mood Ring
+12. Engagement Ring
+13. Necklace
+14. Cotton Candy Blue
+15. Cotton Candy Yellow
+16. Cotton Candy Pink
+17. Pretzel
+18. Hot Dog
+19. Native Scene King
+20. Native Scene Angel
+21. Native Scene Jesus
+22. Native Scene Shepherd
+23. Native Scene Wise Man Purple
+24. Native Scene Wise Man Orange
+25. Native Scene Wise Man Green
+26. Flower Seeds Crocus
+27. Flower Seeds Leucojum
+28. Flower Seeds Viola
+29. Flower Seeds Winter Jasmine
+30. Flower Seeds Scilla
+31. Flower Seeds Holly
+32. Flower Seeds Kaffir Lilly
+33. Flower Seeds Poinsettia
+34. Flower Seeds  Amaryllis
+35. Flower Seeds Cymbidium Orchid
+
+CANDY
+1. Candy Cane
+2. Green Tree Sugar Cookie
+3. White Tree Sugar Cookie
+4. White Heart Sugar Cookie
+5. Pink Heart Sugar Cookie
+6. Snowflake Sugar Cookie
+7. Snowflake Sugar Cookie
+8. Snowflake Sugar Cookie
+9. Gingerbread Man
+10. Gingerbread Man Bow
+11. Gingerbread Man Scarf
+12. Gingerbread Heart White Swirls 1
+13. Gingerbread Heart White Swirls 2
+14. Gingerbread Heart Flowers
+15. Gingerbread Heart Candle
+16. Cinnamon Star
+17. Chocolate Kiss
+18. Wrapped Chocolate Kiss
+19. Peppermint
+
+TREES
+1. Apple Tree
+2. Orange Tree
+3. Birch Tree
+4. Pine Tree
+5. Plum Tree
+6. Pear Tree
+7. Dragon Tree
+8. Cherry Blossom Tree
+9. Cursed Tree
+10. Old dead Oaktree
+
+FLOWERS
+1. Crocus
+2. Leucojum
+3. Viola
+4. Winter Jasmine
+5. Scilla
+6. Holly
+7. Kaffir Lilly
+8. Poinsettia
+9. Amaryllis
+10. Cymbidium Orchid
+
+OTHER
+1. Holiday Pyramid
+2. Snow Wall horizontal
+3. Snow Wall vertical
+4. Snowpall Pit and Snowball
+5. Igloo
+6. Snow Angel
+7. Sled
+8. Ice Fishing Hole
+9. Ice Skating Ring
+10. Gingerbread House

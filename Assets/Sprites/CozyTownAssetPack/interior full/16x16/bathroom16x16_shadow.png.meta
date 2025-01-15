@@ -1,0 +1,5343 @@
+fileFormatVersion: 2
+guid: 840bd4f94543d420d8f15bb1bf251c0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6056356646109126668
+    second: bathroom16x16_shadow_0
+  - first:
+      213: -1001952174000220575
+    second: bathroom16x16_shadow_1
+  - first:
+      213: -4550748138195100327
+    second: bathroom16x16_shadow_2
+  - first:
+      213: -8482827927187327154
+    second: bathroom16x16_shadow_3
+  - first:
+      213: 1281813296821131694
+    second: bathroom16x16_shadow_4
+  - first:
+      213: -4285702868979225229
+    second: bathroom16x16_shadow_5
+  - first:
+      213: -6520527472249777698
+    second: bathroom16x16_shadow_6
+  - first:
+      213: -1926814900029039304
+    second: bathroom16x16_shadow_7
+  - first:
+      213: -4715321245289843026
+    second: bathroom16x16_shadow_8
+  - first:
+      213: -4272364177371708029
+    second: bathroom16x16_shadow_9
+  - first:
+      213: -4221216022973777209
+    second: bathroom16x16_shadow_10
+  - first:
+      213: 112168058791366517
+    second: bathroom16x16_shadow_11
+  - first:
+      213: -957827876473139082
+    second: bathroom16x16_shadow_12
+  - first:
+      213: 5746553751740571009
+    second: bathroom16x16_shadow_13
+  - first:
+      213: 6658187132710111849
+    second: bathroom16x16_shadow_14
+  - first:
+      213: 6921665983612597300
+    second: bathroom16x16_shadow_15
+  - first:
+      213: 5133679982612982867
+    second: bathroom16x16_shadow_16
+  - first:
+      213: -5389593649616218406
+    second: bathroom16x16_shadow_17
+  - first:
+      213: 6020687376682254023
+    second: bathroom16x16_shadow_18
+  - first:
+      213: 328776423772895218
+    second: bathroom16x16_shadow_19
+  - first:
+      213: 513844388497869850
+    second: bathroom16x16_shadow_20
+  - first:
+      213: 3971160072958540803
+    second: bathroom16x16_shadow_21
+  - first:
+      213: 7211113416397323412
+    second: bathroom16x16_shadow_22
+  - first:
+      213: 4120826136497343124
+    second: bathroom16x16_shadow_23
+  - first:
+      213: 8347835608878200406
+    second: bathroom16x16_shadow_24
+  - first:
+      213: -3911546270335266165
+    second: bathroom16x16_shadow_25
+  - first:
+      213: -4463209414862032975
+    second: bathroom16x16_shadow_26
+  - first:
+      213: -7381877502107580710
+    second: bathroom16x16_shadow_27
+  - first:
+      213: -5658763272200932359
+    second: bathroom16x16_shadow_28
+  - first:
+      213: 6562559664005576515
+    second: bathroom16x16_shadow_29
+  - first:
+      213: 1238714573995958950
+    second: bathroom16x16_shadow_30
+  - first:
+      213: 5812348382898103306
+    second: bathroom16x16_shadow_31
+  - first:
+      213: 92055663084819862
+    second: bathroom16x16_shadow_32
+  - first:
+      213: 7478288592949667699
+    second: bathroom16x16_shadow_33
+  - first:
+      213: 6044842482178121570
+    second: bathroom16x16_shadow_34
+  - first:
+      213: -5461570578740799306
+    second: bathroom16x16_shadow_35
+  - first:
+      213: 7999307149700698981
+    second: bathroom16x16_shadow_36
+  - first:
+      213: -1274922754040479450
+    second: bathroom16x16_shadow_37
+  - first:
+      213: -5791712070367005247
+    second: bathroom16x16_shadow_38
+  - first:
+      213: -3100624689923616450
+    second: bathroom16x16_shadow_39
+  - first:
+      213: 4890827972482588253
+    second: bathroom16x16_shadow_40
+  - first:
+      213: -2980809119246382380
+    second: bathroom16x16_shadow_41
+  - first:
+      213: 1901764164176315379
+    second: bathroom16x16_shadow_42
+  - first:
+      213: -5874951756108406659
+    second: bathroom16x16_shadow_43
+  - first:
+      213: -892847904161844758
+    second: bathroom16x16_shadow_44
+  - first:
+      213: 4194495702686322018
+    second: bathroom16x16_shadow_45
+  - first:
+      213: 2040379251833092247
+    second: bathroom16x16_shadow_46
+  - first:
+      213: -7241903344486619318
+    second: bathroom16x16_shadow_47
+  - first:
+      213: 7158348999125988379
+    second: bathroom16x16_shadow_48
+  - first:
+      213: -4924342745159860818
+    second: bathroom16x16_shadow_49
+  - first:
+      213: -8391946821590141242
+    second: bathroom16x16_shadow_50
+  - first:
+      213: 587693245487814751
+    second: bathroom16x16_shadow_51
+  - first:
+      213: -1346947860367552357
+    second: bathroom16x16_shadow_52
+  - first:
+      213: 779077948949580186
+    second: bathroom16x16_shadow_53
+  - first:
+      213: 405278799723168122
+    second: bathroom16x16_shadow_54
+  - first:
+      213: -5804479476459122669
+    second: bathroom16x16_shadow_55
+  - first:
+      213: 3188561852056812053
+    second: bathroom16x16_shadow_56
+  - first:
+      213: -3925276987574325789
+    second: bathroom16x16_shadow_57
+  - first:
+      213: 9216182049988952797
+    second: bathroom16x16_shadow_58
+  - first:
+      213: 308294737342276189
+    second: bathroom16x16_shadow_59
+  - first:
+      213: -8416382170639245912
+    second: bathroom16x16_shadow_60
+  - first:
+      213: 8376501903580371609
+    second: bathroom16x16_shadow_61
+  - first:
+      213: 37039172103947809
+    second: bathroom16x16_shadow_62
+  - first:
+      213: -3232341220522036979
+    second: bathroom16x16_shadow_63
+  - first:
+      213: -502347584499330944
+    second: bathroom16x16_shadow_64
+  - first:
+      213: -8232823302745969576
+    second: bathroom16x16_shadow_65
+  - first:
+      213: -1767083588850371057
+    second: bathroom16x16_shadow_66
+  - first:
+      213: 4499365063578760704
+    second: bathroom16x16_shadow_67
+  - first:
+      213: 7260491663264350954
+    second: bathroom16x16_shadow_68
+  - first:
+      213: 5894141080346968311
+    second: bathroom16x16_shadow_69
+  - first:
+      213: 6997246393380552994
+    second: bathroom16x16_shadow_70
+  - first:
+      213: 1793604081979585034
+    second: bathroom16x16_shadow_71
+  - first:
+      213: -5772058161844763816
+    second: bathroom16x16_shadow_72
+  - first:
+      213: -4558659145998680726
+    second: bathroom16x16_shadow_73
+  - first:
+      213: 3392058807366343871
+    second: bathroom16x16_shadow_74
+  - first:
+      213: 8952129502212949168
+    second: bathroom16x16_shadow_75
+  - first:
+      213: 8976868741498096825
+    second: bathroom16x16_shadow_76
+  - first:
+      213: -6585304581042551797
+    second: bathroom16x16_shadow_77
+  - first:
+      213: -3271630464750200377
+    second: bathroom16x16_shadow_78
+  - first:
+      213: 199480467672896688
+    second: bathroom16x16_shadow_79
+  - first:
+      213: -7150788503714746831
+    second: bathroom16x16_shadow_80
+  - first:
+      213: 3584930111252907861
+    second: bathroom16x16_shadow_81
+  - first:
+      213: 360849695533118323
+    second: bathroom16x16_shadow_82
+  - first:
+      213: 1922164637417775814
+    second: bathroom16x16_shadow_83
+  - first:
+      213: -1014118034040157259
+    second: bathroom16x16_shadow_84
+  - first:
+      213: -6616321155774283575
+    second: bathroom16x16_shadow_85
+  - first:
+      213: -3485292576601559952
+    second: bathroom16x16_shadow_86
+  - first:
+      213: 5330938538642603867
+    second: bathroom16x16_shadow_87
+  - first:
+      213: 2423951275020298888
+    second: bathroom16x16_shadow_88
+  - first:
+      213: -4170360979087087359
+    second: bathroom16x16_shadow_89
+  - first:
+      213: -3169310115567525752
+    second: bathroom16x16_shadow_90
+  - first:
+      213: 5629450107577658153
+    second: bathroom16x16_shadow_91
+  - first:
+      213: 3542695547897519886
+    second: bathroom16x16_shadow_92
+  - first:
+      213: -8474081735209153420
+    second: bathroom16x16_shadow_93
+  - first:
+      213: 2244179452132695231
+    second: bathroom16x16_shadow_94
+  - first:
+      213: -1551176493193065160
+    second: bathroom16x16_shadow_95
+  - first:
+      213: -6068716023106524303
+    second: bathroom16x16_shadow_96
+  - first:
+      213: 9003021290715438525
+    second: bathroom16x16_shadow_97
+  - first:
+      213: 8621000647690768411
+    second: bathroom16x16_shadow_98
+  - first:
+      213: 560912607532248731
+    second: bathroom16x16_shadow_99
+  - first:
+      213: -3468284286843473933
+    second: bathroom16x16_shadow_100
+  - first:
+      213: -7003365725493657105
+    second: bathroom16x16_shadow_101
+  - first:
+      213: -24088333238736215
+    second: bathroom16x16_shadow_102
+  - first:
+      213: -8008415648553741141
+    second: bathroom16x16_shadow_103
+  - first:
+      213: -4146768345594184450
+    second: bathroom16x16_shadow_104
+  - first:
+      213: -2748291835502707064
+    second: bathroom16x16_shadow_105
+  - first:
+      213: -3210403325054978554
+    second: bathroom16x16_shadow_106
+  - first:
+      213: -1240663157862117743
+    second: bathroom16x16_shadow_107
+  - first:
+      213: 7789010010538419850
+    second: bathroom16x16_shadow_108
+  - first:
+      213: 6944923899449590142
+    second: bathroom16x16_shadow_109
+  - first:
+      213: 3630279512818113745
+    second: bathroom16x16_shadow_110
+  - first:
+      213: -5666051174771088207
+    second: bathroom16x16_shadow_111
+  - first:
+      213: 5679761470457304185
+    second: bathroom16x16_shadow_112
+  - first:
+      213: 5468573017310808993
+    second: bathroom16x16_shadow_113
+  - first:
+      213: 2276313966019789854
+    second: bathroom16x16_shadow_114
+  - first:
+      213: 2637515058103343899
+    second: bathroom16x16_shadow_115
+  - first:
+      213: -7234764364148282691
+    second: bathroom16x16_shadow_116
+  - first:
+      213: 2419917820847089747
+    second: bathroom16x16_shadow_117
+  - first:
+      213: -5566022441280227053
+    second: bathroom16x16_shadow_118
+  - first:
+      213: -1436944032923055348
+    second: bathroom16x16_shadow_119
+  - first:
+      213: 2526797822618570694
+    second: bathroom16x16_shadow_120
+  - first:
+      213: 1870008407045641511
+    second: bathroom16x16_shadow_121
+  - first:
+      213: -6901845333147877102
+    second: bathroom16x16_shadow_122
+  - first:
+      213: -5867383762639570429
+    second: bathroom16x16_shadow_123
+  - first:
+      213: -3326697212929786965
+    second: bathroom16x16_shadow_124
+  - first:
+      213: -6269483101613784658
+    second: bathroom16x16_shadow_125
+  - first:
+      213: 5518452575676412953
+    second: bathroom16x16_shadow_126
+  - first:
+      213: -903530728022414433
+    second: bathroom16x16_shadow_127
+  - first:
+      213: -4331714804705349833
+    second: bathroom16x16_shadow_128
+  - first:
+      213: 911978426818150387
+    second: bathroom16x16_shadow_129
+  - first:
+      213: 905404704648248510
+    second: bathroom16x16_shadow_130
+  - first:
+      213: -6276309987934815217
+    second: bathroom16x16_shadow_131
+  - first:
+      213: -8979425275919604728
+    second: bathroom16x16_shadow_132
+  - first:
+      213: 5052578063902247422
+    second: bathroom16x16_shadow_133
+  - first:
+      213: -7747145365726928614
+    second: bathroom16x16_shadow_134
+  - first:
+      213: 7883847183559149272
+    second: bathroom16x16_shadow_135
+  - first:
+      213: -8510952141352509268
+    second: bathroom16x16_shadow_136
+  - first:
+      213: 4391569945353071500
+    second: bathroom16x16_shadow_137
+  - first:
+      213: -1191554365337352742
+    second: bathroom16x16_shadow_138
+  - first:
+      213: 1493569460535785431
+    second: bathroom16x16_shadow_139
+  - first:
+      213: -6862998482736656539
+    second: bathroom16x16_shadow_140
+  - first:
+      213: 7168625210922105588
+    second: bathroom16x16_shadow_141
+  - first:
+      213: -3219371872360057330
+    second: bathroom16x16_shadow_142
+  - first:
+      213: 8509407682070710728
+    second: bathroom16x16_shadow_143
+  - first:
+      213: 2492978034372895344
+    second: bathroom16x16_shadow_144
+  - first:
+      213: -4670074219574691387
+    second: bathroom16x16_shadow_145
+  - first:
+      213: -7953529878274926591
+    second: bathroom16x16_shadow_146
+  - first:
+      213: 1907131521585077954
+    second: bathroom16x16_shadow_147
+  - first:
+      213: 4739998557055156141
+    second: bathroom16x16_shadow_148
+  - first:
+      213: 7941529625486010085
+    second: bathroom16x16_shadow_149
+  - first:
+      213: -2458389759323091123
+    second: bathroom16x16_shadow_150
+  - first:
+      213: 2152189855434543153
+    second: bathroom16x16_shadow_151
+  - first:
+      213: 4922456470043933827
+    second: bathroom16x16_shadow_152
+  - first:
+      213: 5129962439954641853
+    second: bathroom16x16_shadow_153
+  - first:
+      213: 8570378966181110692
+    second: bathroom16x16_shadow_154
+  - first:
+      213: 8185482478991792817
+    second: bathroom16x16_shadow_155
+  - first:
+      213: 526057399478151964
+    second: bathroom16x16_shadow_156
+  - first:
+      213: 3275400163035930638
+    second: bathroom16x16_shadow_157
+  - first:
+      213: 4705072160429797895
+    second: bathroom16x16_shadow_158
+  - first:
+      213: 7865494284998392676
+    second: bathroom16x16_shadow_159
+  - first:
+      213: -2876832139131786949
+    second: bathroom16x16_shadow_160
+  - first:
+      213: 5062380923835334419
+    second: bathroom16x16_shadow_161
+  - first:
+      213: 4125427168758267638
+    second: bathroom16x16_shadow_162
+  - first:
+      213: 8745162153054616347
+    second: bathroom16x16_shadow_163
+  - first:
+      213: 128144906632721664
+    second: bathroom16x16_shadow_164
+  - first:
+      213: -4769481922000487176
+    second: bathroom16x16_shadow_165
+  - first:
+      213: 1576946577133153852
+    second: bathroom16x16_shadow_166
+  - first:
+      213: -5131733249487044948
+    second: bathroom16x16_shadow_167
+  - first:
+      213: 9084015916502167805
+    second: bathroom16x16_shadow_168
+  - first:
+      213: 309998418775542587
+    second: bathroom16x16_shadow_169
+  - first:
+      213: -4423035047179490144
+    second: bathroom16x16_shadow_170
+  - first:
+      213: -3076483027771746924
+    second: bathroom16x16_shadow_171
+  - first:
+      213: 1062717604536459461
+    second: bathroom16x16_shadow_172
+  - first:
+      213: -8950253082506866617
+    second: bathroom16x16_shadow_173
+  - first:
+      213: 5221944619614208431
+    second: bathroom16x16_shadow_174
+  - first:
+      213: 7540124513430243232
+    second: bathroom16x16_shadow_175
+  - first:
+      213: -4255572022192737325
+    second: bathroom16x16_shadow_176
+  - first:
+      213: -4701410647173117471
+    second: bathroom16x16_shadow_177
+  - first:
+      213: -8335733532676304473
+    second: bathroom16x16_shadow_178
+  - first:
+      213: 7437026319611877479
+    second: bathroom16x16_shadow_179
+  - first:
+      213: 9195433659375789811
+    second: bathroom16x16_shadow_180
+  - first:
+      213: -7471012054477532705
+    second: bathroom16x16_shadow_181
+  - first:
+      213: -1363907177237142964
+    second: bathroom16x16_shadow_182
+  - first:
+      213: -2254139012382867435
+    second: bathroom16x16_shadow_183
+  - first:
+      213: -8035973425763960915
+    second: bathroom16x16_shadow_184
+  - first:
+      213: -8982336109650951456
+    second: bathroom16x16_shadow_185
+  - first:
+      213: 618041941912307894
+    second: bathroom16x16_shadow_186
+  - first:
+      213: 2343178360501230148
+    second: bathroom16x16_shadow_187
+  - first:
+      213: 6640628978549037784
+    second: bathroom16x16_shadow_188
+  - first:
+      213: 8100112791748271236
+    second: bathroom16x16_shadow_189
+  - first:
+      213: -2895546284309252170
+    second: bathroom16x16_shadow_190
+  - first:
+      213: -6846678362890403344
+    second: bathroom16x16_shadow_191
+  - first:
+      213: -1768394199113373760
+    second: bathroom16x16_shadow_192
+  - first:
+      213: -6004226130306808052
+    second: bathroom16x16_shadow_193
+  - first:
+      213: 4757795762147629035
+    second: bathroom16x16_shadow_194
+  - first:
+      213: 6092462512390188562
+    second: bathroom16x16_shadow_195
+  - first:
+      213: 2357747219443872613
+    second: bathroom16x16_shadow_196
+  - first:
+      213: -6522286527706793443
+    second: bathroom16x16_shadow_197
+  - first:
+      213: 4972742858490239827
+    second: bathroom16x16_shadow_198
+  - first:
+      213: -3120824494623722737
+    second: bathroom16x16_shadow_199
+  - first:
+      213: -6786238947692216487
+    second: bathroom16x16_shadow_200
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00296c18408c0450800000000000000
+      internalID: 6056356646109126668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16659ca6ec95812f0800000000000000
+      internalID: -1001952174000220575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d5c90edae78d0c0800000000000000
+      internalID: -4550748138195100327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e477c35b1f0f64a80800000000000000
+      internalID: -8482827927187327154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea95561f66ae9c110800000000000000
+      internalID: 1281813296821131694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dee9182ff1684c0800000000000000
+      internalID: -4285702868979225229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1506cafce6285a0800000000000000
+      internalID: -6520527472249777698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dd6df9e049245e0800000000000000
+      internalID: -1926814900029039304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea675ac6f40df8eb0800000000000000
+      internalID: -4715321245289843026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385c7a8aa6385b4c0800000000000000
+      internalID: -4272364177371708029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caf57e546a3b65c0800000000000000
+      internalID: -4221216022973777209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f876351408e8100800000000000000
+      internalID: 112168058791366517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6701ad20f9c15b2f0800000000000000
+      internalID: -957827876473139082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d5f2fc03cdfbf40800000000000000
+      internalID: 5746553751740571009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a434dabe1a66c50800000000000000
+      internalID: 6658187132710111849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434322f1a82be0060800000000000000
+      internalID: 6921665983612597300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c2e2aaebe7e3740800000000000000
+      internalID: 5133679982612982867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad69ce681215435b0800000000000000
+      internalID: -5389593649616218406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cef2d62547cd8350800000000000000
+      internalID: 6020687376682254023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b18d5a6c009400800000000000000
+      internalID: 328776423772895218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c4e36bfba812700800000000000000
+      internalID: 513844388497869850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c78e6db056c1730800000000000000
+      internalID: 3971160072958540803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c7a633275031460800000000000000
+      internalID: 7211113416397323412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ac11fb98d103930800000000000000
+      internalID: 4120826136497343124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 278
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656ba8ee14879d370800000000000000
+      internalID: 8347835608878200406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 278
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b829922346567b9c0800000000000000
+      internalID: -3911546270335266165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf28fc2fae7f02c0800000000000000
+      internalID: -4463209414862032975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad60e6fc58d4e8990800000000000000
+      internalID: -7381877502107580710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3bf6c09c80871b0800000000000000
+      internalID: -5658763272200932359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347fb569e35e21b50800000000000000
+      internalID: 6562559664005576515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2e021975cc03110800000000000000
+      internalID: 1238714573995958950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0425712f0c99a050800000000000000
+      internalID: 5812348382898103306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695dbb9432c074100800000000000000
+      internalID: 92055663084819862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377ee968ad738c760800000000000000
+      internalID: 7478288592949667699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fda69e53893e350800000000000000
+      internalID: 6044842482178121570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b81e6ace7a9434b0800000000000000
+      internalID: -5461570578740799306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5631723787f330f60800000000000000
+      internalID: 7999307149700698981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621ca5192809e4ee0800000000000000
+      internalID: -1274922754040479450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 255
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5be6cce84bf9fa0800000000000000
+      internalID: -5791712070367005247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e311c47b54e58f4d0800000000000000
+      internalID: -3100624689923616450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_40
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e5e55d026bfd340800000000000000
+      internalID: 4890827972482588253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_41
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da031826e902a6d0800000000000000
+      internalID: -2980809119246382380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f30c4c6e6c646a10800000000000000
+      internalID: 1901764164176315379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70e990318af77ea0800000000000000
+      internalID: -5874951756108406659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae13bf9cf87fb93f0800000000000000
+      internalID: -892847904161844758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d45824e97d53a30800000000000000
+      internalID: 4194495702686322018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_46
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798b6908e12e05c10800000000000000
+      internalID: 2040379251833092247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47692607479f7b90800000000000000
+      internalID: -7241903344486619318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_48
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b147d27fc70975360800000000000000
+      internalID: 7158348999125988379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_49
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead79721d5839abb0800000000000000
+      internalID: -4924342745159860818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_50
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6b62504d0d98b80800000000000000
+      internalID: -8391946821590141242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_51
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 239
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58923e94e7e72800800000000000000
+      internalID: 587693245487814751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_52
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90d1d3be0eae4de0800000000000000
+      internalID: -1346947860367552357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_53
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99ca7f4447dfca00800000000000000
+      internalID: 779077948949580186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_54
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a710f7ccbe6df9500800000000000000
+      internalID: 405278799723168122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_55
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310db9b6ba8527fa0800000000000000
+      internalID: -5804479476459122669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_56
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a35385c1c004c20800000000000000
+      internalID: 3188561852056812053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_57
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eded96706d9689c0800000000000000
+      internalID: -3925276987574325789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_58
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd24ceabeb476ef70800000000000000
+      internalID: 9216182049988952797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_59
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52a8612e68474400800000000000000
+      internalID: 308294737342276189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_60
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8addd19f101033b80800000000000000
+      internalID: -8416382170639245912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_61
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a9a47c9105f3470800000000000000
+      internalID: 8376501903580371609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_62
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126c7084ee6938000800000000000000
+      internalID: 37039172103947809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_63
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d017eed19ca6423d0800000000000000
+      internalID: -3232341220522036979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_64
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 223
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0805420988d4709f0800000000000000
+      internalID: -502347584499330944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 129
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ca44553d22fbd80800000000000000
+      internalID: -8232823302745969576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_66
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06b62e96de0a77e0800000000000000
+      internalID: -1767083588850371057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_67
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0063a69cfa4f07e30800000000000000
+      internalID: 4499365063578760704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_68
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae28e8333b272c460800000000000000
+      internalID: 7260491663264350954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f04e1685123cc150800000000000000
+      internalID: 5894141080346968311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_70
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221c45395863b1160800000000000000
+      internalID: 6997246393380552994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02751ed86924e810800000000000000
+      internalID: 1793604081979585034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_72
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8534958fea785efa0800000000000000
+      internalID: -5772058161844763816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_73
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6db9a6d8a36cb0c0800000000000000
+      internalID: -4558659145998680726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_74
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc5e4e6383031f20800000000000000
+      internalID: 3392058807366343871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_75
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b482b21a5a5c3c70800000000000000
+      internalID: 8952129502212949168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_76
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc4d441f8e349c70800000000000000
+      internalID: 8976868741498096825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_77
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04c43dbf5c4c94a0800000000000000
+      internalID: -6585304581042551797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_78
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 207
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9d7381d65d892d0800000000000000
+      internalID: -3271630464750200377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_79
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 191
+        width: 194
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4954fad62b4c200800000000000000
+      internalID: 199480467672896688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_80
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ea22c0ebb43cc90800000000000000
+      internalID: -7150788503714746831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557c4d141fa30c130800000000000000
+      internalID: 3584930111252907861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_82
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3733f8fd2eef10500800000000000000
+      internalID: 360849695533118323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_83
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2aa1dbd86ecaa10800000000000000
+      internalID: 1922164637417775814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb08b465012de1f0800000000000000
+      internalID: -1014118034040157259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c00c2ea6fa1e24a0800000000000000
+      internalID: -6616321155774283575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_86
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cab511ed0c1afc0800000000000000
+      internalID: -3485292576601559952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_87
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f7b3b3b5c4bf940800000000000000
+      internalID: 5330938538642603867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_88
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aa07c87da93a120800000000000000
+      internalID: 2423951275020298888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1092d58f8c6ef16c0800000000000000
+      internalID: -4170360979087087359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_90
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880ab8add395404d0800000000000000
+      internalID: -3169310115567525752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_91
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b63f6fb03df1e40800000000000000
+      internalID: 5629450107577658153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_92
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 159
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f1acfa4de2a2130800000000000000
+      internalID: 3542695547897519886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 151
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c8b373f83066a80800000000000000
+      internalID: -8474081735209153420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_94
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 151
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc9990525de42f10800000000000000
+      internalID: 2244179452132695231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d8a4ba23d197ae0800000000000000
+      internalID: -1551176493193065160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_96
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ba3003ee697cba0800000000000000
+      internalID: -6068716023106524303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_97
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd5f52f92821fc70800000000000000
+      internalID: 9003021290715438525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_98
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10550eb962f3a770800000000000000
+      internalID: 8621000647690768411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e6ff17b03c8c700800000000000000
+      internalID: 560912607532248731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_100
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff20ae11dd2edfc0800000000000000
+      internalID: -3468284286843473933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_101
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe10ec36afb0fce90800000000000000
+      internalID: -7003365725493657105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_102
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aae21ed9cb6aaff0800000000000000
+      internalID: -24088333238736215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_103
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba45646e5646cd090800000000000000
+      internalID: -8008415648553741141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_104
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc36030928b376c0800000000000000
+      internalID: -4146768345594184450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 127
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e31cdf22b1cd9d0800000000000000
+      internalID: -2748291835502707064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_106
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 127
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6067d507f2b5273d0800000000000000
+      internalID: -3210403325054978554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_107
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 135
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ec6b56e6748cee0800000000000000
+      internalID: -1240663157862117743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_108
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 135
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86aa1e265f181c60800000000000000
+      internalID: 7789010010538419850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_109
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 119
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7140d2ad73516060800000000000000
+      internalID: 6944923899449590142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_110
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 119
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcd6ec9bf7516230800000000000000
+      internalID: 3630279512818113745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 112
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4a5900a742e51b0800000000000000
+      internalID: -5666051174771088207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_112
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 103
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974de87f6f092de40800000000000000
+      internalID: 5679761470457304185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_113
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 103
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abc81d7f2644eb40800000000000000
+      internalID: 5468573017310808993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_114
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14cedddd77179f10800000000000000
+      internalID: 2276313966019789854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_115
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b5eff98f55a9420800000000000000
+      internalID: 2637515058103343899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_116
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba69496424f89b90800000000000000
+      internalID: -7234764364148282691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_117
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3586a31df66459120800000000000000
+      internalID: 2419917820847089747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_118
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319b3a7641481c2b0800000000000000
+      internalID: -5566022441280227053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_119
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b018be303fe0ce0800000000000000
+      internalID: -1436944032923055348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_120
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf096c6b3df01320800000000000000
+      internalID: 2526797822618570694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_121
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72513fc0dba93f910800000000000000
+      internalID: 1870008407045641511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_122
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 85
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211880fac38b730a0800000000000000
+      internalID: -6901845333147877102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_123
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 85
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a39fafd8dd29ea0800000000000000
+      internalID: -5867383762639570429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babb90ca28235d1d0800000000000000
+      internalID: -3326697212929786965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_125
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea10ff216525ef8a0800000000000000
+      internalID: -6269483101613784658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_126
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914380b216b759c40800000000000000
+      internalID: 5518452575676412953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_127
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9be29807930673f0800000000000000
+      internalID: -903530728022414433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_128
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fac35e558a2e3c0800000000000000
+      internalID: -4331714804705349833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_129
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffb05d1c8ff7ac00800000000000000
+      internalID: 911978426818150387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_130
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcb68628c4a09c00800000000000000
+      internalID: 905404704648248510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_131
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cb8ecb15116e8a0800000000000000
+      internalID: -6276309987934815217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_132
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804e5ad594ca26380800000000000000
+      internalID: -8979425275919604728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_133
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef903dabafc5e1640800000000000000
+      internalID: 5052578063902247422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_134
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a116884065c9c7490800000000000000
+      internalID: -7747145365726928614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_135
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6c1873e3d096d60800000000000000
+      internalID: 7883847183559149272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_136
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 69
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca06552de1603e980800000000000000
+      internalID: -8510952141352509268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_137
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 69
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b2d07099df1fc30800000000000000
+      internalID: 4391569945353071500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5408b2e9fb67fe0800000000000000
+      internalID: -1191554365337352742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_139
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d77b96d2893ab410800000000000000
+      internalID: 1493569460535785431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_140
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fcf6edd3bb1c0a0800000000000000
+      internalID: -6862998482736656539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_141
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fafbe8f5a21c7360800000000000000
+      internalID: 7168625210922105588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_142
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06381cc65e7253d0800000000000000
+      internalID: -3219371872360057330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_143
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c90ecab33d771670800000000000000
+      internalID: 8509407682070710728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_144
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072e5ab5056d89220800000000000000
+      internalID: 2492978034372895344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_145
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c97a8b8d30903fb0800000000000000
+      internalID: -4670074219574691387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_146
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10897fe17b26f9190800000000000000
+      internalID: -7953529878274926591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_147
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce5704b30e777a10800000000000000
+      internalID: 1907131521585077954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_148
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daff225f29bd7c140800000000000000
+      internalID: 4739998557055156141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_149
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6a55c4e1bf53e60800000000000000
+      internalID: 7941529625486010085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_150
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 53
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4fc61cf98b02edd0800000000000000
+      internalID: -2458389759323091123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_151
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 53
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130106e454d1edd10800000000000000
+      internalID: 2152189855434543153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cba474414105440800000000000000
+      internalID: 4922456470043933827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_153
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3b790d8a9413740800000000000000
+      internalID: 5129962439954641853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_154
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a364bd034a10f670800000000000000
+      internalID: 8570378966181110692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_155
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba5d7332fca89170800000000000000
+      internalID: 8185482478991792817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_156
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b6c5bea6eec4700800000000000000
+      internalID: 526057399478151964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_157
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00630f281f847d20800000000000000
+      internalID: 3275400163035930638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_158
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7027ffc8336cb4140800000000000000
+      internalID: 4705072160429797895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_159
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bb1380169d72d60800000000000000
+      internalID: 7865494284998392676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_160
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b396f9c59607318d0800000000000000
+      internalID: -2876832139131786949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_161
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f3beae0a0314640800000000000000
+      internalID: 5062380923835334419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_162
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fef49c0726704930800000000000000
+      internalID: 4125427168758267638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_163
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bb204f4ae0d5970800000000000000
+      internalID: 8745162153054616347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_164
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 37
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0057e971d1347c100800000000000000
+      internalID: 128144906632721664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_165
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 37
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc738436756fcdb0800000000000000
+      internalID: -4769481922000487176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_166
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e2acf8e8072e510800000000000000
+      internalID: 1576946577133153852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_167
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae73467ccb68c8b0800000000000000
+      internalID: -5131733249487044948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_168
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df03b1dc858e01e70800000000000000
+      internalID: 9084015916502167805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_169
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b8c006be55d4400800000000000000
+      internalID: 309998418775542587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_170
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac63cf0f093e92c0800000000000000
+      internalID: -4423035047179490144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_171
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49595247cf22e45d0800000000000000
+      internalID: -3076483027771746924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_172
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 16
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c023f2e7088fbe00800000000000000
+      internalID: 1062717604536459461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_173
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740555fed305ac380800000000000000
+      internalID: -8950253082506866617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_174
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa10ed8e6f2187840800000000000000
+      internalID: 5221944619614208431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_175
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a78931bb47e3a860800000000000000
+      internalID: 7540124513430243232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_176
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d37c15facb21f4c0800000000000000
+      internalID: -4255572022192737325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_177
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9c100fceb31ceb0800000000000000
+      internalID: -4701410647173117471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_178
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a154824486815c80800000000000000
+      internalID: -8335733532676304473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_179
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76852bdd800a53760800000000000000
+      internalID: 7437026319611877479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_180
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6a3c6913ebc9f70800000000000000
+      internalID: 9195433659375789811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_181
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1943c9e12a15890800000000000000
+      internalID: -7471012054477532705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_182
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42ac2a06ad621de0800000000000000
+      internalID: -1363907177237142964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_183
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510c19cd280b7b0e0800000000000000
+      internalID: -2254139012382867435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_184
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da73cd4eebc7a7090800000000000000
+      internalID: -8035973425763960915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_185
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2471316e4585380800000000000000
+      internalID: -8982336109650951456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_186
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8c9f32fd9b39800800000000000000
+      internalID: 618041941912307894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_187
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ade0fdd44a48020800000000000000
+      internalID: 2343178360501230148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_188
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da94975fd0482c50800000000000000
+      internalID: 6640628978549037784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_189
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cd0c8faa1696070800000000000000
+      internalID: 8100112791748271236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_190
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b77b05eef3f0d7d0800000000000000
+      internalID: -2895546284309252170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_191
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f18090ed46bbf0a0800000000000000
+      internalID: -6846678362890403344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_192
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c76cf268d66577e0800000000000000
+      internalID: -1768394199113373760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_193
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07c1ff6524bcaca0800000000000000
+      internalID: -6004226130306808052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_194
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be71baca906170240800000000000000
+      internalID: 4757795762147629035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_195
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ea6623066cc8450800000000000000
+      internalID: 6092462512390188562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_196
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563fd1daa9668b020800000000000000
+      internalID: 2357747219443872613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_197
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a78b8a5fe2c75a0800000000000000
+      internalID: -6522286527706793443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_198
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bdba7784bb20540800000000000000
+      internalID: 4972742858490239827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_199
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f037d9f28aa90b4d0800000000000000
+      internalID: -3120824494623722737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bathroom16x16_shadow_200
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f72e1d1af62d1a0800000000000000
+      internalID: -6786238947692216487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bathroom16x16_shadow_0: 6056356646109126668
+      bathroom16x16_shadow_1: -1001952174000220575
+      bathroom16x16_shadow_10: -4221216022973777209
+      bathroom16x16_shadow_100: -3468284286843473933
+      bathroom16x16_shadow_101: -7003365725493657105
+      bathroom16x16_shadow_102: -24088333238736215
+      bathroom16x16_shadow_103: -8008415648553741141
+      bathroom16x16_shadow_104: -4146768345594184450
+      bathroom16x16_shadow_105: -2748291835502707064
+      bathroom16x16_shadow_106: -3210403325054978554
+      bathroom16x16_shadow_107: -1240663157862117743
+      bathroom16x16_shadow_108: 7789010010538419850
+      bathroom16x16_shadow_109: 6944923899449590142
+      bathroom16x16_shadow_11: 112168058791366517
+      bathroom16x16_shadow_110: 3630279512818113745
+      bathroom16x16_shadow_111: -5666051174771088207
+      bathroom16x16_shadow_112: 5679761470457304185
+      bathroom16x16_shadow_113: 5468573017310808993
+      bathroom16x16_shadow_114: 2276313966019789854
+      bathroom16x16_shadow_115: 2637515058103343899
+      bathroom16x16_shadow_116: -7234764364148282691
+      bathroom16x16_shadow_117: 2419917820847089747
+      bathroom16x16_shadow_118: -5566022441280227053
+      bathroom16x16_shadow_119: -1436944032923055348
+      bathroom16x16_shadow_12: -957827876473139082
+      bathroom16x16_shadow_120: 2526797822618570694
+      bathroom16x16_shadow_121: 1870008407045641511
+      bathroom16x16_shadow_122: -6901845333147877102
+      bathroom16x16_shadow_123: -5867383762639570429
+      bathroom16x16_shadow_124: -3326697212929786965
+      bathroom16x16_shadow_125: -6269483101613784658
+      bathroom16x16_shadow_126: 5518452575676412953
+      bathroom16x16_shadow_127: -903530728022414433
+      bathroom16x16_shadow_128: -4331714804705349833
+      bathroom16x16_shadow_129: 911978426818150387
+      bathroom16x16_shadow_13: 5746553751740571009
+      bathroom16x16_shadow_130: 905404704648248510
+      bathroom16x16_shadow_131: -6276309987934815217
+      bathroom16x16_shadow_132: -8979425275919604728
+      bathroom16x16_shadow_133: 5052578063902247422
+      bathroom16x16_shadow_134: -7747145365726928614
+      bathroom16x16_shadow_135: 7883847183559149272
+      bathroom16x16_shadow_136: -8510952141352509268
+      bathroom16x16_shadow_137: 4391569945353071500
+      bathroom16x16_shadow_138: -1191554365337352742
+      bathroom16x16_shadow_139: 1493569460535785431
+      bathroom16x16_shadow_14: 6658187132710111849
+      bathroom16x16_shadow_140: -6862998482736656539
+      bathroom16x16_shadow_141: 7168625210922105588
+      bathroom16x16_shadow_142: -3219371872360057330
+      bathroom16x16_shadow_143: 8509407682070710728
+      bathroom16x16_shadow_144: 2492978034372895344
+      bathroom16x16_shadow_145: -4670074219574691387
+      bathroom16x16_shadow_146: -7953529878274926591
+      bathroom16x16_shadow_147: 1907131521585077954
+      bathroom16x16_shadow_148: 4739998557055156141
+      bathroom16x16_shadow_149: 7941529625486010085
+      bathroom16x16_shadow_15: 6921665983612597300
+      bathroom16x16_shadow_150: -2458389759323091123
+      bathroom16x16_shadow_151: 2152189855434543153
+      bathroom16x16_shadow_152: 4922456470043933827
+      bathroom16x16_shadow_153: 5129962439954641853
+      bathroom16x16_shadow_154: 8570378966181110692
+      bathroom16x16_shadow_155: 8185482478991792817
+      bathroom16x16_shadow_156: 526057399478151964
+      bathroom16x16_shadow_157: 3275400163035930638
+      bathroom16x16_shadow_158: 4705072160429797895
+      bathroom16x16_shadow_159: 7865494284998392676
+      bathroom16x16_shadow_16: 5133679982612982867
+      bathroom16x16_shadow_160: -2876832139131786949
+      bathroom16x16_shadow_161: 5062380923835334419
+      bathroom16x16_shadow_162: 4125427168758267638
+      bathroom16x16_shadow_163: 8745162153054616347
+      bathroom16x16_shadow_164: 128144906632721664
+      bathroom16x16_shadow_165: -4769481922000487176
+      bathroom16x16_shadow_166: 1576946577133153852
+      bathroom16x16_shadow_167: -5131733249487044948
+      bathroom16x16_shadow_168: 9084015916502167805
+      bathroom16x16_shadow_169: 309998418775542587
+      bathroom16x16_shadow_17: -5389593649616218406
+      bathroom16x16_shadow_170: -4423035047179490144
+      bathroom16x16_shadow_171: -3076483027771746924
+      bathroom16x16_shadow_172: 1062717604536459461
+      bathroom16x16_shadow_173: -8950253082506866617
+      bathroom16x16_shadow_174: 5221944619614208431
+      bathroom16x16_shadow_175: 7540124513430243232
+      bathroom16x16_shadow_176: -4255572022192737325
+      bathroom16x16_shadow_177: -4701410647173117471
+      bathroom16x16_shadow_178: -8335733532676304473
+      bathroom16x16_shadow_179: 7437026319611877479
+      bathroom16x16_shadow_18: 6020687376682254023
+      bathroom16x16_shadow_180: 9195433659375789811
+      bathroom16x16_shadow_181: -7471012054477532705
+      bathroom16x16_shadow_182: -1363907177237142964
+      bathroom16x16_shadow_183: -2254139012382867435
+      bathroom16x16_shadow_184: -8035973425763960915
+      bathroom16x16_shadow_185: -8982336109650951456
+      bathroom16x16_shadow_186: 618041941912307894
+      bathroom16x16_shadow_187: 2343178360501230148
+      bathroom16x16_shadow_188: 6640628978549037784
+      bathroom16x16_shadow_189: 8100112791748271236
+      bathroom16x16_shadow_19: 328776423772895218
+      bathroom16x16_shadow_190: -2895546284309252170
+      bathroom16x16_shadow_191: -6846678362890403344
+      bathroom16x16_shadow_192: -1768394199113373760
+      bathroom16x16_shadow_193: -6004226130306808052
+      bathroom16x16_shadow_194: 4757795762147629035
+      bathroom16x16_shadow_195: 6092462512390188562
+      bathroom16x16_shadow_196: 2357747219443872613
+      bathroom16x16_shadow_197: -6522286527706793443
+      bathroom16x16_shadow_198: 4972742858490239827
+      bathroom16x16_shadow_199: -3120824494623722737
+      bathroom16x16_shadow_2: -4550748138195100327
+      bathroom16x16_shadow_20: 513844388497869850
+      bathroom16x16_shadow_200: -6786238947692216487
+      bathroom16x16_shadow_21: 3971160072958540803
+      bathroom16x16_shadow_22: 7211113416397323412
+      bathroom16x16_shadow_23: 4120826136497343124
+      bathroom16x16_shadow_24: 8347835608878200406
+      bathroom16x16_shadow_25: -3911546270335266165
+      bathroom16x16_shadow_26: -4463209414862032975
+      bathroom16x16_shadow_27: -7381877502107580710
+      bathroom16x16_shadow_28: -5658763272200932359
+      bathroom16x16_shadow_29: 6562559664005576515
+      bathroom16x16_shadow_3: -8482827927187327154
+      bathroom16x16_shadow_30: 1238714573995958950
+      bathroom16x16_shadow_31: 5812348382898103306
+      bathroom16x16_shadow_32: 92055663084819862
+      bathroom16x16_shadow_33: 7478288592949667699
+      bathroom16x16_shadow_34: 6044842482178121570
+      bathroom16x16_shadow_35: -5461570578740799306
+      bathroom16x16_shadow_36: 7999307149700698981
+      bathroom16x16_shadow_37: -1274922754040479450
+      bathroom16x16_shadow_38: -5791712070367005247
+      bathroom16x16_shadow_39: -3100624689923616450
+      bathroom16x16_shadow_4: 1281813296821131694
+      bathroom16x16_shadow_40: 4890827972482588253
+      bathroom16x16_shadow_41: -2980809119246382380
+      bathroom16x16_shadow_42: 1901764164176315379
+      bathroom16x16_shadow_43: -5874951756108406659
+      bathroom16x16_shadow_44: -892847904161844758
+      bathroom16x16_shadow_45: 4194495702686322018
+      bathroom16x16_shadow_46: 2040379251833092247
+      bathroom16x16_shadow_47: -7241903344486619318
+      bathroom16x16_shadow_48: 7158348999125988379
+      bathroom16x16_shadow_49: -4924342745159860818
+      bathroom16x16_shadow_5: -4285702868979225229
+      bathroom16x16_shadow_50: -8391946821590141242
+      bathroom16x16_shadow_51: 587693245487814751
+      bathroom16x16_shadow_52: -1346947860367552357
+      bathroom16x16_shadow_53: 779077948949580186
+      bathroom16x16_shadow_54: 405278799723168122
+      bathroom16x16_shadow_55: -5804479476459122669
+      bathroom16x16_shadow_56: 3188561852056812053
+      bathroom16x16_shadow_57: -3925276987574325789
+      bathroom16x16_shadow_58: 9216182049988952797
+      bathroom16x16_shadow_59: 308294737342276189
+      bathroom16x16_shadow_6: -6520527472249777698
+      bathroom16x16_shadow_60: -8416382170639245912
+      bathroom16x16_shadow_61: 8376501903580371609
+      bathroom16x16_shadow_62: 37039172103947809
+      bathroom16x16_shadow_63: -3232341220522036979
+      bathroom16x16_shadow_64: -502347584499330944
+      bathroom16x16_shadow_65: -8232823302745969576
+      bathroom16x16_shadow_66: -1767083588850371057
+      bathroom16x16_shadow_67: 4499365063578760704
+      bathroom16x16_shadow_68: 7260491663264350954
+      bathroom16x16_shadow_69: 5894141080346968311
+      bathroom16x16_shadow_7: -1926814900029039304
+      bathroom16x16_shadow_70: 6997246393380552994
+      bathroom16x16_shadow_71: 1793604081979585034
+      bathroom16x16_shadow_72: -5772058161844763816
+      bathroom16x16_shadow_73: -4558659145998680726
+      bathroom16x16_shadow_74: 3392058807366343871
+      bathroom16x16_shadow_75: 8952129502212949168
+      bathroom16x16_shadow_76: 8976868741498096825
+      bathroom16x16_shadow_77: -6585304581042551797
+      bathroom16x16_shadow_78: -3271630464750200377
+      bathroom16x16_shadow_79: 199480467672896688
+      bathroom16x16_shadow_8: -4715321245289843026
+      bathroom16x16_shadow_80: -7150788503714746831
+      bathroom16x16_shadow_81: 3584930111252907861
+      bathroom16x16_shadow_82: 360849695533118323
+      bathroom16x16_shadow_83: 1922164637417775814
+      bathroom16x16_shadow_84: -1014118034040157259
+      bathroom16x16_shadow_85: -6616321155774283575
+      bathroom16x16_shadow_86: -3485292576601559952
+      bathroom16x16_shadow_87: 5330938538642603867
+      bathroom16x16_shadow_88: 2423951275020298888
+      bathroom16x16_shadow_89: -4170360979087087359
+      bathroom16x16_shadow_9: -4272364177371708029
+      bathroom16x16_shadow_90: -3169310115567525752
+      bathroom16x16_shadow_91: 5629450107577658153
+      bathroom16x16_shadow_92: 3542695547897519886
+      bathroom16x16_shadow_93: -8474081735209153420
+      bathroom16x16_shadow_94: 2244179452132695231
+      bathroom16x16_shadow_95: -1551176493193065160
+      bathroom16x16_shadow_96: -6068716023106524303
+      bathroom16x16_shadow_97: 9003021290715438525
+      bathroom16x16_shadow_98: 8621000647690768411
+      bathroom16x16_shadow_99: 560912607532248731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

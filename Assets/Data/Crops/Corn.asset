@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78031fa064404b47876bdb49e3f160f4, type: 3}
+  m_Name: Corn
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 3968481386003317062, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 5928573262862853622, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 7187821323367529901, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 3247073249403625333, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 1307025549351660746, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5494282858265646035, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesWet:
+  - {fileID: 6232121759451285737, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 8544982478275238230, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 893515812988284585, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 7379386849701479890, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -8964641274695198777, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -8390083710815228631, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesTimes:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 100
+  maxHumidity: 200

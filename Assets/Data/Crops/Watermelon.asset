@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78031fa064404b47876bdb49e3f160f4, type: 3}
+  m_Name: Watermelon
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 7739724293123585957, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 1122038232698199743, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -693112959557462699, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -6732761024007218539, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -2248298705297493437, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5312069980993711850, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesWet:
+  - {fileID: 5578404642534279582, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -85629500794931087, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 2108732035571086687, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -2550027071463127997, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 7387722223468078329, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 28643360900510162, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesTimes:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 100
+  maxHumidity: 200

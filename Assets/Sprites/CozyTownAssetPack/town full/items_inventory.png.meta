@@ -1,0 +1,2275 @@
+fileFormatVersion: 2
+guid: 661cc343625ba4f2182ccff9c0093400
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5995050032294738958
+    second: items_inventory_0
+  - first:
+      213: 7617023732643841779
+    second: items_inventory_1
+  - first:
+      213: 8863616694485402507
+    second: items_inventory_2
+  - first:
+      213: 3210298251362387774
+    second: items_inventory_3
+  - first:
+      213: -6501175114511455926
+    second: items_inventory_4
+  - first:
+      213: -8908591265115071507
+    second: items_inventory_5
+  - first:
+      213: -4090379444719300127
+    second: items_inventory_6
+  - first:
+      213: 629682377855433265
+    second: items_inventory_7
+  - first:
+      213: -5264570603505284544
+    second: items_inventory_8
+  - first:
+      213: -6571533336744061336
+    second: items_inventory_9
+  - first:
+      213: -1119372685297511864
+    second: items_inventory_10
+  - first:
+      213: 4808422725350811792
+    second: items_inventory_11
+  - first:
+      213: 5134403806410364496
+    second: items_inventory_12
+  - first:
+      213: -7598972595216237436
+    second: items_inventory_13
+  - first:
+      213: -5854749009584591451
+    second: items_inventory_14
+  - first:
+      213: -4644521114770296775
+    second: items_inventory_15
+  - first:
+      213: -7902975422957714472
+    second: items_inventory_16
+  - first:
+      213: -7942989887198021139
+    second: items_inventory_17
+  - first:
+      213: 7747126603750534355
+    second: items_inventory_18
+  - first:
+      213: 6517460956900877702
+    second: items_inventory_19
+  - first:
+      213: 2210180140171387817
+    second: items_inventory_20
+  - first:
+      213: 1800216454858743696
+    second: items_inventory_21
+  - first:
+      213: -8262775560664704834
+    second: items_inventory_22
+  - first:
+      213: -766283956690021646
+    second: items_inventory_23
+  - first:
+      213: 1746372951837177991
+    second: items_inventory_24
+  - first:
+      213: 7645447893679582614
+    second: items_inventory_25
+  - first:
+      213: 5765198589254850823
+    second: items_inventory_26
+  - first:
+      213: 3105245087002334478
+    second: items_inventory_27
+  - first:
+      213: 3002653983776119971
+    second: items_inventory_28
+  - first:
+      213: 389550049119375228
+    second: items_inventory_29
+  - first:
+      213: -7545426344378505490
+    second: items_inventory_30
+  - first:
+      213: 4683640869590538963
+    second: items_inventory_31
+  - first:
+      213: -7607371803450586494
+    second: items_inventory_32
+  - first:
+      213: 1317738781933127080
+    second: items_inventory_33
+  - first:
+      213: -6940839592827538763
+    second: items_inventory_34
+  - first:
+      213: 8310393940783192849
+    second: items_inventory_35
+  - first:
+      213: 3640225163748094445
+    second: items_inventory_36
+  - first:
+      213: -6151144744292098660
+    second: items_inventory_37
+  - first:
+      213: -2241877176402263627
+    second: items_inventory_38
+  - first:
+      213: 5020846935381592131
+    second: items_inventory_39
+  - first:
+      213: 2627860361644136119
+    second: items_inventory_40
+  - first:
+      213: -3044544574273606867
+    second: items_inventory_41
+  - first:
+      213: -5266836322804846246
+    second: items_inventory_42
+  - first:
+      213: -629846032962985225
+    second: items_inventory_43
+  - first:
+      213: 8536436613127457211
+    second: items_inventory_44
+  - first:
+      213: -1250735586406549229
+    second: items_inventory_45
+  - first:
+      213: -397679526000491686
+    second: items_inventory_46
+  - first:
+      213: 5867423519381345370
+    second: items_inventory_47
+  - first:
+      213: 8314847737813251256
+    second: items_inventory_48
+  - first:
+      213: 2570018623546429526
+    second: items_inventory_49
+  - first:
+      213: -5015888285851645398
+    second: items_inventory_50
+  - first:
+      213: -2657208413337245235
+    second: items_inventory_51
+  - first:
+      213: -5149378516691515619
+    second: items_inventory_52
+  - first:
+      213: -2525831792051610587
+    second: items_inventory_53
+  - first:
+      213: -4745466902185959393
+    second: items_inventory_54
+  - first:
+      213: -4484087567775195550
+    second: items_inventory_55
+  - first:
+      213: -1218586700150656803
+    second: items_inventory_56
+  - first:
+      213: -2164560285914273262
+    second: items_inventory_57
+  - first:
+      213: -131398981403115377
+    second: items_inventory_58
+  - first:
+      213: -8192029517425013434
+    second: items_inventory_59
+  - first:
+      213: -2699779074531468380
+    second: items_inventory_60
+  - first:
+      213: 7542086137939965376
+    second: items_inventory_61
+  - first:
+      213: -2725815877634235688
+    second: items_inventory_62
+  - first:
+      213: 6804260540761652700
+    second: items_inventory_63
+  - first:
+      213: -4099594293850646852
+    second: items_inventory_64
+  - first:
+      213: 1416014233810710303
+    second: items_inventory_65
+  - first:
+      213: -3507068326478029446
+    second: items_inventory_66
+  - first:
+      213: -6410013915395950937
+    second: items_inventory_67
+  - first:
+      213: -7924322238314838166
+    second: items_inventory_68
+  - first:
+      213: 2091693817933617763
+    second: items_inventory_69
+  - first:
+      213: 4560003289891436770
+    second: items_inventory_70
+  - first:
+      213: -4816989877972710575
+    second: items_inventory_71
+  - first:
+      213: -7625833023490803852
+    second: items_inventory_72
+  - first:
+      213: 5228227025438953799
+    second: items_inventory_73
+  - first:
+      213: -565086664862531305
+    second: items_inventory_74
+  - first:
+      213: -1494427383444305399
+    second: items_inventory_75
+  - first:
+      213: -4529774644174899266
+    second: items_inventory_76
+  - first:
+      213: -7589205308788792997
+    second: items_inventory_77
+  - first:
+      213: 5738079946543945218
+    second: items_inventory_78
+  - first:
+      213: -4862211634637815297
+    second: items_inventory_79
+  - first:
+      213: 369467256605085204
+    second: items_inventory_80
+  - first:
+      213: 5143222043213222003
+    second: items_inventory_81
+  - first:
+      213: 1348336564661143013
+    second: items_inventory_82
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: items_inventory_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c3f91cd32b23350800000000000000
+      internalID: 5995050032294738958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6c4f56aba15b960800000000000000
+      internalID: 7617023732643841779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8346041c64e10b70800000000000000
+      internalID: 8863616694485402507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37438f20454d8c20800000000000000
+      internalID: 3210298251362387774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 96
+        width: 66
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a496fe49daf27c5a0800000000000000
+      internalID: -6501175114511455926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 402
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb1ba1b1735e5480800000000000000
+      internalID: -8908591265115071507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 111
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e152f8119d0c37c0800000000000000
+      internalID: -4090379444719300127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a756559c41db800800000000000000
+      internalID: 629682377855433265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04a8a13ddec70f6b0800000000000000
+      internalID: -5264570603505284544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 111
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8669bb96f393dc4a0800000000000000
+      internalID: -6571533336744061336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 111
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842119139703770f0800000000000000
+      internalID: -1119372685297511864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_11
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098637a1ef2fab240800000000000000
+      internalID: 4808422725350811792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056d0860f01114740800000000000000
+      internalID: 5134403806410364496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c353c8fa60b8690800000000000000
+      internalID: -7598972595216237436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ade3aaabc0cfbea0800000000000000
+      internalID: -5854749009584591451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 111
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930b05267a85b8fb0800000000000000
+      internalID: -4644521114770296775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_16
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d386fd79bdf25290800000000000000
+      internalID: -7902975422957714472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_17
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9ba0708c4d4c190800000000000000
+      internalID: -7942989887198021139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_18
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc678e9992538b60800000000000000
+      internalID: 7747126603750534355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_19
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 95
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685ed85953ca27a50800000000000000
+      internalID: 6517460956900877702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_20
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 95
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3e980a0232cae10800000000000000
+      internalID: 2210180140171387817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_21
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 95
+        width: 113
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f1ba6e357abf810800000000000000
+      internalID: 1800216454858743696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb81dc7d769b45d80800000000000000
+      internalID: -8262775560664704834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 96
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f219642dcc9d55f0800000000000000
+      internalID: -766283956690021646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 79
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788fa9f62fc5c3810800000000000000
+      internalID: 1746372951837177991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_25
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 96
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69da78b1a561a1a60800000000000000
+      internalID: 7645447893679582614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7095e145299120050800000000000000
+      internalID: 5765198589254850823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_27
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 96
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e051d4f44fb081b20800000000000000
+      internalID: 3105245087002334478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_28
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 95
+        width: 145
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac1366b3e19ba920800000000000000
+      internalID: 3002653983776119971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f0ffba4b5f76500800000000000000
+      internalID: 389550049119375228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_30
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 81
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6e17897b2494790800000000000000
+      internalID: -7545426344378505490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 81
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da127f4e82aff040800000000000000
+      internalID: 4683640869590538963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a410d76af2d6690800000000000000
+      internalID: -7607371803450586494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a541e3c07c894210800000000000000
+      internalID: 1317738781933127080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b23c8a1a2f2daf90800000000000000
+      internalID: -6940839592827538763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_35
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bd0ff3243745370800000000000000
+      internalID: 8310393940783192849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1b4abef7da48230800000000000000
+      internalID: 3640225163748094445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d557af17eb2aaa0800000000000000
+      internalID: -6151144744292098660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1cc76069043e0e0800000000000000
+      internalID: -2241877176402263627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3484707afa1ada540800000000000000
+      internalID: 5020846935381592131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6d02f6319087420800000000000000
+      internalID: 2627860361644136119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_41
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 65
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b249327da9fb5d0800000000000000
+      internalID: -3044544574273606867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_42
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 47
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51b711f44078e6b0800000000000000
+      internalID: -5266836322804846246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 47
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f26d0ebe565247f0800000000000000
+      internalID: -629846032962985225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_44
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 49
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9c9152fd3877670800000000000000
+      internalID: 8536436613127457211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_45
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 47
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3193c406c9e74aee0800000000000000
+      internalID: -1250735586406549229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_46
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 63
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a538b4ef3982b7af0800000000000000
+      internalID: -397679526000491686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a545f7b9a964d6150800000000000000
+      internalID: 5867423519381345370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_48
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4b1dda6f5446370800000000000000
+      internalID: 8314847737813251256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6509f92525a8aa320800000000000000
+      internalID: 2570018623546429526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_50
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a05c8ed2cf36ab0800000000000000
+      internalID: -5015888285851645398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_51
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9aadcc603bf1bd0800000000000000
+      internalID: -2657208413337245235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_52
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17039a858bb988b0800000000000000
+      internalID: -5149378516691515619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 17
+        width: 98
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c10681e5172fcd0800000000000000
+      internalID: -2525831792051610587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_54
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1025d9bef6b42eb0800000000000000
+      internalID: -4745466902185959393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e93056d1255c1c0800000000000000
+      internalID: -4484087567775195550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_56
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd031814ad5b61fe0800000000000000
+      internalID: -1218586700150656803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a692763efe5f1e0800000000000000
+      internalID: -2164560285914273262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_58
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f808e95925d2d2ef0800000000000000
+      internalID: -131398981403115377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_59
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d0e50ae80105e80800000000000000
+      internalID: -8192029517425013434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_60
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abd48a5c35788ad0800000000000000
+      internalID: -2699779074531468380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_61
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c53f4df16fdaa860800000000000000
+      internalID: 7542086137939965376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_62
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2ed7ab6e4fb2ad0800000000000000
+      internalID: -2725815877634235688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_63
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd3e4b49e69d6e50800000000000000
+      internalID: 6804260540761652700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_64
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb650d7d5b05b17c0800000000000000
+      internalID: -4099594293850646852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_65
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 15
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f2f2b7171b6a310800000000000000
+      internalID: 1416014233810710303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_66
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dd04530f3645fc0800000000000000
+      internalID: -3507068326478029446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_67
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 16
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6738f3e4e0b07a0800000000000000
+      internalID: -6410013915395950937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_68
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67048bb8e6270290800000000000000
+      internalID: -7924322238314838166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_69
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a50d4f170370d10800000000000000
+      internalID: 2091693817933617763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_70
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8779c05d2684f30800000000000000
+      internalID: 4560003289891436770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_71
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 15
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bc8cc3a3d962db0800000000000000
+      internalID: -4816989877972710575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_72
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477336eb4499b2690800000000000000
+      internalID: -7625833023490803852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_73
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741d26087c46e8840800000000000000
+      internalID: 5228227025438953799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_74
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7110f891ca86828f0800000000000000
+      internalID: -565086664862531305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_75
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a8f2b663ab24be0800000000000000
+      internalID: -1494427383444305399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_76
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7326df5f10321c0800000000000000
+      internalID: -4529774644174899266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_77
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51a2222bf9bda690800000000000000
+      internalID: -7589205308788792997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_78
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 15
+        width: 98
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2065b8a4f41c1af40800000000000000
+      internalID: 5738079946543945218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff144a68744f58cb0800000000000000
+      internalID: -4862211634637815297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e851a238c902500800000000000000
+      internalID: 369467256605085204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_81
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370dea6c235606740800000000000000
+      internalID: 5143222043213222003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: items_inventory_82
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 2
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e54c4636f046b210800000000000000
+      internalID: 1348336564661143013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      items_inventory_0: 5995050032294738958
+      items_inventory_1: 7617023732643841779
+      items_inventory_10: -1119372685297511864
+      items_inventory_11: 4808422725350811792
+      items_inventory_12: 5134403806410364496
+      items_inventory_13: -7598972595216237436
+      items_inventory_14: -5854749009584591451
+      items_inventory_15: -4644521114770296775
+      items_inventory_16: -7902975422957714472
+      items_inventory_17: -7942989887198021139
+      items_inventory_18: 7747126603750534355
+      items_inventory_19: 6517460956900877702
+      items_inventory_2: 8863616694485402507
+      items_inventory_20: 2210180140171387817
+      items_inventory_21: 1800216454858743696
+      items_inventory_22: -8262775560664704834
+      items_inventory_23: -766283956690021646
+      items_inventory_24: 1746372951837177991
+      items_inventory_25: 7645447893679582614
+      items_inventory_26: 5765198589254850823
+      items_inventory_27: 3105245087002334478
+      items_inventory_28: 3002653983776119971
+      items_inventory_29: 389550049119375228
+      items_inventory_3: 3210298251362387774
+      items_inventory_30: -7545426344378505490
+      items_inventory_31: 4683640869590538963
+      items_inventory_32: -7607371803450586494
+      items_inventory_33: 1317738781933127080
+      items_inventory_34: -6940839592827538763
+      items_inventory_35: 8310393940783192849
+      items_inventory_36: 3640225163748094445
+      items_inventory_37: -6151144744292098660
+      items_inventory_38: -2241877176402263627
+      items_inventory_39: 5020846935381592131
+      items_inventory_4: -6501175114511455926
+      items_inventory_40: 2627860361644136119
+      items_inventory_41: -3044544574273606867
+      items_inventory_42: -5266836322804846246
+      items_inventory_43: -629846032962985225
+      items_inventory_44: 8536436613127457211
+      items_inventory_45: -1250735586406549229
+      items_inventory_46: -397679526000491686
+      items_inventory_47: 5867423519381345370
+      items_inventory_48: 8314847737813251256
+      items_inventory_49: 2570018623546429526
+      items_inventory_5: -8908591265115071507
+      items_inventory_50: -5015888285851645398
+      items_inventory_51: -2657208413337245235
+      items_inventory_52: -5149378516691515619
+      items_inventory_53: -2525831792051610587
+      items_inventory_54: -4745466902185959393
+      items_inventory_55: -4484087567775195550
+      items_inventory_56: -1218586700150656803
+      items_inventory_57: -2164560285914273262
+      items_inventory_58: -131398981403115377
+      items_inventory_59: -8192029517425013434
+      items_inventory_6: -4090379444719300127
+      items_inventory_60: -2699779074531468380
+      items_inventory_61: 7542086137939965376
+      items_inventory_62: -2725815877634235688
+      items_inventory_63: 6804260540761652700
+      items_inventory_64: -4099594293850646852
+      items_inventory_65: 1416014233810710303
+      items_inventory_66: -3507068326478029446
+      items_inventory_67: -6410013915395950937
+      items_inventory_68: -7924322238314838166
+      items_inventory_69: 2091693817933617763
+      items_inventory_7: 629682377855433265
+      items_inventory_70: 4560003289891436770
+      items_inventory_71: -4816989877972710575
+      items_inventory_72: -7625833023490803852
+      items_inventory_73: 5228227025438953799
+      items_inventory_74: -565086664862531305
+      items_inventory_75: -1494427383444305399
+      items_inventory_76: -4529774644174899266
+      items_inventory_77: -7589205308788792997
+      items_inventory_78: 5738079946543945218
+      items_inventory_79: -4862211634637815297
+      items_inventory_8: -5264570603505284544
+      items_inventory_80: 369467256605085204
+      items_inventory_81: 5143222043213222003
+      items_inventory_82: 1348336564661143013
+      items_inventory_9: -6571533336744061336
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

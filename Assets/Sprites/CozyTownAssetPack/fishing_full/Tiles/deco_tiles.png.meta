@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 5b81f93a5b09848fa831b194a5a42ae3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5621592595907889890
+    second: deco_tiles_0
+  - first:
+      213: -1766061137867848825
+    second: deco_tiles_1
+  - first:
+      213: -7680905240194060179
+    second: deco_tiles_2
+  - first:
+      213: -1259509211645478699
+    second: deco_tiles_3
+  - first:
+      213: 169156738141345530
+    second: deco_tiles_4
+  - first:
+      213: 5854285249706461294
+    second: deco_tiles_5
+  - first:
+      213: -4945826381939527666
+    second: deco_tiles_6
+  - first:
+      213: -6092655546592147983
+    second: deco_tiles_7
+  - first:
+      213: 7666703423157976858
+    second: deco_tiles_8
+  - first:
+      213: -6819838787982373051
+    second: deco_tiles_9
+  - first:
+      213: 5779075717368657271
+    second: deco_tiles_10
+  - first:
+      213: -5103883228060033701
+    second: deco_tiles_11
+  - first:
+      213: 7155319337058780336
+    second: deco_tiles_12
+  - first:
+      213: 845816745772264659
+    second: deco_tiles_13
+  - first:
+      213: 2815403414040331023
+    second: deco_tiles_14
+  - first:
+      213: 1683890579447671729
+    second: deco_tiles_15
+  - first:
+      213: 8688309865246423738
+    second: deco_tiles_16
+  - first:
+      213: -8877538359163661325
+    second: deco_tiles_17
+  - first:
+      213: 6859809302166504254
+    second: deco_tiles_18
+  - first:
+      213: -8984801074614470892
+    second: deco_tiles_19
+  - first:
+      213: -2750482788532246209
+    second: deco_tiles_20
+  - first:
+      213: 9003804264946522263
+    second: deco_tiles_21
+  - first:
+      213: 7575044209154052039
+    second: deco_tiles_22
+  - first:
+      213: -2902495640613664166
+    second: deco_tiles_23
+  - first:
+      213: 6151460421433775728
+    second: deco_tiles_24
+  - first:
+      213: 4035012281604880974
+    second: deco_tiles_25
+  - first:
+      213: -3037070918670911146
+    second: deco_tiles_26
+  - first:
+      213: -2777432633206633313
+    second: deco_tiles_27
+  - first:
+      213: -3145223769345697639
+    second: deco_tiles_28
+  - first:
+      213: 8775921495303972733
+    second: deco_tiles_29
+  - first:
+      213: 2887921153392091601
+    second: deco_tiles_30
+  - first:
+      213: -5886648852203568519
+    second: deco_tiles_31
+  - first:
+      213: -2216030977637333956
+    second: deco_tiles_32
+  - first:
+      213: -2368490821446842114
+    second: deco_tiles_33
+  - first:
+      213: 132994382729649052
+    second: deco_tiles_34
+  - first:
+      213: -3634402240982583875
+    second: deco_tiles_35
+  - first:
+      213: -3407895624067982746
+    second: deco_tiles_36
+  - first:
+      213: -5597974394791569134
+    second: deco_tiles_37
+  - first:
+      213: -8065150533904260143
+    second: deco_tiles_38
+  - first:
+      213: -4499162894670212773
+    second: deco_tiles_39
+  - first:
+      213: -7088314082617579690
+    second: deco_tiles_40
+  - first:
+      213: -852064586189678670
+    second: deco_tiles_41
+  - first:
+      213: 9109041947161057400
+    second: deco_tiles_42
+  - first:
+      213: 5984243535810394335
+    second: deco_tiles_43
+  - first:
+      213: -6828212831264043149
+    second: deco_tiles_44
+  - first:
+      213: 2926800299333495298
+    second: deco_tiles_45
+  - first:
+      213: 7280952636289716886
+    second: deco_tiles_46
+  - first:
+      213: -6605386180206197497
+    second: deco_tiles_47
+  - first:
+      213: 8063440499395923134
+    second: deco_tiles_48
+  - first:
+      213: -5267956917364264135
+    second: deco_tiles_49
+  - first:
+      213: -4628459604755215197
+    second: deco_tiles_50
+  - first:
+      213: 6696065768679806176
+    second: deco_tiles_51
+  - first:
+      213: 9129691958583825864
+    second: deco_tiles_52
+  - first:
+      213: 8458982438831453116
+    second: deco_tiles_53
+  - first:
+      213: 3882949742070190424
+    second: deco_tiles_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deco_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 239
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea4e077ea8e30e40800000000000000
+      internalID: 5621592595907889890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 239
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c3c980c0bd77e0800000000000000
+      internalID: -1766061137867848825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 176
+        width: 130
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60fbc41161f76590800000000000000
+      internalID: -7680905240194060179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 176
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8f9809b03558ee0800000000000000
+      internalID: -1259509211645478699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 223
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af657483827f85200800000000000000
+      internalID: 169156738141345530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 207
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e680092da699e3150800000000000000
+      internalID: 5854285249706461294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 223
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e003db71c15ec5bb0800000000000000
+      internalID: -4945826381939527666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5cf868f0a827ba0800000000000000
+      internalID: -6092655546592147983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f3a97b42a956a60800000000000000
+      internalID: 7666703423157976858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 175
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f41e061c01b51a0800000000000000
+      internalID: -6819838787982373051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 175
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77538dffeb6633050800000000000000
+      internalID: 5779075717368657271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d5860ee3d5b29b0800000000000000
+      internalID: -5103883228060033701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b44fdbc60dcc4360800000000000000
+      internalID: 7155319337058780336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 143
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc25d459d1fcbb00800000000000000
+      internalID: 845816745772264659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 143
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03cb490d72521720800000000000000
+      internalID: 2815403414040331023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 143
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbea947f816e5710800000000000000
+      internalID: 1683890579447671729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 127
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaf8803ac3139870800000000000000
+      internalID: 8688309865246423738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 127
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f35526c5e5acc480800000000000000
+      internalID: -8877538359163661325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 127
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e330e8a2730f23f50800000000000000
+      internalID: 6859809302166504254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 127
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4177e02b6039f4380800000000000000
+      internalID: -8984801074614470892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_20
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 127
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39a5bcf97254d9d0800000000000000
+      internalID: -2750482788532246209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798d8475640f3fc70800000000000000
+      internalID: 9003804264946522263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfc18ce296ff1960800000000000000
+      internalID: 7575044209154052039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a4a1bc79348b7d0800000000000000
+      internalID: -2902495640613664166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0765f6559a06e5550800000000000000
+      internalID: 6151460421433775728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ab56daa4e3ff730800000000000000
+      internalID: 4035012281604880974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 79
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65973fe27182ad5d0800000000000000
+      internalID: -3037070918670911146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_27
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 79
+        width: 10
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c042e4cb39479d0800000000000000
+      internalID: -2777432633206633313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 111
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998d80955abe954d0800000000000000
+      internalID: -3145223769345697639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 111
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77ee486a165ac970800000000000000
+      internalID: 8775921495303972733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 79
+        width: 10
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1a547fcf4f31820800000000000000
+      internalID: 2887921153392091601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97202f6ce0c6e4ea0800000000000000
+      internalID: -5886648852203568519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 80
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c344aae11931f31e0800000000000000
+      internalID: -2216030977637333956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef843ed852e612fd0800000000000000
+      internalID: -2368490821446842114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_34
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 79
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b19bbbfad78d100800000000000000
+      internalID: 132994382729649052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 80
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5795fea62009dc0800000000000000
+      internalID: -3634402240982583875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_36
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 63
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ad1d75cf8b4b0d0800000000000000
+      internalID: -3407895624067982746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 79
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21957b082ffff42b0800000000000000
+      internalID: -5597974394791569134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3a5960254d21090800000000000000
+      internalID: -8065150533904260143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_39
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5150945f23cf81c0800000000000000
+      internalID: -4499162894670212773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_40
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6572e29b5ef31ad90800000000000000
+      internalID: -7088314082617579690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_41
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 47
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b75976f5cbdc24f0800000000000000
+      internalID: -852064586189678670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_42
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 48
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878daa0a361d96e70800000000000000
+      internalID: 9109041947161057400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_43
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 15
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8f7693acd4c0350800000000000000
+      internalID: 5984243535810394335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 15
+        width: 10
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f0ebd7b905d31a0800000000000000
+      internalID: -6828212831264043149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_45
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 47
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aa74a8d551e9820800000000000000
+      internalID: 2926800299333495298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 47
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6921e78b8d32b0560800000000000000
+      internalID: 7280952636289716886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_47
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 15
+        width: 10
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70509841444f454a0800000000000000
+      internalID: -6605386180206197497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 15
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc0ef9896817ef60800000000000000
+      internalID: 8063440499395923134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_49
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 15
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 933f070381574e6b0800000000000000
+      internalID: -5267956917364264135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 15
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac0259138864cfb0800000000000000
+      internalID: -4628459604755215197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e410ded6543dec50800000000000000
+      internalID: 6696065768679806176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 15
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c51124177e23be70800000000000000
+      internalID: 9129691958583825864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3f0d3e5b7546570800000000000000
+      internalID: 8458982438831453116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deco_tiles_54
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 15
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851d9c8b73203e530800000000000000
+      internalID: 3882949742070190424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deco_tiles_0: 5621592595907889890
+      deco_tiles_1: -1766061137867848825
+      deco_tiles_10: 5779075717368657271
+      deco_tiles_11: -5103883228060033701
+      deco_tiles_12: 7155319337058780336
+      deco_tiles_13: 845816745772264659
+      deco_tiles_14: 2815403414040331023
+      deco_tiles_15: 1683890579447671729
+      deco_tiles_16: 8688309865246423738
+      deco_tiles_17: -8877538359163661325
+      deco_tiles_18: 6859809302166504254
+      deco_tiles_19: -8984801074614470892
+      deco_tiles_2: -7680905240194060179
+      deco_tiles_20: -2750482788532246209
+      deco_tiles_21: 9003804264946522263
+      deco_tiles_22: 7575044209154052039
+      deco_tiles_23: -2902495640613664166
+      deco_tiles_24: 6151460421433775728
+      deco_tiles_25: 4035012281604880974
+      deco_tiles_26: -3037070918670911146
+      deco_tiles_27: -2777432633206633313
+      deco_tiles_28: -3145223769345697639
+      deco_tiles_29: 8775921495303972733
+      deco_tiles_3: -1259509211645478699
+      deco_tiles_30: 2887921153392091601
+      deco_tiles_31: -5886648852203568519
+      deco_tiles_32: -2216030977637333956
+      deco_tiles_33: -2368490821446842114
+      deco_tiles_34: 132994382729649052
+      deco_tiles_35: -3634402240982583875
+      deco_tiles_36: -3407895624067982746
+      deco_tiles_37: -5597974394791569134
+      deco_tiles_38: -8065150533904260143
+      deco_tiles_39: -4499162894670212773
+      deco_tiles_4: 169156738141345530
+      deco_tiles_40: -7088314082617579690
+      deco_tiles_41: -852064586189678670
+      deco_tiles_42: 9109041947161057400
+      deco_tiles_43: 5984243535810394335
+      deco_tiles_44: -6828212831264043149
+      deco_tiles_45: 2926800299333495298
+      deco_tiles_46: 7280952636289716886
+      deco_tiles_47: -6605386180206197497
+      deco_tiles_48: 8063440499395923134
+      deco_tiles_49: -5267956917364264135
+      deco_tiles_5: 5854285249706461294
+      deco_tiles_50: -4628459604755215197
+      deco_tiles_51: 6696065768679806176
+      deco_tiles_52: 9129691958583825864
+      deco_tiles_53: 8458982438831453116
+      deco_tiles_54: 3882949742070190424
+      deco_tiles_6: -4945826381939527666
+      deco_tiles_7: -6092655546592147983
+      deco_tiles_8: 7666703423157976858
+      deco_tiles_9: -6819838787982373051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
