@@ -1,0 +1,3809 @@
+fileFormatVersion: 2
+guid: f5bdba294491a40838a385c276f15d41
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6984902356039708432
+    second: winter_global_shadow_0
+  - first:
+      213: 313433905799562723
+    second: winter_global_shadow_1
+  - first:
+      213: -5205280470676805034
+    second: winter_global_shadow_2
+  - first:
+      213: -6328625559708378986
+    second: winter_global_shadow_3
+  - first:
+      213: -7216763479464928385
+    second: winter_global_shadow_4
+  - first:
+      213: -6678914350495034836
+    second: winter_global_shadow_5
+  - first:
+      213: -7338396711220279253
+    second: winter_global_shadow_6
+  - first:
+      213: 181262228764268721
+    second: winter_global_shadow_7
+  - first:
+      213: 3525901166100570572
+    second: winter_global_shadow_8
+  - first:
+      213: 9155919830926946167
+    second: winter_global_shadow_9
+  - first:
+      213: 7048643089673023275
+    second: winter_global_shadow_10
+  - first:
+      213: -7599691536954085647
+    second: winter_global_shadow_11
+  - first:
+      213: 6274516280557401473
+    second: winter_global_shadow_12
+  - first:
+      213: 3299632861029146794
+    second: winter_global_shadow_13
+  - first:
+      213: -7567962218791661379
+    second: winter_global_shadow_14
+  - first:
+      213: 8362758206436556534
+    second: winter_global_shadow_15
+  - first:
+      213: 5109177644417405865
+    second: winter_global_shadow_16
+  - first:
+      213: -5961296517087400352
+    second: winter_global_shadow_17
+  - first:
+      213: 8648758355290815941
+    second: winter_global_shadow_18
+  - first:
+      213: -9040337582769394920
+    second: winter_global_shadow_19
+  - first:
+      213: -8417552816628054666
+    second: winter_global_shadow_20
+  - first:
+      213: -7094460929750461746
+    second: winter_global_shadow_21
+  - first:
+      213: -4736390802221633619
+    second: winter_global_shadow_22
+  - first:
+      213: 8145549688908728984
+    second: winter_global_shadow_23
+  - first:
+      213: -317141235595495962
+    second: winter_global_shadow_24
+  - first:
+      213: 7436452153633787861
+    second: winter_global_shadow_25
+  - first:
+      213: 2544399461928845634
+    second: winter_global_shadow_26
+  - first:
+      213: -1437956523503905649
+    second: winter_global_shadow_27
+  - first:
+      213: -3638170760348927764
+    second: winter_global_shadow_28
+  - first:
+      213: 4468312942142869336
+    second: winter_global_shadow_29
+  - first:
+      213: -7187849581819704462
+    second: winter_global_shadow_30
+  - first:
+      213: -6058437319380573990
+    second: winter_global_shadow_31
+  - first:
+      213: 7850845669087572984
+    second: winter_global_shadow_32
+  - first:
+      213: -8590679554867826262
+    second: winter_global_shadow_33
+  - first:
+      213: -1441580646279555057
+    second: winter_global_shadow_34
+  - first:
+      213: 7437497245755865646
+    second: winter_global_shadow_35
+  - first:
+      213: 4417500624658532443
+    second: winter_global_shadow_36
+  - first:
+      213: 8045921192771936697
+    second: winter_global_shadow_37
+  - first:
+      213: -5928901890734343620
+    second: winter_global_shadow_38
+  - first:
+      213: -889681758618042700
+    second: winter_global_shadow_39
+  - first:
+      213: 4204706052914414547
+    second: winter_global_shadow_40
+  - first:
+      213: -4314568605860446617
+    second: winter_global_shadow_41
+  - first:
+      213: 6045595974549379033
+    second: winter_global_shadow_42
+  - first:
+      213: -7809519266688152454
+    second: winter_global_shadow_43
+  - first:
+      213: -7738758859341983129
+    second: winter_global_shadow_44
+  - first:
+      213: 3115641918172486073
+    second: winter_global_shadow_45
+  - first:
+      213: 1264270697549253934
+    second: winter_global_shadow_46
+  - first:
+      213: -2110496049177596140
+    second: winter_global_shadow_47
+  - first:
+      213: 6995876130842466944
+    second: winter_global_shadow_48
+  - first:
+      213: 229964355838875982
+    second: winter_global_shadow_49
+  - first:
+      213: -6825528118995953562
+    second: winter_global_shadow_50
+  - first:
+      213: -1110613401849347671
+    second: winter_global_shadow_51
+  - first:
+      213: 7914306655807425969
+    second: winter_global_shadow_52
+  - first:
+      213: -841794525648541628
+    second: winter_global_shadow_53
+  - first:
+      213: 3732672644207805763
+    second: winter_global_shadow_54
+  - first:
+      213: -2275051277059123696
+    second: winter_global_shadow_55
+  - first:
+      213: -1552910295769785070
+    second: winter_global_shadow_56
+  - first:
+      213: 806395030289847156
+    second: winter_global_shadow_57
+  - first:
+      213: 1615819125393821717
+    second: winter_global_shadow_58
+  - first:
+      213: 317005970793442560
+    second: winter_global_shadow_59
+  - first:
+      213: 1965828746327716246
+    second: winter_global_shadow_60
+  - first:
+      213: 3311823564090256951
+    second: winter_global_shadow_61
+  - first:
+      213: 4211650124988602552
+    second: winter_global_shadow_62
+  - first:
+      213: 7858407193977631498
+    second: winter_global_shadow_63
+  - first:
+      213: 4911551624462582397
+    second: winter_global_shadow_64
+  - first:
+      213: -6670753027356827966
+    second: winter_global_shadow_65
+  - first:
+      213: -2994316356832236260
+    second: winter_global_shadow_66
+  - first:
+      213: 6427425245915290610
+    second: winter_global_shadow_67
+  - first:
+      213: 7229454247162371781
+    second: winter_global_shadow_68
+  - first:
+      213: 4805259655368032842
+    second: winter_global_shadow_69
+  - first:
+      213: 4125836808887605955
+    second: winter_global_shadow_70
+  - first:
+      213: -2799207518082411583
+    second: winter_global_shadow_71
+  - first:
+      213: -7086175436103822884
+    second: winter_global_shadow_72
+  - first:
+      213: -1370759319404669811
+    second: winter_global_shadow_73
+  - first:
+      213: 8084956484138217600
+    second: winter_global_shadow_74
+  - first:
+      213: 942787387865923450
+    second: winter_global_shadow_75
+  - first:
+      213: 2718510749520404323
+    second: winter_global_shadow_76
+  - first:
+      213: -4752321522200190048
+    second: winter_global_shadow_77
+  - first:
+      213: -3112406277750772424
+    second: winter_global_shadow_78
+  - first:
+      213: -3213793983639758733
+    second: winter_global_shadow_79
+  - first:
+      213: 2671467354391589872
+    second: winter_global_shadow_80
+  - first:
+      213: 4121058658337687558
+    second: winter_global_shadow_81
+  - first:
+      213: -3316854330084032061
+    second: winter_global_shadow_82
+  - first:
+      213: -4330101265972135752
+    second: winter_global_shadow_83
+  - first:
+      213: 9029271223881546375
+    second: winter_global_shadow_84
+  - first:
+      213: 2185245554747852884
+    second: winter_global_shadow_85
+  - first:
+      213: 2117856731896418889
+    second: winter_global_shadow_86
+  - first:
+      213: 379932307701772003
+    second: winter_global_shadow_87
+  - first:
+      213: 5988561852604799132
+    second: winter_global_shadow_88
+  - first:
+      213: -6824912218988754740
+    second: winter_global_shadow_89
+  - first:
+      213: -3900629669161450659
+    second: winter_global_shadow_90
+  - first:
+      213: 5032351615691104026
+    second: winter_global_shadow_91
+  - first:
+      213: 2485925080491445301
+    second: winter_global_shadow_92
+  - first:
+      213: -7949933246987155503
+    second: winter_global_shadow_93
+  - first:
+      213: 9000925573616325535
+    second: winter_global_shadow_94
+  - first:
+      213: -8338724316086957838
+    second: winter_global_shadow_95
+  - first:
+      213: 1215697967450816312
+    second: winter_global_shadow_96
+  - first:
+      213: -1353424377274781116
+    second: winter_global_shadow_97
+  - first:
+      213: 2900217465082810357
+    second: winter_global_shadow_98
+  - first:
+      213: -5529321994010436254
+    second: winter_global_shadow_99
+  - first:
+      213: 7745932018572677503
+    second: winter_global_shadow_100
+  - first:
+      213: 2370911448958869861
+    second: winter_global_shadow_101
+  - first:
+      213: 2983821205088215325
+    second: winter_global_shadow_102
+  - first:
+      213: 1255264221230485966
+    second: winter_global_shadow_103
+  - first:
+      213: 5907646165542629867
+    second: winter_global_shadow_104
+  - first:
+      213: 3818223015607502764
+    second: winter_global_shadow_105
+  - first:
+      213: 3557320766580869241
+    second: winter_global_shadow_106
+  - first:
+      213: 3972858028700386688
+    second: winter_global_shadow_107
+  - first:
+      213: -5020195297822998697
+    second: winter_global_shadow_108
+  - first:
+      213: 7576582495522459730
+    second: winter_global_shadow_109
+  - first:
+      213: 6273142034301303171
+    second: winter_global_shadow_110
+  - first:
+      213: -7430133253820787405
+    second: winter_global_shadow_111
+  - first:
+      213: 601503999774953444
+    second: winter_global_shadow_112
+  - first:
+      213: -7068585597386198525
+    second: winter_global_shadow_113
+  - first:
+      213: 474295991330682971
+    second: winter_global_shadow_114
+  - first:
+      213: -2647013906566150881
+    second: winter_global_shadow_115
+  - first:
+      213: -2943462221407673784
+    second: winter_global_shadow_116
+  - first:
+      213: -4700130764787713901
+    second: winter_global_shadow_117
+  - first:
+      213: -7077707383519445474
+    second: winter_global_shadow_118
+  - first:
+      213: -3037146936352221663
+    second: winter_global_shadow_119
+  - first:
+      213: -2958287308535618612
+    second: winter_global_shadow_120
+  - first:
+      213: 936297909962509845
+    second: winter_global_shadow_121
+  - first:
+      213: 9063275514498359554
+    second: winter_global_shadow_122
+  - first:
+      213: 5211867016010633592
+    second: winter_global_shadow_123
+  - first:
+      213: -1605044437637283138
+    second: winter_global_shadow_124
+  - first:
+      213: -4757895904994737200
+    second: winter_global_shadow_125
+  - first:
+      213: -8948500618728402630
+    second: winter_global_shadow_126
+  - first:
+      213: -8974951087729679047
+    second: winter_global_shadow_127
+  - first:
+      213: 7705002384996579856
+    second: winter_global_shadow_128
+  - first:
+      213: 8940888373662078812
+    second: winter_global_shadow_129
+  - first:
+      213: -7349277128575397152
+    second: winter_global_shadow_130
+  - first:
+      213: -5199658361196012715
+    second: winter_global_shadow_131
+  - first:
+      213: -6814218365429100651
+    second: winter_global_shadow_132
+  - first:
+      213: 4981409159703363402
+    second: winter_global_shadow_133
+  - first:
+      213: -8758188838559385821
+    second: winter_global_shadow_134
+  - first:
+      213: 7329814629432943802
+    second: winter_global_shadow_135
+  - first:
+      213: 4553728555671972826
+    second: winter_global_shadow_136
+  - first:
+      213: 2272365356085272927
+    second: winter_global_shadow_137
+  - first:
+      213: -266030881016984553
+    second: winter_global_shadow_138
+  - first:
+      213: -161288392632106223
+    second: winter_global_shadow_139
+  - first:
+      213: 4028762442442894741
+    second: winter_global_shadow_140
+  - first:
+      213: -5460242136692414506
+    second: winter_global_shadow_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: winter_global_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 495
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f298a6fab5fe060800000000000000
+      internalID: 6984902356039708432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 495
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e50fb70a7a895400800000000000000
+      internalID: 313433905799562723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 480
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ae70d9df023c7b0800000000000000
+      internalID: -5205280470676805034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 479
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698df1d75943c28a0800000000000000
+      internalID: -6328625559708378986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 463
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b1b7af9d7e8db90800000000000000
+      internalID: -7216763479464928385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 495
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c221c7dd8cabf43a0800000000000000
+      internalID: -6678914350495034836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 498
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2802d65217c82a90800000000000000
+      internalID: -7338396711220279253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 479
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b890b46909f38200800000000000000
+      internalID: 181262228764268721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 495
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc16f86fd648ee030800000000000000
+      internalID: 3525901166100570572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fea5a739c501f70800000000000000
+      internalID: 9155919830926946167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 447
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fe8747b8fc1d160800000000000000
+      internalID: 7048643089673023275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 481
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe2f41efc8788690800000000000000
+      internalID: -7599691536954085647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 481
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1857708305f831750800000000000000
+      internalID: 6274516280557401473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 463
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa029dada96aacd20800000000000000
+      internalID: 3299632861029146794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 479
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db09853757239f690800000000000000
+      internalID: -7567962218791661379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 479
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe322de74c7e0470800000000000000
+      internalID: 8362758206436556534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 464
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3dddd7ff177e640800000000000000
+      internalID: 5109177644417405865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 97
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e6b3ae668354da0800000000000000
+      internalID: -5961296517087400352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 383
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdfc4ba6ef860870800000000000000
+      internalID: 8648758355290815941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 383
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81baa61cdd44a8280800000000000000
+      internalID: -9040337582769394920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 383
+        width: 194
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675cbc6bf48de2b80800000000000000
+      internalID: -8417552816628054666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 383
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec216595f596b8d90800000000000000
+      internalID: -7094460929750461746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 383
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dafe62ce8a5f44eb0800000000000000
+      internalID: -4736390802221633619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 383
+        width: 97
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ac2bbf84eca0170800000000000000
+      internalID: 8145549688908728984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 369
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5b3bcf9b9499bf0800000000000000
+      internalID: -317141235595495962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 361
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfc78e65d5933760800000000000000
+      internalID: 7436452153633787861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 367
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 241c6fe64d58f4320800000000000000
+      internalID: 2544399461928845634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 367
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f841816192a5b0ce0800000000000000
+      internalID: -1437956523503905649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 361
+        width: 38
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8703528fe928dc0800000000000000
+      internalID: -3638170760348927764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 362
+        width: 36
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fc4bd52f2a20e30800000000000000
+      internalID: 4468312942142869336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 362
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b42b063e0af3c90800000000000000
+      internalID: -7187849581819704462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 360
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0e9546b5b1ceba0800000000000000
+      internalID: -6058437319380573990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 360
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3f06c5a8ec3fc60800000000000000
+      internalID: 7850845669087572984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 351
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa174e0d576c7c880800000000000000
+      internalID: -8590679554867826262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 351
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08dd6f3a0a7efbe0800000000000000
+      internalID: -1441580646279555057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 271
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a7937e65c473760800000000000000
+      internalID: 7437497245755865646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 271
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5886d7c96d1e4d30800000000000000
+      internalID: 4417500624658532443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 271
+        width: 194
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b165f912bad8af60800000000000000
+      internalID: 8045921192771936697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 272
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a33ae942f48bda0800000000000000
+      internalID: -5928901890734343620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 271
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be3d6e772737a3f0800000000000000
+      internalID: -889681758618042700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_40
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 271
+        width: 56
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d306eca0ed1a5a30800000000000000
+      internalID: 4204706052914414547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_41
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 249
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76eb2a866b29f14c0800000000000000
+      internalID: -4314568605860446617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 249
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d71c86028546e350800000000000000
+      internalID: 6045595974549379033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_43
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 248
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ccb728a930f9390800000000000000
+      internalID: -7809519266688152454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 248
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7629382b1d76a9490800000000000000
+      internalID: -7738758859341983129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_45
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 249
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9dcf331dbfc3b20800000000000000
+      internalID: 3115641918172486073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_46
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 223
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dcb5340879b8110800000000000000
+      internalID: 1264270697549253934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 223
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f67e0760306b2e0800000000000000
+      internalID: -2110496049177596140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_48
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08adf777648561160800000000000000
+      internalID: 6995876130842466944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 223
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4917ccfc5ff03300800000000000000
+      internalID: 229964355838875982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6685ec6c65ad641a0800000000000000
+      internalID: -6825528118995953562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_51
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 224
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a14bfbcefe4690f0800000000000000
+      internalID: -1110613401849347671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 224
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd49eeb8f345dd60800000000000000
+      internalID: 7914306655807425969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a9d4c6585154f0800000000000000
+      internalID: -841794525648541628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 207
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34503dc4efd1dc330800000000000000
+      internalID: 3732672644207805763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 227
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0169711dae46d60e0800000000000000
+      internalID: -2275051277059123696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_56
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 225
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d589c4054f27ae0800000000000000
+      internalID: -1552910295769785070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4731111f104e03b00800000000000000
+      internalID: 806395030289847156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510916efeea8c6610800000000000000
+      internalID: 1615819125393821717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d22d8304b366400800000000000000
+      internalID: 317005970793442560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_60
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 225
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6917d1254d6084b10800000000000000
+      internalID: 1965828746327716246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_61
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 225
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e2e581cf5f5fd20800000000000000
+      internalID: 3311823564090256951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_62
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 224
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8dc227979c27a30800000000000000
+      internalID: 4211650124988602552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_63
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 223
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03396115bbae0d60800000000000000
+      internalID: 7858407193977631498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_64
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 223
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72c5101e26592440800000000000000
+      internalID: 4911551624462582397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_65
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 223
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ced80cf679bc63a0800000000000000
+      internalID: -6670753027356827966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_66
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 223
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d6fd5532d0276d0800000000000000
+      internalID: -2994316356832236260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_67
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 223
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb982b053dc23950800000000000000
+      internalID: 6427425245915290610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 223
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce5d02a55e245460800000000000000
+      internalID: 7229454247162371781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_69
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 223
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a424abb7236bfa240800000000000000
+      internalID: 4805259655368032842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_70
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca1af2d7bae14930800000000000000
+      internalID: 4125836808887605955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_71
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 224
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c35818d7973729d0800000000000000
+      internalID: -2799207518082411583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_72
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 224
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1deea2cf8d8ad90800000000000000
+      internalID: -7086175436103822884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_73
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84145e59a51afce0800000000000000
+      internalID: -1370759319404669811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_74
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 224
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080bc8d1619833070800000000000000
+      internalID: 8084956484138217600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_75
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 224
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f77785224751d00800000000000000
+      internalID: 942787387865923450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_76
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 224
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f9e379f171ab520800000000000000
+      internalID: 2718510749520404323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_77
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a360d221cc5c0eb0800000000000000
+      internalID: -4752321522200190048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_78
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d28f90bf28ec4d0800000000000000
+      internalID: -3112406277750772424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_79
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 224
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3785dd7366f4663d0800000000000000
+      internalID: -3213793983639758733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 207
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3309f9765f21520800000000000000
+      internalID: 2671467354391589872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 207
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60804c4f301f03930800000000000000
+      internalID: 4121058658337687558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_82
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 207
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c100ab6f8a28f1d0800000000000000
+      internalID: -3316854330084032061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_83
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 209
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8f24827d368e3c0800000000000000
+      internalID: -4330101265972135752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_84
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 209
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78abd18c65a6e4d70800000000000000
+      internalID: 9029271223881546375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 207
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4584fbd014d835e10800000000000000
+      internalID: 2185245554747852884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_86
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9421bdd0a73246d10800000000000000
+      internalID: 2117856731896418889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 207
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee224fbb6ac54500800000000000000
+      internalID: 379932307701772003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_88
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 207
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98d6f3b645ab1350800000000000000
+      internalID: 5988561852604799132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_89
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 209
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8c3fb2f7a0941a0800000000000000
+      internalID: -6824912218988754740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 209
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5348497bfd2ed9c0800000000000000
+      internalID: -3900629669161450659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_91
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 209
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f9126c12186d540800000000000000
+      internalID: 5032351615691104026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 209
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c4de090b7cf7220800000000000000
+      internalID: 2485925080491445301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_93
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 209
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7434915d92ca190800000000000000
+      internalID: -7949933246987155503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_94
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 207
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f935129ce16b9ec70800000000000000
+      internalID: 9000925573616325535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_95
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 207
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f889bb3a66e64c80800000000000000
+      internalID: -8338724316086957838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_96
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 209
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ff1104cd60fd010800000000000000
+      internalID: 1215697967450816312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_97
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 192
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442be2a13bba73de0800000000000000
+      internalID: -1353424377274781116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff05a12b64af3820800000000000000
+      internalID: 2900217465082810357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_99
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dd04a21f6e343b0800000000000000
+      internalID: -5529321994010436254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_100
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 192
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71595591241f7b60800000000000000
+      internalID: 7745932018572677503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561a915b66b27e020800000000000000
+      internalID: 2370911448958869861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_102
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11af8ab399a86920800000000000000
+      internalID: 2983821205088215325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_103
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 151
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec153b598289b6110800000000000000
+      internalID: 1255264221230485966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1fdd333ec2cf150800000000000000
+      internalID: 5907646165542629867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_105
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 192
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca781865a9d0df430800000000000000
+      internalID: 3818223015607502764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_106
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 192
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9784c24c3642e5130800000000000000
+      internalID: 3557320766580869241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 150
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085ceb7f35d622730800000000000000
+      internalID: 3972858028700386688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_108
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 152
+        width: 66
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f7c2a89fea45ab0800000000000000
+      internalID: -5020195297822998697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_109
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2501f0123ad652960800000000000000
+      internalID: 7576582495522459730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_110
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 151
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389b914917dae0750800000000000000
+      internalID: 6273142034301303171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_111
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 153
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335d1341c2dd2e890800000000000000
+      internalID: -7430133253820787405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_112
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 154
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef009d63b8f85800800000000000000
+      internalID: 601503999774953444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_113
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 153
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3027a53a9d657ed90800000000000000
+      internalID: -7068585597386198525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_114
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 153
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5838a1f0b9059600800000000000000
+      internalID: 474295991330682971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_115
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 94
+        width: 162
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f150b9f50eae34bd0800000000000000
+      internalID: -2647013906566150881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842a63b64b8b627d0800000000000000
+      internalID: -2943462221407673784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_117
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 66
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39871f6c8f7c5ceb0800000000000000
+      internalID: -4700130764787713901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_118
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 127
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ef92d42aee6cd90800000000000000
+      internalID: -7077707383519445474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_119
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1265f00f3f2e9d5d0800000000000000
+      internalID: -3037146936352221663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_120
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 127
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc32037dd5d02f6d0800000000000000
+      internalID: -2958287308535618612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_121
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 127
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e81470df56efc00800000000000000
+      internalID: 936297909962509845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_122
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 128
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201ab27af0937cd70800000000000000
+      internalID: 9063275514498359554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_123
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 66
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87193e9ff65445840800000000000000
+      internalID: 5211867016010633592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_124
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2c9ed769cb9b9e0800000000000000
+      internalID: -1605044437637283138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_125
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 127
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3c08002ee88fdb0800000000000000
+      internalID: -4757895904994737200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_126
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 127
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a319454391a80d380800000000000000
+      internalID: -8948500618728402630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_127
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 66
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935ed5b7981927380800000000000000
+      internalID: -8974951087729679047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_128
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a3247a8daadea60800000000000000
+      internalID: 7705002384996579856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_129
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 96
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c575c80ea9a641c70800000000000000
+      internalID: 8940888373662078812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_130
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e25c53c36f120a90800000000000000
+      internalID: -7349277128575397152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_131
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 96
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b958bf44a17d7b0800000000000000
+      internalID: -5199658361196012715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_132
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 96
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fc7aaff780f61a0800000000000000
+      internalID: -6814218365429100651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_133
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 95
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ffef4fc35812540800000000000000
+      internalID: 4981409159703363402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_134
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 96
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32770e977a9a47680800000000000000
+      internalID: -8758188838559385821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_135
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 41
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4efc8029bb8b560800000000000000
+      internalID: 7329814629432943802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_136
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 41
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb6164aef7123f30800000000000000
+      internalID: 4553728555671972826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_137
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 41
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51ed597040198f10800000000000000
+      internalID: 2272365356085272927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_138
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 64
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cc2bdb25ede4cf0800000000000000
+      internalID: -266030881016984553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_139
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 9
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11305cabf0df2cdf0800000000000000
+      internalID: -161288392632106223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_140
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 9
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d6e3a981a09e730800000000000000
+      internalID: 4028762442442894741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_global_shadow_141
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 9
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d724dec4b25934b0800000000000000
+      internalID: -5460242136692414506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      winter_global_shadow_0: 6984902356039708432
+      winter_global_shadow_1: 313433905799562723
+      winter_global_shadow_10: 7048643089673023275
+      winter_global_shadow_100: 7745932018572677503
+      winter_global_shadow_101: 2370911448958869861
+      winter_global_shadow_102: 2983821205088215325
+      winter_global_shadow_103: 1255264221230485966
+      winter_global_shadow_104: 5907646165542629867
+      winter_global_shadow_105: 3818223015607502764
+      winter_global_shadow_106: 3557320766580869241
+      winter_global_shadow_107: 3972858028700386688
+      winter_global_shadow_108: -5020195297822998697
+      winter_global_shadow_109: 7576582495522459730
+      winter_global_shadow_11: -7599691536954085647
+      winter_global_shadow_110: 6273142034301303171
+      winter_global_shadow_111: -7430133253820787405
+      winter_global_shadow_112: 601503999774953444
+      winter_global_shadow_113: -7068585597386198525
+      winter_global_shadow_114: 474295991330682971
+      winter_global_shadow_115: -2647013906566150881
+      winter_global_shadow_116: -2943462221407673784
+      winter_global_shadow_117: -4700130764787713901
+      winter_global_shadow_118: -7077707383519445474
+      winter_global_shadow_119: -3037146936352221663
+      winter_global_shadow_12: 6274516280557401473
+      winter_global_shadow_120: -2958287308535618612
+      winter_global_shadow_121: 936297909962509845
+      winter_global_shadow_122: 9063275514498359554
+      winter_global_shadow_123: 5211867016010633592
+      winter_global_shadow_124: -1605044437637283138
+      winter_global_shadow_125: -4757895904994737200
+      winter_global_shadow_126: -8948500618728402630
+      winter_global_shadow_127: -8974951087729679047
+      winter_global_shadow_128: 7705002384996579856
+      winter_global_shadow_129: 8940888373662078812
+      winter_global_shadow_13: 3299632861029146794
+      winter_global_shadow_130: -7349277128575397152
+      winter_global_shadow_131: -5199658361196012715
+      winter_global_shadow_132: -6814218365429100651
+      winter_global_shadow_133: 4981409159703363402
+      winter_global_shadow_134: -8758188838559385821
+      winter_global_shadow_135: 7329814629432943802
+      winter_global_shadow_136: 4553728555671972826
+      winter_global_shadow_137: 2272365356085272927
+      winter_global_shadow_138: -266030881016984553
+      winter_global_shadow_139: -161288392632106223
+      winter_global_shadow_14: -7567962218791661379
+      winter_global_shadow_140: 4028762442442894741
+      winter_global_shadow_141: -5460242136692414506
+      winter_global_shadow_15: 8362758206436556534
+      winter_global_shadow_16: 5109177644417405865
+      winter_global_shadow_17: -5961296517087400352
+      winter_global_shadow_18: 8648758355290815941
+      winter_global_shadow_19: -9040337582769394920
+      winter_global_shadow_2: -5205280470676805034
+      winter_global_shadow_20: -8417552816628054666
+      winter_global_shadow_21: -7094460929750461746
+      winter_global_shadow_22: -4736390802221633619
+      winter_global_shadow_23: 8145549688908728984
+      winter_global_shadow_24: -317141235595495962
+      winter_global_shadow_25: 7436452153633787861
+      winter_global_shadow_26: 2544399461928845634
+      winter_global_shadow_27: -1437956523503905649
+      winter_global_shadow_28: -3638170760348927764
+      winter_global_shadow_29: 4468312942142869336
+      winter_global_shadow_3: -6328625559708378986
+      winter_global_shadow_30: -7187849581819704462
+      winter_global_shadow_31: -6058437319380573990
+      winter_global_shadow_32: 7850845669087572984
+      winter_global_shadow_33: -8590679554867826262
+      winter_global_shadow_34: -1441580646279555057
+      winter_global_shadow_35: 7437497245755865646
+      winter_global_shadow_36: 4417500624658532443
+      winter_global_shadow_37: 8045921192771936697
+      winter_global_shadow_38: -5928901890734343620
+      winter_global_shadow_39: -889681758618042700
+      winter_global_shadow_4: -7216763479464928385
+      winter_global_shadow_40: 4204706052914414547
+      winter_global_shadow_41: -4314568605860446617
+      winter_global_shadow_42: 6045595974549379033
+      winter_global_shadow_43: -7809519266688152454
+      winter_global_shadow_44: -7738758859341983129
+      winter_global_shadow_45: 3115641918172486073
+      winter_global_shadow_46: 1264270697549253934
+      winter_global_shadow_47: -2110496049177596140
+      winter_global_shadow_48: 6995876130842466944
+      winter_global_shadow_49: 229964355838875982
+      winter_global_shadow_5: -6678914350495034836
+      winter_global_shadow_50: -6825528118995953562
+      winter_global_shadow_51: -1110613401849347671
+      winter_global_shadow_52: 7914306655807425969
+      winter_global_shadow_53: -841794525648541628
+      winter_global_shadow_54: 3732672644207805763
+      winter_global_shadow_55: -2275051277059123696
+      winter_global_shadow_56: -1552910295769785070
+      winter_global_shadow_57: 806395030289847156
+      winter_global_shadow_58: 1615819125393821717
+      winter_global_shadow_59: 317005970793442560
+      winter_global_shadow_6: -7338396711220279253
+      winter_global_shadow_60: 1965828746327716246
+      winter_global_shadow_61: 3311823564090256951
+      winter_global_shadow_62: 4211650124988602552
+      winter_global_shadow_63: 7858407193977631498
+      winter_global_shadow_64: 4911551624462582397
+      winter_global_shadow_65: -6670753027356827966
+      winter_global_shadow_66: -2994316356832236260
+      winter_global_shadow_67: 6427425245915290610
+      winter_global_shadow_68: 7229454247162371781
+      winter_global_shadow_69: 4805259655368032842
+      winter_global_shadow_7: 181262228764268721
+      winter_global_shadow_70: 4125836808887605955
+      winter_global_shadow_71: -2799207518082411583
+      winter_global_shadow_72: -7086175436103822884
+      winter_global_shadow_73: -1370759319404669811
+      winter_global_shadow_74: 8084956484138217600
+      winter_global_shadow_75: 942787387865923450
+      winter_global_shadow_76: 2718510749520404323
+      winter_global_shadow_77: -4752321522200190048
+      winter_global_shadow_78: -3112406277750772424
+      winter_global_shadow_79: -3213793983639758733
+      winter_global_shadow_8: 3525901166100570572
+      winter_global_shadow_80: 2671467354391589872
+      winter_global_shadow_81: 4121058658337687558
+      winter_global_shadow_82: -3316854330084032061
+      winter_global_shadow_83: -4330101265972135752
+      winter_global_shadow_84: 9029271223881546375
+      winter_global_shadow_85: 2185245554747852884
+      winter_global_shadow_86: 2117856731896418889
+      winter_global_shadow_87: 379932307701772003
+      winter_global_shadow_88: 5988561852604799132
+      winter_global_shadow_89: -6824912218988754740
+      winter_global_shadow_9: 9155919830926946167
+      winter_global_shadow_90: -3900629669161450659
+      winter_global_shadow_91: 5032351615691104026
+      winter_global_shadow_92: 2485925080491445301
+      winter_global_shadow_93: -7949933246987155503
+      winter_global_shadow_94: 9000925573616325535
+      winter_global_shadow_95: -8338724316086957838
+      winter_global_shadow_96: 1215697967450816312
+      winter_global_shadow_97: -1353424377274781116
+      winter_global_shadow_98: 2900217465082810357
+      winter_global_shadow_99: -5529321994010436254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

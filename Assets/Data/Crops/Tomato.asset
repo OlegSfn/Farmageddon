@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78031fa064404b47876bdb49e3f160f4, type: 3}
+  m_Name: Tomato
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: -4146160457866344993, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 4335470556006902050, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 4286309156242941822, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -6288726357820247802, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 5888866824253140701, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5853618890739240092, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesWet:
+  - {fileID: 2534488111397091524, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 7413684460420740650, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 5173695536183537823, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 911928962274656550, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -1029895977988634254, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -1520464275711702150, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesTimes:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 100
+  maxHumidity: 200

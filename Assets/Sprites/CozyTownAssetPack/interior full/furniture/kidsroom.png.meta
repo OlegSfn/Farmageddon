@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: 5fd2c3a099a774fa68158e7dcb6ccc84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3455060721037384118
+    second: kidsroom_0
+  - first:
+      213: -4649228892052704569
+    second: kidsroom_1
+  - first:
+      213: -1422559999204431380
+    second: kidsroom_2
+  - first:
+      213: -5405434460962058544
+    second: kidsroom_3
+  - first:
+      213: -2616702943579281151
+    second: kidsroom_4
+  - first:
+      213: -5690854454813702851
+    second: kidsroom_5
+  - first:
+      213: 8887147622464836904
+    second: kidsroom_6
+  - first:
+      213: 5070260574764498877
+    second: kidsroom_7
+  - first:
+      213: -2366551580703014536
+    second: kidsroom_8
+  - first:
+      213: 7402591981326913169
+    second: kidsroom_9
+  - first:
+      213: -2798467857938728721
+    second: kidsroom_10
+  - first:
+      213: -8025069904330631847
+    second: kidsroom_11
+  - first:
+      213: -8979058426257181147
+    second: kidsroom_12
+  - first:
+      213: 6513133191031629278
+    second: kidsroom_13
+  - first:
+      213: -8086622681719216155
+    second: kidsroom_14
+  - first:
+      213: 7815324901976055541
+    second: kidsroom_15
+  - first:
+      213: -6363948663080072
+    second: kidsroom_16
+  - first:
+      213: -5960581926510279971
+    second: kidsroom_17
+  - first:
+      213: -620780228862304929
+    second: kidsroom_18
+  - first:
+      213: -8423854059676009470
+    second: kidsroom_19
+  - first:
+      213: -1449025077123652141
+    second: kidsroom_20
+  - first:
+      213: -5734456727199782251
+    second: kidsroom_21
+  - first:
+      213: -5187722232018777398
+    second: kidsroom_22
+  - first:
+      213: 4213041010366668480
+    second: kidsroom_23
+  - first:
+      213: -6870070284328767422
+    second: kidsroom_24
+  - first:
+      213: -2478900775684145938
+    second: kidsroom_25
+  - first:
+      213: -3158795284197290259
+    second: kidsroom_26
+  - first:
+      213: -3407643118006533609
+    second: kidsroom_27
+  - first:
+      213: -6446890076248965071
+    second: kidsroom_28
+  - first:
+      213: 1570618304587661060
+    second: kidsroom_29
+  - first:
+      213: 7425482995257193973
+    second: kidsroom_30
+  - first:
+      213: 6458190581232513455
+    second: kidsroom_31
+  - first:
+      213: 6968259403014741092
+    second: kidsroom_32
+  - first:
+      213: -8764147302573613927
+    second: kidsroom_33
+  - first:
+      213: -5827765260668319517
+    second: kidsroom_34
+  - first:
+      213: 7802172772411053904
+    second: kidsroom_35
+  - first:
+      213: 7716098701034700643
+    second: kidsroom_36
+  - first:
+      213: 4156046413766263444
+    second: kidsroom_37
+  - first:
+      213: 6475110050685164082
+    second: kidsroom_38
+  - first:
+      213: -7851846752473321082
+    second: kidsroom_39
+  - first:
+      213: 6206238231458700620
+    second: kidsroom_40
+  - first:
+      213: -6152330344337532268
+    second: kidsroom_41
+  - first:
+      213: 8140590367581686025
+    second: kidsroom_42
+  - first:
+      213: 1761914921818957666
+    second: kidsroom_43
+  - first:
+      213: 4964135142452223607
+    second: kidsroom_44
+  - first:
+      213: -3699315559420802821
+    second: kidsroom_45
+  - first:
+      213: 741413458881801425
+    second: kidsroom_46
+  - first:
+      213: 2709188434300506295
+    second: kidsroom_47
+  - first:
+      213: 6674048096213460750
+    second: kidsroom_48
+  - first:
+      213: -4872513991673722813
+    second: kidsroom_49
+  - first:
+      213: 7911495950561993198
+    second: kidsroom_50
+  - first:
+      213: -7376231121125831996
+    second: kidsroom_51
+  - first:
+      213: -3601958337607080601
+    second: kidsroom_52
+  - first:
+      213: -2757776678645074905
+    second: kidsroom_53
+  - first:
+      213: -4625245740771272795
+    second: kidsroom_54
+  - first:
+      213: -3227248063331982111
+    second: kidsroom_55
+  - first:
+      213: 858019510877344701
+    second: kidsroom_56
+  - first:
+      213: -6790840153462539735
+    second: kidsroom_57
+  - first:
+      213: 9011889209700430316
+    second: kidsroom_58
+  - first:
+      213: -7456412283729483932
+    second: kidsroom_59
+  - first:
+      213: -1303525931617249368
+    second: kidsroom_60
+  - first:
+      213: 8479808857151120539
+    second: kidsroom_61
+  - first:
+      213: 8988554416059395479
+    second: kidsroom_62
+  - first:
+      213: -6382843790118496683
+    second: kidsroom_63
+  - first:
+      213: -2437491336906048755
+    second: kidsroom_64
+  - first:
+      213: -2908214797627663970
+    second: kidsroom_65
+  - first:
+      213: 3387991447781707650
+    second: kidsroom_66
+  - first:
+      213: -4067938935685354521
+    second: kidsroom_67
+  - first:
+      213: -3445770063808947560
+    second: kidsroom_68
+  - first:
+      213: -2105336261389131075
+    second: kidsroom_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kidsroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b996da8b67d2ff20800000000000000
+      internalID: 3455060721037384118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c237b194fe9a7fb0800000000000000
+      internalID: -4649228892052704569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 111
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce96dbfb73d024ce0800000000000000
+      internalID: -1422559999204431380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de83b93ff90cf4b0800000000000000
+      internalID: -5405434460962058544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109ec35698a9fabd0800000000000000
+      internalID: -2616702943579281151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 111
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35416856060601b0800000000000000
+      internalID: -5690854454813702851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825597f2dad755b70800000000000000
+      internalID: 8887147622464836904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf718d112f2d5640800000000000000
+      internalID: 5070260574764498877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_8
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 95
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871ce8930e1582fd0800000000000000
+      internalID: -2366551580703014536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 111
+        width: 75
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e4528bf2a4bb660800000000000000
+      internalID: 7402591981326913169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_10
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 95
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8b6346f48d929d0800000000000000
+      internalID: -2798467857938728721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 111
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955d1bec07931a090800000000000000
+      internalID: -8025069904330631847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 95
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52676753fe9f36380800000000000000
+      internalID: -8979058426257181147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 95
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed52f32112c436a50800000000000000
+      internalID: 6513133191031629278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e76287048b86cf80800000000000000
+      internalID: -8086622681719216155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 95
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe1c8a479c957c60800000000000000
+      internalID: 7815324901976055541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 95
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b719cb50469eff0800000000000000
+      internalID: -6363948663080072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_17
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2cdbf7152c74da0800000000000000
+      internalID: -5960581926510279971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 95
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d931fbbab8267f0800000000000000
+      internalID: -620780228862304929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c774d3d55781b80800000000000000
+      internalID: -8423854059676009470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 63
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5696f9e5704ebe0800000000000000
+      internalID: -1449025077123652141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a68633dfd1b60b0800000000000000
+      internalID: -5734456727199782251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acacf1f9d128108b0800000000000000
+      internalID: -5187722232018777398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_23
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cede0f2a7ab77a30800000000000000
+      internalID: 4213041010366668480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_24
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 63
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240fd90c97b98a0a0800000000000000
+      internalID: -6870070284328767422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_25
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 63
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecf7e7d0ec299dd0800000000000000
+      internalID: -2478900775684145938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 63
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deecd3fcc64b924d0800000000000000
+      internalID: -3158795284197290259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 63
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7128aed73ae95b0d0800000000000000
+      internalID: -3407643118006533609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_28
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 63
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130803bf1ab0886a0800000000000000
+      internalID: -6446890076248965071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_29
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 63
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f7caac605fbc510800000000000000
+      internalID: 1570618304587661060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_30
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 63
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5320a317d9c0760800000000000000
+      internalID: 7425482995257193973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 63
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1332edd1a10a950800000000000000
+      internalID: 6458190581232513455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_32
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c1873f10b34b060800000000000000
+      internalID: 6968259403014741092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_33
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 64
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cd6e6767e7f5680800000000000000
+      internalID: -8764147302573613927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_34
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 64
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8c08b4f5e9f1fa0800000000000000
+      internalID: -5827765260668319517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 73
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05719cf7cc2e64c60800000000000000
+      internalID: 7802172772411053904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fb60f03e6151b60800000000000000
+      internalID: 7716098701034700643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_37
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 31
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4920392913e3da930800000000000000
+      internalID: 4156046413766263444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 31
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a96a4d8463cd950800000000000000
+      internalID: 6475110050685164082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_39
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 31
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681f500caf2a80390800000000000000
+      internalID: -7851846752473321082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_40
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d5b891accf02650800000000000000
+      internalID: 6206238231458700620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_41
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 31
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a97e4f5288e9aa0800000000000000
+      internalID: -6152330344337532268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_42
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 31
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9094ca10fcf29f070800000000000000
+      internalID: 8140590367581686025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_43
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 31
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267aa7f4944937810800000000000000
+      internalID: 1761914921818957666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_44
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 31
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ed5e66c9624e440800000000000000
+      internalID: 4964135142452223607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 31
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8c5a8391469acc0800000000000000
+      internalID: -3699315559420802821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_46
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 31
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dce758dc970a4a00800000000000000
+      internalID: 741413458881801425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_47
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 31
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01410f688f89520800000000000000
+      internalID: 2709188434300506295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 31
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07eca4026bfe9c50800000000000000
+      internalID: 6674048096213460750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348ca2b175a516cb0800000000000000
+      internalID: -4872513991673722813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_50
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 32
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1603f66a74bcd60800000000000000
+      internalID: 7911495950561993198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_51
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 32
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca0d1450ec52a990800000000000000
+      internalID: -7376231121125831996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 41
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7656c27d9f5430ec0800000000000000
+      internalID: -3601958337607080601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724f08bd8b86ab9d0800000000000000
+      internalID: -2757776678645074905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_54
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7907e1183dfcfb0800000000000000
+      internalID: -4625245740771272795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4a70f2cf28633d0800000000000000
+      internalID: -3227248063331982111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_56
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3d23cf23c48eb00800000000000000
+      internalID: 858019510877344701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_57
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92af76e1cd612c1a0800000000000000
+      internalID: -6790840153462539735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1be5b3d79a01d70800000000000000
+      internalID: 9011889209700430316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_59
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467e171a880858890800000000000000
+      internalID: -7456412283729483932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_60
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a791725212f8ede0800000000000000
+      internalID: -1303525931617249368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_61
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9424b54a355ea570800000000000000
+      internalID: 8479808857151120539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_62
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d2d753e92cdbc70800000000000000
+      internalID: 8988554416059395479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_63
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556dd2104659b67a0800000000000000
+      internalID: -6382843790118496683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_64
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b7f902b8a4c2ed0800000000000000
+      internalID: -2437491336906048755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e995ed8cc02f3a7d0800000000000000
+      internalID: -2908214797627663970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f071b7540940f20800000000000000
+      internalID: 3387991447781707650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_67
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb6e724717cb87c0800000000000000
+      internalID: -4067938935685354521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_68
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a1ef8226a2e20d0800000000000000
+      internalID: -3445770063808947560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kidsroom_69
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 9
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2e62723d758c2e0800000000000000
+      internalID: -2105336261389131075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kidsroom_0: 3455060721037384118
+      kidsroom_1: -4649228892052704569
+      kidsroom_10: -2798467857938728721
+      kidsroom_11: -8025069904330631847
+      kidsroom_12: -8979058426257181147
+      kidsroom_13: 6513133191031629278
+      kidsroom_14: -8086622681719216155
+      kidsroom_15: 7815324901976055541
+      kidsroom_16: -6363948663080072
+      kidsroom_17: -5960581926510279971
+      kidsroom_18: -620780228862304929
+      kidsroom_19: -8423854059676009470
+      kidsroom_2: -1422559999204431380
+      kidsroom_20: -1449025077123652141
+      kidsroom_21: -5734456727199782251
+      kidsroom_22: -5187722232018777398
+      kidsroom_23: 4213041010366668480
+      kidsroom_24: -6870070284328767422
+      kidsroom_25: -2478900775684145938
+      kidsroom_26: -3158795284197290259
+      kidsroom_27: -3407643118006533609
+      kidsroom_28: -6446890076248965071
+      kidsroom_29: 1570618304587661060
+      kidsroom_3: -5405434460962058544
+      kidsroom_30: 7425482995257193973
+      kidsroom_31: 6458190581232513455
+      kidsroom_32: 6968259403014741092
+      kidsroom_33: -8764147302573613927
+      kidsroom_34: -5827765260668319517
+      kidsroom_35: 7802172772411053904
+      kidsroom_36: 7716098701034700643
+      kidsroom_37: 4156046413766263444
+      kidsroom_38: 6475110050685164082
+      kidsroom_39: -7851846752473321082
+      kidsroom_4: -2616702943579281151
+      kidsroom_40: 6206238231458700620
+      kidsroom_41: -6152330344337532268
+      kidsroom_42: 8140590367581686025
+      kidsroom_43: 1761914921818957666
+      kidsroom_44: 4964135142452223607
+      kidsroom_45: -3699315559420802821
+      kidsroom_46: 741413458881801425
+      kidsroom_47: 2709188434300506295
+      kidsroom_48: 6674048096213460750
+      kidsroom_49: -4872513991673722813
+      kidsroom_5: -5690854454813702851
+      kidsroom_50: 7911495950561993198
+      kidsroom_51: -7376231121125831996
+      kidsroom_52: -3601958337607080601
+      kidsroom_53: -2757776678645074905
+      kidsroom_54: -4625245740771272795
+      kidsroom_55: -3227248063331982111
+      kidsroom_56: 858019510877344701
+      kidsroom_57: -6790840153462539735
+      kidsroom_58: 9011889209700430316
+      kidsroom_59: -7456412283729483932
+      kidsroom_6: 8887147622464836904
+      kidsroom_60: -1303525931617249368
+      kidsroom_61: 8479808857151120539
+      kidsroom_62: 8988554416059395479
+      kidsroom_63: -6382843790118496683
+      kidsroom_64: -2437491336906048755
+      kidsroom_65: -2908214797627663970
+      kidsroom_66: 3387991447781707650
+      kidsroom_67: -4067938935685354521
+      kidsroom_68: -3445770063808947560
+      kidsroom_69: -2105336261389131075
+      kidsroom_7: 5070260574764498877
+      kidsroom_8: -2366551580703014536
+      kidsroom_9: 7402591981326913169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

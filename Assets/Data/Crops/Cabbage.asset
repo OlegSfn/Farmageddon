@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78031fa064404b47876bdb49e3f160f4, type: 3}
+  m_Name: Cabbage
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: 6829405350817170526, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5378858820388529465, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -4927564943625143924, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -8153029711462880562, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 7491181250847067428, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5807525241543311248, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesWet:
+  - {fileID: -7519430896419269726, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 5908678298317992004, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -6174726726753179501, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5263086979453616105, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5939787693084386960, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 7391549322574117270, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesTimes:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 100
+  maxHumidity: 200

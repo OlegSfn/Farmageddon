@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d8895cf711ee54c976bdace7cf7e97, type: 3}
+  m_Name: Night 1
+  m_EditorClassIdentifier: 
+  WaveName: Night 1
+  EnemyWaveChunks:
+  - EnemiesToSpawn:
+    - PrefabToSpawn: {fileID: 5979604944453992245, guid: b1f4f4c639f97924abbab1e5be3f4752, type: 3}
+      Count: 2
+    DelayBeforeSpawn: 2
+  - EnemiesToSpawn:
+    - PrefabToSpawn: {fileID: 5979604944453992245, guid: b1f4f4c639f97924abbab1e5be3f4752, type: 3}
+      Count: 5
+    - PrefabToSpawn: {fileID: 4362493658385370199, guid: b3ece06ae4eaa234ba35c9e123d98bec, type: 3}
+      Count: 2
+    DelayBeforeSpawn: 3

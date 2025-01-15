@@ -1,0 +1,7033 @@
+fileFormatVersion: 2
+guid: 7ff9fc96a19cb4ae482a78d9caecf493
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6730035409041687526
+    second: chairs_shadow_0
+  - first:
+      213: 7104644422786283089
+    second: chairs_shadow_1
+  - first:
+      213: 4410155727771200562
+    second: chairs_shadow_2
+  - first:
+      213: 6534315962880160530
+    second: chairs_shadow_3
+  - first:
+      213: 7801687449917318060
+    second: chairs_shadow_4
+  - first:
+      213: -6478048011249402240
+    second: chairs_shadow_5
+  - first:
+      213: 6658548378178175319
+    second: chairs_shadow_6
+  - first:
+      213: 1160951747214575958
+    second: chairs_shadow_7
+  - first:
+      213: 5576578365127982507
+    second: chairs_shadow_8
+  - first:
+      213: 4358478101904989556
+    second: chairs_shadow_9
+  - first:
+      213: 6388029321862790059
+    second: chairs_shadow_10
+  - first:
+      213: 4373216204408016036
+    second: chairs_shadow_11
+  - first:
+      213: -3696268277461850765
+    second: chairs_shadow_12
+  - first:
+      213: 7115461674723133976
+    second: chairs_shadow_13
+  - first:
+      213: -2149287969945520400
+    second: chairs_shadow_14
+  - first:
+      213: 6296893471608412954
+    second: chairs_shadow_15
+  - first:
+      213: -5769552719085457139
+    second: chairs_shadow_16
+  - first:
+      213: 2883486603822202213
+    second: chairs_shadow_17
+  - first:
+      213: -1401116324431347336
+    second: chairs_shadow_18
+  - first:
+      213: -4376023967368824113
+    second: chairs_shadow_19
+  - first:
+      213: -7109707840948026707
+    second: chairs_shadow_20
+  - first:
+      213: -3364169500012286389
+    second: chairs_shadow_21
+  - first:
+      213: 2079062884764648730
+    second: chairs_shadow_22
+  - first:
+      213: 5578834611231291699
+    second: chairs_shadow_23
+  - first:
+      213: 5507007604370759961
+    second: chairs_shadow_24
+  - first:
+      213: 7494985601527932258
+    second: chairs_shadow_25
+  - first:
+      213: -1434911929329459736
+    second: chairs_shadow_26
+  - first:
+      213: 6838685177508553214
+    second: chairs_shadow_27
+  - first:
+      213: -1784309315129644139
+    second: chairs_shadow_28
+  - first:
+      213: 9083491215918960457
+    second: chairs_shadow_29
+  - first:
+      213: 8402382941105249519
+    second: chairs_shadow_30
+  - first:
+      213: 6314025316382389273
+    second: chairs_shadow_31
+  - first:
+      213: 4034411727434514360
+    second: chairs_shadow_32
+  - first:
+      213: 945114296458714995
+    second: chairs_shadow_33
+  - first:
+      213: 1736918500714430869
+    second: chairs_shadow_34
+  - first:
+      213: 4912333875461638605
+    second: chairs_shadow_35
+  - first:
+      213: 5210998303477736404
+    second: chairs_shadow_36
+  - first:
+      213: 8272339561126882807
+    second: chairs_shadow_37
+  - first:
+      213: 7313551310259398838
+    second: chairs_shadow_38
+  - first:
+      213: 7336239998867494561
+    second: chairs_shadow_39
+  - first:
+      213: -5704257070141733696
+    second: chairs_shadow_40
+  - first:
+      213: 4493103327000807354
+    second: chairs_shadow_41
+  - first:
+      213: -8015760936217998348
+    second: chairs_shadow_42
+  - first:
+      213: 3848006044315544935
+    second: chairs_shadow_43
+  - first:
+      213: -1193175910425450565
+    second: chairs_shadow_44
+  - first:
+      213: 2179660659803453305
+    second: chairs_shadow_45
+  - first:
+      213: -2699074205243403425
+    second: chairs_shadow_46
+  - first:
+      213: 1927031802176130456
+    second: chairs_shadow_47
+  - first:
+      213: -1909951073008811059
+    second: chairs_shadow_48
+  - first:
+      213: 2417748527714606411
+    second: chairs_shadow_49
+  - first:
+      213: -3403207287890887776
+    second: chairs_shadow_50
+  - first:
+      213: -3887606558972356056
+    second: chairs_shadow_51
+  - first:
+      213: 7118726853492298109
+    second: chairs_shadow_52
+  - first:
+      213: 7064027875530919429
+    second: chairs_shadow_53
+  - first:
+      213: -988511270098317772
+    second: chairs_shadow_54
+  - first:
+      213: 3993142781139124242
+    second: chairs_shadow_55
+  - first:
+      213: -1521766681463721268
+    second: chairs_shadow_56
+  - first:
+      213: -8785132245745922535
+    second: chairs_shadow_57
+  - first:
+      213: -4385591920869097531
+    second: chairs_shadow_58
+  - first:
+      213: 3051944663235204404
+    second: chairs_shadow_59
+  - first:
+      213: -3797190772432313896
+    second: chairs_shadow_60
+  - first:
+      213: 1290078340263555659
+    second: chairs_shadow_61
+  - first:
+      213: -8921636775688424668
+    second: chairs_shadow_62
+  - first:
+      213: -2032954464083320066
+    second: chairs_shadow_63
+  - first:
+      213: 6329963936433431696
+    second: chairs_shadow_64
+  - first:
+      213: 8822355213240650142
+    second: chairs_shadow_65
+  - first:
+      213: 7409185810807812479
+    second: chairs_shadow_66
+  - first:
+      213: 6617778227769277795
+    second: chairs_shadow_67
+  - first:
+      213: 2157739519601079879
+    second: chairs_shadow_68
+  - first:
+      213: 8620972426457097589
+    second: chairs_shadow_69
+  - first:
+      213: 4038585365504587107
+    second: chairs_shadow_70
+  - first:
+      213: -3796430676417002995
+    second: chairs_shadow_71
+  - first:
+      213: 1817321289374318684
+    second: chairs_shadow_72
+  - first:
+      213: 6701460150560885451
+    second: chairs_shadow_73
+  - first:
+      213: 6318391719763000283
+    second: chairs_shadow_74
+  - first:
+      213: 776514769054778969
+    second: chairs_shadow_75
+  - first:
+      213: -368117746190500323
+    second: chairs_shadow_76
+  - first:
+      213: -3609976914073829857
+    second: chairs_shadow_77
+  - first:
+      213: -2502833912089123812
+    second: chairs_shadow_78
+  - first:
+      213: 6399398282426046899
+    second: chairs_shadow_79
+  - first:
+      213: -2658404294257512966
+    second: chairs_shadow_80
+  - first:
+      213: -6492100387906112123
+    second: chairs_shadow_81
+  - first:
+      213: 6841452086122006753
+    second: chairs_shadow_82
+  - first:
+      213: -5828821165854099526
+    second: chairs_shadow_83
+  - first:
+      213: 6492589425106692129
+    second: chairs_shadow_84
+  - first:
+      213: -2947931635327135397
+    second: chairs_shadow_85
+  - first:
+      213: -8258364471943937355
+    second: chairs_shadow_86
+  - first:
+      213: 882103887736525881
+    second: chairs_shadow_87
+  - first:
+      213: -8282371968161600734
+    second: chairs_shadow_88
+  - first:
+      213: -2961576358034833891
+    second: chairs_shadow_89
+  - first:
+      213: -6908778071881777754
+    second: chairs_shadow_90
+  - first:
+      213: 8386545837945461133
+    second: chairs_shadow_91
+  - first:
+      213: -5833189355748722675
+    second: chairs_shadow_92
+  - first:
+      213: 5710884063459661677
+    second: chairs_shadow_93
+  - first:
+      213: 3888488241201929182
+    second: chairs_shadow_94
+  - first:
+      213: 1255867780369953457
+    second: chairs_shadow_95
+  - first:
+      213: -4874986651222081116
+    second: chairs_shadow_96
+  - first:
+      213: 1643153614950573699
+    second: chairs_shadow_97
+  - first:
+      213: 1495699367869510489
+    second: chairs_shadow_98
+  - first:
+      213: 905823326944082232
+    second: chairs_shadow_99
+  - first:
+      213: -4870202923686805800
+    second: chairs_shadow_100
+  - first:
+      213: -6895521292269745316
+    second: chairs_shadow_101
+  - first:
+      213: -7609539458285795329
+    second: chairs_shadow_102
+  - first:
+      213: 6716302897961897452
+    second: chairs_shadow_103
+  - first:
+      213: -3170280932048799179
+    second: chairs_shadow_104
+  - first:
+      213: -5088652687609718246
+    second: chairs_shadow_105
+  - first:
+      213: -8961388473483334346
+    second: chairs_shadow_106
+  - first:
+      213: -953581536365716719
+    second: chairs_shadow_107
+  - first:
+      213: -6091238897365502807
+    second: chairs_shadow_108
+  - first:
+      213: 6694284420182592991
+    second: chairs_shadow_109
+  - first:
+      213: -7933722735103353756
+    second: chairs_shadow_110
+  - first:
+      213: 1081018181660683785
+    second: chairs_shadow_111
+  - first:
+      213: -4860360372480753710
+    second: chairs_shadow_112
+  - first:
+      213: 5320875238170353902
+    second: chairs_shadow_113
+  - first:
+      213: 4027474698490790492
+    second: chairs_shadow_114
+  - first:
+      213: -314620351984353146
+    second: chairs_shadow_115
+  - first:
+      213: -4329569420129938911
+    second: chairs_shadow_116
+  - first:
+      213: 6917869009235665448
+    second: chairs_shadow_117
+  - first:
+      213: 3977152970426807604
+    second: chairs_shadow_118
+  - first:
+      213: 2102922040996394278
+    second: chairs_shadow_119
+  - first:
+      213: 4491311316671175704
+    second: chairs_shadow_120
+  - first:
+      213: 3413089642779499412
+    second: chairs_shadow_121
+  - first:
+      213: 3205876164919269658
+    second: chairs_shadow_122
+  - first:
+      213: 2528178979487288744
+    second: chairs_shadow_123
+  - first:
+      213: 8182329892719088627
+    second: chairs_shadow_124
+  - first:
+      213: 2631420933723353401
+    second: chairs_shadow_125
+  - first:
+      213: -1183749772488689080
+    second: chairs_shadow_126
+  - first:
+      213: 4941066643605746759
+    second: chairs_shadow_127
+  - first:
+      213: 769046305357675333
+    second: chairs_shadow_128
+  - first:
+      213: -1577007483020743281
+    second: chairs_shadow_129
+  - first:
+      213: 9017578161261211711
+    second: chairs_shadow_130
+  - first:
+      213: -2101048142445496619
+    second: chairs_shadow_131
+  - first:
+      213: -8587377408663037595
+    second: chairs_shadow_132
+  - first:
+      213: -6400316711944291629
+    second: chairs_shadow_133
+  - first:
+      213: 4475297722876986173
+    second: chairs_shadow_134
+  - first:
+      213: -400334809230472368
+    second: chairs_shadow_135
+  - first:
+      213: 1720901352058139553
+    second: chairs_shadow_136
+  - first:
+      213: -3252710145158691265
+    second: chairs_shadow_137
+  - first:
+      213: -7655557983494031782
+    second: chairs_shadow_138
+  - first:
+      213: 5277092136559007093
+    second: chairs_shadow_139
+  - first:
+      213: -7895567512133030388
+    second: chairs_shadow_140
+  - first:
+      213: 5446823882523731089
+    second: chairs_shadow_141
+  - first:
+      213: -7295670442383396335
+    second: chairs_shadow_142
+  - first:
+      213: -757543063124177129
+    second: chairs_shadow_143
+  - first:
+      213: -7452398104848917454
+    second: chairs_shadow_144
+  - first:
+      213: -4812947954624929232
+    second: chairs_shadow_145
+  - first:
+      213: 2769076636238242235
+    second: chairs_shadow_146
+  - first:
+      213: -5527147030187889786
+    second: chairs_shadow_147
+  - first:
+      213: 4251179988084218297
+    second: chairs_shadow_148
+  - first:
+      213: -671227826457125774
+    second: chairs_shadow_149
+  - first:
+      213: -5958269699916130365
+    second: chairs_shadow_150
+  - first:
+      213: -90786406435772358
+    second: chairs_shadow_151
+  - first:
+      213: 7492733048717106869
+    second: chairs_shadow_152
+  - first:
+      213: 8306700774940906373
+    second: chairs_shadow_153
+  - first:
+      213: -8085695154929323059
+    second: chairs_shadow_154
+  - first:
+      213: -8367513285114366687
+    second: chairs_shadow_155
+  - first:
+      213: 4696745307982764010
+    second: chairs_shadow_156
+  - first:
+      213: 7486215486384376497
+    second: chairs_shadow_157
+  - first:
+      213: -3566621625251800062
+    second: chairs_shadow_158
+  - first:
+      213: 4616465591605340977
+    second: chairs_shadow_159
+  - first:
+      213: -862558834800011017
+    second: chairs_shadow_160
+  - first:
+      213: 3729799746772685830
+    second: chairs_shadow_161
+  - first:
+      213: -4333482326336029843
+    second: chairs_shadow_162
+  - first:
+      213: -2066500501512132791
+    second: chairs_shadow_163
+  - first:
+      213: 5441002514974039575
+    second: chairs_shadow_164
+  - first:
+      213: 4441852311454677741
+    second: chairs_shadow_165
+  - first:
+      213: 2352315848316231526
+    second: chairs_shadow_166
+  - first:
+      213: 4653640798381954431
+    second: chairs_shadow_167
+  - first:
+      213: 7830711597395593778
+    second: chairs_shadow_168
+  - first:
+      213: -6186514803410385297
+    second: chairs_shadow_169
+  - first:
+      213: 6682954792080792671
+    second: chairs_shadow_170
+  - first:
+      213: -5568266192248574153
+    second: chairs_shadow_171
+  - first:
+      213: 6658945031759422809
+    second: chairs_shadow_172
+  - first:
+      213: 725578032297698289
+    second: chairs_shadow_173
+  - first:
+      213: -6916993072370332934
+    second: chairs_shadow_174
+  - first:
+      213: -5796780884660143987
+    second: chairs_shadow_175
+  - first:
+      213: -6533611935519549049
+    second: chairs_shadow_176
+  - first:
+      213: -7406376483022057801
+    second: chairs_shadow_177
+  - first:
+      213: 6409903192018737511
+    second: chairs_shadow_178
+  - first:
+      213: 1495724698562092599
+    second: chairs_shadow_179
+  - first:
+      213: -8727230291722400625
+    second: chairs_shadow_180
+  - first:
+      213: 5927318407736160799
+    second: chairs_shadow_181
+  - first:
+      213: -8421672371106564771
+    second: chairs_shadow_182
+  - first:
+      213: 8648954298073982074
+    second: chairs_shadow_183
+  - first:
+      213: 1027179386387301098
+    second: chairs_shadow_184
+  - first:
+      213: -3882327121642893541
+    second: chairs_shadow_185
+  - first:
+      213: 7153859981065419688
+    second: chairs_shadow_186
+  - first:
+      213: 7061052079715487818
+    second: chairs_shadow_187
+  - first:
+      213: 6848683427498329234
+    second: chairs_shadow_188
+  - first:
+      213: -815648693811507347
+    second: chairs_shadow_189
+  - first:
+      213: 3834208203846792662
+    second: chairs_shadow_190
+  - first:
+      213: -4389524027959137816
+    second: chairs_shadow_191
+  - first:
+      213: 4296494075313294495
+    second: chairs_shadow_192
+  - first:
+      213: -6626946503429761271
+    second: chairs_shadow_193
+  - first:
+      213: 5263140809678561950
+    second: chairs_shadow_194
+  - first:
+      213: 6683596149510222843
+    second: chairs_shadow_195
+  - first:
+      213: -1831486306598494349
+    second: chairs_shadow_196
+  - first:
+      213: -7827023682896730688
+    second: chairs_shadow_197
+  - first:
+      213: 715126639723617343
+    second: chairs_shadow_198
+  - first:
+      213: -1401194311647550671
+    second: chairs_shadow_199
+  - first:
+      213: 727692640063795230
+    second: chairs_shadow_200
+  - first:
+      213: -366026322515112416
+    second: chairs_shadow_201
+  - first:
+      213: -5330916558023033812
+    second: chairs_shadow_202
+  - first:
+      213: 8978795272669734368
+    second: chairs_shadow_203
+  - first:
+      213: 418680942669591956
+    second: chairs_shadow_204
+  - first:
+      213: 7863199302528884908
+    second: chairs_shadow_205
+  - first:
+      213: -4825103118344289121
+    second: chairs_shadow_206
+  - first:
+      213: 944301756022999791
+    second: chairs_shadow_207
+  - first:
+      213: -3399586022198583269
+    second: chairs_shadow_208
+  - first:
+      213: -675090281258646974
+    second: chairs_shadow_209
+  - first:
+      213: 9120452083426984380
+    second: chairs_shadow_210
+  - first:
+      213: -3687188540771248900
+    second: chairs_shadow_211
+  - first:
+      213: 1094343396752374946
+    second: chairs_shadow_212
+  - first:
+      213: 4576927971173979638
+    second: chairs_shadow_213
+  - first:
+      213: -9028225622431532422
+    second: chairs_shadow_214
+  - first:
+      213: 3818243317289302351
+    second: chairs_shadow_215
+  - first:
+      213: -1543123827014547634
+    second: chairs_shadow_216
+  - first:
+      213: -790230444809740723
+    second: chairs_shadow_217
+  - first:
+      213: -3369646471721481615
+    second: chairs_shadow_218
+  - first:
+      213: -8906516616012062143
+    second: chairs_shadow_219
+  - first:
+      213: -4683209308928868974
+    second: chairs_shadow_220
+  - first:
+      213: 7863378759796528483
+    second: chairs_shadow_221
+  - first:
+      213: 5593504783216496548
+    second: chairs_shadow_222
+  - first:
+      213: -7535762324633331037
+    second: chairs_shadow_223
+  - first:
+      213: 7601893104673289828
+    second: chairs_shadow_224
+  - first:
+      213: 1838605342919406775
+    second: chairs_shadow_225
+  - first:
+      213: 4055233629381484964
+    second: chairs_shadow_226
+  - first:
+      213: -8329605801846968653
+    second: chairs_shadow_227
+  - first:
+      213: 7821617136714351972
+    second: chairs_shadow_228
+  - first:
+      213: 8075324679308093083
+    second: chairs_shadow_229
+  - first:
+      213: 5973737052574374844
+    second: chairs_shadow_230
+  - first:
+      213: 415273265705369176
+    second: chairs_shadow_231
+  - first:
+      213: 1011529662410948486
+    second: chairs_shadow_232
+  - first:
+      213: -1638495709129365299
+    second: chairs_shadow_233
+  - first:
+      213: 4653654771985022588
+    second: chairs_shadow_234
+  - first:
+      213: -2260063899510290286
+    second: chairs_shadow_235
+  - first:
+      213: 9011793644467057498
+    second: chairs_shadow_236
+  - first:
+      213: -93867303509630110
+    second: chairs_shadow_237
+  - first:
+      213: -924287371338436779
+    second: chairs_shadow_238
+  - first:
+      213: -4223562248696395429
+    second: chairs_shadow_239
+  - first:
+      213: -728983333821237263
+    second: chairs_shadow_240
+  - first:
+      213: -4659606054417195141
+    second: chairs_shadow_241
+  - first:
+      213: -4777620426707785796
+    second: chairs_shadow_242
+  - first:
+      213: -2237064073783813516
+    second: chairs_shadow_243
+  - first:
+      213: -6008369817503582018
+    second: chairs_shadow_244
+  - first:
+      213: 1897567559689053227
+    second: chairs_shadow_245
+  - first:
+      213: -8468598771367674212
+    second: chairs_shadow_246
+  - first:
+      213: 3669265061771646079
+    second: chairs_shadow_247
+  - first:
+      213: 55855003809270573
+    second: chairs_shadow_248
+  - first:
+      213: -6011458231785465718
+    second: chairs_shadow_249
+  - first:
+      213: 365035888869089227
+    second: chairs_shadow_250
+  - first:
+      213: -9119291020787537357
+    second: chairs_shadow_251
+  - first:
+      213: 5847665899762196720
+    second: chairs_shadow_252
+  - first:
+      213: -3779842935536278467
+    second: chairs_shadow_253
+  - first:
+      213: -4733558213661615080
+    second: chairs_shadow_254
+  - first:
+      213: -4608387527706942667
+    second: chairs_shadow_255
+  - first:
+      213: 412322170545129357
+    second: chairs_shadow_256
+  - first:
+      213: 6588963357199815855
+    second: chairs_shadow_257
+  - first:
+      213: -1769652002751679173
+    second: chairs_shadow_258
+  - first:
+      213: -4713642963016294269
+    second: chairs_shadow_259
+  - first:
+      213: 4317910483614010216
+    second: chairs_shadow_260
+  - first:
+      213: 1390558207676406256
+    second: chairs_shadow_261
+  - first:
+      213: 7060970010584638342
+    second: chairs_shadow_262
+  - first:
+      213: 4523508959366659547
+    second: chairs_shadow_263
+  - first:
+      213: 419747726392129646
+    second: chairs_shadow_264
+  - first:
+      213: -2674478432060991545
+    second: chairs_shadow_265
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chairs_shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e30bb91c83e56d50800000000000000
+      internalID: 6730035409041687526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156f2a3e574c89260800000000000000
+      internalID: 7104644422786283089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ce4f5b445043d30800000000000000
+      internalID: 4410155727771200562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213f2a97fbd8eaa50800000000000000
+      internalID: 6534315962880160530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3e1fc8669254c60800000000000000
+      internalID: 7801687449917318060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ebd8be7a95916a0800000000000000
+      internalID: -6478048011249402240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7514011b87ae76c50800000000000000
+      internalID: 6658548378178175319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659081e86778c1010800000000000000
+      internalID: 1160951747214575958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badf4932a7cf36d40800000000000000
+      internalID: 5576578365127982507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d9d51ddbc6c7c30800000000000000
+      internalID: 4358478101904989556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_10
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab3960b2d6d6a850800000000000000
+      internalID: 6388029321862790059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acc8b5b7f8c0bc30800000000000000
+      internalID: 4373216204408016036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3756757d59734bcc0800000000000000
+      internalID: -3696268277461850765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a47ce91b23fb260800000000000000
+      internalID: 7115461674723133976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6706f8af13c22e0800000000000000
+      internalID: -2149287969945520400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b12b3004f036750800000000000000
+      internalID: 6296893471608412954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01b502de5e6eefa0800000000000000
+      internalID: -5769552719085457139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d7b6fe9c3340820800000000000000
+      internalID: 2883486603822202213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871c449502c3e8ce0800000000000000
+      internalID: -1401116324431347336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcab268036d3543c0800000000000000
+      internalID: -4376023967368824113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2cb73336e355d90800000000000000
+      internalID: -7109707840948026707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e6093f9a11051d0800000000000000
+      internalID: -3364169500012286389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a158818ada05adc10800000000000000
+      internalID: 2079062884764648730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339781f55800c6d40800000000000000
+      internalID: 5578834611231291699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e4e12d32dc6c40800000000000000
+      internalID: 5507007604370759961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2656db7c1b9830860800000000000000
+      internalID: 7494985601527932258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_26
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edd858e33b261ce0800000000000000
+      internalID: -1434911929329459736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef16020afe3e7ee50800000000000000
+      internalID: 6838685177508553214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59be64ea12cdc37e0800000000000000
+      internalID: -1784309315129644139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f0b3d622b0f0e70800000000000000
+      internalID: 9083491215918960457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_30
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec516764c24b9470800000000000000
+      internalID: 8402382941105249519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914bbc5729cef9750800000000000000
+      internalID: 6314025316382389273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_32
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf7763471c1df730800000000000000
+      internalID: 4034411727434514360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_33
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f9098f178bd1d00800000000000000
+      internalID: 945114296458714995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_34
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59143ee7c26ca1810800000000000000
+      internalID: 1736918500714430869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_35
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9420112ad1c2440800000000000000
+      internalID: 4912333875461638605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 175
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d324f3195f215840800000000000000
+      internalID: 5210998303477736404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fde06a80014dc270800000000000000
+      internalID: 8272339561126882807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_38
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 175
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8aa96fa24fe7560800000000000000
+      internalID: 7313551310259398838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_39
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 175
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6528fe86f8fc560800000000000000
+      internalID: 7336239998867494561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c401baca6866d0b0800000000000000
+      internalID: -5704257070141733696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab74201aba5ba5e30800000000000000
+      internalID: 4493103327000807354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_42
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb0648d5eb42c090800000000000000
+      internalID: -8015760936217998348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76debf41c1dd66530800000000000000
+      internalID: 3848006044315544935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7a988c4dcf07fe0800000000000000
+      internalID: -1193175910425450565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9777a7e52d5bf3e10800000000000000
+      internalID: 2179660659803453305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_46
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f531c068f46fa8ad0800000000000000
+      internalID: -2699074205243403425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dc697d6313eba10800000000000000
+      internalID: 1927031802176130456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc30fe25e9d7e75e0800000000000000
+      internalID: -1909951073008811059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d17a6e9719d8120800000000000000
+      internalID: 2417748527714606411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab3e3ca00165c0d0800000000000000
+      internalID: -3403207287890887776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a59f99e627c0ac0800000000000000
+      internalID: -3887606558972356056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71517b4b5ccac260800000000000000
+      internalID: 7118726853492298109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e4a7c0de7780260800000000000000
+      internalID: 7064027875530919429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_54
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ec159bc3a1842f0800000000000000
+      internalID: -988511270098317772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210863fe33e7a6730800000000000000
+      internalID: 3993142781139124242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc27450144991eae0800000000000000
+      internalID: -1521766681463721268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e0c73a4c0f41680800000000000000
+      internalID: -8785132245745922535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_58
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cf36c2426f3323c0800000000000000
+      internalID: -4385591920869097531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4359846508faa5a20800000000000000
+      internalID: 3051944663235204404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1e7c06c1bad4bc0800000000000000
+      internalID: -3797190772432313896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_61
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42b5d35a6747e110800000000000000
+      internalID: 1290078340263555659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_62
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b7021f9aff2480800000000000000
+      internalID: -8921636775688424668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_63
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2e4cb9fae79c3e0800000000000000
+      internalID: -2032954464083320066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e520a9ac88d750800000000000000
+      internalID: 6329963936433431696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_65
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e994687d25d4f6a70800000000000000
+      internalID: 8822355213240650142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7170184d37b2d660800000000000000
+      internalID: 7409185810807812479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_67
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d70845c3217db50800000000000000
+      internalID: 6617778227769277795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_68
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746f4af29a4d1fd10800000000000000
+      internalID: 2157739519601079879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_69
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575a969feb8d3a770800000000000000
+      internalID: 8620972426457097589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_70
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365fdf91effeb0830800000000000000
+      internalID: 4038585365504587107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_71
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02c4c50a6e505bc0800000000000000
+      internalID: -3796430676417002995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5049e7851c683910800000000000000
+      internalID: 1817321289374318684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_73
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca0e96408e500d50800000000000000
+      internalID: 6701460150560885451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_74
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb3e38facf6fa750800000000000000
+      internalID: 6318391719763000283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_75
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956ca5c711cb6ca00800000000000000
+      internalID: 776514769054778969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_76
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 143
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e3cc63cde24eaf0800000000000000
+      internalID: -368117746190500323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_77
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1eb4458f19c6edc0800000000000000
+      internalID: -3609976914073829857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_78
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 143
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14602a41d5244dd0800000000000000
+      internalID: -2502833912089123812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_79
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 143
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9df3815da3fc850800000000000000
+      internalID: 6399398282426046899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd686311637b1bd0800000000000000
+      internalID: -2658404294257512966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5853ea4081d67e5a0800000000000000
+      internalID: -6492100387906112123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8482dbc68b1fe50800000000000000
+      internalID: 6841452086122006753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7fcf5380edb1fa0800000000000000
+      internalID: -5828821165854099526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_84
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12821f3deaf4a1a50800000000000000
+      internalID: 6492589425106692129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_85
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b519036ebc7d617d0800000000000000
+      internalID: -2947931635327135397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_86
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b243187445646d80800000000000000
+      internalID: -8258364471943937355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_87
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934d683ffccdd3c00800000000000000
+      internalID: 882103887736525881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b231ca39a1f0d80800000000000000
+      internalID: -8282371968161600734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e73245efd56e6d0800000000000000
+      internalID: -2961576358034833891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_90
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad7a79a2f61f10a0800000000000000
+      internalID: -6908778071881777754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_91
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89154b710ff26470800000000000000
+      internalID: 8386545837945461133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08f10fbf295c0fa0800000000000000
+      internalID: -5833189355748722675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_93
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67d3f35cc2214f40800000000000000
+      internalID: 5710884063459661677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_94
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbdf1a047fa6f530800000000000000
+      internalID: 3888488241201929182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_95
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b23fc5a71dbd6110800000000000000
+      internalID: 1255867780369953457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a103213871985cb0800000000000000
+      internalID: -4874986651222081116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_97
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386278ac187adc610800000000000000
+      internalID: 1643153614950573699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_98
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95373a886aac1c410800000000000000
+      internalID: 1495699367869510489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839b3cf3481229c00800000000000000
+      internalID: 905823326944082232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de349d8e30996cb0800000000000000
+      internalID: -4870202923686805800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b8e113bef2e40a0800000000000000
+      internalID: -6895521292269745316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_102
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff78e840e2c756690800000000000000
+      internalID: -7609539458285795329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_103
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced02f4b6e9153d50800000000000000
+      internalID: 6716302897961897452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a79070a46e004d0800000000000000
+      internalID: -3170280932048799179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_105
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a9fa967597169b0800000000000000
+      internalID: -5088652687609718246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_106
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63deebfa9a0c2a380800000000000000
+      internalID: -8961388473483334346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_107
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bdc8c15a234c2f0800000000000000
+      internalID: -953581536365716719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_108
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4bc70ee72977ba0800000000000000
+      internalID: -6091238897365502807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_109
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd4a6a5630e6ec50800000000000000
+      internalID: 6694284420182592991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_110
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c59b30531c5e190800000000000000
+      internalID: -7933722735103353756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_111
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90eaf990f4c800f00800000000000000
+      internalID: 1081018181660683785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df36e51ef78c8cb0800000000000000
+      internalID: -4860360372480753710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_113
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0e05186db87d940800000000000000
+      internalID: 5320875238170353902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_114
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52ca6956e674e730800000000000000
+      internalID: 4027474698490790492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_115
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6804dd0f47e32abf0800000000000000
+      internalID: -314620351984353146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_116
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 111
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122d2ca2d874ae3c0800000000000000
+      internalID: -4329569420129938911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_117
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822ec222635310060800000000000000
+      internalID: 6917869009235665448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_118
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 111
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435fda30e8fa13730800000000000000
+      internalID: 3977152970426807604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_119
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 111
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625fdeb54741f2d10800000000000000
+      internalID: 2102922040996394278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c90e5b8d7545e30800000000000000
+      internalID: 4491311316671175704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bdf6062fabd5f20800000000000000
+      internalID: 3413089642779499412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1997e3f26f8d7c20800000000000000
+      internalID: 3205876164919269658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_123
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad03f01365e51320800000000000000
+      internalID: 2528178979487288744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3d4928fa97d8170800000000000000
+      internalID: 8182329892719088627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_125
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9317b19b56fa48420800000000000000
+      internalID: 2631420933723353401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_126
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84abcdb8ad9729fe0800000000000000
+      internalID: -1183749772488689080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744f6a7fee1329440800000000000000
+      internalID: 4941066643605746759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bbba64a833caa00800000000000000
+      internalID: 769046305357675333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6a6eac085d1ae0800000000000000
+      internalID: -1577007483020743281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_130
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f307b4c7f8fd42d70800000000000000
+      internalID: 9017578161261211711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_131
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6ba85a8d397d2e0800000000000000
+      internalID: -2101048142445496619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_132
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569dc64aeb183d880800000000000000
+      internalID: -8587377408663037595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_133
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da709e5cd18d27a0800000000000000
+      internalID: -6400316711944291629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_134
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33823c51937b1e30800000000000000
+      internalID: 4475297722876986173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b0890bc99b17af0800000000000000
+      internalID: -400334809230472368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a33ae679aed1e710800000000000000
+      internalID: 1720901352058139553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36c1884b5d0cd2d0800000000000000
+      internalID: -3252710145158691265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_138
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56be6c239ef1c590800000000000000
+      internalID: -7655557983494031782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_139
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5755b96c65ffb3940800000000000000
+      internalID: 5277092136559007093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_140
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e22332e2f4d6290800000000000000
+      internalID: -7895567512133030388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_141
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194e0ff6671079b40800000000000000
+      internalID: 5446823882523731089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_142
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112bb63036290ca90800000000000000
+      internalID: -7295670442383396335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_143
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f0c64099aac75f0800000000000000
+      internalID: -757543063124177129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_144
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c9fab7863c39890800000000000000
+      internalID: -7452398104848917454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_145
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032632ad559f43db0800000000000000
+      internalID: -4812947954624929232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb160da878cbd6620800000000000000
+      internalID: 2769076636238242235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_147
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bab446f01ab43b0800000000000000
+      internalID: -5527147030187889786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_148
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9520aeca93ffa30800000000000000
+      internalID: 4251179988084218297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_149
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c5aa029d15fa6f0800000000000000
+      internalID: -671227826457125774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c79684b649ff4da0800000000000000
+      internalID: -5958269699916130365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3826fd8e367dbef0800000000000000
+      internalID: -90786406435772358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_152
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bedc9572098bf760800000000000000
+      internalID: 7492733048717106869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_153
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58390d11854574370800000000000000
+      internalID: 8306700774940906373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_154
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc33750b817d9cf80800000000000000
+      internalID: -8085695154929323059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_155
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125756b000f90eb80800000000000000
+      internalID: -8367513285114366687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_156
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae79bc229f03e2140800000000000000
+      internalID: 4696745307982764010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_157
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba08f9325164e760800000000000000
+      internalID: 7486215486384376497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cd3a25780d08ec0800000000000000
+      internalID: -3566621625251800062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_159
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b23791ffaf01040800000000000000
+      internalID: 4616465591605340977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_160
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8dedd4f439704f0800000000000000
+      internalID: -862558834800011017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_161
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6045abdbb19e2c330800000000000000
+      internalID: 3729799746772685830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_162
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bbe42b8c06cd3c0800000000000000
+      internalID: -4333482326336029843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_163
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947e33f1eb05253e0800000000000000
+      internalID: -2066500501512132791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_164
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ed80fa5f2528b40800000000000000
+      internalID: 5441002514974039575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_165
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaf001b421a4ad30800000000000000
+      internalID: 4441852311454677741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_166
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 79
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f196a0dca15a020800000000000000
+      internalID: 2352315848316231526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_167
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7552db66ad059040800000000000000
+      internalID: 4653640798381954431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_168
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23acb4d75b64cac60800000000000000
+      internalID: 7830711597395593778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_169
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 79
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6647095095152aa0800000000000000
+      internalID: -6186514803410385297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_170
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c58ffb9ff9ebc50800000000000000
+      internalID: 6682954792080792671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_171
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fe43c666b89b2b0800000000000000
+      internalID: -5568266192248574153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_172
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9556fdcc933596c50800000000000000
+      internalID: 6658945031759422809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_173
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f36ee74065c11a00800000000000000
+      internalID: 725578032297698289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa478fc277e100a0800000000000000
+      internalID: -6916993072370332934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88be018f72bd8fa0800000000000000
+      internalID: -5796780884660143987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_176
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789da1baf82f355a0800000000000000
+      internalID: -6533611935519549049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_177
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bec9a054d3473990800000000000000
+      internalID: -7406376483022057801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7695be4fdfc84f850800000000000000
+      internalID: 6409903192018737511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_179
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e529b40b1e1c410800000000000000
+      internalID: 1495724698562092599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c8bdcd946a2e680800000000000000
+      internalID: -8727230291722400625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_181
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f127fb300b0124250800000000000000
+      internalID: 5927318407736160799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55b8713995302b80800000000000000
+      internalID: -8421672371106564771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_183
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74a9472c12470870800000000000000
+      internalID: 8648954298073982074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_184
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2083ea536414e00800000000000000
+      internalID: 1027179386387301098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_185
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f4c946d043f1ac0800000000000000
+      internalID: -3882327121642893541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_186
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab794000cd974360800000000000000
+      internalID: 7153859981065419688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_187
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4099f79475edf160800000000000000
+      internalID: 7061052079715487818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_188
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294842b9a496b0f50800000000000000
+      internalID: 6848683427498329234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_189
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f8adf95db3ea4f0800000000000000
+      internalID: -815648693811507347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_190
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d53d210c08d53530800000000000000
+      internalID: 3834208203846792662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_191
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9247c37274513c0800000000000000
+      internalID: -4389524027959137816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_192
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c8e92099630ab30800000000000000
+      internalID: 4296494075313294495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_193
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9075d85244b5804a0800000000000000
+      internalID: -6626946503429761271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_194
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92a0cb5eae6a0940800000000000000
+      internalID: 5263140809678561950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_195
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3b9b96947e0cc50800000000000000
+      internalID: 6683596149510222843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_196
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f543468e04596e0800000000000000
+      internalID: -1831486306598494349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_197
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5ee540e63d06390800000000000000
+      internalID: -7827023682896730688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_198
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c1522d3e3ace900800000000000000
+      internalID: 715126639723617343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_199
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13323f88235fd8ce0800000000000000
+      internalID: -1401194311647550671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_200
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e103ba4c998491a00800000000000000
+      internalID: 727692640063795230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_201
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e4b0cbffc9beaf0800000000000000
+      internalID: -366026322515112416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_202
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cf9c782a7c406b0800000000000000
+      internalID: -5330916558023033812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_203
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5af629ab61b9c70800000000000000
+      internalID: 8978795272669734368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_204
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495fb0e59147fc500800000000000000
+      internalID: 418680942669591956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_205
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca06559ca12bf1d60800000000000000
+      internalID: 7863199302528884908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_206
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f948572474ac90db0800000000000000
+      internalID: -4825103118344289121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_207
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea4788a175da1d00800000000000000
+      internalID: 944301756022999791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_208
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10687b468e32d0d0800000000000000
+      internalID: -3399586022198583269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_209
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242824a47f891a6f0800000000000000
+      internalID: -675090281258646974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_210
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb103aff8da529e70800000000000000
+      internalID: 9120452083426984380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_211
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf45077ce8974dcc0800000000000000
+      internalID: -3687188540771248900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_212
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac38b17583ef2f00800000000000000
+      internalID: 1094343396752374946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_213
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5df5c7db3848f30800000000000000
+      internalID: 4576927971173979638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_214
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 31
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a73e641ac45b280800000000000000
+      internalID: -9028225622431532422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_215
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49b90131102df430800000000000000
+      internalID: 3818243317289302351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_216
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 31
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e474b5e1e09b59ae0800000000000000
+      internalID: -1543123827014547634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_217
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 31
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e9a66e8998805f0800000000000000
+      internalID: -790230444809740723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_218
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a846a136c9c31d0800000000000000
+      internalID: -3369646471721481615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_219
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142ac749352b56480800000000000000
+      internalID: -8906516616012062143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_220
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dfd7c32f5e10fb0800000000000000
+      internalID: -4683209308928868974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_221
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3651600f155502d60800000000000000
+      internalID: 7863378759796528483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_222
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af4115f6fe10ad40800000000000000
+      internalID: 5593504783216496548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_223
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa557887189b6790800000000000000
+      internalID: -7535762324633331037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_224
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466fa8c80895f7960800000000000000
+      internalID: 7601893104673289828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_225
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4b8da61d9048910800000000000000
+      internalID: 1838605342919406775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a160881085174830800000000000000
+      internalID: 4055233629381484964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_227
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bee0e5c7ab476c80800000000000000
+      internalID: -8329605801846968653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_228
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46587fa5857fb8c60800000000000000
+      internalID: 7821617136714351972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_229
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96aa1cc201511070800000000000000
+      internalID: 8075324679308093083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_230
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbbd848f23af6e250800000000000000
+      internalID: 5973737052574374844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_231
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eb51fb5d853c500800000000000000
+      internalID: 415273265705369176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_232
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f76cf5edca90e00800000000000000
+      internalID: 1011529662410948486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_233
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8a75b65d4e249e0800000000000000
+      internalID: -1638495709129365299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_234
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ef777eb5a159040800000000000000
+      internalID: 4653654771985022588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_235
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29841049bd3a2a0e0800000000000000
+      internalID: -2260063899510290286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_236
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53f497b292501d70800000000000000
+      internalID: 9011793644467057498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_237
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263e84e4f2482bef0800000000000000
+      internalID: -93867303509630110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f2ef868854c23f0800000000000000
+      internalID: -924287371338436779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_239
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5983bf1384e265c0800000000000000
+      internalID: -4223562248696395429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_240
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7b76c258122e5f0800000000000000
+      internalID: -728983333821237263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_241
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f143d2bf0c55fb0800000000000000
+      internalID: -4659606054417195141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_242
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7ae6ae88b72bdb0800000000000000
+      internalID: -4777620426707785796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_243
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ad35ec31a54f0e0800000000000000
+      internalID: -2237064073783813516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_244
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb835841c7bfd9ca0800000000000000
+      internalID: -6008369817503582018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_245
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24229c44a3855a10800000000000000
+      internalID: 1897567559689053227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_246
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ef157394e797a80800000000000000
+      internalID: -8468598771367674212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_247
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7496a11229dbe230800000000000000
+      internalID: 3669265061771646079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_248
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bcafc74df66c000800000000000000
+      internalID: 55855003809270573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_249
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8854589692039ca0800000000000000
+      internalID: -6011458231785465718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_250
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf9f46f43ed01500800000000000000
+      internalID: 365035888869089227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_251
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aac86f125c17180800000000000000
+      internalID: -9119291020787537357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_252
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0ad705725172150800000000000000
+      internalID: 5847665899762196720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_253
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34279860ec4b8bc0800000000000000
+      internalID: -3779842935536278467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_254
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c111752e50f4eb0800000000000000
+      internalID: -4733558213661615080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_255
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533efa7b5f7bb00c0800000000000000
+      internalID: -4608387527706942667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_256
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d874c5c54dcd8b500800000000000000
+      internalID: 412322170545129357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_257
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4d5f77343b07b50800000000000000
+      internalID: 6588963357199815855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_258
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b357de721eee077e0800000000000000
+      internalID: -1769652002751679173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_259
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380e467f2b6c59eb0800000000000000
+      internalID: -4713642963016294269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_260
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b8fb325bc4ceb30800000000000000
+      internalID: 4317910483614010216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_261
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f95e0882514c4310800000000000000
+      internalID: 1390558207676406256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_262
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683659260da9df160800000000000000
+      internalID: 7060970010584638342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_263
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddb8559e6bb6ce30800000000000000
+      internalID: 4523508959366659547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_264
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6871ee455e33d500800000000000000
+      internalID: 419747726392129646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chairs_shadow_265
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 0
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c79f89390852ead0800000000000000
+      internalID: -2674478432060991545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chairs_shadow_0: 6730035409041687526
+      chairs_shadow_1: 7104644422786283089
+      chairs_shadow_10: 6388029321862790059
+      chairs_shadow_100: -4870202923686805800
+      chairs_shadow_101: -6895521292269745316
+      chairs_shadow_102: -7609539458285795329
+      chairs_shadow_103: 6716302897961897452
+      chairs_shadow_104: -3170280932048799179
+      chairs_shadow_105: -5088652687609718246
+      chairs_shadow_106: -8961388473483334346
+      chairs_shadow_107: -953581536365716719
+      chairs_shadow_108: -6091238897365502807
+      chairs_shadow_109: 6694284420182592991
+      chairs_shadow_11: 4373216204408016036
+      chairs_shadow_110: -7933722735103353756
+      chairs_shadow_111: 1081018181660683785
+      chairs_shadow_112: -4860360372480753710
+      chairs_shadow_113: 5320875238170353902
+      chairs_shadow_114: 4027474698490790492
+      chairs_shadow_115: -314620351984353146
+      chairs_shadow_116: -4329569420129938911
+      chairs_shadow_117: 6917869009235665448
+      chairs_shadow_118: 3977152970426807604
+      chairs_shadow_119: 2102922040996394278
+      chairs_shadow_12: -3696268277461850765
+      chairs_shadow_120: 4491311316671175704
+      chairs_shadow_121: 3413089642779499412
+      chairs_shadow_122: 3205876164919269658
+      chairs_shadow_123: 2528178979487288744
+      chairs_shadow_124: 8182329892719088627
+      chairs_shadow_125: 2631420933723353401
+      chairs_shadow_126: -1183749772488689080
+      chairs_shadow_127: 4941066643605746759
+      chairs_shadow_128: 769046305357675333
+      chairs_shadow_129: -1577007483020743281
+      chairs_shadow_13: 7115461674723133976
+      chairs_shadow_130: 9017578161261211711
+      chairs_shadow_131: -2101048142445496619
+      chairs_shadow_132: -8587377408663037595
+      chairs_shadow_133: -6400316711944291629
+      chairs_shadow_134: 4475297722876986173
+      chairs_shadow_135: -400334809230472368
+      chairs_shadow_136: 1720901352058139553
+      chairs_shadow_137: -3252710145158691265
+      chairs_shadow_138: -7655557983494031782
+      chairs_shadow_139: 5277092136559007093
+      chairs_shadow_14: -2149287969945520400
+      chairs_shadow_140: -7895567512133030388
+      chairs_shadow_141: 5446823882523731089
+      chairs_shadow_142: -7295670442383396335
+      chairs_shadow_143: -757543063124177129
+      chairs_shadow_144: -7452398104848917454
+      chairs_shadow_145: -4812947954624929232
+      chairs_shadow_146: 2769076636238242235
+      chairs_shadow_147: -5527147030187889786
+      chairs_shadow_148: 4251179988084218297
+      chairs_shadow_149: -671227826457125774
+      chairs_shadow_15: 6296893471608412954
+      chairs_shadow_150: -5958269699916130365
+      chairs_shadow_151: -90786406435772358
+      chairs_shadow_152: 7492733048717106869
+      chairs_shadow_153: 8306700774940906373
+      chairs_shadow_154: -8085695154929323059
+      chairs_shadow_155: -8367513285114366687
+      chairs_shadow_156: 4696745307982764010
+      chairs_shadow_157: 7486215486384376497
+      chairs_shadow_158: -3566621625251800062
+      chairs_shadow_159: 4616465591605340977
+      chairs_shadow_16: -5769552719085457139
+      chairs_shadow_160: -862558834800011017
+      chairs_shadow_161: 3729799746772685830
+      chairs_shadow_162: -4333482326336029843
+      chairs_shadow_163: -2066500501512132791
+      chairs_shadow_164: 5441002514974039575
+      chairs_shadow_165: 4441852311454677741
+      chairs_shadow_166: 2352315848316231526
+      chairs_shadow_167: 4653640798381954431
+      chairs_shadow_168: 7830711597395593778
+      chairs_shadow_169: -6186514803410385297
+      chairs_shadow_17: 2883486603822202213
+      chairs_shadow_170: 6682954792080792671
+      chairs_shadow_171: -5568266192248574153
+      chairs_shadow_172: 6658945031759422809
+      chairs_shadow_173: 725578032297698289
+      chairs_shadow_174: -6916993072370332934
+      chairs_shadow_175: -5796780884660143987
+      chairs_shadow_176: -6533611935519549049
+      chairs_shadow_177: -7406376483022057801
+      chairs_shadow_178: 6409903192018737511
+      chairs_shadow_179: 1495724698562092599
+      chairs_shadow_18: -1401116324431347336
+      chairs_shadow_180: -8727230291722400625
+      chairs_shadow_181: 5927318407736160799
+      chairs_shadow_182: -8421672371106564771
+      chairs_shadow_183: 8648954298073982074
+      chairs_shadow_184: 1027179386387301098
+      chairs_shadow_185: -3882327121642893541
+      chairs_shadow_186: 7153859981065419688
+      chairs_shadow_187: 7061052079715487818
+      chairs_shadow_188: 6848683427498329234
+      chairs_shadow_189: -815648693811507347
+      chairs_shadow_19: -4376023967368824113
+      chairs_shadow_190: 3834208203846792662
+      chairs_shadow_191: -4389524027959137816
+      chairs_shadow_192: 4296494075313294495
+      chairs_shadow_193: -6626946503429761271
+      chairs_shadow_194: 5263140809678561950
+      chairs_shadow_195: 6683596149510222843
+      chairs_shadow_196: -1831486306598494349
+      chairs_shadow_197: -7827023682896730688
+      chairs_shadow_198: 715126639723617343
+      chairs_shadow_199: -1401194311647550671
+      chairs_shadow_2: 4410155727771200562
+      chairs_shadow_20: -7109707840948026707
+      chairs_shadow_200: 727692640063795230
+      chairs_shadow_201: -366026322515112416
+      chairs_shadow_202: -5330916558023033812
+      chairs_shadow_203: 8978795272669734368
+      chairs_shadow_204: 418680942669591956
+      chairs_shadow_205: 7863199302528884908
+      chairs_shadow_206: -4825103118344289121
+      chairs_shadow_207: 944301756022999791
+      chairs_shadow_208: -3399586022198583269
+      chairs_shadow_209: -675090281258646974
+      chairs_shadow_21: -3364169500012286389
+      chairs_shadow_210: 9120452083426984380
+      chairs_shadow_211: -3687188540771248900
+      chairs_shadow_212: 1094343396752374946
+      chairs_shadow_213: 4576927971173979638
+      chairs_shadow_214: -9028225622431532422
+      chairs_shadow_215: 3818243317289302351
+      chairs_shadow_216: -1543123827014547634
+      chairs_shadow_217: -790230444809740723
+      chairs_shadow_218: -3369646471721481615
+      chairs_shadow_219: -8906516616012062143
+      chairs_shadow_22: 2079062884764648730
+      chairs_shadow_220: -4683209308928868974
+      chairs_shadow_221: 7863378759796528483
+      chairs_shadow_222: 5593504783216496548
+      chairs_shadow_223: -7535762324633331037
+      chairs_shadow_224: 7601893104673289828
+      chairs_shadow_225: 1838605342919406775
+      chairs_shadow_226: 4055233629381484964
+      chairs_shadow_227: -8329605801846968653
+      chairs_shadow_228: 7821617136714351972
+      chairs_shadow_229: 8075324679308093083
+      chairs_shadow_23: 5578834611231291699
+      chairs_shadow_230: 5973737052574374844
+      chairs_shadow_231: 415273265705369176
+      chairs_shadow_232: 1011529662410948486
+      chairs_shadow_233: -1638495709129365299
+      chairs_shadow_234: 4653654771985022588
+      chairs_shadow_235: -2260063899510290286
+      chairs_shadow_236: 9011793644467057498
+      chairs_shadow_237: -93867303509630110
+      chairs_shadow_238: -924287371338436779
+      chairs_shadow_239: -4223562248696395429
+      chairs_shadow_24: 5507007604370759961
+      chairs_shadow_240: -728983333821237263
+      chairs_shadow_241: -4659606054417195141
+      chairs_shadow_242: -4777620426707785796
+      chairs_shadow_243: -2237064073783813516
+      chairs_shadow_244: -6008369817503582018
+      chairs_shadow_245: 1897567559689053227
+      chairs_shadow_246: -8468598771367674212
+      chairs_shadow_247: 3669265061771646079
+      chairs_shadow_248: 55855003809270573
+      chairs_shadow_249: -6011458231785465718
+      chairs_shadow_25: 7494985601527932258
+      chairs_shadow_250: 365035888869089227
+      chairs_shadow_251: -9119291020787537357
+      chairs_shadow_252: 5847665899762196720
+      chairs_shadow_253: -3779842935536278467
+      chairs_shadow_254: -4733558213661615080
+      chairs_shadow_255: -4608387527706942667
+      chairs_shadow_256: 412322170545129357
+      chairs_shadow_257: 6588963357199815855
+      chairs_shadow_258: -1769652002751679173
+      chairs_shadow_259: -4713642963016294269
+      chairs_shadow_26: -1434911929329459736
+      chairs_shadow_260: 4317910483614010216
+      chairs_shadow_261: 1390558207676406256
+      chairs_shadow_262: 7060970010584638342
+      chairs_shadow_263: 4523508959366659547
+      chairs_shadow_264: 419747726392129646
+      chairs_shadow_265: -2674478432060991545
+      chairs_shadow_27: 6838685177508553214
+      chairs_shadow_28: -1784309315129644139
+      chairs_shadow_29: 9083491215918960457
+      chairs_shadow_3: 6534315962880160530
+      chairs_shadow_30: 8402382941105249519
+      chairs_shadow_31: 6314025316382389273
+      chairs_shadow_32: 4034411727434514360
+      chairs_shadow_33: 945114296458714995
+      chairs_shadow_34: 1736918500714430869
+      chairs_shadow_35: 4912333875461638605
+      chairs_shadow_36: 5210998303477736404
+      chairs_shadow_37: 8272339561126882807
+      chairs_shadow_38: 7313551310259398838
+      chairs_shadow_39: 7336239998867494561
+      chairs_shadow_4: 7801687449917318060
+      chairs_shadow_40: -5704257070141733696
+      chairs_shadow_41: 4493103327000807354
+      chairs_shadow_42: -8015760936217998348
+      chairs_shadow_43: 3848006044315544935
+      chairs_shadow_44: -1193175910425450565
+      chairs_shadow_45: 2179660659803453305
+      chairs_shadow_46: -2699074205243403425
+      chairs_shadow_47: 1927031802176130456
+      chairs_shadow_48: -1909951073008811059
+      chairs_shadow_49: 2417748527714606411
+      chairs_shadow_5: -6478048011249402240
+      chairs_shadow_50: -3403207287890887776
+      chairs_shadow_51: -3887606558972356056
+      chairs_shadow_52: 7118726853492298109
+      chairs_shadow_53: 7064027875530919429
+      chairs_shadow_54: -988511270098317772
+      chairs_shadow_55: 3993142781139124242
+      chairs_shadow_56: -1521766681463721268
+      chairs_shadow_57: -8785132245745922535
+      chairs_shadow_58: -4385591920869097531
+      chairs_shadow_59: 3051944663235204404
+      chairs_shadow_6: 6658548378178175319
+      chairs_shadow_60: -3797190772432313896
+      chairs_shadow_61: 1290078340263555659
+      chairs_shadow_62: -8921636775688424668
+      chairs_shadow_63: -2032954464083320066
+      chairs_shadow_64: 6329963936433431696
+      chairs_shadow_65: 8822355213240650142
+      chairs_shadow_66: 7409185810807812479
+      chairs_shadow_67: 6617778227769277795
+      chairs_shadow_68: 2157739519601079879
+      chairs_shadow_69: 8620972426457097589
+      chairs_shadow_7: 1160951747214575958
+      chairs_shadow_70: 4038585365504587107
+      chairs_shadow_71: -3796430676417002995
+      chairs_shadow_72: 1817321289374318684
+      chairs_shadow_73: 6701460150560885451
+      chairs_shadow_74: 6318391719763000283
+      chairs_shadow_75: 776514769054778969
+      chairs_shadow_76: -368117746190500323
+      chairs_shadow_77: -3609976914073829857
+      chairs_shadow_78: -2502833912089123812
+      chairs_shadow_79: 6399398282426046899
+      chairs_shadow_8: 5576578365127982507
+      chairs_shadow_80: -2658404294257512966
+      chairs_shadow_81: -6492100387906112123
+      chairs_shadow_82: 6841452086122006753
+      chairs_shadow_83: -5828821165854099526
+      chairs_shadow_84: 6492589425106692129
+      chairs_shadow_85: -2947931635327135397
+      chairs_shadow_86: -8258364471943937355
+      chairs_shadow_87: 882103887736525881
+      chairs_shadow_88: -8282371968161600734
+      chairs_shadow_89: -2961576358034833891
+      chairs_shadow_9: 4358478101904989556
+      chairs_shadow_90: -6908778071881777754
+      chairs_shadow_91: 8386545837945461133
+      chairs_shadow_92: -5833189355748722675
+      chairs_shadow_93: 5710884063459661677
+      chairs_shadow_94: 3888488241201929182
+      chairs_shadow_95: 1255867780369953457
+      chairs_shadow_96: -4874986651222081116
+      chairs_shadow_97: 1643153614950573699
+      chairs_shadow_98: 1495699367869510489
+      chairs_shadow_99: 905823326944082232
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

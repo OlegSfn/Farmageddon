@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78031fa064404b47876bdb49e3f160f4, type: 3}
+  m_Name: Eggplant
+  m_EditorClassIdentifier: 
+  growthStages:
+  - {fileID: -2012337011979775192, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -4575816753808298824, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 8421224318856796899, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -3799802625021485980, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 3851257118663486447, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 1472613158470581051, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesWet:
+  - {fileID: -262218431687743453, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -6068185578083356879, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 3564415636936848665, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: -5241487548363782093, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 967488724498540694, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  - {fileID: 6979563000853639454, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
+  growthStagesTimes:
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 100
+  maxHumidity: 200

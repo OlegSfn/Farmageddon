@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 1591159a73df248809aacb52c87c449a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7798708188708095472
+    second: squirrel_grey_animations_0
+  - first:
+      213: -2386768754677380911
+    second: squirrel_grey_animations_1
+  - first:
+      213: 5841178834446873625
+    second: squirrel_grey_animations_2
+  - first:
+      213: -7700561065773557227
+    second: squirrel_grey_animations_3
+  - first:
+      213: -7972327105774173996
+    second: squirrel_grey_animations_4
+  - first:
+      213: -6013032021620516812
+    second: squirrel_grey_animations_5
+  - first:
+      213: 7668898639275836065
+    second: squirrel_grey_animations_6
+  - first:
+      213: 5072666553469835132
+    second: squirrel_grey_animations_7
+  - first:
+      213: 672887439174486863
+    second: squirrel_grey_animations_8
+  - first:
+      213: 306134344737529424
+    second: squirrel_grey_animations_9
+  - first:
+      213: -3123754109908538669
+    second: squirrel_grey_animations_10
+  - first:
+      213: -908688754410926265
+    second: squirrel_grey_animations_11
+  - first:
+      213: 8434837881800009838
+    second: squirrel_grey_animations_12
+  - first:
+      213: 2181668009824882723
+    second: squirrel_grey_animations_13
+  - first:
+      213: 2100236432380928087
+    second: squirrel_grey_animations_14
+  - first:
+      213: -5793061441606815068
+    second: squirrel_grey_animations_15
+  - first:
+      213: -4603829943056127285
+    second: squirrel_grey_animations_16
+  - first:
+      213: -6107021108264081500
+    second: squirrel_grey_animations_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: squirrel_grey_animations_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 94
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f540ee37c39a3c60800000000000000
+      internalID: 7798708188708095472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 96
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d80478967e70eed0800000000000000
+      internalID: -2386768754677380911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 97
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9147cb8b339001150800000000000000
+      internalID: 5841178834446873625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 94
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a1d5f828c122590800000000000000
+      internalID: -7700561065773557227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 96
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0cc1b8cba9c5190800000000000000
+      internalID: -7972327105774173996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 97
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43892481c3b6d8ca0800000000000000
+      internalID: -6013032021620516812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2438c4ea66d6a60800000000000000
+      internalID: 7668898639275836065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 77
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77139faa5bb56640800000000000000
+      internalID: 5072666553469835132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 75
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b41d19f83965900800000000000000
+      internalID: 672887439174486863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 77
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e90a7809b9f3400800000000000000
+      internalID: 306134344737529424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 56
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da2c39ff2236a4d0800000000000000
+      internalID: -3123754109908538669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 56
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74fc1fd6460b363f0800000000000000
+      internalID: -908688754410926265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68a2b22d509e0570800000000000000
+      internalID: 8434837881800009838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 37
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3201277fe77d64e10800000000000000
+      internalID: 2181668009824882723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750266068e9852d10800000000000000
+      internalID: 2100236432380928087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a27303df49ea9fa0800000000000000
+      internalID: -5793061441606815068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca25d51f09eb10c0800000000000000
+      internalID: -4603829943056127285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: squirrel_grey_animations_17
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a76b1e88a08f3ba0800000000000000
+      internalID: -6107021108264081500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      squirrel_grey_animations_0: 7798708188708095472
+      squirrel_grey_animations_1: -2386768754677380911
+      squirrel_grey_animations_10: -3123754109908538669
+      squirrel_grey_animations_11: -908688754410926265
+      squirrel_grey_animations_12: 8434837881800009838
+      squirrel_grey_animations_13: 2181668009824882723
+      squirrel_grey_animations_14: 2100236432380928087
+      squirrel_grey_animations_15: -5793061441606815068
+      squirrel_grey_animations_16: -4603829943056127285
+      squirrel_grey_animations_17: -6107021108264081500
+      squirrel_grey_animations_2: 5841178834446873625
+      squirrel_grey_animations_3: -7700561065773557227
+      squirrel_grey_animations_4: -7972327105774173996
+      squirrel_grey_animations_5: -6013032021620516812
+      squirrel_grey_animations_6: 7668898639275836065
+      squirrel_grey_animations_7: 5072666553469835132
+      squirrel_grey_animations_8: 672887439174486863
+      squirrel_grey_animations_9: 306134344737529424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
