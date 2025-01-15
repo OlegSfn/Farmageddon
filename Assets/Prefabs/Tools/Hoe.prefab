@@ -100,6 +100,9 @@ MonoBehaviour:
   cursorPrefab: {fileID: 2617186594551480224, guid: 704927bf6f6e7424b9d646659e0dfe10, type: 3}
   builtPrefab: {fileID: 9220503777643897418, guid: fcf819fea9521ea45953de12a90e34b4, type: 3}
   item: {fileID: 2254435481645211393}
+  includeTagsForBuilding: []
+  excludeTagsForBuilding:
+  - Seedbed
 --- !u!61 &7723830839423652489
 BoxCollider2D:
   m_ObjectHideFlags: 0

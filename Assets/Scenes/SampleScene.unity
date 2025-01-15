@@ -42537,6 +42537,9 @@ MonoBehaviour:
   cursorPrefab: {fileID: 4362493658385370199, guid: b3ece06ae4eaa234ba35c9e123d98bec, type: 3}
   builtPrefab: {fileID: 4362493658385370199, guid: 838d76e18450d5542b662157e319da9a, type: 3}
   item: {fileID: 2079610650913928370}
+  includeTagsForBuilding:
+  - Seedbed
+  excludeTagsForBuilding: []
 --- !u!212 &3736282307206953042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43040,6 +43043,9 @@ MonoBehaviour:
   cursorPrefab: {fileID: 2617186594551480224, guid: 704927bf6f6e7424b9d646659e0dfe10, type: 3}
   builtPrefab: {fileID: 9220503777643897418, guid: fcf819fea9521ea45953de12a90e34b4, type: 3}
   item: {fileID: 2254435481779416793}
+  includeTagsForBuilding: []
+  excludeTagsForBuilding:
+  - Seedbed
 --- !u!4 &7302790478096845512
 Transform:
   m_ObjectHideFlags: 0
@@ -43296,6 +43302,9 @@ MonoBehaviour:
   cursorPrefab: {fileID: 7953803340036579496, guid: 770d4cc174fdb34479a30c17a78c89b1, type: 3}
   builtPrefab: {fileID: 7953803340036579496, guid: 9567f6167ae148941822d8fecc1cb9ec, type: 3}
   item: {fileID: 3587199300920642996}
+  includeTagsForBuilding:
+  - Seedbed
+  excludeTagsForBuilding: []
 --- !u!114 &8278603848965521324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43311,6 +43320,9 @@ MonoBehaviour:
   cursorPrefab: {fileID: 7953803340036579496, guid: 9bcbc7781f5aca644969dde5c8830f03, type: 3}
   builtPrefab: {fileID: 7953803340036579496, guid: 82007e29909ca8a42bd2a791f079c41e, type: 3}
   item: {fileID: 3587199301299664928}
+  includeTagsForBuilding:
+  - Seedbed
+  excludeTagsForBuilding: []
 --- !u!1 &8346187400073602720
 GameObject:
   m_ObjectHideFlags: 0

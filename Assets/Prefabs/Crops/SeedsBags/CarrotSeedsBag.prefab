@@ -152,6 +152,9 @@ MonoBehaviour:
   cursorPrefab: {fileID: 4362493658385370199, guid: b3ece06ae4eaa234ba35c9e123d98bec, type: 3}
   builtPrefab: {fileID: 4362493658385370199, guid: 838d76e18450d5542b662157e319da9a, type: 3}
   item: {fileID: 2079610651022446779}
+  includeTagsForBuilding:
+  - Seedbed
+  excludeTagsForBuilding: []
 --- !u!114 &2079610651022446779
 MonoBehaviour:
   m_ObjectHideFlags: 0
