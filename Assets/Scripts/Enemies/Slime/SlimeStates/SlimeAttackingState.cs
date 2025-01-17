@@ -33,7 +33,11 @@ namespace Enemies.Slime.SlimeStates
         public override void OnUpdate()
         {
             base.OnUpdate();
-            NavMeshAgent.SetDestination(Slime.Target.position);
+            // Casting null to UnityEngine.Object to check if Slime.Target is destroyed. 
+            if (Slime.Target != (UnityEngine.Object)null)
+            {
+                NavMeshAgent.SetDestination(Slime.Target.position);
+            }
         }
 
         public override void OnAnimationEvent(AnimationEvent animationEvent)
