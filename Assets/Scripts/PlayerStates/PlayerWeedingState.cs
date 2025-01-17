@@ -13,6 +13,7 @@ namespace PlayerStates
         public override void OnEnter()
         {
             base.OnEnter();
+            Rigidbody2D.linearVelocity = Vector2.zero;
             Animator.CrossFade(WeedingAnimHash, CrossFadeTime);
         }
         
