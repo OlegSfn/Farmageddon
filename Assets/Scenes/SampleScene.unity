@@ -43134,6 +43134,7 @@ MonoBehaviour:
   includeTagsForBuilding: []
   excludeTagsForBuilding:
   - Seedbed
+  - Crop
 --- !u!4 &7302790478096845512
 Transform:
   m_ObjectHideFlags: 0

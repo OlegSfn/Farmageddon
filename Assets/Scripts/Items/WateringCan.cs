@@ -15,6 +15,12 @@ namespace Items
         private const string CropTag = "Crop";
         private const string WaterSourceTag = "WaterSource";
 
+        protected override void Start()
+        {
+            base.Start();
+            ContactFilter.useTriggers = true;
+        }
+        
         protected override void UseItem(Vector3Int cursorPosition)
         {
             WaterCrop();
