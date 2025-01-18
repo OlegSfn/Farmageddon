@@ -13,7 +13,7 @@ namespace Shop
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
                 onShopMenuClosed?.Invoke();
             }
@@ -34,15 +34,17 @@ namespace Shop
     
         public void CloseShop()
         {
+            gameObject.SetActive(false);
             onShopMenuClosed?.Invoke();
-            shopInteractor.enabled = false;
-            shopInteractorHelper.SetActive(false);
+            shopInteractor.enabled = true;
+            shopInteractorHelper.SetActive(true);
         }
     
         public void OpenShop()
         {
-            shopInteractor.enabled = true;
-            shopInteractorHelper.SetActive(true);
+            gameObject.SetActive(true);
+            shopInteractor.enabled = false;
+            shopInteractorHelper.SetActive(false);
         }
     }
 }
