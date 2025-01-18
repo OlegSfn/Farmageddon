@@ -19,6 +19,7 @@ namespace Planting
         
         private void Start()
         {
+            Humidity = cropData.maxHumidity;
             growthTime = cropData.growthStagesTimes.Sum();
             StartCoroutine(Grow());
         }
