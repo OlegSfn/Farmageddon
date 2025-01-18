@@ -47,11 +47,6 @@ namespace Inventory
             int quantityToAdd = quantity;
             foreach (var inventorySlot in inventorySlots)
             {
-                if (quantityToAdd <= 0)
-                {
-                    Destroy(item.gameObject);
-                    return;
-                }
                 if (inventorySlot.item != null && inventorySlot.item.ItemName == item.ItemName)
                 {
                     int quantityToTransfer = Mathf.Min(quantityToAdd, item.MaxStackQuantity - inventorySlot.item.Quantity);
@@ -60,39 +55,32 @@ namespace Inventory
                     inventorySlot.UpdateUI();
                     quantityToAdd -= quantityToTransfer;
                 }
+                
+                if (quantityToAdd <= 0)
+                {
+                    Destroy(item.gameObject);
+                    return;
+                }
             }
         
             foreach (var inventorySlot in inventorySlots)
             {
-                if (quantityToAdd <= 0)
+                if (inventorySlot.item == null)
                 {
-                    Destroy(item.gameObject);
+                    inventorySlot.item = item;
+                    item.transform.position = GameManager.Instance.objectsPool.position;
+                    inventorySlot.item.Quantity = quantityToAdd;
+                    ChangeItemsCount(item.ItemName, inventorySlot.item.Quantity);
+                    inventorySlot.item.inventorySlot = inventorySlot;
+                    inventorySlot.UpdateUI();
                     if (inventorySlots[activeItemIndex].item != null)
                     {
                         inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>().SetActive(true);
                     }
+
                     return;
                 }
-                if (inventorySlot.item == null)
-                {
-                    inventorySlot.item = Instantiate(item.gameObject, GameManager.Instance.objectsPool.position, Quaternion.identity).GetComponent<InventoryItem>();
-                    inventorySlot.item.Quantity = Mathf.Min(quantityToAdd, item.MaxStackQuantity);
-                    ChangeItemsCount(item.ItemName, inventorySlot.item.Quantity);
-                    inventorySlot.item.inventorySlot = inventorySlot;
-                    inventorySlot.UpdateUI();
-                    quantityToAdd -= inventorySlot.item.Quantity;
-                }
             }
-        
-            while(quantityToAdd > 0)
-            {
-                Vector2 randomPosition = (Vector2)GameManager.Instance.playerTransform.position + Random.insideUnitCircle * 0.5f;
-                InventoryItem newItem = Instantiate(item.gameObject, randomPosition, Quaternion.identity).GetComponent<InventoryItem>();
-                newItem.Quantity = Mathf.Min(quantityToAdd, item.MaxStackQuantity);
-                quantityToAdd -= newItem.Quantity;
-            }
-        
-            Destroy(item.gameObject);
         }
     
         public void DropItem(InventoryItem item)
@@ -110,8 +98,7 @@ namespace Inventory
             item.transform.position = randomPosition;
             item.StartCoroutine(item.HandleDroppingItem());
         }
-
-
+        
         private void ChangeActiveItem(int index)
         {
             if (activeItemIndex == index)
@@ -132,8 +119,7 @@ namespace Inventory
                 inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>().SetActive(true);
             }
         }
-    
-    
+        
         public void RemoveItems(string itemName, int quantity)
         {
             int quantityToRemove = quantity;

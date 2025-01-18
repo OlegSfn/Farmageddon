@@ -58,12 +58,21 @@ namespace Shop
 
         public void Buy()
         {
-            if (GameManager.Instance.money < _price * _itemCount) return;
-        
-            GameManager gameManager = GameManager.Instance;
-            InventoryItem item = Instantiate(itemData.itemPrefab, gameManager.objectsPool.position, Quaternion.identity).GetComponent<InventoryItem>();
+            if (GameManager.Instance.money < _price * _itemCount)
+            {
+                return;
+            }
+            
             GameManager.Instance.money -= _price * _itemCount;
-            GameManager.Instance.inventory.AddItems(item, _itemCount);
+            int quantityToAdd = _itemCount;
+            while(quantityToAdd > 0)
+            {
+                Vector2 randomPosition = (Vector2)GameManager.Instance.playerTransform.position + Random.insideUnitCircle * 0.5f;
+                InventoryItem newItem = Instantiate(itemData.itemPrefab, randomPosition, Quaternion.identity).GetComponent<InventoryItem>();
+                newItem.Quantity = Mathf.Min(quantityToAdd, newItem.MaxStackQuantity);
+                quantityToAdd -= newItem.Quantity;
+            }
+            
             shop.UpdateUI();
         }
 
