@@ -8,11 +8,13 @@ namespace Inventory
     {
         [SerializeField] private List<InventorySlot> inventorySlots;
     
-        public int activeItemIndex;
+        public int activeItemIndex { get; set; }
     
         public float dragItemAlpha = 0.6f;
     
         public readonly Dictionary<string, int> ItemQuantities = new();
+        
+        public InventoryItem CurrentActiveItem => inventorySlots[activeItemIndex].item;
 
         private void Update()
         {

@@ -1,4 +1,7 @@
 using System.Collections.Generic;
+using Inventory;
+using Items;
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -31,12 +34,13 @@ namespace PlayerStates
             {
                 List<Collider2D> colliders = new List<Collider2D>();
                 toolCollider.Overlap(contactFilter, colliders);
-                
+
+                Sword sword = GameManager.Instance.inventory.CurrentActiveItem.GetComponent<Sword>();
                 foreach (var col in colliders)
                 {
                     if (col.CompareTag("Enemy"))
                     {
-                        col.GetComponent<HealthController>().TakeDamage(5);
+                        col.GetComponent<HealthController>().TakeDamage(sword.swordData.damage);
                     }
                 }
             }
