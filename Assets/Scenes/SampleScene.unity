@@ -1400,11 +1400,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 1084685845}
   itemIcon: {fileID: 1519156019}
   itemQuantityText: {fileID: 758999457}
   canvasGroup: {fileID: 101778955}
+  <slotBorder>k__BackingField: {fileID: 101778958}
 --- !u!222 &101778957
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1511,11 +1510,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 1821430945}
   itemIcon: {fileID: 1897260427}
   itemQuantityText: {fileID: 2006169455}
   canvasGroup: {fileID: 114441921}
+  <slotBorder>k__BackingField: {fileID: 1821430945}
 --- !u!222 &114441923
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1755,11 +1753,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 875804059}
   itemIcon: {fileID: 400952272}
   itemQuantityText: {fileID: 1937373770}
   canvasGroup: {fileID: 136622831}
+  <slotBorder>k__BackingField: {fileID: 875804059}
 --- !u!222 &136622833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4505,11 +4502,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 1728489414}
   itemIcon: {fileID: 78879429}
   itemQuantityText: {fileID: 1266110917}
   canvasGroup: {fileID: 378407856}
+  <slotBorder>k__BackingField: {fileID: 1728489414}
 --- !u!222 &378407858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6171,11 +6167,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 1798741840}
   itemIcon: {fileID: 374893521}
   itemQuantityText: {fileID: 1488304707}
   canvasGroup: {fileID: 505698269}
+  <slotBorder>k__BackingField: {fileID: 1798741840}
 --- !u!222 &505698271
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9595,7 +9590,6 @@ MonoBehaviour:
   - {fileID: 114441922}
   - {fileID: 1865767317}
   - {fileID: 136622832}
-  activeItemIndex: 0
   dragItemAlpha: 0.6
 --- !u!1 &804424035
 GameObject:
@@ -20567,11 +20561,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 1742873544}
   itemIcon: {fileID: 954585974}
   itemQuantityText: {fileID: 362082689}
   canvasGroup: {fileID: 1287275552}
+  <slotBorder>k__BackingField: {fileID: 1742873544}
 --- !u!225 &1287275552
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -32086,11 +32079,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 883596122}
   itemIcon: {fileID: 1568877851}
   itemQuantityText: {fileID: 1391583904}
   canvasGroup: {fileID: 1762818627}
+  <slotBorder>k__BackingField: {fileID: 883596122}
 --- !u!222 &1762818629
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33366,11 +33358,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 2144517753}
   itemIcon: {fileID: 1925816652}
   itemQuantityText: {fileID: 902099258}
   canvasGroup: {fileID: 1829621126}
+  <slotBorder>k__BackingField: {fileID: 2144517753}
 --- !u!222 &1829621128
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33738,11 +33729,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 469267235}
   itemIcon: {fileID: 533790150}
   itemQuantityText: {fileID: 792424542}
   canvasGroup: {fileID: 1865767316}
+  <slotBorder>k__BackingField: {fileID: 469267235}
 --- !u!222 &1865767318
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34459,11 +34449,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inventory: {fileID: 798270326}
-  item: {fileID: 0}
-  slotBorder: {fileID: 1679623384}
   itemIcon: {fileID: 1354893599}
   itemQuantityText: {fileID: 242482752}
   canvasGroup: {fileID: 1963885671}
+  <slotBorder>k__BackingField: {fileID: 1679623384}
 --- !u!222 &1963885673
 CanvasRenderer:
   m_ObjectHideFlags: 0
