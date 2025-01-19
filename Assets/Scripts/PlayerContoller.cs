@@ -63,8 +63,8 @@ public class PlayerContoller : MonoBehaviour
 
     void Update()
     {
-        _stateMachine.Update();
         ReadInput();
+        _stateMachine.Update();
     }
     
     public void AnimationEvent(AnimationEvent animationEvent)

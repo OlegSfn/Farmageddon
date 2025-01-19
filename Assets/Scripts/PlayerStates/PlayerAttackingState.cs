@@ -14,6 +14,8 @@ namespace PlayerStates
         
         private const float AttackCooldown = 0.01f;
         private float _lastAttackTime;
+
+        private bool _canExit;
         
         public PlayerAttackingState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D, Collider2D toolCollider) : base(playerContoller, animator, rigidbody2D)
         {
@@ -25,10 +27,20 @@ namespace PlayerStates
         public override void OnEnter()
         {
             base.OnEnter();
+            _canExit = false;
             Rigidbody2D.linearVelocity = Vector2.zero;
             Animator.CrossFade(AttackingAnimHash, CrossFadeTime);
         }
-        
+
+        public override void OnUpdate()
+        {
+            base.OnUpdate();
+            if (PlayerContoller.Input != Vector2.zero && _canExit)
+            {
+                PlayerContoller.IsAttacking = false;
+            }
+        }
+
         public override void OnAnimationEvent(AnimationEvent animationEvent)
         {
             base.OnAnimationEvent(animationEvent);
@@ -39,6 +51,9 @@ namespace PlayerStates
             else if (animationEvent.stringParameter == "StopAttacking")
             {
                 PlayerContoller.IsAttacking = false;
+            } else if (animationEvent.stringParameter == "CanExit")
+            {
+                _canExit = true;
             }
         }
 
