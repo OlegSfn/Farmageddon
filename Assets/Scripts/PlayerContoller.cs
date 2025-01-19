@@ -1,3 +1,4 @@
+using System;
 using Enemies.FSM.StateMachine;
 using Enemies.FSM.StateMachine.Predicates;
 using Inventory;
@@ -9,6 +10,7 @@ using UnityEngine;
 public class PlayerContoller : MonoBehaviour
 {
     [field: SerializeField] public float Speed { get; private set; }
+    [field: SerializeField] private Collider2D toolCollder;
 
     public Vector2 Input { get; private set; }
     public Vector2 LookDirection { get; private set; }
@@ -38,7 +40,7 @@ public class PlayerContoller : MonoBehaviour
     {
         _stateMachine = new StateMachine();
 
-        var attackingState = new PlayerAttackingState(this, _animator, _rb);
+        var attackingState = new PlayerAttackingState(this, _animator, _rb, toolCollder);
         var movementState = new PlayerMovementState(this, _animator, _rb);
         var wateringState = new PlayerWateringState(this, _animator, _rb);
         var weedingState = new PlayerWeedingState(this, _animator, _rb);
@@ -85,7 +87,7 @@ public class PlayerContoller : MonoBehaviour
             Mathf.Round(direction.y)
         );
     }
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         InventoryItem item = other.GetComponent<InventoryItem>();

@@ -1,4 +1,4 @@
-using Managers;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace PlayerStates
@@ -7,9 +7,14 @@ namespace PlayerStates
     {
         public override string Name => "Attacking";
 
-
-        public PlayerAttackingState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D) : base(playerContoller, animator, rigidbody2D)
+        private Collider2D toolCollider;
+        private readonly ContactFilter2D contactFilter;
+        
+        public PlayerAttackingState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D, Collider2D toolCollider) : base(playerContoller, animator, rigidbody2D)
         {
+            this.toolCollider = toolCollider;
+            contactFilter = new ContactFilter2D();
+            contactFilter.NoFilter();
         }
         
         public override void OnEnter()
@@ -24,8 +29,16 @@ namespace PlayerStates
             base.OnAnimationEvent(animationEvent);
             if (animationEvent.stringParameter == "ProcessAttack")
             {
-                //TODO: attack enemies. (get damage data from used item)
-                //TODO: setup collider in animator
+                List<Collider2D> colliders = new List<Collider2D>();
+                toolCollider.Overlap(contactFilter, colliders);
+                
+                foreach (var col in colliders)
+                {
+                    if (col.CompareTag("Enemy"))
+                    {
+                        col.GetComponent<HealthController>().TakeDamage(5);
+                    }
+                }
             }
             else if (animationEvent.stringParameter == "StopAttacking")
             {

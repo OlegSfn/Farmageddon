@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7334568018783760240}
   - component: {fileID: 2028904335945284903}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Slime
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7302790476881698102}
   - component: {fileID: 8767175631464892830}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: AttackSight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,9 +169,9 @@ GameObject:
   - component: {fileID: 4547232413364045917}
   - component: {fileID: 7435137044000053386}
   - component: {fileID: 8978705926293752985}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RedSlime
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,22 +277,7 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: ebf8e06bd9d2c624b845f9cbe6f83ff2, type: 2}
   chasingArea: {fileID: 5692330004124238490}
   attackArea: {fileID: 8767175631464892830}
-  contactFilter2D:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
-  navMeshAgent: {fileID: 8978705926293752985}
-  animator: {fileID: 107585550465997086}
+  isAlive: 0
 --- !u!114 &7435137044000053386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,11 +291,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
-  OnDeath:
+  onDeath:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4547232413364045917}
-        m_TargetAssemblyTypeName: Slime, Assembly-CSharp
+        m_TargetAssemblyTypeName: Enemies.Slime.Slime, Assembly-CSharp
         m_MethodName: Die
         m_Mode: 1
         m_Arguments:
@@ -353,7 +338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6930771858223155242}
   - component: {fileID: 5692330004124238490}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RangeSight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -420,7 +405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1937764441288904319}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Vfx
   m_TagString: Untagged
   m_Icon: {fileID: 0}

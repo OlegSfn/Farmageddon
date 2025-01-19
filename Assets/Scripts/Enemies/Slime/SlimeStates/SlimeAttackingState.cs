@@ -61,10 +61,10 @@ namespace Enemies.Slime.SlimeStates
 
             foreach (var collider in colliders)
             {
-                Health health = collider.GetComponent<Health>();
-                if (health != null && collider.CompareTag("Player") || collider.CompareTag("Building"))
+                HealthController healthController = collider.GetComponent<HealthController>();
+                if (healthController != null && collider.CompareTag("Player") || collider.CompareTag("Building"))
                 {
-                    health.TakeDamage(_damage);
+                    healthController.TakeDamage(_damage);
                     _lastAttackTime = Time.time;
                     return;
                 }

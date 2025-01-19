@@ -6,6 +6,7 @@ using Enemies.Slime.SlimeStates;
 using Managers;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Serialization;
 
 namespace Enemies.Slime
 {
@@ -23,6 +24,8 @@ namespace Enemies.Slime
         private StateMachine _stateMachine;
         private NavMeshAgent _navMeshAgent;
         private Animator _animator;
+        private HealthController healthController;
+        [SerializeField] public bool isAlive;
     
         public Transform Target { get; private set; }
 
@@ -30,6 +33,8 @@ namespace Enemies.Slime
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
+            healthController = GetComponent<HealthController>();
+            isAlive = true;
             InitNavMeshAgent();
             _contactFilter2D.NoFilter();
             InitPriorities();
@@ -67,10 +72,12 @@ namespace Enemies.Slime
             var wanderingState = new SlimeWanderingState(this, _navMeshAgent, _animator, 0.5f);
             var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackArea, _contactFilter2D, data.damage);
             var friendlyState = new SlimeFriendlyState(this, _navMeshAgent, _animator);
+            var dyingState = new SlimeDyingState(this, _navMeshAgent, _animator);
         
-            _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => !GameManager.Instance.dayNightManager.IsDay && Target is null));
-            _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => GameManager.Instance.dayNightManager.IsDay));
-            _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => Target is not null));
+            _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => isAlive && !GameManager.Instance.dayNightManager.IsDay && Target is null));
+            _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => isAlive && GameManager.Instance.dayNightManager.IsDay));
+            _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => isAlive && Target is not null));
+            _stateMachine.AddAnyTransition(dyingState, new FuncPredicate(() => !isAlive));
         
             _stateMachine.StartEntryState(wanderingState);
         }
@@ -92,7 +99,7 @@ namespace Enemies.Slime
 
         public void Die()
         {
-            _stateMachine.SetState(new SlimeDyingState(this, _navMeshAgent, _animator));
+            isAlive = false;
         }
     
         private IEnumerator FindTarget()

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Health : MonoBehaviour
+public class HealthController : MonoBehaviour
 {
     [SerializeField] private int maxHealth;
     [SerializeField] private UnityEvent onDeath;

@@ -162,13 +162,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -3753825769889500098, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
+      value: {fileID: -3650999980547822784, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
     - time: 0.21666667
-      value: {fileID: 776136188158623729, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
+      value: {fileID: -4817930497065428876, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
     - time: 0.45
-      value: {fileID: -7502302234203853145, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
+      value: {fileID: -1708070011268497312, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
     - time: 0.6666667
-      value: {fileID: -7573694343354198120, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
+      value: {fileID: 386161779962448203, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
     attribute: m_Sprite
     path: Vfx/Character/tool
     classID: 212
@@ -258,10 +258,10 @@ AnimationClip:
     - {fileID: 6461591440214420429, guid: 735e908a8d6264c9a99e861b4c784372, type: 3}
     - {fileID: -7487622163898639670, guid: 735e908a8d6264c9a99e861b4c784372, type: 3}
     - {fileID: -5016670918667981457, guid: 735e908a8d6264c9a99e861b4c784372, type: 3}
-    - {fileID: -3753825769889500098, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
-    - {fileID: 776136188158623729, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
-    - {fileID: -7502302234203853145, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
-    - {fileID: -7573694343354198120, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}
+    - {fileID: -3650999980547822784, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
+    - {fileID: -4817930497065428876, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
+    - {fileID: -1708070011268497312, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
+    - {fileID: 386161779962448203, guid: 1ba7e6e3392bd47958d0031bc6f0d6e8, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -413,6 +413,13 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.45
+    functionName: AnimationEvent
+    data: ProcessAttack
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.6666667
     functionName: AnimationEvent
     data: StopAttacking
