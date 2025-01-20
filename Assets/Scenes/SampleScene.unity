@@ -1329,6 +1329,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls: []
   onDeath:
     m_PersistentCalls:
       m_Calls: []
@@ -42473,6 +42476,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls: []
   onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -42861,7 +42867,6 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: ebf8e06bd9d2c624b845f9cbe6f83ff2, type: 2}
   chasingArea: {fileID: 5692330003311449444}
   attackArea: {fileID: 8767175630230904416}
-  isAlive: 0
 --- !u!212 &4593706533988251283
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43414,6 +43419,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4547232414510227363}
+        m_TargetAssemblyTypeName: Enemies.Slime.Slime, Assembly-CSharp
+        m_MethodName: set_isTakingDamage
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -43468,6 +43488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 982868396409242342}
+  - component: {fileID: 8978705924975614824}
   - component: {fileID: 5390368396832445258}
   - component: {fileID: 107585549447941856}
   - component: {fileID: 4547232414510227363}
@@ -43730,6 +43751,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls: []
   onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -43758,6 +43782,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 5
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls: []
   onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -43812,6 +43839,33 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!50 &8978705924975614824
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7716438297866883402}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!4 &9008548577292342829
 Transform:
   m_ObjectHideFlags: 0

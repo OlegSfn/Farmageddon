@@ -277,7 +277,6 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: ebf8e06bd9d2c624b845f9cbe6f83ff2, type: 2}
   chasingArea: {fileID: 5692330004124238490}
   attackArea: {fileID: 8767175631464892830}
-  isAlive: 0
 --- !u!114 &7435137044000053386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +290,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4547232413364045917}
+        m_TargetAssemblyTypeName: Enemies.Slime.Slime, Assembly-CSharp
+        m_MethodName: set_isTakingDamage
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onDeath:
     m_PersistentCalls:
       m_Calls:

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Enemies.FSM.StateMachine;
 using Enemies.FSM.StateMachine.Predicates;
@@ -6,7 +7,6 @@ using Enemies.Slime.SlimeStates;
 using Managers;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Serialization;
 
 namespace Enemies.Slime
 {
@@ -24,16 +24,15 @@ namespace Enemies.Slime
         private StateMachine _stateMachine;
         private NavMeshAgent _navMeshAgent;
         private Animator _animator;
-        private HealthController healthController;
-        [SerializeField] public bool isAlive;
-    
+        private bool isAlive;
+
+        public bool isTakingDamage { get; set; }
         public Transform Target { get; private set; }
 
         private void Start()
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
-            healthController = GetComponent<HealthController>();
             isAlive = true;
             InitNavMeshAgent();
             _contactFilter2D.NoFilter();
@@ -73,12 +72,15 @@ namespace Enemies.Slime
             var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackArea, _contactFilter2D, data.damage);
             var friendlyState = new SlimeFriendlyState(this, _navMeshAgent, _animator);
             var dyingState = new SlimeDyingState(this, _navMeshAgent, _animator);
-        
-            _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => isAlive && !GameManager.Instance.dayNightManager.IsDay && Target is null));
-            _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => isAlive && GameManager.Instance.dayNightManager.IsDay));
-            _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => isAlive && Target is not null));
+            var takingDamageState = new SlimeTakingDamageState(this, _navMeshAgent, _animator);
+
+            Func<bool> isAbleToAct = () => isAlive && !isTakingDamage;
+            _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => isAbleToAct() && !GameManager.Instance.dayNightManager.IsDay && Target is null));
+            _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => isAbleToAct() && GameManager.Instance.dayNightManager.IsDay));
+            _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => isAbleToAct() && Target is not null));
             _stateMachine.AddAnyTransition(dyingState, new FuncPredicate(() => !isAlive));
-        
+            _stateMachine.AddAnyTransition(takingDamageState, new FuncPredicate(() => isTakingDamage && isAlive));
+            
             _stateMachine.StartEntryState(wanderingState);
         }
 
