@@ -64,7 +64,8 @@ namespace Enemies.Slime.SlimeStates
                 HealthController healthController = collider.GetComponent<HealthController>();
                 if (healthController != null && collider.CompareTag("Player") || collider.CompareTag("Building"))
                 {
-                    healthController.TakeDamage(_damage);
+                    HitInfo hitInfo = new HitInfo(_damage, Slime.transform.position);
+                    healthController.TakeDamage(hitInfo);
                     _lastAttackTime = Time.time;
                     return;
                 }

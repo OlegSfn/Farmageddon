@@ -15,6 +15,8 @@ namespace PlayerStates
         protected static readonly int WeedingAnimHash = Animator.StringToHash("Weeding");
         protected static readonly int IdleAnimHash = Animator.StringToHash("Idle");
         protected static readonly int MovementAnimHash = Animator.StringToHash("Movement");
+        protected static readonly int TakingDamageAnimHash = Animator.StringToHash("TakingDamage");
+        protected static readonly int DyingAnimHash = Animator.StringToHash("Dying");
         
         private static readonly int LookDirXHash = Animator.StringToHash("LookDirX");
         private static readonly int LookDirYHash = Animator.StringToHash("LookDirY");
@@ -36,6 +38,11 @@ namespace PlayerStates
 
         public virtual void OnUpdate()
         {
+            if (PlayerContoller.IsTakingDamage || !PlayerContoller.IsAlive)
+            {
+                return;
+            }
+            
             Animator.SetFloat(VelX, PlayerContoller.Input.x);
             Animator.SetFloat(VelY, PlayerContoller.Input.y);
             Animator.SetFloat(LookDirXHash, PlayerContoller.LookDirection.x);

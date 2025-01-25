@@ -165,8 +165,8 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: VelX
     m_Mirror: 0
-  m_BlendParameter: VelX
-  m_BlendParameterY: VelY
+  m_BlendParameter: HitX
+  m_BlendParameterY: HitY
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
@@ -188,6 +188,18 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: VelY
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: HitX
+    m_Type: 1
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: HitY
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0

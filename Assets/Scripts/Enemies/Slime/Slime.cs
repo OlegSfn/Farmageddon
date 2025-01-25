@@ -20,10 +20,12 @@ namespace Enemies.Slime
         private Dictionary<string, int> _chasingPriorities;         
         private Dictionary<string, int> _attackingPriorities;   
     
+        private SlimeTakingDamageState _takingDamageState;
         private ContactFilter2D _contactFilter2D;
         private StateMachine _stateMachine;
         private NavMeshAgent _navMeshAgent;
         private Animator _animator;
+        private Collider2D _attackCollider;
         private bool isAlive;
 
         public bool isTakingDamage { get; set; }
@@ -34,6 +36,7 @@ namespace Enemies.Slime
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
             isAlive = true;
+            _attackCollider = GetComponent<Collider2D>();
             InitNavMeshAgent();
             _contactFilter2D.NoFilter();
             InitPriorities();
@@ -69,17 +72,17 @@ namespace Enemies.Slime
             _stateMachine = new StateMachine();
         
             var wanderingState = new SlimeWanderingState(this, _navMeshAgent, _animator, 0.5f);
-            var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackArea, _contactFilter2D, data.damage);
+            var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, _attackCollider, _contactFilter2D, data.damage);
             var friendlyState = new SlimeFriendlyState(this, _navMeshAgent, _animator);
             var dyingState = new SlimeDyingState(this, _navMeshAgent, _animator);
-            var takingDamageState = new SlimeTakingDamageState(this, _navMeshAgent, _animator);
+            _takingDamageState = new SlimeTakingDamageState(this, _navMeshAgent, _animator);
 
-            Func<bool> isAbleToAct = () => isAlive && !isTakingDamage;
-            _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => isAbleToAct() && !GameManager.Instance.dayNightManager.IsDay && Target is null));
-            _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => isAbleToAct() && GameManager.Instance.dayNightManager.IsDay));
-            _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => isAbleToAct() && Target is not null));
+            bool IsAbleToAct() => isAlive && !isTakingDamage;
+            _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => IsAbleToAct() && !GameManager.Instance.dayNightManager.IsDay && Target is null));
+            _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => IsAbleToAct() && GameManager.Instance.dayNightManager.IsDay));
+            _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => IsAbleToAct() && Target is not null));
+            _stateMachine.AddAnyTransition(_takingDamageState, new FuncPredicate(() => isTakingDamage && isAlive));
             _stateMachine.AddAnyTransition(dyingState, new FuncPredicate(() => !isAlive));
-            _stateMachine.AddAnyTransition(takingDamageState, new FuncPredicate(() => isTakingDamage && isAlive));
             
             _stateMachine.StartEntryState(wanderingState);
         }
@@ -99,6 +102,12 @@ namespace Enemies.Slime
             _stateMachine.AnimationEvent(animationEvent);
         }
 
+        public void TakeDamage(HitInfo hitInfo)
+        {
+            _takingDamageState.HitInfo = hitInfo;
+            isTakingDamage = true;
+        }
+        
         public void Die()
         {
             isAlive = false;

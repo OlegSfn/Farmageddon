@@ -72,7 +72,8 @@ namespace PlayerStates
             {
                 if (col.CompareTag("Enemy"))
                 {
-                    col.GetComponent<HealthController>().TakeDamage(sword.swordData.damage);
+                    HitInfo hitInfo = new(sword.swordData.damage, PlayerContoller.transform.position);
+                    col.GetComponent<HealthController>().TakeDamage(hitInfo);
                     _lastAttackTime = Time.time;
                 }
             }
