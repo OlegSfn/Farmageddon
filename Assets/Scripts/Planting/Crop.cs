@@ -77,5 +77,15 @@ namespace Planting
         {
             Destroy(gameObject);
         }
+
+        public void Harvest()
+        {
+            if (_currentStage == cropData.growthStages.Length - 1)
+            {
+                Instantiate(cropData.harvestPrefab, transform.position, Quaternion.identity);
+            }
+            
+            Destroy(gameObject);
+        }
     }
 }

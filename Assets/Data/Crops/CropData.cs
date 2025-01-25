@@ -9,5 +9,7 @@ namespace Data.Crops
         public Sprite[] growthStagesWet;
         public float[] growthStagesTimes;
         public int maxHumidity;
+
+        public GameObject harvestPrefab;
     }
 }
