@@ -1,9 +1,13 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ShopItem", menuName = "ScriptableObjects/Shop/ShopItem", order = 1)]
-public class ShopItemData : ScriptableObject
+namespace Data.ShopItems
 {
-    public string itemName;
-    public int startPrice;
-    public GameObject itemPrefab;
+    [CreateAssetMenu(fileName = "ShopItem", menuName = "ScriptableObjects/Shop/ShopItem", order = 1)]
+    public class ShopItemData : ScriptableObject
+    {
+        public string itemName;
+        public int startBuyPrice;
+        public int startSellPrice;
+        public GameObject itemPrefab;
+    }
 }

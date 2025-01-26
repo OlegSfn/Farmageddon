@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
-  m_Name: RadishSeedsBag
+  m_Name: Watermelon
   m_EditorClassIdentifier: 
-  itemName: RadishSeedsBag
-  startPrice: 10
-  itemPrefab: {fileID: 3832941229759897012, guid: 97fdc0c7a5166c84d9f931038ea6be13, type: 3}
+  itemName: Watermelon
+  startBuyPrice: 3
+  startSellPrice: 3
+  itemPrefab: {fileID: 3355462112007688456, guid: c152ed28bca344987ae489079dfe18c2, type: 3}

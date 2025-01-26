@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
-  m_Name: CornSeedsBag
+  m_Name: PotatoSeedsBag
   m_EditorClassIdentifier: 
-  itemName: CornSeedsBag
-  startPrice: 10
-  itemPrefab: {fileID: 3832941229759897012, guid: bf7da05276902b34296744292a542a8d, type: 3}
+  itemName: PotatoSeedsBag
+  startBuyPrice: 10
+  startSellPrice: 10
+  itemPrefab: {fileID: 3832941229759897012, guid: 78e827b1e28b8fc43ad53c99f11eef8f, type: 3}

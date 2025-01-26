@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
-  m_Name: StrawberrySeedsBag
+  m_Name: Tomato
   m_EditorClassIdentifier: 
-  itemName: StrawberrySeedsBag
-  startPrice: 10
-  itemPrefab: {fileID: 9138791796163668861, guid: fc4ccbbd9d88ada4190ca81bbba51036, type: 3}
+  itemName: Tomato
+  startBuyPrice: 3
+  startSellPrice: 3
+  itemPrefab: {fileID: 3355462112007688456, guid: 2d091b351a20041d4bdcc65d24ce107d, type: 3}

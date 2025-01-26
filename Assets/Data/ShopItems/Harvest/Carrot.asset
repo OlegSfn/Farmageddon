@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
-  m_Name: PumpkinSeedsBag
+  m_Name: Carrot
   m_EditorClassIdentifier: 
-  itemName: PumpkinSeedsBag
-  startPrice: 10
-  itemPrefab: {fileID: 3832941229759897012, guid: 292309fcb47987145b2a956f4c4eed2c, type: 3}
+  itemName: Carrot
+  startBuyPrice: 3
+  startSellPrice: 3
+  itemPrefab: {fileID: 3355462112007688456, guid: 7bf48587ecc0c49ec955b915c165c1ae, type: 3}

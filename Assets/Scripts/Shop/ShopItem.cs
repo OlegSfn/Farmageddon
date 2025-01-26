@@ -1,10 +1,12 @@
 using System.Collections.Generic;
+using Data.ShopItems;
 using Inventory;
 using Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace Shop
 {
@@ -19,12 +21,20 @@ namespace Shop
         [SerializeField] private TextMeshProUGUI itemCountText;
     
         private int _price;
+        private int _startPrice;
         private int _itemCount;
         private int _maxItemCount;
+        
+        private readonly float _minDecreasePriceMultiplier = 0.8f;
+        private readonly float _maxIncreasePriceMultiplier = 1.2f;
+        private int _sellRow;
+        private bool _wasSelledLastDay;
     
         private void Awake()
         {
-            _price = itemData.startPrice;
+            _startPrice = isSelling ? itemData.startSellPrice : itemData.startBuyPrice;
+            _price = _startPrice;
+            GameManager.Instance.dayNightManager.onDayStart.AddListener(OnDayChange);
             UpdateUI();
         }
     
@@ -38,24 +48,19 @@ namespace Shop
 
         private void UpdateData()
         {
-            if (_price == 0)
-            {
-                _price = itemData.startPrice;
-            }
-        
             if (isSelling)
             {
                 _maxItemCount = GameManager.Instance.inventory.ItemQuantities.GetValueOrDefault(itemData.itemName, 0);
             }
             else
             {
+                _price = _price == 0 ? itemData.startBuyPrice : _price;
                 _maxItemCount = GameManager.Instance.money / _price;
             }
 
             _itemCount = Mathf.Min(_itemCount, _maxItemCount);
         }
-
-
+        
         public void Buy()
         {
             if (GameManager.Instance.money < _price * _itemCount)
@@ -81,6 +86,7 @@ namespace Shop
             GameManager gameManager = GameManager.Instance;
             gameManager.money += _price * _itemCount;
             gameManager.inventory.RemoveItems(itemData.itemName, _itemCount);
+            _wasSelledLastDay = true;
             shop.UpdateUI();
         }
 
@@ -105,6 +111,26 @@ namespace Shop
             }
         
             UpdateUI();
+        }
+
+        private void OnDayChange()
+        {
+            float randomPriceMultiplier = Random.Range(_minDecreasePriceMultiplier, _maxIncreasePriceMultiplier);
+            _sellRow = _wasSelledLastDay ? _sellRow + 1 : 0;
+            if (!_wasSelledLastDay && _price == 0)
+            {
+                _price += _startPrice / 10 == 0 ? 1 : _startPrice / 10;
+            }
+            else
+            {
+                _price = Mathf.Max(0, (int)(_price * randomPriceMultiplier * (1 - _sellRow/10f)));
+            }
+            UpdateUI();
+        }
+
+        private void OnDestroy()
+        {
+            GameManager.Instance.dayNightManager.onDayStart.RemoveListener(OnDayChange);
         }
     }
 }
