@@ -73,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -111,7 +111,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,6 +132,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -140,9 +153,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 66
-        width: 17
-        height: 29
+        y: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,8 +175,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 63
-        width: 17
+        y: 64
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,9 +197,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 63
-        width: 14
-        height: 31
+        y: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,9 +219,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 63
-        width: 14
-        height: 31
+        y: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +240,10 @@ TextureImporter:
       name: scarecrows_4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 63
-        width: 17
-        height: 33
+        x: 64
+        y: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +262,10 @@ TextureImporter:
       name: scarecrows_5
       rect:
         serializedVersion: 2
-        x: 79
-        y: 63
-        width: 17
-        height: 33
+        x: 80
+        y: 64
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,9 +285,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 31
+        y: 32
         width: 16
-        height: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -293,10 +306,10 @@ TextureImporter:
       name: scarecrows_7
       rect:
         serializedVersion: 2
-        x: 15
-        y: 31
-        width: 17
-        height: 28
+        x: 16
+        y: 32
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,10 +328,10 @@ TextureImporter:
       name: scarecrows_8
       rect:
         serializedVersion: 2
-        x: 31
-        y: 31
-        width: 17
-        height: 31
+        x: 32
+        y: 32
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,9 +350,9 @@ TextureImporter:
       name: scarecrows_9
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 17
+        x: 48
+        y: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -359,10 +372,10 @@ TextureImporter:
       name: scarecrows_10
       rect:
         serializedVersion: 2
-        x: 47
+        x: 0
         y: 0
-        width: 17
-        height: 62
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +394,10 @@ TextureImporter:
       name: scarecrows_11
       rect:
         serializedVersion: 2
-        x: 0
+        x: 16
         y: 0
         width: 16
-        height: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,10 +416,10 @@ TextureImporter:
       name: scarecrows_12
       rect:
         serializedVersion: 2
-        x: 15
+        x: 32
         y: 0
-        width: 17
-        height: 30
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,11 +434,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: scarecrows_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfccc2d1eab44edc80bd94d963c4056
+      internalID: -871010677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: df634e59f1a894423822fa0e9e01ab6c
     internalID: 0
     vertices: []
     indices: 
@@ -440,6 +475,7 @@ TextureImporter:
       scarecrows_10: 8966452796369962757
       scarecrows_11: -7333235481304268596
       scarecrows_12: 7816663844168550266
+      scarecrows_13: -871010677
       scarecrows_2: -6665660668062945896
       scarecrows_3: -6114135462696623481
       scarecrows_4: 8499822452144182070
