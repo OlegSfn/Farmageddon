@@ -1,6 +1,5 @@
 using System.Collections;
 using Data.EnemyWaves;
-using Managers;
 using UnityEngine;
 
 namespace Enemies.Waves
@@ -9,6 +8,7 @@ namespace Enemies.Waves
     {
         [SerializeField] private EnemyWaveData[] wavesData;
         private int _curWaveIndex;
+        private float _radius = 35;
         
         public void SpawnNewWave() => StartCoroutine(SpawnWave());
     
@@ -18,9 +18,9 @@ namespace Enemies.Waves
             int chunkIndex = 0;
             while (chunkIndex < wave.EnemyWaveChunks.Length)
             {
+                yield return new WaitForSeconds(wave.EnemyWaveChunks[chunkIndex].DelayBeforeSpawn);
                 SpawnChunk(wave.EnemyWaveChunks[chunkIndex]);
                 ++chunkIndex;
-                yield return new WaitForSeconds(wave.EnemyWaveChunks[chunkIndex].DelayBeforeSpawn);
             }
 
             ++_curWaveIndex;
@@ -34,7 +34,7 @@ namespace Enemies.Waves
                 {
                     float angle = Random.Range(0f, 360f);
                     Vector3 dir = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
-                    Vector3 pos = GameManager.Instance.playerTransform.position + dir * 15;
+                    Vector3 pos = dir * _radius;
                     Instantiate(enemyInfo.PrefabToSpawn, pos, Quaternion.identity);
                 }
             }
