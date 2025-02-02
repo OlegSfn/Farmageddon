@@ -1,4 +1,3 @@
-using System;
 using Managers;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
@@ -7,10 +6,10 @@ namespace Envinronment.Lights
 {
     public class Lamp : MonoBehaviour
     {
-        [SerializeField] private SpriteRenderer _spriteRenderer;
-        [SerializeField] private Sprite _onLightsSprite;
-        [SerializeField] private Sprite _offLightsSprite;
-        [SerializeField] private Light2D _light2D;
+        [SerializeField] private SpriteRenderer spriteRenderer;
+        [SerializeField] private Sprite onLightsSprite;
+        [SerializeField] private Sprite offLightsSprite;
+        [SerializeField] private Light2D light2D;
 
         private void OnEnable()
         {
@@ -27,14 +26,14 @@ namespace Envinronment.Lights
 
         private void TurnLightsOn()
         {
-            _spriteRenderer.sprite = _onLightsSprite;
-            _light2D.enabled = true;
+            spriteRenderer.sprite = onLightsSprite;
+            light2D.enabled = true;
         }
         
         private void TurnLightsOff()
         {
-            _spriteRenderer.sprite = _offLightsSprite;
-            _light2D.enabled = false;
+            spriteRenderer.sprite = offLightsSprite;
+            light2D.enabled = false;
         }
     }
 }

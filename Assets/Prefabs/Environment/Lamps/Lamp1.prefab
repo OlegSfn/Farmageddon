@@ -219,10 +219,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b4b82c6abc994a2989b89ca5ac01e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spriteRenderer: {fileID: 6474405447591709841}
-  _onLightsSprite: {fileID: 115666914, guid: 14ba444d4b3024caf895033e8470b98d, type: 3}
-  _offLightsSprite: {fileID: -1985257372, guid: 14ba444d4b3024caf895033e8470b98d, type: 3}
-  _light2D: {fileID: 4578752676667299666}
+  spriteRenderer: {fileID: 6474405447591709841}
+  onLightsSprite: {fileID: 115666914, guid: 14ba444d4b3024caf895033e8470b98d, type: 3}
+  offLightsSprite: {fileID: -1985257372, guid: 14ba444d4b3024caf895033e8470b98d, type: 3}
+  light2D: {fileID: 4578752676667299666}
 --- !u!61 &8200715903070669418
 BoxCollider2D:
   m_ObjectHideFlags: 0
