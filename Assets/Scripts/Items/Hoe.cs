@@ -40,6 +40,11 @@ namespace Items
 
             foreach (var col in colliders)
             {
+                if (col.gameObject.isStatic && !col.isTrigger)
+                {
+                    return false;
+                }
+                
                 if (col.CompareTag("Crop"))
                 {
                     _selectedCrop = col.GetComponent<Crop>();

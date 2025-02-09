@@ -51,7 +51,7 @@ namespace Items
             
             }
         
-            return isCloseToPlayer && (_selectedCrop is not null || isAboveWaterSource);
+            return isCloseToPlayer && (_selectedCrop is not null && waterAmount > 0 || isAboveWaterSource);
         }
 
         private void RefillWater()

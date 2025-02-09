@@ -47,7 +47,7 @@ namespace Building
             bool hasExcludedTag = false;
             foreach (var col in colliders)
             {
-                if (!col.isTrigger)
+                if (!col.isTrigger && !_includeTags.Contains(col.tag) && !col.CompareTag("Player"))
                 {
                     return false;
                 }

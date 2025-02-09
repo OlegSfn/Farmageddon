@@ -113,7 +113,7 @@ namespace Inventory
             SetItemLogicActive(true);
         }
         
-        private void SetItemLogicActive(bool isActive)
+        public void SetItemLogicActive(bool isActive)
         {
             if (inventorySlots[activeItemIndex].item is not null)
             {

@@ -7,6 +7,7 @@ namespace Shop
     public class Shop : MonoBehaviour
     {
         [SerializeField] private ShopItem[] shopItems;
+        [SerializeField] private UnityEvent onShopMenuOpened;
         [SerializeField] private UnityEvent onShopMenuClosed;
         [SerializeField] private ColliderInteractor shopInteractor;
         [SerializeField] private GameObject shopInteractorHelper;
@@ -15,7 +16,7 @@ namespace Shop
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
-                onShopMenuClosed?.Invoke();
+                CloseShop();
             }
         }
 
@@ -43,6 +44,7 @@ namespace Shop
         public void OpenShop()
         {
             gameObject.SetActive(true);
+            onShopMenuOpened?.Invoke();
             shopInteractor.enabled = false;
             shopInteractorHelper.SetActive(false);
         }

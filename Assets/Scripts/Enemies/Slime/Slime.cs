@@ -7,6 +7,7 @@ using Enemies.Slime.SlimeStates;
 using Managers;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Serialization;
 
 namespace Enemies.Slime
 {
@@ -14,9 +15,10 @@ namespace Enemies.Slime
     public class Slime : MonoBehaviour
     {
         [SerializeField] private EnemyData data;
-        [SerializeField] private Collider2D chasingArea;
-        [SerializeField] private Collider2D attackArea;
-        
+        [SerializeField] private Collider2D chasingSightArea;
+        [SerializeField] private Collider2D attackSightArea;
+        [SerializeField] private Collider2D attackCollider;
+
         private Dictionary<string, int> _chasingPriorities;         
         private Dictionary<string, int> _attackingPriorities;   
     
@@ -25,7 +27,6 @@ namespace Enemies.Slime
         private StateMachine _stateMachine;
         private NavMeshAgent _navMeshAgent;
         private Animator _animator;
-        private Collider2D _attackCollider;
         private bool isAlive;
 
         public bool isTakingDamage { get; set; }
@@ -36,7 +37,6 @@ namespace Enemies.Slime
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
             isAlive = true;
-            _attackCollider = GetComponent<Collider2D>();
             InitNavMeshAgent();
             _contactFilter2D.NoFilter();
             InitPriorities();
@@ -72,7 +72,7 @@ namespace Enemies.Slime
             _stateMachine = new StateMachine();
         
             var wanderingState = new SlimeWanderingState(this, _navMeshAgent, _animator, 0.5f);
-            var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, _attackCollider, _contactFilter2D, data.damage);
+            var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackCollider, _contactFilter2D, data.damage, data.attackCooldown);
             var friendlyState = new SlimeFriendlyState(this, _navMeshAgent, _animator);
             var dyingState = new SlimeDyingState(this, _navMeshAgent, _animator);
             _takingDamageState = new SlimeTakingDamageState(this, _navMeshAgent, _animator);
@@ -125,7 +125,7 @@ namespace Enemies.Slime
         private Transform GetTarget()
         {
             List<Collider2D> colliders = new List<Collider2D>();
-            attackArea.Overlap(_contactFilter2D, colliders);
+            attackSightArea.Overlap(_contactFilter2D, colliders);
 
             Transform currentTarget = GetMaxPriorityTarget(colliders, _attackingPriorities);
             if (currentTarget is not null)
@@ -133,7 +133,7 @@ namespace Enemies.Slime
                 return currentTarget;
             }
 
-            chasingArea.Overlap(_contactFilter2D, colliders);
+            chasingSightArea.Overlap(_contactFilter2D, colliders);
             return GetMaxPriorityTarget(colliders, _chasingPriorities);
         }
         

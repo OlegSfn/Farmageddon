@@ -12,16 +12,17 @@ namespace Enemies.Slime.SlimeStates
         private readonly ContactFilter2D _contactFilter2D;
         private readonly int _damage;
 
-        private const float AttackCooldown = 0.01f;
+        private readonly float _attackCooldown;
         private float _lastAttackTime;
         
         public SlimeAttackingState(Slime slime, NavMeshAgent navMeshAgent, Animator animator, Collider2D attackArea, 
-            ContactFilter2D contactFilter2D, int damage) 
+            ContactFilter2D contactFilter2D, int damage, float attackCooldown) 
             : base(slime, navMeshAgent, animator)
         {
             _attackArea = attackArea;
             _contactFilter2D = contactFilter2D;
             _damage = damage;
+            _attackCooldown = attackCooldown;
         }
         
         public override void OnEnter()
@@ -51,7 +52,7 @@ namespace Enemies.Slime.SlimeStates
 
         private void Attack()
         {
-            if (Time.time - _lastAttackTime < AttackCooldown)
+            if (Time.time - _lastAttackTime < _attackCooldown)
             {
                 return;
             }
@@ -62,7 +63,7 @@ namespace Enemies.Slime.SlimeStates
             foreach (var collider in colliders)
             {
                 HealthController healthController = collider.GetComponent<HealthController>();
-                if (healthController != null && collider.CompareTag("Player") || collider.CompareTag("Building"))
+                if (healthController != null && (collider.CompareTag("Player") || collider.CompareTag("Building")))
                 {
                     HitInfo hitInfo = new HitInfo(_damage, Slime.transform.position);
                     healthController.TakeDamage(hitInfo);
