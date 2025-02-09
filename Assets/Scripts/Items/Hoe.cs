@@ -10,6 +10,8 @@ namespace Items
         private Crop _selectedCrop;
         private Seedbed _selectedSeedbag;
         [SerializeField] protected GameObject seedbedPrefab;
+        
+        [SerializeField] protected AnimatorOverrideController animatorOverrideController;
 
         protected override void Start()
         {
@@ -19,6 +21,8 @@ namespace Items
 
         protected override void UseItem(Vector3Int cursorPosition)
         {
+            GameManager.Instance.playerContoller.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
+            
             GameManager.Instance.playerContoller.IsWeeding = true;
             if (_selectedCrop is not null)
             {

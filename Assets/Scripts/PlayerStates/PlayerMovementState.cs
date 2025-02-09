@@ -6,8 +6,8 @@ namespace PlayerStates
     {
         public override string Name => "Movement";
 
-        public PlayerMovementState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D) 
-            : base(playerContoller, animator, rigidbody2D) { }
+        public PlayerMovementState(PlayerContoller playerContoller, Animator animator, Animator toolAnimator, Rigidbody2D rigidbody2D) 
+            : base(playerContoller, animator, toolAnimator, rigidbody2D) { }
 
         public override void OnEnter()
         {

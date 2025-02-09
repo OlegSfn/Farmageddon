@@ -8,6 +8,7 @@ namespace PlayerStates
         protected readonly PlayerContoller PlayerContoller;
         protected readonly Rigidbody2D Rigidbody2D;
         protected readonly Animator Animator;
+        protected readonly Animator ToolAnimator;
         protected const float CrossFadeTime = 0f;
         
         protected static readonly int WateringAnimHash = Animator.StringToHash("Watering");
@@ -17,6 +18,8 @@ namespace PlayerStates
         protected static readonly int MovementAnimHash = Animator.StringToHash("Movement");
         protected static readonly int TakingDamageAnimHash = Animator.StringToHash("TakingDamage");
         protected static readonly int DyingAnimHash = Animator.StringToHash("Dying");
+        protected static readonly int UseToolAnimHash = Animator.StringToHash("Use");
+        protected static readonly int IdleToolAnimHash = Animator.StringToHash("IdleTool");
         
         private static readonly int LookDirXHash = Animator.StringToHash("LookDirX");
         private static readonly int LookDirYHash = Animator.StringToHash("LookDirY");
@@ -25,10 +28,11 @@ namespace PlayerStates
 
         public abstract string Name { get; }
         
-        protected PlayerBaseState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D)
+        protected PlayerBaseState(PlayerContoller playerContoller, Animator animator, Animator toolAnimator, Rigidbody2D rigidbody2D)
         {
             PlayerContoller = playerContoller;
             Animator = animator;
+            ToolAnimator = toolAnimator;
             Rigidbody2D = rigidbody2D;
         }
 
@@ -47,6 +51,9 @@ namespace PlayerStates
             Animator.SetFloat(VelY, PlayerContoller.Input.y);
             Animator.SetFloat(LookDirXHash, PlayerContoller.LookDirection.x);
             Animator.SetFloat(LookDirYHash, PlayerContoller.LookDirection.y);
+            
+            ToolAnimator.SetFloat(LookDirXHash, PlayerContoller.LookDirection.x);
+            ToolAnimator.SetFloat(LookDirYHash, PlayerContoller.LookDirection.y);
         }
 
         public virtual void OnFixedUpdate() { }

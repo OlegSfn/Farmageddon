@@ -6,7 +6,7 @@ namespace PlayerStates
     {
         public override string Name => "Dying";
 
-        public PlayerDyingState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D) : base(playerContoller, animator, rigidbody2D)
+        public PlayerDyingState(PlayerContoller playerContoller, Animator animator, Animator toolAnimator, Rigidbody2D rigidbody2D) : base(playerContoller, animator, toolAnimator, rigidbody2D)
         {
         }
         

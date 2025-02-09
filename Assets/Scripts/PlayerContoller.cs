@@ -9,6 +9,8 @@ using UnityEngine;
 public class PlayerContoller : MonoBehaviour
 {
     [field: SerializeField] public float Speed { get; private set; }
+
+    [field: SerializeField] public Animator ToolAnimator { get; set; }
     [field: SerializeField] private Collider2D toolCollder;
 
     public Vector2 Input { get; private set; }
@@ -43,12 +45,12 @@ public class PlayerContoller : MonoBehaviour
     {
         _stateMachine = new StateMachine();
 
-        var attackingState = new PlayerAttackingState(this, _animator, _rb, toolCollder);
-        var movementState = new PlayerMovementState(this, _animator, _rb);
-        var wateringState = new PlayerWateringState(this, _animator, _rb);
-        var weedingState = new PlayerWeedingState(this, _animator, _rb);
-        var dyingState = new PlayerDyingState(this, _animator, _rb);
-        _takingDamageState = new PlayerTakingDamageState(this, _animator, _rb);
+        var attackingState = new PlayerAttackingState(this, _animator, ToolAnimator, _rb, toolCollder);
+        var movementState = new PlayerMovementState(this, _animator, ToolAnimator, _rb);
+        var wateringState = new PlayerWateringState(this, _animator, ToolAnimator, _rb);
+        var weedingState = new PlayerWeedingState(this, _animator, ToolAnimator, _rb);
+        var dyingState = new PlayerDyingState(this, _animator, ToolAnimator, _rb);
+        _takingDamageState = new PlayerTakingDamageState(this, _animator, ToolAnimator, _rb);
 
 
         bool IsAbleToAct() => IsAlive && !IsTakingDamage;

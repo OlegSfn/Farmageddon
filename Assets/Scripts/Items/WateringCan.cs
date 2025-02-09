@@ -10,6 +10,9 @@ namespace Items
         public bool isAboveWaterSource;
     
         [SerializeField] private int waterAmount = 100;
+        
+        [SerializeField] protected AnimatorOverrideController animatorOverrideController;
+        protected static readonly int WateringAnimHash = Animator.StringToHash("Watering");
     
         private Crop _selectedCrop;
         private const string CropTag = "Crop";
@@ -25,6 +28,8 @@ namespace Items
         {
             WaterCrop();
             RefillWater();
+            
+            GameManager.Instance.playerContoller.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
         }
 
         protected override bool CheckIfCanUseItem()

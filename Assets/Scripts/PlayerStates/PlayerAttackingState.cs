@@ -17,7 +17,7 @@ namespace PlayerStates
 
         private bool _canExit;
         
-        public PlayerAttackingState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D, Collider2D toolCollider) : base(playerContoller, animator, rigidbody2D)
+        public PlayerAttackingState(PlayerContoller playerContoller, Animator animator, Animator toolAnimator, Rigidbody2D rigidbody2D, Collider2D toolCollider) : base(playerContoller, animator, toolAnimator, rigidbody2D)
         {
             this.toolCollider = toolCollider;
             contactFilter = new ContactFilter2D();
@@ -30,6 +30,7 @@ namespace PlayerStates
             _canExit = false;
             Rigidbody2D.linearVelocity = Vector2.zero;
             Animator.CrossFade(AttackingAnimHash, CrossFadeTime);
+            ToolAnimator.CrossFade(UseToolAnimHash, CrossFadeTime);
         }
 
         public override void OnUpdate()
@@ -77,6 +78,12 @@ namespace PlayerStates
                     _lastAttackTime = Time.time;
                 }
             }
+        }
+
+        public override void OnExit()
+        {
+            base.OnExit();
+            ToolAnimator.CrossFade(IdleToolAnimHash, CrossFadeTime);
         }
     }
 }
