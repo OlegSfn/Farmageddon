@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 959003507585147949}
   - component: {fileID: 1971664595020726952}
   m_Layer: 0
-  m_Name: userSelectedTile
+  m_Name: UserSelectedTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Managers;
 using Planting;
+using ScriptableObjects;
 using UnityEngine;
 
 namespace Items
@@ -10,6 +11,8 @@ namespace Items
         private Crop _selectedCrop;
         private Seedbed _selectedSeedbag;
         [SerializeField] protected GameObject seedbedPrefab;
+        
+        [SerializeField] protected HoeData data;
         
         [SerializeField] protected AnimatorOverrideController animatorOverrideController;
 
@@ -38,7 +41,11 @@ namespace Items
         {
             _selectedCrop = null;
             _selectedSeedbag = null;
-            bool isCloseToPlayer = (CursorGameObject.transform.position - GameManager.Instance.playerTransform.position).sqrMagnitude < GameManager.Instance.sqrDistanceToUseItems;
+            
+            float sqrDistanceToCursor = (GameManager.Instance.playerTransform.position - CursorGameObject.transform.position).sqrMagnitude;
+            float maxUseDistance = GameManager.Instance.sqrDistanceToUseItems * data.distanceMultiplier;
+            bool isCloseToPlayer = sqrDistanceToCursor <= maxUseDistance;
+            
             List<Collider2D> colliders = new List<Collider2D>();
             CursorCollider.Overlap(ContactFilter, colliders);
 

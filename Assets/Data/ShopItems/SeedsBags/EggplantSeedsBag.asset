@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
   m_Name: EggplantSeedsBag
   m_EditorClassIdentifier: 
-  itemName: EggplantSeedsBag
+  itemName: Eggplant seeds
   startBuyPrice: 10
   startSellPrice: 10
   itemPrefab: {fileID: 3832941229759897012, guid: 48115b6723b254d4395b06503f1d1a9e, type: 3}

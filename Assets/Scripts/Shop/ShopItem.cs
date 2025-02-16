@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Data.ShopItems;
 using Inventory;
 using Managers;
+using ScriptableObjects;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -17,6 +17,7 @@ namespace Shop
 
         [SerializeField] private bool isSelling;
         [SerializeField] private Button buySellButton;
+        [SerializeField] private TextMeshProUGUI itemName;
         [SerializeField] private TextMeshProUGUI priceText;
         [SerializeField] private TextMeshProUGUI itemCountText;
     
@@ -35,6 +36,7 @@ namespace Shop
             _startPrice = isSelling ? itemData.startSellPrice : itemData.startBuyPrice;
             _price = _startPrice;
             GameManager.Instance.dayNightManager.onDayStart.AddListener(OnDayChange);
+            itemName.text = itemData.itemName;
             UpdateUI();
         }
     

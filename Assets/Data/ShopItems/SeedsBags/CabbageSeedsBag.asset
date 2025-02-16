@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
   m_Name: CabbageSeedsBag
   m_EditorClassIdentifier: 
-  itemName: CabbageSeedsBag
+  itemName: Cabbage seeds
   startBuyPrice: 10
   startSellPrice: 10
   itemPrefab: {fileID: 3832941229759897012, guid: 6839b4592e9faa84bb8fe797ea09bcdb, type: 3}

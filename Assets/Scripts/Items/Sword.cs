@@ -1,6 +1,6 @@
 using System;
-using Data.Weapons.Swords;
 using Managers;
+using ScriptableObjects;
 using UnityEngine;
 
 namespace Items
