@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Enemies.FSM.StateMachine;
 using Enemies.FSM.StateMachine.Predicates;
@@ -8,7 +7,6 @@ using Managers;
 using ScriptableObjects;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.Serialization;
 
 namespace Enemies.Slime
 {
@@ -103,7 +101,7 @@ namespace Enemies.Slime
             _stateMachine.AnimationEvent(animationEvent);
         }
 
-        public void TakeDamage(HitInfo hitInfo)
+        public void TakeDamage(HitInfo hitInfo, int _)
         {
             _takingDamageState.HitInfo = hitInfo;
             isTakingDamage = true;

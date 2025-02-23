@@ -109,7 +109,7 @@ public class PlayerContoller : MonoBehaviour
         }
     }
     
-    public void TakeDamage(HitInfo hitInfo)
+    public void TakeDamage(HitInfo hitInfo, int _)
     {
         _takingDamageState.HitInfo = hitInfo;
         IsTakingDamage = true;
