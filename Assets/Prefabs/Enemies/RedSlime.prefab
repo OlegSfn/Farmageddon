@@ -220,10 +220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 295f9503a48843a1b09c80ec9cc06799, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: ebf8e06bd9d2c624b845f9cbe6f83ff2, type: 2}
   chasingSightArea: {fileID: 842516155530088434}
   attackSightArea: {fileID: 8058406554157677737}
   attackCollider: {fileID: 1606444183257599088}
+  <Data>k__BackingField: {fileID: 11400000, guid: ebf8e06bd9d2c624b845f9cbe6f83ff2, type: 2}
 --- !u!114 &1617840103760975585
 MonoBehaviour:
   m_ObjectHideFlags: 0

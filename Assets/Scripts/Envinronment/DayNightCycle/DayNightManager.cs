@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering.Universal;
 
-namespace Envinronment
+namespace Envinronment.DayNightCycle
 {
     public class DayNightManager : MonoBehaviour
     {

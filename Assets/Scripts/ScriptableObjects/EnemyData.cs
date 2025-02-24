@@ -8,6 +8,6 @@ namespace ScriptableObjects
         public int damage;
         public float speed;
         public float attackCooldown;
-
+        public int cashReward;
     }
 }

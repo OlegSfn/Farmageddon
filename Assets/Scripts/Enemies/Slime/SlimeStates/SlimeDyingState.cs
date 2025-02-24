@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Managers;
+using UnityEngine;
 using UnityEngine.AI;
 
 namespace Enemies.Slime.SlimeStates
@@ -23,6 +24,7 @@ namespace Enemies.Slime.SlimeStates
             base.OnAnimationEvent(animationEvent);
             if (animationEvent.stringParameter == "Die")
             {
+                Slime.NeedRewardForDying = true;
                 Object.Destroy(Slime.gameObject);
             }
         }

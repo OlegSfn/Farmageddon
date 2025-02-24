@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using Enemies.FSM.StateMachine;
 using Enemies.FSM.StateMachine.Predicates;
@@ -13,7 +14,6 @@ namespace Enemies.Slime
     [RequireComponent(typeof(NavMeshAgent)), RequireComponent(typeof(Animator))]
     public class Slime : MonoBehaviour
     {
-        [SerializeField] private EnemyData data;
         [SerializeField] private Collider2D chasingSightArea;
         [SerializeField] private Collider2D attackSightArea;
         [SerializeField] private Collider2D attackCollider;
@@ -26,8 +26,10 @@ namespace Enemies.Slime
         private StateMachine _stateMachine;
         private NavMeshAgent _navMeshAgent;
         private Animator _animator;
-        private bool isAlive;
-
+        private bool _isAlive;
+        
+        public bool NeedRewardForDying { get; set; }
+        [field: SerializeField] public EnemyData Data { get; private set; }
         public bool isTakingDamage { get; set; }
         public Transform Target { get; private set; }
 
@@ -35,7 +37,7 @@ namespace Enemies.Slime
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
-            isAlive = true;
+            _isAlive = true;
             InitNavMeshAgent();
             _contactFilter2D.NoFilter();
             InitPriorities();
@@ -48,7 +50,7 @@ namespace Enemies.Slime
         {
             _navMeshAgent.updateRotation = false;
             _navMeshAgent.updateUpAxis = false;
-            _navMeshAgent.speed = data.speed;
+            _navMeshAgent.speed = Data.speed;
         }
 
         private void InitPriorities()
@@ -71,17 +73,17 @@ namespace Enemies.Slime
             _stateMachine = new StateMachine();
         
             var wanderingState = new SlimeWanderingState(this, _navMeshAgent, _animator, 0.5f);
-            var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackCollider, _contactFilter2D, data.damage, data.attackCooldown);
+            var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackCollider, _contactFilter2D);
             var friendlyState = new SlimeFriendlyState(this, _navMeshAgent, _animator);
             var dyingState = new SlimeDyingState(this, _navMeshAgent, _animator);
             _takingDamageState = new SlimeTakingDamageState(this, _navMeshAgent, _animator);
 
-            bool IsAbleToAct() => isAlive && !isTakingDamage;
+            bool IsAbleToAct() => _isAlive && !isTakingDamage;
             _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => IsAbleToAct() && !GameManager.Instance.dayNightManager.IsDay && Target is null));
             _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => IsAbleToAct() && GameManager.Instance.dayNightManager.IsDay));
             _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => IsAbleToAct() && Target is not null));
-            _stateMachine.AddAnyTransition(_takingDamageState, new FuncPredicate(() => isTakingDamage && isAlive));
-            _stateMachine.AddAnyTransition(dyingState, new FuncPredicate(() => !isAlive));
+            _stateMachine.AddAnyTransition(_takingDamageState, new FuncPredicate(() => isTakingDamage && _isAlive));
+            _stateMachine.AddAnyTransition(dyingState, new FuncPredicate(() => !_isAlive));
             
             _stateMachine.StartEntryState(wanderingState);
         }
@@ -109,7 +111,7 @@ namespace Enemies.Slime
         
         public void Die()
         {
-            isAlive = false;
+            _isAlive = false;
         }
     
         private IEnumerator FindTarget()
@@ -154,6 +156,14 @@ namespace Enemies.Slime
             }
 
             return currentTarget;
+        }
+
+        private void OnDestroy()
+        {
+            if (NeedRewardForDying)
+            {
+                GameManager.Instance.cashManager.Cash += Data.cashReward;
+            }
         }
     }
 }

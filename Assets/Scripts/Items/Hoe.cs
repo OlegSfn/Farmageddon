@@ -24,9 +24,9 @@ namespace Items
 
         protected override void UseItem(Vector3Int cursorPosition)
         {
-            GameManager.Instance.playerContoller.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
+            GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
             
-            GameManager.Instance.playerContoller.IsWeeding = true;
+            GameManager.Instance.playerController.IsWeeding = true;
             if (_selectedCrop is not null)
             {
                 _selectedCrop.Harvest();
@@ -66,7 +66,7 @@ namespace Items
                 }
             }
 
-            bool isAbleToPlough = isCloseToPlayer && !GameManager.Instance.playerContoller.IsWeeding;
+            bool isAbleToPlough = isCloseToPlayer && !GameManager.Instance.playerController.IsWeeding;
             return isAbleToPlough && !(_selectedSeedbag is not null && _selectedCrop is null);
         }
     }

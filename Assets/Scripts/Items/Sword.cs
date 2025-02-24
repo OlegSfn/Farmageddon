@@ -15,8 +15,8 @@ namespace Items
         {
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
-                GameManager.Instance.playerContoller.IsAttacking = true;
-                GameManager.Instance.playerContoller.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
+                GameManager.Instance.playerController.IsAttacking = true;
+                GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
             }
         }
 

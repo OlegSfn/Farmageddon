@@ -30,7 +30,7 @@ namespace Shop
         private readonly float _maxIncreasePriceMultiplier = 1.2f;
         private int _sellRow;
         private bool _wasSelledLastDay;
-    
+
         private void Awake()
         {
             _startPrice = isSelling ? itemData.startSellPrice : itemData.startBuyPrice;
@@ -57,7 +57,7 @@ namespace Shop
             else
             {
                 _price = _price == 0 ? itemData.startBuyPrice : _price;
-                _maxItemCount = GameManager.Instance.money / _price;
+                _maxItemCount = GameManager.Instance.cashManager.Cash / _price;
             }
 
             _itemCount = Mathf.Min(_itemCount, _maxItemCount);
@@ -65,12 +65,12 @@ namespace Shop
         
         public void Buy()
         {
-            if (GameManager.Instance.money < _price * _itemCount)
+            if (GameManager.Instance.cashManager.Cash < _price * _itemCount)
             {
                 return;
             }
             
-            GameManager.Instance.money -= _price * _itemCount;
+            GameManager.Instance.cashManager.Cash -= _price * _itemCount;
             int quantityToAdd = _itemCount;
             while(quantityToAdd > 0)
             {
@@ -86,7 +86,7 @@ namespace Shop
         public void Sell()
         {
             GameManager gameManager = GameManager.Instance;
-            gameManager.money += _price * _itemCount;
+            GameManager.Instance.cashManager.Cash += _price * _itemCount;
             gameManager.inventory.RemoveItems(itemData.itemName, _itemCount);
             _wasSelledLastDay = true;
             shop.UpdateUI();

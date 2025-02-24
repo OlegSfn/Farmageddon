@@ -33,7 +33,7 @@ namespace Items
             WaterCrop();
             RefillWater();
             
-            GameManager.Instance.playerContoller.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
+            GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
         }
 
         protected override bool CheckIfCanUseItem()
@@ -71,7 +71,7 @@ namespace Items
         {
             if (!isAboveWaterSource || _selectedCrop is not null) return;
         
-            GameManager.Instance.playerContoller.IsWatering = true;
+            GameManager.Instance.playerController.IsWatering = true;
             _waterAmount = data.maxWaterAmount;
         }
 
@@ -79,7 +79,7 @@ namespace Items
         {
             if (_waterAmount <= 0 || _selectedCrop is null) return;
         
-            GameManager.Instance.playerContoller.IsWatering = true;
+            GameManager.Instance.playerController.IsWatering = true;
             _waterAmount -= data.wateringAmount;
             _selectedCrop.Humidity += data.wateringAmount;
         }

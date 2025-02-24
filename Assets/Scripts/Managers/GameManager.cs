@@ -1,5 +1,5 @@
 using Enemies.Waves;
-using Envinronment;
+using Envinronment.DayNightCycle;
 using UnityEngine;
 
 namespace Managers
@@ -12,7 +12,8 @@ namespace Managers
         public DayNightManager dayNightManager;
         public Cursor cursor;
         public EnemyWavesManager enemyWavesManager;
-        public PlayerContoller playerContoller;
+        public PlayerContoller playerController;
+        public CashManager cashManager;
     
         public Transform playerTransform;
         public Transform objectsPool;
@@ -20,8 +21,6 @@ namespace Managers
         public Color badTint = new(255, 78, 90);
         public Color goodTint = new(117, 241, 124);
         public float sqrDistanceToUseItems = 5f;
-
-        public int money;
 
         private void Awake()
         {
