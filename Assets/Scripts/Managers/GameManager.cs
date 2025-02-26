@@ -1,6 +1,7 @@
 using Enemies.Waves;
-using Envinronment;
+using Envinronment.DayNightCycle;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Managers
 {
@@ -12,7 +13,8 @@ namespace Managers
         public DayNightManager dayNightManager;
         public Cursor cursor;
         public EnemyWavesManager enemyWavesManager;
-        public PlayerContoller playerContoller;
+        public PlayerContoller playerController;
+        public CashManager cashManager;
     
         public Transform playerTransform;
         public Transform objectsPool;
@@ -21,7 +23,8 @@ namespace Managers
         public Color goodTint = new(117, 241, 124);
         public float sqrDistanceToUseItems = 5f;
 
-        public int money;
+        [SerializeField] private GameObject pauseMenu;
+        private bool _isPaused;
 
         private void Awake()
         {
@@ -36,9 +39,17 @@ namespace Managers
         }
     
     
-        public void SetPause(bool isPaused)
+        public void LoadScene(string sceneName)
         {
-            Time.timeScale = isPaused ? 0 : 1;
+            Time.timeScale = 1;
+            SceneManager.LoadScene(sceneName);
+        }
+        
+        public void SetPause()
+        {
+            _isPaused = !_isPaused;
+            pauseMenu.SetActive(_isPaused);
+            Time.timeScale = _isPaused ? 0 : 1;
         }
     }
 }

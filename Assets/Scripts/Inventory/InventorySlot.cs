@@ -9,12 +9,13 @@ namespace Inventory
     public class InventorySlot : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
         [SerializeField] private Inventory inventory;
-        public InventoryItem item;
-        public Image slotBorder;
         [SerializeField] private Image itemIcon;
         [SerializeField] private TextMeshProUGUI itemQuantityText;
         [SerializeField] private CanvasGroup canvasGroup;
 
+        [field: SerializeField] public Image slotBorder { get; set; }
+        public InventoryItem item { get; set; }
+        
         private void Awake()
         {
             UpdateUI();

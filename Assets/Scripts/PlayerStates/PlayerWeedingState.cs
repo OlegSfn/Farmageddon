@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace PlayerStates
@@ -6,14 +7,16 @@ namespace PlayerStates
     {
         public override string Name => "Weeding"; 
 
-        public PlayerWeedingState(PlayerContoller playerContoller, Animator animator, Rigidbody2D rigidbody2D) : base(playerContoller, animator, rigidbody2D)
+        public PlayerWeedingState(PlayerContoller playerContoller, Animator animator, Animator toolAnimator, Rigidbody2D rigidbody2D) : base(playerContoller, animator, toolAnimator, rigidbody2D)
         {
         }
 
         public override void OnEnter()
         {
             base.OnEnter();
+            Rigidbody2D.linearVelocity = Vector2.zero;
             Animator.CrossFade(WeedingAnimHash, CrossFadeTime);
+            ToolAnimator.CrossFade(UseToolAnimHash, CrossFadeTime);
         }
         
         public override void OnAnimationEvent(AnimationEvent animationEvent)
@@ -23,6 +26,12 @@ namespace PlayerStates
             {
                 PlayerContoller.IsWeeding = false;
             }
+        }
+
+        public override void OnExit()
+        {
+            base.OnExit();
+            ToolAnimator.CrossFade(IdleToolAnimHash, CrossFadeTime);
         }
     }
 }

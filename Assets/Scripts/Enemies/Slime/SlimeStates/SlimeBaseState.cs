@@ -14,6 +14,7 @@ namespace Enemies.Slime.SlimeStates
         protected static readonly int WalkingAnimHash = Animator.StringToHash("Walking");
         protected static readonly int ChasingAnimHash = Animator.StringToHash("Chasing");
         protected static readonly int DyingAnimHash = Animator.StringToHash("Dying");
+        protected static readonly int TakingDamageAnimHash = Animator.StringToHash("TakingDamage");
         
         private static readonly int VelX = Animator.StringToHash("VelX");
         private static readonly int VelY = Animator.StringToHash("VelY");

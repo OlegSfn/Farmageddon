@@ -1,10 +1,12 @@
 using System.Collections.Generic;
 using Inventory;
 using Managers;
+using ScriptableObjects;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 namespace Shop
 {
@@ -15,16 +17,26 @@ namespace Shop
 
         [SerializeField] private bool isSelling;
         [SerializeField] private Button buySellButton;
+        [SerializeField] private TextMeshProUGUI itemName;
         [SerializeField] private TextMeshProUGUI priceText;
         [SerializeField] private TextMeshProUGUI itemCountText;
     
         private int _price;
+        private int _startPrice;
         private int _itemCount;
         private int _maxItemCount;
-    
+        
+        private readonly float _minDecreasePriceMultiplier = 0.8f;
+        private readonly float _maxIncreasePriceMultiplier = 1.2f;
+        private int _sellRow;
+        private bool _wasSoldLastDay;
+
         private void Awake()
         {
-            _price = itemData.startPrice;
+            _startPrice = isSelling ? itemData.startSellPrice : itemData.startBuyPrice;
+            _price = _startPrice;
+            GameManager.Instance.dayNightManager.onDayStart.AddListener(OnDayChange);
+            itemName.text = itemData.itemName;
             UpdateUI();
         }
     
@@ -38,40 +50,45 @@ namespace Shop
 
         private void UpdateData()
         {
-            if (_price == 0)
-            {
-                _price = itemData.startPrice;
-            }
-        
             if (isSelling)
             {
                 _maxItemCount = GameManager.Instance.inventory.ItemQuantities.GetValueOrDefault(itemData.itemName, 0);
             }
             else
             {
-                _maxItemCount = GameManager.Instance.money / _price;
+                _price = _price == 0 ? itemData.startBuyPrice : _price;
+                _maxItemCount = GameManager.Instance.cashManager.Cash / _price;
             }
 
             _itemCount = Mathf.Min(_itemCount, _maxItemCount);
         }
-
-
+        
         public void Buy()
         {
-            if (GameManager.Instance.money < _price * _itemCount) return;
-        
-            GameManager gameManager = GameManager.Instance;
-            InventoryItem item = Instantiate(itemData.itemPrefab, gameManager.objectsPool.position, Quaternion.identity).GetComponent<InventoryItem>();
-            GameManager.Instance.money -= _price * _itemCount;
-            GameManager.Instance.inventory.AddItems(item, _itemCount);
+            if (GameManager.Instance.cashManager.Cash < _price * _itemCount)
+            {
+                return;
+            }
+            
+            GameManager.Instance.cashManager.Cash -= _price * _itemCount;
+            int quantityToAdd = _itemCount;
+            while(quantityToAdd > 0)
+            {
+                Vector2 randomPosition = (Vector2)GameManager.Instance.playerTransform.position + Random.insideUnitCircle * 0.5f;
+                InventoryItem newItem = Instantiate(itemData.itemPrefab, randomPosition, Quaternion.identity).GetComponent<InventoryItem>();
+                newItem.Quantity = Mathf.Min(quantityToAdd, newItem.MaxStackQuantity);
+                quantityToAdd -= newItem.Quantity;
+            }
+            
             shop.UpdateUI();
         }
 
         public void Sell()
         {
             GameManager gameManager = GameManager.Instance;
-            gameManager.money += _price * _itemCount;
+            GameManager.Instance.cashManager.Cash += _price * _itemCount;
             gameManager.inventory.RemoveItems(itemData.itemName, _itemCount);
+            _wasSoldLastDay = true;
             shop.UpdateUI();
         }
 
@@ -96,6 +113,26 @@ namespace Shop
             }
         
             UpdateUI();
+        }
+
+        private void OnDayChange()
+        {
+            float randomPriceMultiplier = Random.Range(_minDecreasePriceMultiplier, _maxIncreasePriceMultiplier);
+            _sellRow = _wasSoldLastDay ? _sellRow + 1 : 0;
+            if (!_wasSoldLastDay && _price == 0)
+            {
+                _price += _startPrice / 10 == 0 ? 1 : _startPrice / 10;
+            }
+            else
+            {
+                _price = Mathf.Max(0, (int)(_price * randomPriceMultiplier * (1 - _sellRow/10f)));
+            }
+            UpdateUI();
+        }
+
+        private void OnDestroy()
+        {
+            GameManager.Instance.dayNightManager.onDayStart.RemoveListener(OnDayChange);
         }
     }
 }

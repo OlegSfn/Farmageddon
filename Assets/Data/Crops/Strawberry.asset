@@ -34,3 +34,4 @@ MonoBehaviour:
   - 10
   - 30
   maxHumidity: 100
+  harvestPrefab: {fileID: 3355462112007688456, guid: e6a1298e7d503483f86f5013743eeca9, type: 3}

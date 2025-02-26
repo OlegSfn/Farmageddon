@@ -8,11 +8,13 @@ namespace Inventory
     {
         [SerializeField] private List<InventorySlot> inventorySlots;
     
-        public int activeItemIndex;
+        public int activeItemIndex { get; set; }
     
         public float dragItemAlpha = 0.6f;
     
         public readonly Dictionary<string, int> ItemQuantities = new();
+        
+        public InventoryItem CurrentActiveItem => inventorySlots[activeItemIndex].item;
 
         private void Update()
         {
@@ -47,54 +49,39 @@ namespace Inventory
             int quantityToAdd = quantity;
             foreach (var inventorySlot in inventorySlots)
             {
-                if (quantityToAdd <= 0)
-                {
-                    Destroy(item.gameObject);
-                    return;
-                }
                 if (inventorySlot.item != null && inventorySlot.item.ItemName == item.ItemName)
                 {
-                    int quantityToTransfer = Mathf.Min(quantityToAdd, item.MaxStackQuantity - inventorySlot.item.Quantity);
+                    int quantityToTransfer =
+                        Mathf.Min(quantityToAdd, item.MaxStackQuantity - inventorySlot.item.Quantity);
                     inventorySlot.item.Quantity += quantityToTransfer;
                     ChangeItemsCount(item.ItemName, quantityToTransfer);
                     inventorySlot.UpdateUI();
                     quantityToAdd -= quantityToTransfer;
                 }
-            }
-        
-            foreach (var inventorySlot in inventorySlots)
-            {
+
                 if (quantityToAdd <= 0)
                 {
                     Destroy(item.gameObject);
-                    if (inventorySlots[activeItemIndex].item != null)
-                    {
-                        inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>().SetActive(true);
-                    }
                     return;
                 }
+            }
+
+            foreach (var inventorySlot in inventorySlots)
+            {
                 if (inventorySlot.item == null)
                 {
-                    inventorySlot.item = Instantiate(item.gameObject, GameManager.Instance.objectsPool.position, Quaternion.identity).GetComponent<InventoryItem>();
-                    inventorySlot.item.Quantity = Mathf.Min(quantityToAdd, item.MaxStackQuantity);
+                    inventorySlot.item = item;
+                    item.transform.position = GameManager.Instance.objectsPool.position;
+                    inventorySlot.item.Quantity = quantityToAdd;
                     ChangeItemsCount(item.ItemName, inventorySlot.item.Quantity);
                     inventorySlot.item.inventorySlot = inventorySlot;
                     inventorySlot.UpdateUI();
-                    quantityToAdd -= inventorySlot.item.Quantity;
+                    SetItemLogicActive(true);
+                    return;
                 }
             }
-        
-            while(quantityToAdd > 0)
-            {
-                Vector2 randomPosition = (Vector2)GameManager.Instance.playerTransform.position + Random.insideUnitCircle * 0.5f;
-                InventoryItem newItem = Instantiate(item.gameObject, randomPosition, Quaternion.identity).GetComponent<InventoryItem>();
-                newItem.Quantity = Mathf.Min(quantityToAdd, item.MaxStackQuantity);
-                quantityToAdd -= newItem.Quantity;
-            }
-        
-            Destroy(item.gameObject);
         }
-    
+
         public void DropItem(InventoryItem item)
         {
             if (item.inventorySlot == null)
@@ -110,8 +97,7 @@ namespace Inventory
             item.transform.position = randomPosition;
             item.StartCoroutine(item.HandleDroppingItem());
         }
-
-
+        
         private void ChangeActiveItem(int index)
         {
             if (activeItemIndex == index)
@@ -121,19 +107,24 @@ namespace Inventory
         
             inventorySlots[activeItemIndex].slotBorder.enabled = false;
             inventorySlots[index].slotBorder.enabled = true;
-        
-            if (inventorySlots[activeItemIndex].item is not null)
-            {
-                inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>().SetActive(false);
-            }
+
+            SetItemLogicActive(false);
             activeItemIndex = index;
+            SetItemLogicActive(true);
+        }
+        
+        public void SetItemLogicActive(bool isActive)
+        {
             if (inventorySlots[activeItemIndex].item is not null)
             {
-                inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>().SetActive(true);
+                ILogic logic = inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>();
+                if (logic is not null)
+                {
+                    inventorySlots[activeItemIndex].item.gameObject.GetComponent<ILogic>().SetActive(isActive);
+                }
             }
         }
-    
-    
+        
         public void RemoveItems(string itemName, int quantity)
         {
             int quantityToRemove = quantity;

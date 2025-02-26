@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
+  m_Name: CornSeedsBag
+  m_EditorClassIdentifier: 
+  itemName: Corn seeds
+  startBuyPrice: 10
+  startSellPrice: 10
+  itemPrefab: {fileID: 3832941229759897012, guid: bf7da05276902b34296744292a542a8d, type: 3}

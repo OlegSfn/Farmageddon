@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   speed: 2
+  attackCooldown: 1
+  dropItem: {fileID: 8275434934010158836, guid: 848824af701404bb693cea1db9aecdb3, type: 3}

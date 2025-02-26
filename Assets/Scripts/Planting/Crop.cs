@@ -19,6 +19,7 @@ namespace Planting
         
         private void Start()
         {
+            Humidity = cropData.maxHumidity;
             growthTime = cropData.growthStagesTimes.Sum();
             StartCoroutine(Grow());
         }
@@ -74,6 +75,16 @@ namespace Planting
 
         public void Die()
         {
+            Destroy(gameObject);
+        }
+
+        public void Harvest()
+        {
+            if (_currentStage == cropData.growthStages.Length - 1)
+            {
+                Instantiate(cropData.harvestPrefab, transform.position, Quaternion.identity);
+            }
+            
             Destroy(gameObject);
         }
     }

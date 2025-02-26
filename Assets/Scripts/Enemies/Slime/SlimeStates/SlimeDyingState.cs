@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Managers;
+using UnityEngine;
 using UnityEngine.AI;
 
 namespace Enemies.Slime.SlimeStates
@@ -6,7 +7,6 @@ namespace Enemies.Slime.SlimeStates
     public class SlimeDyingState : SlimeBaseState
     {
         public override string Name => "Dying";
-        private readonly NavMeshAgent _navMeshAgent;
         
         public SlimeDyingState(Slime slime, NavMeshAgent navMeshAgent, Animator animator) : base(slime, navMeshAgent, animator)
         {
@@ -15,7 +15,7 @@ namespace Enemies.Slime.SlimeStates
         public override void OnEnter()
         {
             base.OnEnter();
-            _navMeshAgent.isStopped = true;
+            NavMeshAgent.isStopped = true;
             Animator.CrossFade(DyingAnimHash, CrossFadeTime);
         }
 
@@ -24,6 +24,7 @@ namespace Enemies.Slime.SlimeStates
             base.OnAnimationEvent(animationEvent);
             if (animationEvent.stringParameter == "Die")
             {
+                Slime.NeedRewardForDying = true;
                 Object.Destroy(Slime.gameObject);
             }
         }

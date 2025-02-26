@@ -8,14 +8,15 @@ TagManager:
   - Seedbed
   - WaterSource
   - Crop
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - DetectionCollider
+  - Enemies
   - Water
   - UI
-  - 
+  - MapBounds
   - 
   - 
   - 

@@ -7,15 +7,16 @@ namespace Shop
     public class Shop : MonoBehaviour
     {
         [SerializeField] private ShopItem[] shopItems;
+        [SerializeField] private UnityEvent onShopMenuOpened;
         [SerializeField] private UnityEvent onShopMenuClosed;
         [SerializeField] private ColliderInteractor shopInteractor;
         [SerializeField] private GameObject shopInteractorHelper;
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                onShopMenuClosed?.Invoke();
+                CloseShop();
             }
         }
 
@@ -34,15 +35,18 @@ namespace Shop
     
         public void CloseShop()
         {
+            gameObject.SetActive(false);
             onShopMenuClosed?.Invoke();
-            shopInteractor.enabled = false;
-            shopInteractorHelper.SetActive(false);
+            shopInteractor.enabled = true;
+            shopInteractorHelper.SetActive(true);
         }
     
         public void OpenShop()
         {
-            shopInteractor.enabled = true;
-            shopInteractorHelper.SetActive(true);
+            gameObject.SetActive(true);
+            onShopMenuOpened?.Invoke();
+            shopInteractor.enabled = false;
+            shopInteractorHelper.SetActive(false);
         }
     }
 }

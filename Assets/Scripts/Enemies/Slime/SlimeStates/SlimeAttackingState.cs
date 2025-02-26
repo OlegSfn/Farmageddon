@@ -10,18 +10,15 @@ namespace Enemies.Slime.SlimeStates
 
         private readonly Collider2D _attackArea;
         private readonly ContactFilter2D _contactFilter2D;
-        private readonly int _damage;
 
-        private const float AttackCooldown = 0.01f;
         private float _lastAttackTime;
         
         public SlimeAttackingState(Slime slime, NavMeshAgent navMeshAgent, Animator animator, Collider2D attackArea, 
-            ContactFilter2D contactFilter2D, int damage) 
+            ContactFilter2D contactFilter2D) 
             : base(slime, navMeshAgent, animator)
         {
             _attackArea = attackArea;
             _contactFilter2D = contactFilter2D;
-            _damage = damage;
         }
         
         public override void OnEnter()
@@ -33,7 +30,11 @@ namespace Enemies.Slime.SlimeStates
         public override void OnUpdate()
         {
             base.OnUpdate();
-            NavMeshAgent.SetDestination(Slime.Target.position);
+            // Casting null to UnityEngine.Object to check if Slime.Target is destroyed. 
+            if (Slime.Target != (UnityEngine.Object)null)
+            {
+                NavMeshAgent.SetDestination(Slime.Target.position);
+            }
         }
 
         public override void OnAnimationEvent(AnimationEvent animationEvent)
@@ -47,7 +48,7 @@ namespace Enemies.Slime.SlimeStates
 
         private void Attack()
         {
-            if (Time.time - _lastAttackTime < AttackCooldown)
+            if (Time.time - _lastAttackTime < Slime.Data.attackCooldown)
             {
                 return;
             }
@@ -57,10 +58,11 @@ namespace Enemies.Slime.SlimeStates
 
             foreach (var collider in colliders)
             {
-                Health health = collider.GetComponent<Health>();
-                if (health != null && collider.CompareTag("Player") || collider.CompareTag("Building"))
+                HealthController healthController = collider.GetComponent<HealthController>();
+                if (healthController != null && (collider.CompareTag("Player") || collider.CompareTag("Building")))
                 {
-                    health.TakeDamage(_damage);
+                    HitInfo hitInfo = new HitInfo(Slime.Data.damage, Slime.transform.position);
+                    healthController.TakeDamage(hitInfo);
                     _lastAttackTime = Time.time;
                     return;
                 }
