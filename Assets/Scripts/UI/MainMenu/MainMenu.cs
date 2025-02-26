@@ -7,6 +7,7 @@ namespace UI.MainMenu
     {
         public void EnterScene(string sceneName)
         {
+            Time.timeScale = 1;
             SceneManager.LoadScene(sceneName);
         }
     

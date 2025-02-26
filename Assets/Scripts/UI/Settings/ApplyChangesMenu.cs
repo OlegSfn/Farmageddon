@@ -37,7 +37,7 @@ namespace UI.Settings
             int timeLeft = ApplyChangesTimer;
             while (timeLeft > 0)
             {
-                yield return new WaitForSeconds(1f);
+                yield return new WaitForSecondsRealtime(1f);
                 --timeLeft;
             }
 

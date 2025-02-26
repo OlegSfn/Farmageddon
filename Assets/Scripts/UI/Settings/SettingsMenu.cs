@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -9,6 +10,7 @@ namespace UI.Settings
     {
         [SerializeField] private AudioMixer audioMixer;
         [SerializeField] private TMP_Dropdown resolutionsDropdown;
+        [SerializeField] private TMP_Dropdown qualityDropdown;
         [SerializeField] private Toggle fullscreenToggle;
 
         [SerializeField] private ApplyChangesMenu applyChangesMenu;
@@ -65,6 +67,9 @@ namespace UI.Settings
             }
 
             resolutionsDropdown.RefreshShownValue();
+
+            qualityDropdown.value = QualitySettings.GetQualityLevel();
+            qualityDropdown.RefreshShownValue();
             
             fullscreenToggle.isOn = Screen.fullScreen;
         }
@@ -87,11 +92,21 @@ namespace UI.Settings
         {
             Screen.fullScreen = _wasFullScreen;
             Screen.fullScreenMode = _previousFullScreenMode;
+            
+            fullscreenToggle.onValueChanged.RemoveListener(SetFullscreen);
+            fullscreenToggle.isOn = _wasFullScreen;
+            fullscreenToggle.onValueChanged.AddListener(SetFullscreen);
         }
 
         private void RevertResolution()
         {
             Screen.SetResolution(_previousResolution.width, _previousResolution.height, Screen.fullScreen);
+            
+            resolutionsDropdown.onValueChanged.RemoveListener(SetResolution);
+            resolutionsDropdown.value = resolutionsDropdown.options.FindIndex(option =>
+                option.text == _previousResolution.ToString());
+            resolutionsDropdown.RefreshShownValue();
+            resolutionsDropdown.onValueChanged.AddListener(SetResolution);
         }
     }
 }
