@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab99f6418c989749805893fa043ba11, type: 3}
   m_Name: GreenSlime
   m_EditorClassIdentifier: 
-  damage: 0
-  speed: 0
+  damage: 5
+  speed: 1
   attackCooldown: 1
-  cashReward: 3
+  dropItem: {fileID: 5791940124101908165, guid: 8569ece5e5e5f474d8122f9a6597bd84, type: 3}

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Enemies.FSM.StateMachine;
 using Enemies.FSM.StateMachine.Predicates;
@@ -160,9 +159,15 @@ namespace Enemies.Slime
 
         private void OnDestroy()
         {
-            if (NeedRewardForDying)
+            if (!NeedRewardForDying)
             {
-                GameManager.Instance.cashManager.Cash += Data.cashReward;
+                return;
+            }
+            
+            for (int i = 0; i < Random.Range(1, 4); ++i)
+            {
+                Vector2 randomPosition = (Vector2)transform.position + Random.insideUnitCircle * 0.5f;
+                Instantiate(Data.dropItem, randomPosition, Quaternion.identity);
             }
         }
     }

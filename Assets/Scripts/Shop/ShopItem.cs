@@ -29,7 +29,7 @@ namespace Shop
         private readonly float _minDecreasePriceMultiplier = 0.8f;
         private readonly float _maxIncreasePriceMultiplier = 1.2f;
         private int _sellRow;
-        private bool _wasSelledLastDay;
+        private bool _wasSoldLastDay;
 
         private void Awake()
         {
@@ -88,7 +88,7 @@ namespace Shop
             GameManager gameManager = GameManager.Instance;
             GameManager.Instance.cashManager.Cash += _price * _itemCount;
             gameManager.inventory.RemoveItems(itemData.itemName, _itemCount);
-            _wasSelledLastDay = true;
+            _wasSoldLastDay = true;
             shop.UpdateUI();
         }
 
@@ -118,8 +118,8 @@ namespace Shop
         private void OnDayChange()
         {
             float randomPriceMultiplier = Random.Range(_minDecreasePriceMultiplier, _maxIncreasePriceMultiplier);
-            _sellRow = _wasSelledLastDay ? _sellRow + 1 : 0;
-            if (!_wasSelledLastDay && _price == 0)
+            _sellRow = _wasSoldLastDay ? _sellRow + 1 : 0;
+            if (!_wasSoldLastDay && _price == 0)
             {
                 _price += _startPrice / 10 == 0 ? 1 : _startPrice / 10;
             }
