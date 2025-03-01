@@ -15,10 +15,10 @@ MonoBehaviour:
   WaveName: Night 1
   EnemyWaveChunks:
   - EnemiesToSpawn:
-    - PrefabToSpawn: {fileID: 1019291083087801872, guid: fe3a4b34fc8aa43a7b90506fab45f03b, type: 3}
+    - PrefabToSpawn: {fileID: 1997221989226664806, guid: 1cd41625e234b4ae49b24299ae662ea1, type: 3}
       Count: 3
-    DelayBeforeSpawn: 2
+    DelayBeforeSpawn: 1
   - EnemiesToSpawn:
-    - PrefabToSpawn: {fileID: 1019291083087801872, guid: fe3a4b34fc8aa43a7b90506fab45f03b, type: 3}
-      Count: 10
-    DelayBeforeSpawn: 7
+    - PrefabToSpawn: {fileID: 2550098750578093091, guid: 0d401532ea55545669d20372fe30c881, type: 3}
+      Count: 1
+    DelayBeforeSpawn: 2

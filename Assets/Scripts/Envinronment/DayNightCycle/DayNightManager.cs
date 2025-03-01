@@ -18,6 +18,8 @@ namespace Envinronment.DayNightCycle
         public UnityEvent onNightStart;
     
         private float _currentTime;
+
+        public int DaysNumber { get; private set; } = 1;
     
         private void Update()
         {
@@ -34,6 +36,7 @@ namespace Envinronment.DayNightCycle
                 {
                     onDayStart?.Invoke();
                     IsDay = true;
+                    ++DaysNumber;
                 }
             }
             else
