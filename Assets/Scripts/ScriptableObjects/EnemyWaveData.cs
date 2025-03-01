@@ -1,24 +1,25 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace ScriptableObjects
 {
     [CreateAssetMenu(fileName = "EnemyWaveData", menuName = "ScriptableObjects/Enemies/Wave", order = 1)]
     public class EnemyWaveData : ScriptableObject
     {
-        public string WaveName;
-        public EnemyWaveChunk[] EnemyWaveChunks;
+        public string waveName;
+        public EnemyWaveChunk[] enemyWaveChunks;
     
         [System.Serializable]
         public struct EnemyWaveChunk {
-            public EnemiesToSpawn[] EnemiesToSpawn;
-            public float DelayBeforeSpawn;
+            public EnemiesToSpawn[] enemiesToSpawn;
+            public float delayBeforeSpawn;
         }
 
         [System.Serializable]
         public struct EnemiesToSpawn
         {
-            public GameObject PrefabToSpawn;
-            public int Count;
+            public GameObject prefabToSpawn;
+            public int count;
         }
     }
 }

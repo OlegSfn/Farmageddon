@@ -13,6 +13,20 @@ MonoBehaviour:
   m_Name: YellowSlime
   m_EditorClassIdentifier: 
   damage: 5
-  speed: 1
+  speed: 1.3
   attackCooldown: 1
   dropItem: {fileID: 2038151458478756066, guid: 1f71f1003ebfe49e0a977ac78c2ee14f, type: 3}
+  chasingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 2
+  - colTag: Crop
+    priority: 1
+  attackingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 2
+  - colTag: Crop
+    priority: 1

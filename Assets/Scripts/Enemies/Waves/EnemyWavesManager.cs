@@ -46,10 +46,10 @@ namespace Enemies.Waves
             CalculateMultipliers();
 
             int chunkIndex = 0;
-            while (chunkIndex < wave.EnemyWaveChunks.Length)
+            while (chunkIndex < wave.enemyWaveChunks.Length)
             {
-                yield return new WaitForSeconds(wave.EnemyWaveChunks[chunkIndex].DelayBeforeSpawn * _delayMultiplier);
-                SpawnChunk(wave.EnemyWaveChunks[chunkIndex]);
+                yield return new WaitForSeconds(wave.enemyWaveChunks[chunkIndex].delayBeforeSpawn * _delayMultiplier);
+                SpawnChunk(wave.enemyWaveChunks[chunkIndex]);
                 ++chunkIndex;
             }
 
@@ -58,14 +58,14 @@ namespace Enemies.Waves
 
         private void SpawnChunk(EnemyWaveData.EnemyWaveChunk chunkInfo)
         {
-            foreach (var enemyInfo in chunkInfo.EnemiesToSpawn)
+            foreach (var enemyInfo in chunkInfo.enemiesToSpawn)
             {
-                for (int _ = 0; _ < Mathf.Round(enemyInfo.Count*_enemiesCountMultiplier); _++)
+                for (int _ = 0; _ < Mathf.Round(enemyInfo.count*_enemiesCountMultiplier); _++)
                 {
                     float angle = Random.Range(0f, 360f);
                     Vector3 dir = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
                     Vector3 pos = dir * _radius;
-                    Instantiate(enemyInfo.PrefabToSpawn, pos, Quaternion.identity);
+                    Instantiate(enemyInfo.prefabToSpawn, pos, Quaternion.identity);
                 }
             }
         }

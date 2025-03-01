@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab99f6418c989749805893fa043ba11, type: 3}
   m_Name: RedSlime
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 2
+  damage: 10
+  speed: 0.7
   attackCooldown: 1
   dropItem: {fileID: 8275434934010158836, guid: 848824af701404bb693cea1db9aecdb3, type: 3}
+  chasingPriorities:
+  - colTag: Player
+    priority: 1
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0
+  attackingPriorities:
+  - colTag: Player
+    priority: 1
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0

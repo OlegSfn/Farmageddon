@@ -54,19 +54,19 @@ namespace Enemies.Slime
 
         private void InitPriorities()
         {
-            _chasingPriorities = new Dictionary<string, int>
+            _chasingPriorities = new Dictionary<string, int>();
+            foreach (var priority in Data.chasingPriorities)
             {
-                {"Player", 1},
-                {"Building", 0}
-            };
-        
-            _attackingPriorities = new Dictionary<string, int>
+                _chasingPriorities[priority.colTag] = priority.priority;
+            }
+            
+            _attackingPriorities = new Dictionary<string, int>();
+            foreach (var priority in Data.attackingPriorities)
             {
-                {"Player", 1},
-                {"Building", 0}
-            };
+                _attackingPriorities[priority.colTag] = priority.priority;
+            }
         }
-    
+
         private void InitStateMachine()
         {
             _stateMachine = new StateMachine();
@@ -140,16 +140,28 @@ namespace Enemies.Slime
         private Transform GetMaxPriorityTarget(List<Collider2D> colliders, Dictionary<string, int> priorities)
         {
             Transform currentTarget = null;
-            int currentPriority = int.MaxValue;
+            int currentPriority = int.MinValue;
+            float currentDistance = int.MaxValue;
             foreach (var col in colliders)
             {
-                if (col.CompareTag("Player") || col.CompareTag("Building"))
+                foreach (var prioritiesKey in priorities.Keys)
                 {
+                    if (!col.CompareTag(prioritiesKey))
+                    {
+                        continue;
+                    }
+                    
+                    
                     int priority = priorities[col.tag];
-                    if (priority < currentPriority)
+                    if (priority > currentPriority)
                     {
                         currentTarget = col.transform;
                         currentPriority = priority;
+                    } else if (priority == currentPriority && 
+                               Vector2.SqrMagnitude(transform.position - col.transform.position) < currentDistance)
+                    {
+                        currentTarget = col.transform;
+                        currentDistance = Vector2.SqrMagnitude(transform.position - col.transform.position);
                     }
                 }
             }

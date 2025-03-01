@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab99f6418c989749805893fa043ba11, type: 3}
   m_Name: PurpleSlime
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 1
+  damage: 7
+  speed: 0.8
   attackCooldown: 1
   dropItem: {fileID: 8970552980319481498, guid: a57dff9f9b3704f8b9306bf9ba4a015f, type: 3}
+  chasingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 1
+  - colTag: Crop
+    priority: 1
+  attackingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 1
+  - colTag: Crop
+    priority: 1

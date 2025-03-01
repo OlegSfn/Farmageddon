@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab99f6418c989749805893fa043ba11, type: 3}
   m_Name: BlackSlime
   m_EditorClassIdentifier: 
-  damage: 5
-  speed: 1
+  damage: 15
+  speed: 0.3
   attackCooldown: 1
   dropItem: {fileID: 1628882571943195906, guid: 1454cea562cf2414e93403a024aee1d1, type: 3}
+  chasingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0
+  attackingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0
