@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2098259791716454183}
   - component: {fileID: 6825513828147696489}
   - component: {fileID: 9159188429074931575}
+  - component: {fileID: -1320676993554574218}
   m_Layer: 0
   m_Name: CarrotCrop
   m_TagString: Crop
@@ -163,7 +164,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cccc5e84ddbe75842bb0b5558544c9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  <MaxHealth>k__BackingField: 0
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls: []
   onDeath:
     m_PersistentCalls:
       m_Calls:
@@ -179,3 +183,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-1320676993554574218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4362493658385370199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319837a47b7e4f028bcc7c9306e47e2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <buildingData>k__BackingField: {fileID: 11400000, guid: eda58ca203a3548e3a0ce93685db6eb1, type: 2}

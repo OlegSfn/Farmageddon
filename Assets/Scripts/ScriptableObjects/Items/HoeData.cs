@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ScriptableObjects
+namespace ScriptableObjects.Items
 {
     [CreateAssetMenu(fileName = "HoeData", menuName = "ScriptableObjects/HoeData")]
     public class HoeData : ScriptableObject

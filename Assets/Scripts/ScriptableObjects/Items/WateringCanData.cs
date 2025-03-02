@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ScriptableObjects
+namespace ScriptableObjects.Items
 {
     [CreateAssetMenu(fileName = "WateringCanData", menuName = "ScriptableObjects/WateringCanData")]
     public class WateringCanData : ScriptableObject

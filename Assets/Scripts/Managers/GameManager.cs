@@ -1,7 +1,6 @@
-using System;
+using Building;
 using Enemies.Waves;
 using Envinronment.DayNightCycle;
-using ScriptableObjects;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,6 +16,7 @@ namespace Managers
         public EnemyWavesManager enemyWavesManager;
         public PlayerContoller playerController;
         public CashManager cashManager;
+        public TilemapManager tilemapManager;
     
         public Transform playerTransform;
         public Transform objectsPool;

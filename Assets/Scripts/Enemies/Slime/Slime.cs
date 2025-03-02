@@ -5,6 +5,7 @@ using Enemies.FSM.StateMachine.Predicates;
 using Enemies.Slime.SlimeStates;
 using Managers;
 using ScriptableObjects;
+using ScriptableObjects.Enemies;
 using UnityEngine;
 using UnityEngine.AI;
 

@@ -66,7 +66,7 @@ public abstract class WorldCursor : MonoBehaviour, ILogic
         enabled = active;
     }
     
-    private Vector3Int GetObjectPosition()
+    protected Vector3Int GetObjectPosition()
     {
         Vector3 mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
         return new Vector3Int(Mathf.RoundToInt(mousePosition.x), Mathf.RoundToInt(mousePosition.y), 0);

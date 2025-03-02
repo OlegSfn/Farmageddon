@@ -1,5 +1,6 @@
 using System.Collections;
 using ScriptableObjects;
+using ScriptableObjects.Enemies;
 using UnityEngine;
 
 namespace Enemies.Waves

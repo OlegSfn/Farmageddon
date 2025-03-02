@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Managers;
 using Planting;
 using ScriptableObjects;
+using ScriptableObjects.Items;
 using UnityEngine;
 
 namespace Items
@@ -13,7 +14,6 @@ namespace Items
         [SerializeField] protected WateringCanData data;
         
         [SerializeField] protected AnimatorOverrideController animatorOverrideController;
-        protected static readonly int WateringAnimHash = Animator.StringToHash("Watering");
     
         private Crop _selectedCrop;
         private int _waterAmount;

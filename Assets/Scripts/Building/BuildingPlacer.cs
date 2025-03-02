@@ -1,39 +1,33 @@
-using System;
 using System.Collections.Generic;
 using Inventory;
 using Managers;
+using ScriptableObjects.Buildings;
 using UnityEngine;
 
 namespace Building
 {
-    public class ObjectPlacer : WorldCursor
+    public class BuildingPlacer : WorldCursor
     {
         [SerializeField] protected GameObject builtPrefab;
         [SerializeField] protected InventoryItem item;
+        [SerializeField] protected BuildingData buildingData;
 
-        [SerializeField] protected string[] includeTagsForBuilding;
-        [SerializeField] protected string[] excludeTagsForBuilding;
-    
         protected GameObject PlacedBuilding;
-        protected Action<Collider2D> OnIncludeTagFound;
-        
-        private HashSet<string> _includeTags;
-        private HashSet<string> _excludeTags;
+        protected TilemapManager TilemapManager;
         
         protected override void Start()
         {
             base.Start();
-            _includeTags = new HashSet<string>(includeTagsForBuilding);
-            _excludeTags = new HashSet<string>(excludeTagsForBuilding);
-            ContactFilter.useTriggers = true;
+            TilemapManager = GameManager.Instance.tilemapManager;
         }
-    
+
         protected override void UseItem(Vector3Int cursorPosition)
         {
             if (item.RemoveItems(1))
             {
                 Destroy(CursorGameObject);
             }
+            
             PlacedBuilding = Instantiate(builtPrefab, cursorPosition, Quaternion.identity);
         }
 
@@ -42,29 +36,17 @@ namespace Building
             bool isCloseToPlayer = (CursorGameObject.transform.position - GameManager.Instance.playerTransform.position).sqrMagnitude < GameManager.Instance.sqrDistanceToUseItems;
             List<Collider2D> colliders = new List<Collider2D>();
             CursorCollider.Overlap(ContactFilter, colliders);
-    
-            bool hasIncludedTag = _includeTags.Count == 0;
-            bool hasExcludedTag = false;
+            
             foreach (var col in colliders)
             {
-                if (!col.isTrigger && !_includeTags.Contains(col.tag) && !col.CompareTag("Player"))
+                if (!col.isTrigger && !col.CompareTag("Player"))
                 {
                     return false;
                 }
-                
-                if (_includeTags.Contains(col.tag))
-                {
-                    hasIncludedTag = true;
-                    OnIncludeTagFound?.Invoke(col);
-                }
-                else if (_excludeTags.Contains(col.tag))
-                {
-                    hasExcludedTag = true;
-                    break;
-                }
             }
             
-            return hasIncludedTag && !hasExcludedTag && isCloseToPlayer;
+            Vector2Int cursorPosition = (Vector2Int)GetObjectPosition();
+            return isCloseToPlayer && buildingData.CanPlace(TilemapManager, cursorPosition);
         }
     }
 }

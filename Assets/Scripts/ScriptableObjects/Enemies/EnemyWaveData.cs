@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace ScriptableObjects
+namespace ScriptableObjects.Enemies
 {
     [CreateAssetMenu(fileName = "EnemyWaveData", menuName = "ScriptableObjects/Enemies/Wave", order = 1)]
     public class EnemyWaveData : ScriptableObject

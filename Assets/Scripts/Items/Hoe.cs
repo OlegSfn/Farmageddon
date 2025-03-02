@@ -1,7 +1,11 @@
 using System.Collections.Generic;
+using Building;
 using Managers;
 using Planting;
 using ScriptableObjects;
+using ScriptableObjects.Buildings;
+using ScriptableObjects.Buildings.Concrete;
+using ScriptableObjects.Items;
 using UnityEngine;
 
 namespace Items
@@ -9,17 +13,19 @@ namespace Items
     public class Hoe : WorldCursor
     {
         private Crop _selectedCrop;
-        private Seedbed _selectedSeedbag;
+        private Seedbed _selectedSeedbed;
         [SerializeField] protected GameObject seedbedPrefab;
         
         [SerializeField] protected HoeData data;
         
         [SerializeField] protected AnimatorOverrideController animatorOverrideController;
 
+        private TilemapManager _tilemapManager;
+        
         protected override void Start()
         {
             base.Start();
-            ContactFilter.useTriggers = true;
+            _tilemapManager = GameManager.Instance.tilemapManager;
         }
 
         protected override void UseItem(Vector3Int cursorPosition)
@@ -31,7 +37,7 @@ namespace Items
             {
                 _selectedCrop.Harvest();
             }
-            else if (_selectedSeedbag is null)
+            else if (_selectedSeedbed is null)
             {
                 Instantiate(seedbedPrefab, cursorPosition, Quaternion.identity);
             }
@@ -39,8 +45,11 @@ namespace Items
 
         protected override bool CheckIfCanUseItem()
         {
+            Vector2Int cursorPosition = (Vector2Int)GetObjectPosition();
             _selectedCrop = null;
-            _selectedSeedbag = null;
+            _selectedSeedbed = null;
+            _tilemapManager.GetBuildingAt<CropBuildingData>(cursorPosition)?.TryGetComponent(out _selectedCrop);
+            _tilemapManager.GetBuildingAt<SeedbedBuildingData>(cursorPosition)?.TryGetComponent(out _selectedSeedbed);
             
             float sqrDistanceToCursor = (GameManager.Instance.playerTransform.position - CursorGameObject.transform.position).sqrMagnitude;
             float maxUseDistance = GameManager.Instance.sqrDistanceToUseItems * data.distanceMultiplier;
@@ -48,26 +57,16 @@ namespace Items
             
             List<Collider2D> colliders = new List<Collider2D>();
             CursorCollider.Overlap(ContactFilter, colliders);
-
             foreach (var col in colliders)
             {
-                if (col.gameObject.isStatic && !col.isTrigger)
+                if (!col.isTrigger && !col.CompareTag("Player"))
                 {
                     return false;
                 }
-                
-                if (col.CompareTag("Crop"))
-                {
-                    _selectedCrop = col.GetComponent<Crop>();
-                }
-                else if (col.CompareTag("Seedbed"))
-                {
-                    _selectedSeedbag = col.GetComponent<Seedbed>();
-                }
             }
-
+            
             bool isAbleToPlough = isCloseToPlayer && !GameManager.Instance.playerController.IsWeeding;
-            return isAbleToPlough && !(_selectedSeedbag is not null && _selectedCrop is null);
+            return isAbleToPlough && !(_selectedSeedbed is not null && _selectedCrop is null);
         }
     }
 }
