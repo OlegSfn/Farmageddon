@@ -12,7 +12,7 @@ using UnityEngine.AI;
 namespace Enemies.Slime
 {
     [RequireComponent(typeof(NavMeshAgent)), RequireComponent(typeof(Animator))]
-    public class Slime : MonoBehaviour
+    public class Slime : MonoBehaviour, IScarable
     {
         [SerializeField] private Collider2D chasingSightArea;
         [SerializeField] private Collider2D attackSightArea;
@@ -33,6 +33,9 @@ namespace Enemies.Slime
         public bool isTakingDamage { get; set; }
         public Transform Target { get; private set; }
 
+        private Dictionary<IScary, int> _activeScareSources = new();
+        private int _totalScare;
+        
         private void Start()
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
@@ -76,13 +79,15 @@ namespace Enemies.Slime
             var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackCollider, _contactFilter2D);
             var friendlyState = new SlimeFriendlyState(this, _navMeshAgent, _animator);
             var dyingState = new SlimeDyingState(this, _navMeshAgent, _animator);
+            var slimeScaredState = new SlimeScaredState(this, _navMeshAgent, _animator);
             _takingDamageState = new SlimeTakingDamageState(this, _navMeshAgent, _animator);
 
-            bool IsAbleToAct() => _isAlive && !isTakingDamage;
+            bool IsAbleToAct() => _isAlive && !isTakingDamage && _totalScare <= 0;
             _stateMachine.AddAnyTransition(wanderingState, new FuncPredicate(() => IsAbleToAct() && !GameManager.Instance.dayNightManager.IsDay && Target is null));
             _stateMachine.AddAnyTransition(friendlyState, new FuncPredicate(() => IsAbleToAct() && GameManager.Instance.dayNightManager.IsDay));
             _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => IsAbleToAct() && Target is not null));
             _stateMachine.AddAnyTransition(_takingDamageState, new FuncPredicate(() => isTakingDamage && _isAlive));
+            _stateMachine.AddAnyTransition(slimeScaredState, new FuncPredicate(() => _isAlive && !isTakingDamage && _totalScare > 0));
             _stateMachine.AddAnyTransition(dyingState, new FuncPredicate(() => !_isAlive));
             
             _stateMachine.StartEntryState(wanderingState);
@@ -91,6 +96,7 @@ namespace Enemies.Slime
         private void Update()
         {
             _stateMachine.Update();
+            Debug.Log(CalculateTotalScare());
         }
 
         private void FixedUpdate()
@@ -182,6 +188,56 @@ namespace Enemies.Slime
                 Vector2 randomPosition = (Vector2)transform.position + Random.insideUnitCircle * 0.5f;
                 Instantiate(Data.dropItem, randomPosition, Quaternion.identity);
             }
+        }
+        
+        public void UpdateScareFromSource(IScary source, int amount)
+        {
+            _activeScareSources[source] = amount;
+            _totalScare = CalculateTotalScare();
+        }
+
+        public void RemoveScareFromSource(IScary source)
+        {
+            if (_activeScareSources.Remove(source))
+            {
+                _totalScare = CalculateTotalScare();
+            }
+        }
+        
+        public IScary GetStrongestScareSource()
+        {
+            IScary strongestSource = null;
+            int maxScare = 0;
+            float currentDistance = int.MaxValue;
+            
+            foreach (var pair in _activeScareSources)
+            {
+                if (pair.Value > maxScare)
+                {
+                    maxScare = pair.Value;
+                    strongestSource = pair.Key;
+                    currentDistance = Vector2.SqrMagnitude(transform.position - pair.Key.GetTransform().position);
+                } else if (pair.Value == maxScare && 
+                           Vector2.SqrMagnitude(transform.position - pair.Key.GetTransform().position) < currentDistance)
+                {
+                    maxScare = pair.Value;
+                    strongestSource = pair.Key;
+                    currentDistance = Vector2.SqrMagnitude(transform.position - pair.Key.GetTransform().position);
+                }
+            }
+            
+            return strongestSource;
+        }
+        
+        private int CalculateTotalScare()
+        {
+            int totalScare = 0;
+            foreach (var scareSource in _activeScareSources)
+            {
+                totalScare += scareSource.Value;
+            }
+
+            return totalScare;
         }
     }
 }

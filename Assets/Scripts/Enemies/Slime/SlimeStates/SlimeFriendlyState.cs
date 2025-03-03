@@ -16,9 +16,8 @@ namespace Enemies.Slime.SlimeStates
         {
             base.OnEnter();
             Animator.CrossFade(WalkingAnimHash, CrossFadeTime);
-            float t = Random.Range(0f, 2 * Mathf.PI);
-            Vector2 randomAwayPoint = 50 * new Vector2(Mathf.Cos(t), Mathf.Sin(t));
-            NavMeshAgent.SetDestination(randomAwayPoint);
+            Vector2 randomAwayPoint = Random.insideUnitCircle.normalized * 50f;
+            NavMeshAgent.SetDestination((Vector2)Slime.transform.position + randomAwayPoint);
         }
         
         public override void OnUpdate()
