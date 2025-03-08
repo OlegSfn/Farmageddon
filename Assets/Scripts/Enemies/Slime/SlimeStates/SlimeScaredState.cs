@@ -3,6 +3,7 @@ using System.Linq;
 using Managers;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.PlayerLoop;
 
 namespace Enemies.Slime.SlimeStates
 {

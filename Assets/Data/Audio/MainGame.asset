@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2699ff550a9489eba7dad5d09801be, type: 3}
+  m_Name: MainGame
+  m_EditorClassIdentifier: 
+  musicGroups:
+  - groupName: MainMenu
+    clips:
+    - {fileID: 8300000, guid: 6bd65c4f4f63f4661a1cd08ef1b466bb, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    spatialBlend: 0
+    loop: 1
+    mixerGroup: {fileID: -305290204044077131, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: Game
+    clips:
+    - {fileID: 8300000, guid: bdf620e730b9e45cd946556362c8117d, type: 3}
+    volume: 1
+    minPitch: 1
+    maxPitch: 1
+    spatialBlend: 0
+    loop: 1
+    mixerGroup: {fileID: -305290204044077131, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  sfxGroups:
+  - groupName: Footstep
+    clips:
+    - {fileID: 8300000, guid: a6d92f1e5c4d14bc48444e0ee77c7d31, type: 3}
+    - {fileID: 8300000, guid: 2a50183ecc8b046c5add46f5431b0732, type: 3}
+    - {fileID: 8300000, guid: 49048f4888fba43c2be8199aad4988c3, type: 3}
+    - {fileID: 8300000, guid: 5126233c4a7af4781926dddf91a82473, type: 3}
+    - {fileID: 8300000, guid: 5d1a0103b57ce46e6995a1b23f3a9799, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: PlayerHurt
+    clips:
+    - {fileID: 8300000, guid: 818ce2890f16148a29e6ce2b72704c8c, type: 3}
+    - {fileID: 8300000, guid: d1b683eb9d97f4b7b92c3d16c53298cc, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SwordSwing
+    clips:
+    - {fileID: 8300000, guid: eaea8ca4086d84d77b419cd033610be9, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: WateringCan
+    clips:
+    - {fileID: 8300000, guid: 9f840b8b47fd64c17b37df6067d9e2ae, type: 3}
+    - {fileID: 8300000, guid: b8e8dbd078e1549758943376e55f85d5, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: FillWateringCan
+    clips:
+    - {fileID: 8300000, guid: c6b5ccf2bf4624f2fbfaf0fb37feb7d2, type: 3}
+    - {fileID: 8300000, guid: b1575d44b6bec4001a751963d16d899e, type: 3}
+    - {fileID: 8300000, guid: b54e6786cc2e245a2bd650febc01e3dd, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: PluggingDirt
+    clips:
+    - {fileID: 8300000, guid: 45cb53e034d614cc1b606061aae66002, type: 3}
+    - {fileID: 8300000, guid: 883b1fdcd9a624f1b831ad523b821c12, type: 3}
+    - {fileID: 8300000, guid: b385be19044454b7a87c090b29fb151b, type: 3}
+    - {fileID: 8300000, guid: 3b629054abb5b4cd0b31dabb5e2eceb8, type: 3}
+    - {fileID: 8300000, guid: c860053cc5c084e01918eb3f06255d3f, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeJump
+    clips:
+    - {fileID: 8300000, guid: 8bed9ea7952dc44ca99eb8b3987123b1, type: 3}
+    - {fileID: 8300000, guid: 1316e512a45c8427981e3cd6ea117843, type: 3}
+    - {fileID: 8300000, guid: f73cb6849394f48a78e517482c7cd8f1, type: 3}
+    - {fileID: 8300000, guid: 76b814d6c65d549c3a97522e10832f79, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 1
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeAttack
+    clips:
+    - {fileID: 8300000, guid: b79229d48f4e94828bed9b0a1914a421, type: 3}
+    - {fileID: 8300000, guid: 4c0d7215a9e354fa6b74486777aed8f1, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 1
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeDeath
+    clips:
+    - {fileID: 8300000, guid: d84255839000d4127a7e15d149deb8b9, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 1
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeTakingDamage
+    clips:
+    - {fileID: 8300000, guid: d84255839000d4127a7e15d149deb8b9, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 1
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: Raining
+    clips:
+    - {fileID: 8300000, guid: 5d386d7608ccd48b29cb37c659f1ceca, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}

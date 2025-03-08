@@ -34,6 +34,8 @@ namespace Enemies.Slime.SlimeStates
             
             Vector3 knockBackDirection = ((Vector2)Slime.transform.position - HitInfo.HitPoint).normalized;
             knockBackPosition = Slime.transform.position + KnockBackDistance*knockBackDirection;
+            
+            AudioManager.Instance.PlaySlimeTakingDamageSound(Slime.transform.position);
         }
 
         public override void OnUpdate()

@@ -96,7 +96,6 @@ namespace Enemies.Slime
         private void Update()
         {
             _stateMachine.Update();
-            Debug.Log(CalculateTotalScare());
         }
 
         private void FixedUpdate()

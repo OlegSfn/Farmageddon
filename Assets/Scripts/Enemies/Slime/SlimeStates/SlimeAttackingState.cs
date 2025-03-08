@@ -52,6 +52,8 @@ namespace Enemies.Slime.SlimeStates
                 return;
             }
             
+            Managers.AudioManager.Instance.PlaySlimeAttackSound(Slime.transform.position);
+            
             List<Collider2D> colliders = new List<Collider2D>();
             _attackArea.Overlap(_contactFilter2D, colliders);
 

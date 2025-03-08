@@ -113,10 +113,12 @@ public class PlayerContoller : MonoBehaviour
     {
         _takingDamageState.HitInfo = hitInfo;
         IsTakingDamage = true;
+        AudioManager.Instance.PlayPlayerHurtSound(transform.position);
     }
 
     public void Die()
     {
+        AudioManager.Instance.PlayPlayerHurtSound(transform.position);
         IsAlive = false;
     }
 }
