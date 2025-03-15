@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -21,7 +22,7 @@ namespace PlayerStates
         public override void OnUpdate()
         {
             base.OnUpdate();
-            if (PlayerContoller.Input.sqrMagnitude < 0.1f)
+            if (PlayerContoller.Input.sqrMagnitude < 0.1f && !GameManager.Instance.IsPaused)
             {
                 Animator.CrossFade(IdleAnimHash, CrossFadeTime);
                 _footstepTimer = 0f;
@@ -42,7 +43,10 @@ namespace PlayerStates
         public override void OnFixedUpdate()
         {
             base.OnFixedUpdate();
-            Rigidbody2D.linearVelocity = PlayerContoller.Speed * PlayerContoller.Input.normalized;
+            if (PlayerContoller.CanMove)
+            {
+                Rigidbody2D.linearVelocity = PlayerContoller.Speed * PlayerContoller.Input.normalized;
+            }
         }
     }
 }

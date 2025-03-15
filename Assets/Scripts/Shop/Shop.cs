@@ -1,4 +1,5 @@
 using Interactors;
+using Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -37,8 +38,12 @@ namespace Shop
         {
             gameObject.SetActive(false);
             onShopMenuClosed?.Invoke();
-            shopInteractor.enabled = true;
-            shopInteractorHelper.SetActive(true);
+
+            if (GameManager.Instance.dayNightManager.IsDay)
+            {
+                shopInteractor.enabled = true;
+                shopInteractorHelper.SetActive(true);
+            }
         }
     
         public void OpenShop()

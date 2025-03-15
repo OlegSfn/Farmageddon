@@ -245,6 +245,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _health: 0
 --- !u!195 &7495846702660490652
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -410,7 +411,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 75
   m_Sprite: {fileID: -3049179044049071616, guid: 66f05780e32a44ea6a4cff33ccf7be6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

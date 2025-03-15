@@ -22,7 +22,7 @@ public class PlayerContoller : MonoBehaviour
     public bool IsAlive { get; set; }
     public bool IsTakingDamage { get; set; }
     
-    public bool CanMove { get; set; }
+    [field: SerializeField] public bool CanMove { get; set; }
     
     private Animator _animator;
     private Rigidbody2D _rb;

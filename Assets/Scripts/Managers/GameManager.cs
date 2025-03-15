@@ -3,6 +3,7 @@ using Enemies.Waves;
 using Envinronment.DayNightCycle;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 namespace Managers
 {
@@ -26,9 +27,10 @@ namespace Managers
         public Color goodTint = new(117, 241, 124);
         public float sqrDistanceToUseItems = 5f;
 
+        public bool IsPaused { get; set; }
+        
         [SerializeField] private GameObject pauseMenu;
         [SerializeField] private GameObject gameOverMenu;
-        private bool _isPaused;
 
         private void Awake()
         {
@@ -51,9 +53,9 @@ namespace Managers
         
         public void SetPause()
         {
-            _isPaused = !_isPaused;
-            pauseMenu.SetActive(_isPaused);
-            Time.timeScale = _isPaused ? 0 : 1;
+            IsPaused = !IsPaused;
+            pauseMenu.SetActive(IsPaused);
+            Time.timeScale = IsPaused ? 0 : 1;
         }
 
         public void GameOver()
