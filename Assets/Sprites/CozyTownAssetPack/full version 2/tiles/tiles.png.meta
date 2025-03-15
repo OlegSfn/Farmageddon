@@ -345,7 +345,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -28149,7 +28149,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1294
+      name: fence_0_no_shadow
       rect:
         serializedVersion: 2
         x: 480
@@ -28303,7 +28303,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1301
+      name: fence_0
       rect:
         serializedVersion: 2
         x: 592
@@ -28325,7 +28325,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1302
+      name: fence_rd
       rect:
         serializedVersion: 2
         x: 608
@@ -28347,7 +28347,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1303
+      name: fence_rl
       rect:
         serializedVersion: 2
         x: 624
@@ -28369,7 +28369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1304
+      name: fence_ld
       rect:
         serializedVersion: 2
         x: 640
@@ -29205,7 +29205,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1342
+      name: fence_d
       rect:
         serializedVersion: 2
         x: 592
@@ -29227,7 +29227,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1343
+      name: fence_ud
       rect:
         serializedVersion: 2
         x: 608
@@ -29997,7 +29997,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1378
+      name: fence_r
       rect:
         serializedVersion: 2
         x: 544
@@ -30019,7 +30019,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1379
+      name: fence_l
       rect:
         serializedVersion: 2
         x: 560
@@ -30063,7 +30063,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1381
+      name: fence_u
       rect:
         serializedVersion: 2
         x: 592
@@ -30085,7 +30085,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1382
+      name: fence_ru
       rect:
         serializedVersion: 2
         x: 608
@@ -30107,7 +30107,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1383
+      name: fence_
       rect:
         serializedVersion: 2
         x: 624
@@ -30129,7 +30129,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1384
+      name: fence_lu
       rect:
         serializedVersion: 2
         x: 640
@@ -30459,7 +30459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1399
+      name: stone_fence_0
       rect:
         serializedVersion: 2
         x: 160
@@ -30481,7 +30481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1400
+      name: stone_fence_rd
       rect:
         serializedVersion: 2
         x: 176
@@ -30503,7 +30503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1401
+      name: stone_fence_rl
       rect:
         serializedVersion: 2
         x: 192
@@ -30525,7 +30525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1402
+      name: stone_fence_ld
       rect:
         serializedVersion: 2
         x: 208
@@ -30542,28 +30542,6 @@ TextureImporter:
       bones: []
       spriteID: e87158cf3adf54982b52aa2e8784915b
       internalID: 2094743743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scarecrow_1
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 256
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5de015c4334ac490694172be359b895c
-      internalID: -2087607505
       vertices: []
       indices: 
       edges: []
@@ -30833,7 +30811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1419
+      name: stone_fence_d
       rect:
         serializedVersion: 2
         x: 160
@@ -30855,7 +30833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1420
+      name: stone_fence_ud
       rect:
         serializedVersion: 2
         x: 176
@@ -31207,7 +31185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1440
+      name: stone_fence_r
       rect:
         serializedVersion: 2
         x: 112
@@ -31229,7 +31207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1441
+      name: stone_fence_l
       rect:
         serializedVersion: 2
         x: 128
@@ -31273,7 +31251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1443
+      name: stone_fence_u
       rect:
         serializedVersion: 2
         x: 160
@@ -31295,7 +31273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1444
+      name: stone_fence_ru
       rect:
         serializedVersion: 2
         x: 176
@@ -31339,7 +31317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1446
+      name: stone_fence_lu
       rect:
         serializedVersion: 2
         x: 208
@@ -35409,28 +35387,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scarecrow1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ba526fb1651041ea82f7db9e8af79f0
-      internalID: 1693102125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: LampOn1
       rect:
         serializedVersion: 2
@@ -35848,72 +35804,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: scarecrow_2
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 256
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82265a99936ff4adca21f67f99d33422
-      internalID: -1846376188
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scarecrow_3
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 256
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aae4aca2cebd6428993bbba495f1ed0e
-      internalID: -2047614342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: scarecrow_4
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 256
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4eb1f4392b2254d04b7452571de1f21f
-      internalID: 1615068227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -35932,15 +35822,28 @@ TextureImporter:
       LampOff2: 1028184031
       LampOn1: 115666914
       LampOn2: -1174100847
-      Scarecrow1: 1693102125
       apple_1: 1046848911
       apple_2: -375545594
       avocado: -424382832
       bench_1: -1718571660
       bush_1: -1894543233
       bush_2: 348151387
+      carecrow_1: 1693102125
       cherry_1: -378164060
       cherry_2: -1375891757
+      fence_: 1995906291
+      fence_0: 460183242
+      fence_0_no_shadow: 142564932
+      fence_d: 179746272
+      fence_l: -1653955570
+      fence_ld: 1149795444
+      fence_lu: 623644512
+      fence_r: -313396066
+      fence_rd: -251054105
+      fence_rl: -69812955
+      fence_ru: 661142316
+      fence_u: 168243215
+      fence_ud: -931791844
       flowers_1: -1361859717
       flowers_12: -2046301666
       flowers_13: 921841396
@@ -35955,10 +35858,21 @@ TextureImporter:
       rocks_13: 1665643745
       rocks_14: -306056204
       rocks_2: 2047625276
+      scare: 1693102125
       scarecrow_1: -2087607505
-      scarecrow_2: -1846376188
-      scarecrow_3: -2047614342
-      scarecrow_4: 1615068227
+      scarecrow_2: -2047614342
+      scarecrow_3: 1615068227
+      stone_fence_0: 1301208129
+      stone_fence_d: -1174066857
+      stone_fence_l: -869682188
+      stone_fence_ld: 2094743743
+      stone_fence_lu: -1030941007
+      stone_fence_r: 496633029
+      stone_fence_rd: 1885693192
+      stone_fence_rl: -1034125454
+      stone_fence_ru: -1503911193
+      stone_fence_u: -808187428
+      stone_fence_ud: -232718676
       stump_1: 1703962083
       stump_2: -1685830668
       stump_3: 1014823592
@@ -36018,6 +35932,7 @@ TextureImporter:
       tiles_1045: 188455807
       tiles_1046: -1341874019
       tiles_1047: 210462583
+      tiles_1048: -666440186
       tiles_105: 867104627
       tiles_1050: 584286025
       tiles_1051: 674981702
@@ -36262,7 +36177,6 @@ TextureImporter:
       tiles_1291: 682710180
       tiles_1292: 1485459260
       tiles_1293: 1920812366
-      tiles_1294: 142564932
       tiles_1295: 1219952204
       tiles_1296: 675494064
       tiles_1297: 1847200870
@@ -36271,10 +36185,6 @@ TextureImporter:
       tiles_13: -8305803365058092108
       tiles_130: -1628552967
       tiles_1300: -1183579688
-      tiles_1301: 460183242
-      tiles_1302: -251054105
-      tiles_1303: -69812955
-      tiles_1304: 1149795444
       tiles_1305: -431776180
       tiles_1306: 284432085
       tiles_1307: -935617016
@@ -36316,8 +36226,6 @@ TextureImporter:
       tiles_134: -222472228
       tiles_1340: -1370979979
       tiles_1341: 443580823
-      tiles_1342: 179746272
-      tiles_1343: -931791844
       tiles_1344: -929550694
       tiles_1345: 198825976
       tiles_1346: 2002826937
@@ -36355,14 +36263,8 @@ TextureImporter:
       tiles_1375: 877739223
       tiles_1376: -1792401596
       tiles_1377: -944752769
-      tiles_1378: -313396066
-      tiles_1379: -1653955570
       tiles_138: 2139497435
       tiles_1380: -112063396
-      tiles_1381: 168243215
-      tiles_1382: 661142316
-      tiles_1383: 1995906291
-      tiles_1384: 623644512
       tiles_1385: 1041053692
       tiles_1386: 1927912459
       tiles_1387: -1267245107
@@ -36378,12 +36280,8 @@ TextureImporter:
       tiles_1396: -2129534603
       tiles_1397: -849689826
       tiles_1398: -1728774132
-      tiles_1399: 1301208129
       tiles_14: 5541110501864291823
       tiles_140: -578812917
-      tiles_1400: 1885693192
-      tiles_1401: -1034125454
-      tiles_1402: 2094743743
       tiles_1404: -649272765
       tiles_1405: -2126558355
       tiles_1406: 1743426109
@@ -36400,9 +36298,7 @@ TextureImporter:
       tiles_1416: 631182163
       tiles_1417: -2116189980
       tiles_1418: -1862349675
-      tiles_1419: -1174066857
       tiles_142: 1449991011
-      tiles_1420: -232718676
       tiles_1421: -1774603516
       tiles_1422: -315561173
       tiles_1423: 711737829
@@ -36424,13 +36320,8 @@ TextureImporter:
       tiles_1438: -609977679
       tiles_1439: -2136500164
       tiles_144: 1309802555
-      tiles_1440: 496633029
-      tiles_1441: -869682188
       tiles_1442: 369986222
-      tiles_1443: -808187428
-      tiles_1444: -1503911193
       tiles_1445: -1940976649
-      tiles_1446: -1030941007
       tiles_1447: 1805794170
       tiles_1448: 1959381315
       tiles_1449: 530978053

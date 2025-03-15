@@ -1,4 +1,5 @@
 ﻿using Enemies.FSM.StateMachine;
+using Managers;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -39,7 +40,13 @@ namespace Enemies.Slime.SlimeStates
         }
 
         public virtual void OnFixedUpdate() {}
-    
-        public virtual void OnAnimationEvent(AnimationEvent animationEvent) {}
+
+        public virtual void OnAnimationEvent(AnimationEvent animationEvent)
+        {
+            if (animationEvent.stringParameter == "Jumped")
+            {
+                AudioManager.Instance.PlaySlimeJumpSound(Slime.transform.position);
+            }
+        }
     }
 }

@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cccc5e84ddbe75842bb0b5558544c9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MaxHealth>k__BackingField: 10
+  <MaxHealth>k__BackingField: 5
   onValueChange:
     m_PersistentCalls:
       m_Calls:
@@ -167,6 +167,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _health: 0
 --- !u!195 &5299855525120298629
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -264,7 +265,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 75
   m_Sprite: {fileID: -6453126541014636333, guid: 66f05780e32a44ea6a4cff33ccf7be6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

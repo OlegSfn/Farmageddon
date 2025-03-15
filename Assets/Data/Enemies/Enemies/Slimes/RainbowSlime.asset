@@ -16,3 +16,17 @@ MonoBehaviour:
   speed: 1
   attackCooldown: 1
   dropItem: {fileID: 5288266246599542104, guid: ee5dabf7a248c4e0fb978c160253ddde, type: 3}
+  chasingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0
+  attackingPriorities:
+  - colTag: Player
+    priority: 0
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0

@@ -65,6 +65,8 @@ namespace PlayerStates
                 return;
             }
             
+            AudioManager.Instance.PlaySwordSwingSound(PlayerContoller.transform.position);
+            
             List<Collider2D> colliders = new();
             toolCollider.Overlap(contactFilter, colliders);
 

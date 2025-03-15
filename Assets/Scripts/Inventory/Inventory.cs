@@ -88,7 +88,8 @@ namespace Inventory
             {
                 return;
             }
-        
+
+            SetItemLogicActive(false);
             ChangeItemsCount(item.ItemName, -item.Quantity);
             item.inventorySlot.item = null;
             item.inventorySlot.UpdateUI();

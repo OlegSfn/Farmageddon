@@ -1,4 +1,5 @@
 using System.Collections;
+using Managers;
 using Planting;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -35,11 +36,23 @@ namespace Envinronment
 
         private IEnumerator PlayRain()
         {
-            rain.Play();
-            _isRaining = true;
+            StartRain();
             yield return new WaitForSeconds(Random.Range(minRainDuration, maxRainDuration));
+            StopRain();
+        }
+
+        private void StopRain()
+        {
+            AudioManager.Instance.StopRainSound();
             rain.Stop();
             _isRaining = false;
+        }
+
+        private void StartRain()
+        {
+            rain.Play();
+            _isRaining = true;
+            AudioManager.Instance.StartRainSound();
         }
 
         private IEnumerator CastNextRain()

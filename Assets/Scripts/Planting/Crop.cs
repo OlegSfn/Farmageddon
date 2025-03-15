@@ -15,7 +15,7 @@ namespace Planting
         private int _currentStage;
     
         public Seedbed Seedbed { get; set; }
-        public float Humidity { get; set; }
+        [field: SerializeField] public float Humidity { get; set; }
         
         private void Start()
         {

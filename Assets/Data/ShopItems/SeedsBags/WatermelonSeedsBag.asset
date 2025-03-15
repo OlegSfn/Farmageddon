@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: WatermelonSeedsBag
   m_EditorClassIdentifier: 
   itemName: Watermelon seeds
-  startBuyPrice: 10
-  startSellPrice: 10
+  startBuyPrice: 50
+  startSellPrice: 50
   itemPrefab: {fileID: 3832941229759897012, guid: d506e80d0778e3d4ca5cc4c5ea5ede37, type: 3}

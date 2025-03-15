@@ -12,7 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab99f6418c989749805893fa043ba11, type: 3}
   m_Name: OrangeSlime
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 9
   speed: 1
   attackCooldown: 1
   dropItem: {fileID: 978640828891844072, guid: 8bda5211baa99465794a5a0cdb299d02, type: 3}
+  chasingPriorities:
+  - colTag: Player
+    priority: 1
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0
+  attackingPriorities:
+  - colTag: Player
+    priority: 1
+  - colTag: Building
+    priority: 0
+  - colTag: Crop
+    priority: 0

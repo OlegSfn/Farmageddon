@@ -1,6 +1,7 @@
 using System;
 using Managers;
 using ScriptableObjects;
+using ScriptableObjects.Items;
 using UnityEngine;
 
 namespace Items

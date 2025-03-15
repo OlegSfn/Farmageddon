@@ -12,13 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d8895cf711ee54c976bdace7cf7e97, type: 3}
   m_Name: Night 1
   m_EditorClassIdentifier: 
-  WaveName: Night 1
-  EnemyWaveChunks:
-  - EnemiesToSpawn:
-    - PrefabToSpawn: {fileID: 1019291083087801872, guid: fe3a4b34fc8aa43a7b90506fab45f03b, type: 3}
-      Count: 3
-    DelayBeforeSpawn: 2
-  - EnemiesToSpawn:
-    - PrefabToSpawn: {fileID: 1019291083087801872, guid: fe3a4b34fc8aa43a7b90506fab45f03b, type: 3}
-      Count: 10
-    DelayBeforeSpawn: 7
+  waveName: Night 1
+  enemyWaveChunks:
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 1857691462073083118, guid: 2926bcee133d345f5a528d502e4dca42, type: 3}
+      count: 3
+    delayBeforeSpawn: 0

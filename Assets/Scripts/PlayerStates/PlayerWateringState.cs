@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -16,6 +17,8 @@ namespace PlayerStates
             Rigidbody2D.linearVelocity = Vector2.zero;
             Animator.CrossFade(WateringAnimHash, CrossFadeTime);
             ToolAnimator.CrossFade(UseToolAnimHash, CrossFadeTime);
+            
+            AudioManager.Instance.PlayWateringCanSound(PlayerContoller.transform.position);
         }
         
         public override void OnAnimationEvent(AnimationEvent animationEvent)

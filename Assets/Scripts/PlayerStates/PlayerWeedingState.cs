@@ -1,4 +1,4 @@
-using System;
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -17,6 +17,8 @@ namespace PlayerStates
             Rigidbody2D.linearVelocity = Vector2.zero;
             Animator.CrossFade(WeedingAnimHash, CrossFadeTime);
             ToolAnimator.CrossFade(UseToolAnimHash, CrossFadeTime);
+
+            AudioManager.Instance.PlayPluggingDirtSound(PlayerContoller.transform.position);
         }
         
         public override void OnAnimationEvent(AnimationEvent animationEvent)

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dab99f6418c989749805893fa043ba11, type: 3}
   m_Name: PinkSlime
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 0
   speed: 1
   attackCooldown: 1
   dropItem: {fileID: 1201330617781541843, guid: de3a1f7167ee14f24aedb5861e9abcf1, type: 3}
+  chasingPriorities: []
+  attackingPriorities: []

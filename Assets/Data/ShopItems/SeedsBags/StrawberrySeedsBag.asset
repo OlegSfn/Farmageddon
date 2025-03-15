@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: StrawberrySeedsBag
   m_EditorClassIdentifier: 
   itemName: Strawberry seeds
-  startBuyPrice: 10
-  startSellPrice: 10
+  startBuyPrice: 6
+  startSellPrice: 6
   itemPrefab: {fileID: 9138791796163668861, guid: fc4ccbbd9d88ada4190ca81bbba51036, type: 3}

@@ -17,6 +17,8 @@ namespace Enemies.Slime.SlimeStates
             base.OnEnter();
             NavMeshAgent.isStopped = true;
             Animator.CrossFade(DyingAnimHash, CrossFadeTime);
+            
+            AudioManager.Instance.PlaySlimeDeathSound(Slime.transform.position);
         }
 
         public override void OnAnimationEvent(AnimationEvent animationEvent)

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2699ff550a9489eba7dad5d09801be, type: 3}
+  m_Name: OnlySimes
+  m_EditorClassIdentifier: 
+  musicGroups: []
+  sfxGroups:
+  - groupName: SlimeJump
+    clips:
+    - {fileID: 8300000, guid: 8bed9ea7952dc44ca99eb8b3987123b1, type: 3}
+    - {fileID: 8300000, guid: 1316e512a45c8427981e3cd6ea117843, type: 3}
+    - {fileID: 8300000, guid: f73cb6849394f48a78e517482c7cd8f1, type: 3}
+    - {fileID: 8300000, guid: 76b814d6c65d549c3a97522e10832f79, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeAttack
+    clips:
+    - {fileID: 8300000, guid: b79229d48f4e94828bed9b0a1914a421, type: 3}
+    - {fileID: 8300000, guid: 4c0d7215a9e354fa6b74486777aed8f1, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeDeath
+    clips:
+    - {fileID: 8300000, guid: d84255839000d4127a7e15d149deb8b9, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: SlimeTakingDamage
+    clips:
+    - {fileID: 8300000, guid: d84255839000d4127a7e15d149deb8b9, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PumpkinSeedsBag
   m_EditorClassIdentifier: 
   itemName: Pumpkin seeds
-  startBuyPrice: 10
-  startSellPrice: 10
+  startBuyPrice: 50
+  startSellPrice: 50
   itemPrefab: {fileID: 3832941229759897012, guid: 292309fcb47987145b2a956f4c4eed2c, type: 3}

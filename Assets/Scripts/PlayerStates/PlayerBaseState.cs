@@ -1,4 +1,5 @@
 using Enemies.FSM.StateMachine;
+using Managers;
 using UnityEngine;
 
 namespace PlayerStates
@@ -42,7 +43,7 @@ namespace PlayerStates
 
         public virtual void OnUpdate()
         {
-            if (PlayerContoller.IsTakingDamage || !PlayerContoller.IsAlive)
+            if (PlayerContoller.IsTakingDamage || !PlayerContoller.IsAlive || GameManager.Instance.IsPaused)
             {
                 return;
             }

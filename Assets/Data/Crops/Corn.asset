@@ -27,11 +27,11 @@ MonoBehaviour:
   - {fileID: -8964641274695198777, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
   - {fileID: -8390083710815228631, guid: 3cc72f56a98e14d4eabd838ec3e4bf1d, type: 3}
   growthStagesTimes:
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
-  - 100
-  maxHumidity: 200
+  - 25
+  - 25
+  - 25
+  - 25
+  - 25
+  - 20
+  maxHumidity: 60
   harvestPrefab: {fileID: 3355462112007688456, guid: 5a2db5636e1ee43d5b555cac4db1acc6, type: 3}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7177319026324275693}
   - component: {fileID: 8760229572050835245}
   - component: {fileID: 7238849645657936748}
-  - component: {fileID: 630548896774973094}
+  - component: {fileID: 7642664546307498313}
   - component: {fileID: 2462313889413890360}
   - component: {fileID: 14905999493147282}
   m_Layer: 0
@@ -137,7 +137,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.9, y: 1}
   m_EdgeRadius: 0
---- !u!114 &630548896774973094
+--- !u!114 &7642664546307498313
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,15 +146,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 9138791796163668861}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e81848ad0076414458143b9cf6b0b82e, type: 3}
+  m_Script: {fileID: 11500000, guid: ea45a3751e5048de99261383da492415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cursorPrefab: {fileID: 529230190931704414, guid: 6269cf6a375706247ae82a35549829b0, type: 3}
   builtPrefab: {fileID: 529230190931704414, guid: cb470ac5455402d4b80eb834ca637db5, type: 3}
   item: {fileID: 2462313889413890360}
-  includeTagsForBuilding:
-  - Seedbed
-  excludeTagsForBuilding: []
+  buildingData: {fileID: 11400000, guid: eda58ca203a3548e3a0ce93685db6eb1, type: 2}
 --- !u!114 &2462313889413890360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -185,7 +183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cccc5e84ddbe75842bb0b5558544c9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  <MaxHealth>k__BackingField: 3
+  onValueChange:
+    m_PersistentCalls:
+      m_Calls: []
   onDeath:
     m_PersistentCalls:
       m_Calls:

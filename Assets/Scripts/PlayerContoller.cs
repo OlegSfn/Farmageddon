@@ -22,6 +22,8 @@ public class PlayerContoller : MonoBehaviour
     public bool IsAlive { get; set; }
     public bool IsTakingDamage { get; set; }
     
+    [field: SerializeField] public bool CanMove { get; set; }
+    
     private Animator _animator;
     private Rigidbody2D _rb;
     private Camera _mainCamera;
@@ -34,6 +36,7 @@ public class PlayerContoller : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _mainCamera = Camera.main;
         IsAlive = true;
+        CanMove = true;
     }
 
     private void Start()
@@ -109,14 +112,22 @@ public class PlayerContoller : MonoBehaviour
         }
     }
     
-    public void TakeDamage(HitInfo hitInfo, int _)
+    public void TakeDamage(HitInfo? hitInfo, int _)
     {
-        _takingDamageState.HitInfo = hitInfo;
+        if (!hitInfo.HasValue)
+        {
+            return;
+        }
+        
+        _takingDamageState.HitInfo = hitInfo.Value;
         IsTakingDamage = true;
+        AudioManager.Instance.PlayPlayerHurtSound(transform.position);
     }
 
     public void Die()
     {
+        AudioManager.Instance.PlayPlayerHurtSound(transform.position);
         IsAlive = false;
+        GameManager.Instance.GameOver();
     }
 }
