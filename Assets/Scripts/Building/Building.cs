@@ -18,9 +18,14 @@ namespace Building
             Position = GetPosition();
         }
         
-        protected virtual  void OnDestroy()
+        protected virtual void OnDestroy()
         {
             TilemapManager.RemoveObject(this, GetPosition());
+        }
+
+        public virtual void Die()
+        {
+            Destroy(gameObject);
         }
 
         protected virtual Vector2Int GetPosition()

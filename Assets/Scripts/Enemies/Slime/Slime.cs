@@ -108,9 +108,14 @@ namespace Enemies.Slime
             _stateMachine.AnimationEvent(animationEvent);
         }
 
-        public void TakeDamage(HitInfo hitInfo, int _)
+        public void TakeDamage(HitInfo? hitInfo, int _)
         {
-            _takingDamageState.HitInfo = hitInfo;
+            if (!hitInfo.HasValue)
+            {
+                return;
+            }
+            
+            _takingDamageState.HitInfo = hitInfo.Value;
             isTakingDamage = true;
         }
         

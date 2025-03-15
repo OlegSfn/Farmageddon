@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6524499285091501666}
   - component: {fileID: 4101314315702339047}
   - component: {fileID: 8415417869828542810}
+  - component: {fileID: 5264801904288711762}
   - component: {fileID: 5891749384470303675}
   - component: {fileID: 6234373568566520369}
   m_Layer: 0
@@ -136,6 +137,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.9, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5264801904288711762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3355462112007688456}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd6bec207073d430ea8c63f8b6815fa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healAmount: 40
+  item: {fileID: 5891749384470303675}
 --- !u!114 &5891749384470303675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cccc5e84ddbe75842bb0b5558544c9a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  <MaxHealth>k__BackingField: 0
   onValueChange:
     m_PersistentCalls:
       m_Calls: []
@@ -185,3 +200,4 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _health: 0

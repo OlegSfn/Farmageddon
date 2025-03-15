@@ -59,8 +59,7 @@ namespace Enemies.Slime.SlimeStates
 
             foreach (var collider in colliders)
             {
-                HealthController healthController = collider.GetComponent<HealthController>();
-                if (healthController != null && (!collider.CompareTag("Enemy")))
+                if (!collider.CompareTag("Enemy") && collider.TryGetComponent(out HealthController healthController))
                 {
                     HitInfo hitInfo = new HitInfo(Slime.Data.damage, Slime.transform.position);
                     healthController.TakeDamage(hitInfo);

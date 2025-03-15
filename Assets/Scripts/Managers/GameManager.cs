@@ -15,6 +15,7 @@ namespace Managers
         public Cursor cursor;
         public EnemyWavesManager enemyWavesManager;
         public PlayerContoller playerController;
+        public HealthController playerHealthController;
         public CashManager cashManager;
         public TilemapManager tilemapManager;
     

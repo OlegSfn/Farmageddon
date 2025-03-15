@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,7 +16,7 @@ namespace UI
             SetHealth(playerHealthController.MaxHealth);
         }
 
-        public void TakeDamage(HitInfo hitInfo, int remainingHealth)
+        public void ChangeHp(HitInfo? _, int remainingHealth)
         {
             SetHealth(remainingHealth);
         }

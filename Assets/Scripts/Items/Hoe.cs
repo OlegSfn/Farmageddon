@@ -2,8 +2,6 @@ using System.Collections.Generic;
 using Building;
 using Managers;
 using Planting;
-using ScriptableObjects;
-using ScriptableObjects.Buildings;
 using ScriptableObjects.Buildings.Concrete;
 using ScriptableObjects.Items;
 using UnityEngine;

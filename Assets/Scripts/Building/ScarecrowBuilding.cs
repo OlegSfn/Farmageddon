@@ -1,7 +1,5 @@
 using System.Collections.Generic;
-using System.Linq;
 using Enemies;
-using Unity.Mathematics.Geometry;
 using UnityEngine;
 
 namespace Building
@@ -44,6 +42,11 @@ namespace Building
         public Transform GetTransform()
         {
             return transform;
+        }
+
+        public override void Die()
+        {
+            Destroy(gameObject.transform.parent.gameObject);
         }
     }
 }
