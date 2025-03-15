@@ -13,7 +13,7 @@ namespace Building
 
         private void UpdateScareForAll()
         {
-            int currentScareValue = Mathf.Max(0, scareness - _scarables.Count);
+            int currentScareValue = Mathf.Max(0, scareness - _scarables.Count + 1);
             foreach (var scarable in _scarables)
             {
                 scarable.UpdateScareFromSource(this, currentScareValue);

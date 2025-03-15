@@ -26,7 +26,7 @@ namespace PlayerStates
                 Animator.CrossFade(IdleAnimHash, CrossFadeTime);
                 _footstepTimer = 0f;
             }
-            else
+            else if (PlayerContoller.CanMove)
             {
                 Animator.CrossFade(MovementAnimHash, CrossFadeTime);
                 

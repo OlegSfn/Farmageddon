@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b5e9ba5ad316468887453412d4298a37, type: 3}
-  m_Name: FenceBuilding
+  m_Name: WoodenFenceBuilding
   m_EditorClassIdentifier: 
   sprites:
   - {fileID: 460183242, guid: 14ba444d4b3024caf895033e8470b98d, type: 3}

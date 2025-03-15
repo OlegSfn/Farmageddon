@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: CabbageSeedsBag
   m_EditorClassIdentifier: 
   itemName: Cabbage seeds
-  startBuyPrice: 10
-  startSellPrice: 10
+  startBuyPrice: 7
+  startSellPrice: 7
   itemPrefab: {fileID: 3832941229759897012, guid: 6839b4592e9faa84bb8fe797ea09bcdb, type: 3}

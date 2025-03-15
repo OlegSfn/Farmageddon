@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: TomatoSeedsBag
   m_EditorClassIdentifier: 
   itemName: Tomato seeds
-  startBuyPrice: 10
-  startSellPrice: 10
+  startBuyPrice: 6
+  startSellPrice: 6
   itemPrefab: {fileID: 3832941229759897012, guid: 915d28f53df25054a84bc0a4030267bf, type: 3}

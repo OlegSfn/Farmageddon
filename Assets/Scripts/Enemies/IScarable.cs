@@ -1,5 +1,3 @@
-using System.Collections.Generic;
-
 namespace Enemies
 {
     public interface IScarable

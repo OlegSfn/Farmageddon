@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Strawberry
   m_EditorClassIdentifier: 
   itemName: Strawberry
-  startBuyPrice: 3
-  startSellPrice: 3
+  startBuyPrice: 12
+  startSellPrice: 12
   itemPrefab: {fileID: 3355462112007688456, guid: e6a1298e7d503483f86f5013743eeca9, type: 3}

@@ -139,8 +139,7 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
   - groupName: Raining
-    clips:
-    - {fileID: 8300000, guid: 5d386d7608ccd48b29cb37c659f1ceca, type: 3}
+    clips: []
     volume: 1
     minPitch: 0.9
     maxPitch: 1.1

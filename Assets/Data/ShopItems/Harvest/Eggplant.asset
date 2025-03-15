@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Eggplant
   m_EditorClassIdentifier: 
   itemName: Eggplant
-  startBuyPrice: 3
-  startSellPrice: 3
+  startBuyPrice: 20
+  startSellPrice: 20
   itemPrefab: {fileID: 3355462112007688456, guid: 014a8f3c1669e413e99675992de86e48, type: 3}

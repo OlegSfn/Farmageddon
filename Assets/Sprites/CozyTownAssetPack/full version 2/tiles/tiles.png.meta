@@ -30459,7 +30459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1399
+      name: stone_fence_0
       rect:
         serializedVersion: 2
         x: 160
@@ -30481,7 +30481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1400
+      name: stone_fence_rd
       rect:
         serializedVersion: 2
         x: 176
@@ -30503,7 +30503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1401
+      name: stone_fence_rl
       rect:
         serializedVersion: 2
         x: 192
@@ -30525,7 +30525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1402
+      name: stone_fence_ld
       rect:
         serializedVersion: 2
         x: 208
@@ -30811,7 +30811,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1419
+      name: stone_fence_d
       rect:
         serializedVersion: 2
         x: 160
@@ -30833,7 +30833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1420
+      name: stone_fence_ud
       rect:
         serializedVersion: 2
         x: 176
@@ -31185,7 +31185,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1440
+      name: stone_fence_r
       rect:
         serializedVersion: 2
         x: 112
@@ -31207,7 +31207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1441
+      name: stone_fence_l
       rect:
         serializedVersion: 2
         x: 128
@@ -31251,7 +31251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1443
+      name: stone_fence_u
       rect:
         serializedVersion: 2
         x: 160
@@ -31273,7 +31273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1444
+      name: stone_fence_ru
       rect:
         serializedVersion: 2
         x: 176
@@ -31317,7 +31317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tiles_1446
+      name: stone_fence_lu
       rect:
         serializedVersion: 2
         x: 208
@@ -35862,6 +35862,17 @@ TextureImporter:
       scarecrow_1: -2087607505
       scarecrow_2: -2047614342
       scarecrow_3: 1615068227
+      stone_fence_0: 1301208129
+      stone_fence_d: -1174066857
+      stone_fence_l: -869682188
+      stone_fence_ld: 2094743743
+      stone_fence_lu: -1030941007
+      stone_fence_r: 496633029
+      stone_fence_rd: 1885693192
+      stone_fence_rl: -1034125454
+      stone_fence_ru: -1503911193
+      stone_fence_u: -808187428
+      stone_fence_ud: -232718676
       stump_1: 1703962083
       stump_2: -1685830668
       stump_3: 1014823592
@@ -36269,12 +36280,8 @@ TextureImporter:
       tiles_1396: -2129534603
       tiles_1397: -849689826
       tiles_1398: -1728774132
-      tiles_1399: 1301208129
       tiles_14: 5541110501864291823
       tiles_140: -578812917
-      tiles_1400: 1885693192
-      tiles_1401: -1034125454
-      tiles_1402: 2094743743
       tiles_1404: -649272765
       tiles_1405: -2126558355
       tiles_1406: 1743426109
@@ -36291,9 +36298,7 @@ TextureImporter:
       tiles_1416: 631182163
       tiles_1417: -2116189980
       tiles_1418: -1862349675
-      tiles_1419: -1174066857
       tiles_142: 1449991011
-      tiles_1420: -232718676
       tiles_1421: -1774603516
       tiles_1422: -315561173
       tiles_1423: 711737829
@@ -36315,13 +36320,8 @@ TextureImporter:
       tiles_1438: -609977679
       tiles_1439: -2136500164
       tiles_144: 1309802555
-      tiles_1440: 496633029
-      tiles_1441: -869682188
       tiles_1442: 369986222
-      tiles_1443: -808187428
-      tiles_1444: -1503911193
       tiles_1445: -1940976649
-      tiles_1446: -1030941007
       tiles_1447: 1805794170
       tiles_1448: 1959381315
       tiles_1449: 530978053

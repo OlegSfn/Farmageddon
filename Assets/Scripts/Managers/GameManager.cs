@@ -26,6 +26,7 @@ namespace Managers
         public float sqrDistanceToUseItems = 5f;
 
         [SerializeField] private GameObject pauseMenu;
+        [SerializeField] private GameObject gameOverMenu;
         private bool _isPaused;
 
         private void Awake()
@@ -52,6 +53,12 @@ namespace Managers
             _isPaused = !_isPaused;
             pauseMenu.SetActive(_isPaused);
             Time.timeScale = _isPaused ? 0 : 1;
+        }
+
+        public void GameOver()
+        {
+            Time.timeScale = 0;
+            gameOverMenu.SetActive(true);
         }
     }
 }

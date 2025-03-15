@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RadishSeedsBag
   m_EditorClassIdentifier: 
   itemName: Radish seeds
-  startBuyPrice: 10
-  startSellPrice: 10
+  startBuyPrice: 6
+  startSellPrice: 6
   itemPrefab: {fileID: 3832941229759897012, guid: 97fdc0c7a5166c84d9f931038ea6be13, type: 3}

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Inventory;
 using Managers;
@@ -10,7 +11,7 @@ using Random = UnityEngine.Random;
 
 namespace Shop
 {
-    public class ShopItem : MonoBehaviour, IScrollHandler
+    public class ShopItem : MonoBehaviour, IScrollHandler, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField] private Shop shop;
         [SerializeField] private ShopItemData itemData;
@@ -30,6 +31,10 @@ namespace Shop
         private readonly float _maxIncreasePriceMultiplier = 1.2f;
         private int _sellRow;
         private bool _wasSoldLastDay;
+        
+        private bool _isMouseOver;
+        private readonly float _itemCountChangeInterval = 0.1f;
+        private float _itemCountChangeTimer;
 
         private void Awake()
         {
@@ -37,6 +42,33 @@ namespace Shop
             _price = _startPrice;
             GameManager.Instance.dayNightManager.onDayStart.AddListener(OnDayChange);
             itemName.text = itemData.itemName;
+            UpdateUI();
+        }
+
+        private void Update()
+        {
+            if (!_isMouseOver || _itemCountChangeTimer > 0)
+            {
+                if (_itemCountChangeTimer > 0)
+                {
+                    _itemCountChangeTimer -= Time.deltaTime;
+                }
+                return;
+            }
+            
+            if (Input.GetAxisRaw("Vertical") > 0)
+            {
+                ++_itemCount;
+                _itemCountChangeTimer = _itemCountChangeInterval;
+            } 
+            else if (Input.GetAxisRaw("Vertical") < 0)
+            {
+                --_itemCount;
+                _itemCountChangeTimer = _itemCountChangeInterval;
+            }
+            
+            _itemCount = Mathf.Clamp(_itemCount, 0, _maxItemCount);
+            
             UpdateUI();
         }
     
@@ -96,22 +128,15 @@ namespace Shop
         {
             if (eventData.scrollDelta.y > 0)
             {
-                _itemCount++;
+                ++_itemCount;
             }
             else
             {
-                _itemCount--;
+                --_itemCount;
             }
 
-            if (_itemCount < 0)
-            {
-                _itemCount = 0;
-            }
-            else if (_itemCount > _maxItemCount)
-            {
-                _itemCount = _maxItemCount;
-            }
-        
+            _itemCount = Mathf.Clamp(_itemCount, 0, _maxItemCount);
+
             UpdateUI();
         }
 
@@ -133,6 +158,22 @@ namespace Shop
         private void OnDestroy()
         {
             GameManager.Instance.dayNightManager.onDayStart.RemoveListener(OnDayChange);
+        }
+
+        public void OnPointerEnter(PointerEventData _)
+        {
+            _isMouseOver = true;
+        }
+
+        public void OnPointerExit(PointerEventData _)
+        {
+            _isMouseOver = false;
+        }
+
+        public void OnDisable()
+        {
+            _isMouseOver = false;
+            _itemCount = 0;
         }
     }
 }

@@ -22,6 +22,8 @@ public class PlayerContoller : MonoBehaviour
     public bool IsAlive { get; set; }
     public bool IsTakingDamage { get; set; }
     
+    public bool CanMove { get; set; }
+    
     private Animator _animator;
     private Rigidbody2D _rb;
     private Camera _mainCamera;
@@ -34,6 +36,7 @@ public class PlayerContoller : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _mainCamera = Camera.main;
         IsAlive = true;
+        CanMove = true;
     }
 
     private void Start()
@@ -120,5 +123,6 @@ public class PlayerContoller : MonoBehaviour
     {
         AudioManager.Instance.PlayPlayerHurtSound(transform.position);
         IsAlive = false;
+        GameManager.Instance.GameOver();
     }
 }

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Watermelon
   m_EditorClassIdentifier: 
   itemName: Watermelon
-  startBuyPrice: 3
-  startSellPrice: 3
+  startBuyPrice: 100
+  startSellPrice: 100
   itemPrefab: {fileID: 3355462112007688456, guid: c152ed28bca344987ae489079dfe18c2, type: 3}
