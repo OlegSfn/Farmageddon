@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 using Inventory;
 using Managers;
 using ScriptableObjects;
@@ -13,10 +14,11 @@ namespace Shop
 {
     public class ShopItem : MonoBehaviour, IScrollHandler, IPointerEnterHandler, IPointerExitHandler
     {
+        [field: SerializeField] public bool isSelling { get; private set; }
+        
         [SerializeField] private Shop shop;
         [SerializeField] private ShopItemData itemData;
 
-        [SerializeField] private bool isSelling;
         [SerializeField] private Button buySellButton;
         [SerializeField] private TextMeshProUGUI itemName;
         [SerializeField] private TextMeshProUGUI priceText;
@@ -41,7 +43,7 @@ namespace Shop
             _startPrice = isSelling ? itemData.startSellPrice : itemData.startBuyPrice;
             _price = _startPrice;
             GameManager.Instance.dayNightManager.onDayStart.AddListener(OnDayChange);
-            itemName.text = itemData.itemName;
+            itemName.text = GetSpriteAssetText(itemData.itemName);
             UpdateUI();
         }
 
@@ -153,6 +155,29 @@ namespace Shop
                 _price = Mathf.Max(0, (int)(_price * randomPriceMultiplier * (1 - _sellRow/10f)));
             }
             UpdateUI();
+        }
+
+        private string GetSpriteAssetText(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+            {
+                return string.Empty;
+            }
+
+            StringBuilder result = new StringBuilder();
+            foreach (char c in text)
+            {
+                if (c == ' ')
+                {
+                    result.Append(' ');
+                }
+                else
+                {
+                    result.Append("<sprite name=").Append(c).Append(">");
+                }
+            }
+    
+            return result.ToString();
         }
 
         private void OnDestroy()

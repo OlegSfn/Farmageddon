@@ -28,30 +28,71 @@ namespace Shop
                 shopItem.UpdateUI();
             }
         }
-
-        private void OnEnable()
+        
+        private void PopOutItems()
         {
-            UpdateUI();
+            float buyDelay = 0;
+            float sellDelay = 0;
+            foreach (var shopItem in shopItems)
+            {
+                if (shopItem.isSelling)
+                {
+                    LeanTween.scale(shopItem.gameObject, Vector3.one, 0.1f).setDelay(sellDelay);
+                    sellDelay += 0.05f;
+                }
+                else
+                {
+                    LeanTween.scale(shopItem.gameObject, Vector3.one, 0.1f).setDelay(buyDelay);
+                    buyDelay += 0.05f;
+                }
+            }
+        }
+
+        private void PopInItems()
+        {
+            foreach (var shopItem in shopItems)
+            {
+                shopItem.transform.localScale = Vector3.zero;
+            }
         }
     
         public void CloseShop()
         {
-            gameObject.SetActive(false);
             onShopMenuClosed?.Invoke();
+            LeanTween.scale(gameObject, Vector3.zero, 0.5f)
+                .setEase(LeanTweenType.easeOutExpo)
+                .setOnComplete(
+                    () =>
+                        {
+                            gameObject.SetActive(false);
+                            PopInItems();
+                            
+                            if (GameManager.Instance.dayNightManager.IsDay)
+                            {
+                                shopInteractor.enabled = true;
+                                shopInteractorHelper.SetActive(true);
+                            }
+                        }
+                );
 
-            if (GameManager.Instance.dayNightManager.IsDay)
-            {
-                shopInteractor.enabled = true;
-                shopInteractorHelper.SetActive(true);
-            }
         }
     
         public void OpenShop()
         {
             gameObject.SetActive(true);
+            UpdateUI();
             onShopMenuOpened?.Invoke();
-            shopInteractor.enabled = false;
-            shopInteractorHelper.SetActive(false);
+            LeanTween.scale(gameObject, Vector3.one, 0.5f)
+                .setEase(LeanTweenType.easeOutExpo)
+                .setOnComplete(
+                    () =>
+                        {
+                            shopInteractor.enabled = false;
+                            shopInteractorHelper.SetActive(false);
+                        }
+                );
+            
+            LeanTween.delayedCall(gameObject, 0.25f, PopOutItems);
         }
     }
 }
