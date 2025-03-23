@@ -80,8 +80,9 @@ namespace Items
             if (_waterAmount <= 0 || _selectedCrop is null) return;
         
             GameManager.Instance.playerController.IsWatering = true;
-            _waterAmount -= data.wateringAmount;
-            _selectedCrop.Humidity += data.wateringAmount;
+            int waterAmount = Mathf.Min(_waterAmount, data.wateringAmount);
+            _waterAmount -= waterAmount;
+            _selectedCrop.Humidity += waterAmount;
         }
     }
 }

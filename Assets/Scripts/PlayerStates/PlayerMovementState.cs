@@ -47,6 +47,10 @@ namespace PlayerStates
             {
                 Rigidbody2D.linearVelocity = PlayerContoller.Speed * PlayerContoller.Input.normalized;
             }
+            else
+            {
+                Rigidbody2D.linearVelocity = Vector2.zero;
+            }
         }
     }
 }

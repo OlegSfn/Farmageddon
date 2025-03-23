@@ -64,7 +64,6 @@ namespace Enemies.Slime.SlimeStates
                     HitInfo hitInfo = new HitInfo(Slime.Data.damage, Slime.transform.position);
                     healthController.TakeDamage(hitInfo);
                     _lastAttackTime = Time.time;
-                    return;
                 }
             }
         }
