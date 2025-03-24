@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unpickableTime: 1
   inventorySlot: {fileID: 0}
-  <ItemName>k__BackingField: Red Watering Can
+  <ItemName>k__BackingField: Red watering can
   <MaxStackQuantity>k__BackingField: 1
   <Quantity>k__BackingField: 1
   <Icon>k__BackingField: {fileID: -1236953498977758490, guid: 8085ff18133bf4d0688de5bb7182ef5f, type: 3}

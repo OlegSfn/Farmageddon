@@ -96,8 +96,20 @@ namespace Shop
 
             _itemCount = Mathf.Min(_itemCount, _maxItemCount);
         }
+
+        public void ShopButtonAction()
+        {
+            if (isSelling)
+            {
+                Sell();
+            }
+            else
+            {
+                Buy();
+            }
+        }
         
-        public void Buy()
+        private void Buy()
         {
             if (GameManager.Instance.cashManager.Cash < _price * _itemCount)
             {
@@ -117,7 +129,7 @@ namespace Shop
             shop.UpdateUI();
         }
 
-        public void Sell()
+        private void Sell()
         {
             GameManager gameManager = GameManager.Instance;
             GameManager.Instance.cashManager.Cash += _price * _itemCount;

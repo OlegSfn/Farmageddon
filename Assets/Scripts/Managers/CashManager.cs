@@ -18,7 +18,7 @@ namespace Managers
             get => _cash;
         }
 
-        private int _cash = 100;
+        private int _cash = 100000;
         
         private void Awake()
         {

@@ -167,7 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unpickableTime: 1
   inventorySlot: {fileID: 0}
-  <ItemName>k__BackingField: Scarecrow
+  <ItemName>k__BackingField: Farm scarecrow
   <MaxStackQuantity>k__BackingField: 1
   <Quantity>k__BackingField: 1
   <Icon>k__BackingField: {fileID: 2352363653719494979, guid: 7f37db5c43dbc4d2e8ab5075d9e5d23e, type: 3}

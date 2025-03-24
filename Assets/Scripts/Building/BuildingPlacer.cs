@@ -39,7 +39,7 @@ namespace Building
             
             foreach (var col in colliders)
             {
-                if (!col.isTrigger && !col.CompareTag("Player"))
+                if (!col.isTrigger)
                 {
                     return false;
                 }
