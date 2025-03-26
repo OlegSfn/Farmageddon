@@ -89,6 +89,7 @@ namespace Inventory
                 item = null;
                 UpdateUI();
                 otherSlot.UpdateUI();
+                inventory.SetItemLogicActive(false);
                 return;
             }
         
@@ -96,11 +97,15 @@ namespace Inventory
             {
                 int quantityToTransfer = Mathf.Min(item.Quantity, otherSlot.item.MaxStackQuantity - otherSlot.item.Quantity);
                 otherSlot.item.Quantity += quantityToTransfer;
-                RemoveFromSlot(quantityToTransfer);
+                if (RemoveFromSlot(quantityToTransfer))
+                {
+                    inventory.SetItemLogicActive(false);
+                }
                 otherSlot.UpdateUI();
                 return;
             }
-        
+            
+            inventory.SetItemLogicActive(false);
             InventoryItem tempItem = otherSlot.item;
             otherSlot.item = item;
             otherSlot.item.inventorySlot = otherSlot;
@@ -108,6 +113,7 @@ namespace Inventory
             item.inventorySlot = this;
             UpdateUI();
             otherSlot.UpdateUI();
+            inventory.SetItemLogicActive(true);
         }
 
         public bool RemoveFromSlot(int quantityToRemove)

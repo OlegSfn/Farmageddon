@@ -4,6 +4,7 @@ using System.Text;
 using Inventory;
 using Managers;
 using ScriptableObjects;
+using ScriptableObjects.Shop;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -132,9 +133,12 @@ namespace Shop
         private void Sell()
         {
             GameManager gameManager = GameManager.Instance;
-            GameManager.Instance.cashManager.Cash += _price * _itemCount;
+            gameManager.cashManager.Cash += _price * _itemCount;
             gameManager.inventory.RemoveItems(itemData.itemName, _itemCount);
             _wasSoldLastDay = true;
+            
+            gameManager.questManager.CheckQuestProgress(itemData.itemName, _itemCount);
+            
             shop.UpdateUI();
         }
 

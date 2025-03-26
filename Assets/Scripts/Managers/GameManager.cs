@@ -1,6 +1,7 @@
 using Building;
 using Enemies.Waves;
 using Envinronment.DayNightCycle;
+using Quests;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
@@ -19,6 +20,7 @@ namespace Managers
         public HealthController playerHealthController;
         public CashManager cashManager;
         public TilemapManager tilemapManager;
+        public QuestManager questManager;
     
         public Transform playerTransform;
         public Transform objectsPool;
