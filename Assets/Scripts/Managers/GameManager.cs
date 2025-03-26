@@ -2,9 +2,9 @@ using Building;
 using Enemies.Waves;
 using Envinronment.DayNightCycle;
 using Quests;
+using UI;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Serialization;
 
 namespace Managers
 {
@@ -21,6 +21,7 @@ namespace Managers
         public CashManager cashManager;
         public TilemapManager tilemapManager;
         public QuestManager questManager;
+        public PanelsManager panelsManager;
     
         public Transform playerTransform;
         public Transform objectsPool;
@@ -31,7 +32,6 @@ namespace Managers
 
         public bool IsPaused { get; set; }
         
-        [SerializeField] private GameObject pauseMenu;
         [SerializeField] private GameObject gameOverMenu;
 
         private void Awake()
@@ -51,13 +51,6 @@ namespace Managers
         {
             Time.timeScale = 1;
             SceneManager.LoadScene(sceneName);
-        }
-        
-        public void SetPause()
-        {
-            IsPaused = !IsPaused;
-            pauseMenu.SetActive(IsPaused);
-            Time.timeScale = IsPaused ? 0 : 1;
         }
 
         public void GameOver()

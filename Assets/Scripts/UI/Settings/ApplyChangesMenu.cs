@@ -9,6 +9,7 @@ namespace UI.Settings
     {
         [SerializeField] private Button applyChangesButton;
         [SerializeField] private Button revertChangesButton;
+        [SerializeField] private PanelsManager panelsManager;
         
         private const int ApplyChangesTimer = 15;
 
@@ -20,7 +21,7 @@ namespace UI.Settings
             applyChangesButton.onClick.AddListener(Close);
             revertChangesButton.onClick.AddListener(Close);
             
-            gameObject.SetActive(true);
+            panelsManager.OpenPanel(gameObject, Close);
             StartCoroutine(TimerCountdown(onRevertChanges));
         }
         
@@ -28,8 +29,8 @@ namespace UI.Settings
         {
             applyChangesButton.onClick.RemoveAllListeners();
             revertChangesButton.onClick.RemoveAllListeners();
-            StopAllCoroutines();
             gameObject.SetActive(false);
+            StopAllCoroutines();
         }
         
         private IEnumerator TimerCountdown(UnityAction revertAction)

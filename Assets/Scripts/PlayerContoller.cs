@@ -56,7 +56,7 @@ public class PlayerContoller : MonoBehaviour
         _takingDamageState = new PlayerTakingDamageState(this, _animator, ToolAnimator, _rb);
 
 
-        bool IsAbleToAct() => IsAlive && !IsTakingDamage;
+        bool IsAbleToAct() => IsAlive && !IsTakingDamage && !GameManager.Instance.IsPaused;
         _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => IsAbleToAct() && IsAttacking));
         _stateMachine.AddAnyTransition(wateringState, new FuncPredicate(() => IsAbleToAct() && IsWatering));
         _stateMachine.AddAnyTransition(weedingState, new FuncPredicate(() => IsAbleToAct() && IsWeeding));

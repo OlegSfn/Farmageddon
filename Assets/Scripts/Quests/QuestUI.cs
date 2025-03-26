@@ -1,3 +1,4 @@
+using System;
 using System.Linq;
 using TMPro;
 using UnityEngine;
@@ -24,8 +25,16 @@ namespace Quests
         
         [SerializeField] private Color incompleteQuestColor;
         [SerializeField] private Color completeQuestColor;
-        
-    
+
+
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                HandleQuestButtonClick();
+            }
+        }
+
         public void UpdateQuestMenuUI()
         {
             QuestManager questManager = Managers.GameManager.Instance.questManager;

@@ -1,8 +1,10 @@
+using System;
 using System.Collections.Generic;
 using Managers;
 using ScriptableObjects.Quests;
 using UnityEngine;
 using UnityEngine.Events;
+using Random = UnityEngine.Random;
 
 namespace Quests
 {

@@ -13,14 +13,6 @@ namespace Shop
         [SerializeField] private ColliderInteractor shopInteractor;
         [SerializeField] private GameObject shopInteractorHelper;
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                CloseShop();
-            }
-        }
-
         public void UpdateUI()
         {
             foreach (var shopItem in shopItems)
@@ -79,7 +71,7 @@ namespace Shop
     
         public void OpenShop()
         {
-            gameObject.SetActive(true);
+            GameManager.Instance.panelsManager.OpenPanel(gameObject, CloseShop);
             UpdateUI();
             onShopMenuOpened?.Invoke();
             LeanTween.scale(gameObject, Vector3.one, 0.5f)
