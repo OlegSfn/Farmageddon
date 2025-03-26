@@ -65,8 +65,11 @@ namespace Quests
             panelToUpdate.questPanelImage.color = quest.isCompleted ? completeQuestColor : incompleteQuestColor;
             panelToUpdate.strikethrough.SetActive(quest.isCompleted);
             panelToUpdate.questCompletenessText.text = $"{quest.currentAmount}/{quest.questData.requiredAmount}";
-            panelToUpdate.questDeadlineText.text = $"{Mathf.CeilToInt(quest.remainingDays)} days left"; // TODO: Check for 1 day
-            panelToUpdate.questRewardText.text = $"{quest.questData.rewardAmount}";
+            panelToUpdate.questDeadlineText.text =
+                quest.remainingDays == 1
+                    ? $"{Mathf.CeilToInt(quest.remainingDays)} day left"
+                    : $"{Mathf.CeilToInt(quest.remainingDays)} days left";
+            panelToUpdate.questRewardText.text = $"{quest.questData.rewardAmount} $";
         }
         
         private void Show()

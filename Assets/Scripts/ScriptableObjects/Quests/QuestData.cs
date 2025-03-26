@@ -10,7 +10,7 @@ namespace ScriptableObjects.Quests
         public Sprite itemSprite;
         public int requiredAmount;
 
-        public float daysLimit;
+        public int daysLimit;
         public int rewardAmount;
     }
 }

@@ -27,8 +27,7 @@ namespace Managers
 
         private void UpdateCashUI()
         {
-            cashText.text = _cash.ToString();
+            cashText.text = $"{_cash} $";
         }
-        
     }
 }

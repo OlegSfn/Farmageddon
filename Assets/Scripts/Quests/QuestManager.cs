@@ -101,7 +101,7 @@ namespace Quests
     {
         public QuestData questData;
         public int currentAmount;
-        public float remainingDays;
+        public int remainingDays;
         public bool isCompleted;
     
         public ActiveQuest(QuestData data)
