@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71748e6325334fc9824a1914cdab1c3c, type: 3}
   m_Name: ScarecrowBuilding
   m_EditorClassIdentifier: 
+  <Size>k__BackingField: {x: 1, y: 2}

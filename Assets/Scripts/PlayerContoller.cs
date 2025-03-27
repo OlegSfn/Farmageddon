@@ -5,31 +5,59 @@ using Managers;
 using PlayerStates;
 using UnityEngine;
 
+/// <summary>
+/// Main controller for player character handling movement, combat, and state management
+/// </summary>
 [RequireComponent(typeof(Animator)), RequireComponent(typeof(Rigidbody2D))]
 public class PlayerContoller : MonoBehaviour
 {
+    /// <summary>
+    /// Base movement speed of the player
+    /// </summary>
     [field: SerializeField] public float Speed { get; private set; }
 
+    /// <summary>
+    /// Animator controller for tool animations
+    /// </summary>
     [field: SerializeField] public Animator ToolAnimator { get; set; }
+    
+    /// <summary>
+    /// Collider for tool interaction detection
+    /// </summary>
     [field: SerializeField] private Collider2D toolCollder;
 
+    /// <summary>
+    /// Current movement input vector
+    /// </summary>
     public Vector2 Input { get; private set; }
+    
+    /// <summary>
+    /// Normalized direction the player is facing
+    /// </summary>
     public Vector2 LookDirection { get; private set; }
     
+    // State flags.
     public bool IsWeeding { get; set; }
     public bool IsAttacking { get; set; }
     public bool IsWatering { get; set; }
     public bool IsAlive { get; set; }
     public bool IsTakingDamage { get; set; }
     
+    /// <summary>
+    /// Controls whether player can receive movement input
+    /// </summary>
     [field: SerializeField] public bool CanMove { get; set; }
     
+    // Component references.
     private Animator _animator;
     private Rigidbody2D _rb;
     private Camera _mainCamera;
     private StateMachine _stateMachine;
     private PlayerTakingDamageState _takingDamageState;
 
+    /// <summary>
+    /// Initialize component references and default states
+    /// </summary>
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -44,6 +72,9 @@ public class PlayerContoller : MonoBehaviour
         InitStateMachine();
     }
 
+    /// <summary>
+    /// Configures the player's state machine with all possible states and transitions
+    /// </summary>
     void InitStateMachine()
     {
         _stateMachine = new StateMachine();
@@ -55,8 +86,8 @@ public class PlayerContoller : MonoBehaviour
         var dyingState = new PlayerDyingState(this, _animator, ToolAnimator, _rb);
         _takingDamageState = new PlayerTakingDamageState(this, _animator, ToolAnimator, _rb);
 
-
         bool IsAbleToAct() => IsAlive && !IsTakingDamage && !GameManager.Instance.IsPaused;
+        
         _stateMachine.AddAnyTransition(attackingState, new FuncPredicate(() => IsAbleToAct() && IsAttacking));
         _stateMachine.AddAnyTransition(wateringState, new FuncPredicate(() => IsAbleToAct() && IsWatering));
         _stateMachine.AddAnyTransition(weedingState, new FuncPredicate(() => IsAbleToAct() && IsWeeding));
@@ -71,22 +102,35 @@ public class PlayerContoller : MonoBehaviour
         _stateMachine.StartEntryState(movementState);
     }
 
+    /// <summary>
+    /// Handles physics updates for the state machine
+    /// </summary>
     private void FixedUpdate()
     {
         _stateMachine.FixedUpdate();
     }
 
+    /// <summary>
+    /// Main update loop for input processing and state updates
+    /// </summary>
     void Update()
     {
         ReadInput();
         _stateMachine.Update();
     }
     
+    /// <summary>
+    /// Forwards animation events to the current state
+    /// </summary>
+    /// <param name="animationEvent">Event data from animation timeline</param>
     public void AnimationEvent(AnimationEvent animationEvent)
     {
         _stateMachine.AnimationEvent(animationEvent);
     }
 
+    /// <summary>
+    /// Reads and processes player input for movement and look direction
+    /// </summary>
     private void ReadInput()
     {
         Input = new Vector2(UnityEngine.Input.GetAxisRaw("Horizontal"), UnityEngine.Input.GetAxisRaw("Vertical"));
@@ -103,6 +147,10 @@ public class PlayerContoller : MonoBehaviour
         );
     }
     
+    /// <summary>
+    /// Handles inventory item pickup collisions
+    /// </summary>
+    /// <param name="other">The collider entered</param>
     private void OnTriggerEnter2D(Collider2D other)
     {
         InventoryItem item = other.GetComponent<InventoryItem>();
@@ -112,6 +160,11 @@ public class PlayerContoller : MonoBehaviour
         }
     }
     
+    /// <summary>
+    /// Applies damage to the player and triggers damage state
+    /// </summary>
+    /// <param name="hitInfo">Information about the damage source</param>
+    /// <param name="_">Unused parameter (required by interface)</param>
     public void TakeDamage(HitInfo? hitInfo, int _)
     {
         if (!hitInfo.HasValue)
@@ -124,6 +177,9 @@ public class PlayerContoller : MonoBehaviour
         AudioManager.Instance.PlayPlayerHurtSound(transform.position);
     }
 
+    /// <summary>
+    /// Handles player death sequence and game over
+    /// </summary>
     public void Die()
     {
         AudioManager.Instance.PlayPlayerHurtSound(transform.position);
