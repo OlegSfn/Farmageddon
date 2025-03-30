@@ -22,11 +22,11 @@ public class HealthController : MonoBehaviour
     /// Event triggered when health reaches zero or below
     /// </summary>
     [SerializeField] private UnityEvent onDeath;
-    
+
     /// <summary>
     /// Current health value
     /// </summary>
-    public int Health { get; private set; }
+    public int Health;
     
     /// <summary>
     /// Initialize health to maximum on component awake
