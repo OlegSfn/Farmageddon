@@ -51,6 +51,11 @@ namespace Inventory
         /// </summary>
         private void Update()
         {
+            if (GameManager.Instance.IsPaused)
+            {
+                return;
+            }
+            
             HandleMouseScrollSelection();
             HandleNumberKeySelection();
         }

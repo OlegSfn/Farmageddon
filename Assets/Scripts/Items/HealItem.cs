@@ -25,6 +25,11 @@ namespace Items
         /// </summary>
         private void Update()
         {
+            if (GameManager.Instance.IsPaused)
+            {
+                return;
+            }
+            
             if (Input.GetKeyDown(KeyCode.Mouse0) && !Input.GetKeyDown(KeyCode.LeftAlt))
             {
                 GameManager.Instance.playerHealthController.Heal(healAmount);

@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <buildingData>k__BackingField: {fileID: 11400000, guid: 138ff66dc2ddf499c88d7d54a5cdc75a, type: 2}
   firePoint: {fileID: 6496461019168107643}
-  attackSightArea: {fileID: 0}
+  attackSightArea: {fileID: 4710889620229021052}
 --- !u!1 &7191210491234867351
 GameObject:
   m_ObjectHideFlags: 0

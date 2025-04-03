@@ -59,6 +59,11 @@ namespace Items
         /// <param name="cursorPosition">Position where the hoe is being used</param>
         protected override void UseItem(Vector3Int cursorPosition)
         {
+            if (GameManager.Instance.IsPaused)
+            {
+                return;
+            }
+            
             GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
             
             GameManager.Instance.playerController.IsWeeding = true;

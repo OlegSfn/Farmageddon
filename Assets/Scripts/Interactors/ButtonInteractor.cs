@@ -1,3 +1,4 @@
+using Managers;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -24,6 +25,11 @@ namespace Interactors
         /// </summary>
         private void Update()
         {
+            if (GameManager.Instance.IsPaused)
+            {
+                return;
+            }
+            
             if (Input.GetKeyDown(interactKey))
             {
                 onInteract?.Invoke();

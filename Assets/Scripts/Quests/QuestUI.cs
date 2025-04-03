@@ -1,4 +1,5 @@
 using System.Linq;
+using Managers;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -78,6 +79,11 @@ namespace Quests
         /// </summary>
         private void Update()
         {
+            if (GameManager.Instance.IsPaused)
+            {
+                return;
+            }
+            
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 HandleQuestButtonClick();

@@ -56,6 +56,11 @@ public abstract class WorldCursor : MonoBehaviour, ILogic
     /// </summary>
     private void Update()
     {
+        if (GameManager.Instance.IsPaused)
+        {
+            return;
+        }
+        
         Vector3Int cursorPosition = GetObjectPosition();
         CursorGameObject.transform.position = cursorPosition;
         
