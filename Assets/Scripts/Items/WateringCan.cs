@@ -1,7 +1,9 @@
 using System.Collections.Generic;
 using Managers;
 using Planting;
+using Player;
 using ScriptableObjects.Items;
+using UI;
 using UnityEngine;
 
 namespace Items
@@ -64,7 +66,8 @@ namespace Items
         /// <param name="cursorPosition">Position where the watering can is being used</param>
         protected override void UseItem(Vector3Int cursorPosition)
         {
-            if (GameManager.Instance.IsPaused)
+            PlayerController playerController = GameManager.Instance.playerController;
+            if (GameManager.Instance.IsPaused || !playerController.IsAbleToUseItem)
             {
                 return;
             }
@@ -72,7 +75,7 @@ namespace Items
             WaterCrop();
             RefillWater();
             
-            GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
+            playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
         }
 
         /// <summary>
@@ -106,7 +109,7 @@ namespace Items
         {
             _selectedCrop = null;
             isAboveWaterSource = false;
-            List<Collider2D> colliders = new List<Collider2D>();
+            List<Collider2D> colliders = new();
             CursorCollider.Overlap(ContactFilter, colliders);
 
             foreach (var col in colliders)

@@ -1,4 +1,4 @@
-﻿using Enemies.FSM.StateMachine;
+﻿using StateMachine;
 using Managers;
 using UnityEngine;
 using UnityEngine.AI;

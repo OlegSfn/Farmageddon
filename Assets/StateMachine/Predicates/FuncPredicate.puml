@@ -1,0 +1,10 @@
+@startuml
+class FuncPredicate {
+    + FuncPredicate(func:Func<bool>)
+    + IsTrue() : bool
+}
+class "Func`1"<T> {
+}
+IPredicate <|-- FuncPredicate
+FuncPredicate --> "_func<bool>" "Func`1"
+@enduml

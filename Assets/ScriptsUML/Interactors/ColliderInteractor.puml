@@ -1,0 +1,9 @@
+@startuml
+class ColliderInteractor {
+    - OnTriggerEnter2D(other:Collider2D) : void
+    - OnTriggerExit2D(other:Collider2D) : void
+}
+MonoBehaviour <|-- ColliderInteractor
+ColliderInteractor --> "onTriggerEnter" UnityEvent
+ColliderInteractor --> "onTriggerExit" UnityEvent
+@enduml

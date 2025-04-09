@@ -1,0 +1,10 @@
+@startuml
+class CashManager {
+    + Cash : int <<set>> <<get>>
+    - _cash : int = 100
+    - Awake() : void
+    - UpdateCashUI() : void
+}
+MonoBehaviour <|-- CashManager
+CashManager --> "cashText" TextMeshProUGUI
+@enduml

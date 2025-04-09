@@ -1,3 +1,4 @@
+using Helpers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -51,7 +52,7 @@ namespace UI
         /// Sets health bar value and color
         /// </summary>
         /// <param name="health">Current health value</param>
-        public void SetHealth(int health)
+        private void SetHealth(int health)
         {
             slider.value = health;
             fillImage.color = gradient.Evaluate(slider.normalizedValue);

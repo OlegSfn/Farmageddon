@@ -1,0 +1,23 @@
+@startuml
+struct QuestUIPanel {
+}
+class QuestUI {
+    - Update() : void
+    + UpdateQuestMenuUI() : void
+    + HandleQuestButtonClick() : void
+    - UpdateQuestPanelUI(panelToUpdate:QuestUIPanel, quest:ActiveQuest) : void
+    - Show() : void
+    - Hide() : void
+}
+QuestUIPanel --> "questPanelImage" Image
+QuestUIPanel --> "questItemImage" Image
+QuestUIPanel --> "strikethrough" GameObject
+QuestUIPanel --> "questCompletenessText" TextMeshProUGUI
+QuestUIPanel --> "questDeadlineText" TextMeshProUGUI
+QuestUIPanel --> "questRewardText" TextMeshProUGUI
+MonoBehaviour <|-- QuestUI
+QuestUI --> "questMenuTitle" TextMeshProUGUI
+QuestUI --> "questMenuDropdown" GameObject
+QuestUI --> "incompleteQuestColor" Color
+QuestUI --> "completeQuestColor" Color
+@enduml

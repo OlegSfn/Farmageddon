@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Enemies.FSM.StateMachine;
-using Enemies.FSM.StateMachine.Predicates;
+using System.Linq;
+using Building.Concrete.Scarecrow;
 using Enemies.Slime.SlimeStates;
+using Helpers;
 using Managers;
 using ScriptableObjects.Enemies;
+using StateMachine.Predicates;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -25,7 +27,7 @@ namespace Enemies.Slime
     
         private SlimeTakingDamageState _takingDamageState;
         private ContactFilter2D _contactFilter2D;
-        private StateMachine _stateMachine;
+        private StateMachine.StateMachine _stateMachine;
         private NavMeshAgent _navMeshAgent;
         private Animator _animator;
         private bool _isAlive;
@@ -53,7 +55,7 @@ namespace Enemies.Slime
         /// <summary>
         /// Dictionary of active fear sources affecting this slime
         /// </summary>
-        private Dictionary<IScary, int> _activeScareSources = new();
+        private readonly Dictionary<IScary, int> _activeScareSources = new();
         
         /// <summary>
         /// Total fear level from all sources
@@ -118,7 +120,7 @@ namespace Enemies.Slime
         /// </summary>
         private void InitStateMachine()
         {
-            _stateMachine = new StateMachine();
+            _stateMachine = new StateMachine.StateMachine();
         
             var wanderingState = new SlimeWanderingState(this, _navMeshAgent, _animator, 0.5f);
             var attackingState = new SlimeAttackingState(this, _navMeshAgent, _animator, attackCollider, _contactFilter2D);
@@ -206,7 +208,7 @@ namespace Enemies.Slime
         /// <returns>Transform of the highest priority target, or null if none found</returns>
         private Transform GetTarget()
         {
-            List<Collider2D> colliders = new List<Collider2D>();
+            List<Collider2D> colliders = new();
             
             attackSightArea.Overlap(_contactFilter2D, colliders);
             Transform currentTarget = GetMaxPriorityTarget(colliders, _attackingPriorities);
@@ -261,14 +263,16 @@ namespace Enemies.Slime
             ref float currentDistance)
         {
             float candidateDistance = Vector2.SqrMagnitude(transform.position - candidateTransform.position);
-            
-            if (candidatePriority > currentPriority ||
-                (candidatePriority == currentPriority && candidateDistance < currentDistance))
+
+            if (candidatePriority <= currentPriority &&
+                (candidatePriority != currentPriority || !(candidateDistance < currentDistance)))
             {
-                currentTarget = candidateTransform;
-                currentPriority = candidatePriority;
-                currentDistance = candidateDistance;
+                return;
             }
+            
+            currentTarget = candidateTransform;
+            currentPriority = candidatePriority;
+            currentDistance = candidateDistance;
         }
 
         /// <summary>
@@ -357,13 +361,15 @@ namespace Enemies.Slime
             ref int maxScare,
             ref float currentDistance)
         {
-            if (scareAmount > maxScare ||
-                (scareAmount == maxScare && distance < currentDistance))
+            if (scareAmount <= maxScare &&
+                (scareAmount != maxScare || !(distance < currentDistance)))
             {
-                strongestSource = source;
-                maxScare = scareAmount;
-                currentDistance = distance;
+                return;
             }
+            
+            strongestSource = source;
+            maxScare = scareAmount;
+            currentDistance = distance;
         }
         
         /// <summary>
@@ -372,13 +378,7 @@ namespace Enemies.Slime
         /// <returns>The sum of all fear values</returns>
         private int CalculateTotalScare()
         {
-            int totalScare = 0;
-            foreach (var scareSource in _activeScareSources)
-            {
-                totalScare += scareSource.Value;
-            }
-
-            return totalScare;
+            return _activeScareSources.Sum(scareSource => scareSource.Value);
         }
     }
 }

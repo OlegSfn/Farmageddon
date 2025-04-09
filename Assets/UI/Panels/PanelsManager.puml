@@ -1,0 +1,21 @@
+@startuml
+struct Panel {
+    + Panel(panelObject:GameObject, onClose:Action)
+}
+class PanelsManager {
+    + lastTimeClosed : float
+    + ActivePanelsCount : int <<get>>
+    - Update() : void
+    + OpenPanel(panelGameObject:GameObject) : void
+    + OpenPanel(panelGameObject:GameObject, onClose:Action) : void
+    + ClosePanel(panelGameObject:GameObject) : void
+    + ClosePanelWithoutEvents(panelGameObject:GameObject) : void
+    - OpenPanel(panel:Panel) : void
+}
+class "Stack`1"<T> {
+}
+Panel --> "PanelObject" GameObject
+Panel --> "OnClose" Action
+MonoBehaviour <|-- PanelsManager
+PanelsManager o-> "panelsStack<Panel>" "Stack`1"
+@enduml

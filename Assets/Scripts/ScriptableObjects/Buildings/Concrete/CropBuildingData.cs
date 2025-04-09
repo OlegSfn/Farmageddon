@@ -26,8 +26,14 @@ namespace ScriptableObjects.Buildings.Concrete
             
                 foreach (var obj in objects)
                 {
-                    if (obj.buildingData is SeedbedBuildingData) hasGardenBed = true;
-                    if (obj.buildingData is CropBuildingData) return false;
+                    switch (obj.buildingData)
+                    {
+                        case SeedbedBuildingData:
+                            hasGardenBed = true;
+                            break;
+                        case CropBuildingData:
+                            return false;
+                    }
                 }
             
                 if (!hasGardenBed) return false;

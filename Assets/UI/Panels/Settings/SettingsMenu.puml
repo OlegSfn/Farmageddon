@@ -1,0 +1,50 @@
+@startuml
+class SettingsMenu {
+    - _wasFullScreen : bool
+    - <<const>> SettingsFileName : string = "game_settings.json"
+    + SetMasterVolume(volume:float) : void
+    + SetMusicVolume(volume:float) : void
+    + SetSfxVolume(volume:float) : void
+    + SetUIVolume(volume:float) : void
+    + SetQuality(qualityIndex:int) : void
+    - SetFullscreen(isFullscreen:bool) : void
+    - SetResolution(resolutionIndex:int) : void
+    + SetVSync(isVSync:bool) : void
+    - RefreshUIWithSettings() : void
+    - UpdateResolutionDropdown() : void
+    - OnEnable() : void
+    - OnDisable() : void
+    - Awake() : void
+    - InitializeSettings() : void
+    - RevertFullscreen() : void
+    - RevertResolution() : void
+    - SaveSettings() : void
+    - LoadSettings() : void
+    - ApplyLoadedSettings() : void
+}
+class SettingsData {
+    + masterVolume : float
+    + musicVolume : float
+    + sfxVolume : float
+    + uiVolume : float
+    + qualityLevel : int
+    + resolutionIndex : int
+    + isFullscreen : bool
+    + isVSync : bool
+}
+MonoBehaviour <|-- SettingsMenu
+SettingsMenu --> "audioMixer" AudioMixer
+SettingsMenu --> "masterVolumeSlider" Slider
+SettingsMenu --> "musicVolumeSlider" Slider
+SettingsMenu --> "sfxVolumeSlider" Slider
+SettingsMenu --> "uiVolumeSlider" Slider
+SettingsMenu --> "resolutionsDropdown" TMP_Dropdown
+SettingsMenu --> "qualityDropdown" TMP_Dropdown
+SettingsMenu --> "fullscreenToggle" Toggle
+SettingsMenu --> "vSyncToggle" Toggle
+SettingsMenu --> "applyChangesMenu" ApplyChangesMenu
+SettingsMenu --> "_previousResolution" Resolution
+SettingsMenu --> "_previousFullScreenMode" FullScreenMode
+SettingsMenu o-> "_currentSettings" SettingsData
+SettingsMenu +-- SettingsData
+@enduml

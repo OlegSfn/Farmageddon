@@ -1,0 +1,24 @@
+@startuml
+class GameManager {
+    + sqrDistanceToUseItems : float = 5f
+    + IsPaused : bool <<get>> <<set>>
+    - Awake() : void
+    + LoadScene(sceneName:string) : void
+    + GameOver() : void
+}
+MonoBehaviour <|-- GameManager
+GameManager --> "Instance" GameManager
+GameManager --> "dayNightManager" DayNightManager
+GameManager --> "cursor" Cursor
+GameManager --> "playerController" PlayerController
+GameManager --> "playerHealthController" HealthController
+GameManager --> "cashManager" CashManager
+GameManager --> "tilemapManager" TilemapManager
+GameManager --> "questManager" QuestManager
+GameManager --> "panelsManager" PanelsManager
+GameManager --> "playerTransform" Transform
+GameManager --> "objectsPool" Transform
+GameManager o-> "badTint" Color
+GameManager o-> "goodTint" Color
+GameManager --> "gameOverMenu" GameObject
+@enduml

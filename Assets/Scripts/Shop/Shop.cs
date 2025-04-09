@@ -84,7 +84,7 @@ namespace Shop
         /// <summary>
         /// Closes the shop with animation and restores interaction ability
         /// </summary>
-        public void CloseShop()
+        private void CloseShop()
         {
             onShopMenuClosed?.Invoke();
             
@@ -95,12 +95,14 @@ namespace Shop
                         {
                             gameObject.SetActive(false);
                             PopInItems();
-                            
-                            if (GameManager.Instance.dayNightManager.IsDay)
+
+                            if (!GameManager.Instance.dayNightManager.IsDay)
                             {
-                                shopInteractor.enabled = true;
-                                shopInteractorHelper.SetActive(true);
+                                return;
                             }
+                            
+                            shopInteractor.enabled = true;
+                            shopInteractorHelper.SetActive(true);
                         }
                 );
 

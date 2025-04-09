@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Managers;
 using ScriptableObjects.Quests;
 using UnityEngine;
@@ -31,7 +32,7 @@ namespace Quests
         /// <summary>
         /// List of currently active quests
         /// </summary>
-        public List<ActiveQuest> ActiveQuests { get; private set; } = new();
+        public List<ActiveQuest> ActiveQuests { get; } = new();
 
         /// <summary>
         /// Initialize the quest system at the start of the game
@@ -57,7 +58,7 @@ namespace Quests
         /// </summary>
         private void UpdateQuestTimers()
         {
-            List<ActiveQuest> expiredQuests = new List<ActiveQuest>();
+            List<ActiveQuest> expiredQuests = new();
         
             foreach (var quest in ActiveQuests)
             {
@@ -104,22 +105,15 @@ namespace Quests
         {
             bool isAnyQuestUpdated = false;
             
-            foreach (var quest in ActiveQuests)
+            foreach (var quest in ActiveQuests.Where(quest => !quest.isCompleted && 
+                                                              quest.questData.itemToSell.itemName == itemName))
             {
-                if (quest.isCompleted)
-                {
-                    continue;
-                }
-            
-                if (quest.questData.itemToSell.itemName == itemName)
-                {
-                    quest.currentAmount += amount;
-                    isAnyQuestUpdated = true;
+                quest.currentAmount += amount;
+                isAnyQuestUpdated = true;
                 
-                    if (quest.currentAmount >= quest.questData.requiredAmount && !quest.isCompleted)
-                    {
-                        CompleteQuest(quest);
-                    }
+                if (quest.currentAmount >= quest.questData.requiredAmount && !quest.isCompleted)
+                {
+                    CompleteQuest(quest);
                 }
             }
         

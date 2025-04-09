@@ -1,0 +1,26 @@
+@startuml
+class SettingsUI {
+    - _wasFullScreen : bool
+    - OnEnable() : void
+    - OnDisable() : void
+    - SetFullscreen(isFullscreen:bool) : void
+    - SetResolution(resolutionIndex:int) : void
+    - RefreshUIWithSettings() : void
+    - UpdateResolutionDropdown() : void
+    - RevertFullscreen() : void
+    - RevertResolution() : void
+}
+MonoBehaviour <|-- SettingsUI
+SettingsUI --> "masterVolumeSlider" Slider
+SettingsUI --> "musicVolumeSlider" Slider
+SettingsUI --> "sfxVolumeSlider" Slider
+SettingsUI --> "uiVolumeSlider" Slider
+SettingsUI --> "resolutionsDropdown" TMP_Dropdown
+SettingsUI --> "qualityDropdown" TMP_Dropdown
+SettingsUI --> "fullscreenToggle" Toggle
+SettingsUI --> "vSyncToggle" Toggle
+SettingsUI --> "applyChangesMenu" ApplyChangesMenu
+SettingsUI --> "_previousResolution" Resolution
+SettingsUI --> "_previousFullScreenMode" FullScreenMode
+SettingsUI --> "_settingsManager" SettingsManager
+@enduml

@@ -1,6 +1,6 @@
 using System;
 
-namespace Enemies.FSM.StateMachine.Predicates
+namespace StateMachine.Predicates
 {
     /// <summary>
     /// A flexible implementation of IPredicate that uses a function delegate to determine the result

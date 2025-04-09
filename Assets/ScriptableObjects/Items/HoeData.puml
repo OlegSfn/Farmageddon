@@ -1,0 +1,6 @@
+@startuml
+class HoeData {
+    + distanceMultiplier : float
+}
+ScriptableObject <|-- HoeData
+@enduml

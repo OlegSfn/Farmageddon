@@ -1,0 +1,12 @@
+@startuml
+class SlimeWanderingState {
+    - <<readonly>> _errorRadius : float
+    + <<override>> Name : string <<get>>
+    + SlimeWanderingState(slime:Slime, navMeshAgent:NavMeshAgent, animator:Animator, errorRadius:float)
+    + <<override>> OnEnter() : void
+    + <<override>> OnUpdate() : void
+    - HasReachedDestination() : bool
+    - GetRandomPointToWalk() : Vector2
+}
+SlimeBaseState <|-- SlimeWanderingState
+@enduml

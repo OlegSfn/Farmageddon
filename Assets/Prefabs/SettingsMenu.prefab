@@ -1097,6 +1097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   applyChangesButton: {fileID: 3417114858993576124}
   revertChangesButton: {fileID: 3371216401416775488}
+  panelsManager: {fileID: 0}
 --- !u!1 &1115173912805016665
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,7 +2079,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8465932318469083094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI.Settings.SettingsMenu, Assembly-CSharp
         m_MethodName: SetMasterVolume
         m_Mode: 0
@@ -2649,7 +2650,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8465932318469083094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI.Settings.SettingsMenu, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 0
@@ -3385,7 +3386,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8465932318469083094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI.Settings.SettingsMenu, Assembly-CSharp
         m_MethodName: SetUIVolume
         m_Mode: 0
@@ -3481,7 +3482,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8465932318469083094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI.Settings.SettingsMenu, Assembly-CSharp
         m_MethodName: SetVSync
         m_Mode: 0
@@ -3655,6 +3656,7 @@ GameObject:
   - component: {fileID: 4302355782561565042}
   - component: {fileID: 4437623929988260623}
   - component: {fileID: 8850027001517485850}
+  - component: {fileID: 6130596018008150461}
   m_Layer: 5
   m_Name: BackToMenuButton
   m_TagString: Untagged
@@ -3787,6 +3789,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6130596018008150461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4335398560723475389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c161ecb9c63d4743af7134f1b81e10ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4392032853890804140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4164,7 +4178,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8465932318469083094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI.Settings.SettingsMenu, Assembly-CSharp
         m_MethodName: SetSfxVolume
         m_Mode: 0
@@ -4436,7 +4450,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8465932318469083094}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UI.Settings.SettingsMenu, Assembly-CSharp
         m_MethodName: SetQuality
         m_Mode: 0
@@ -6789,7 +6803,6 @@ GameObject:
   - component: {fileID: 3085732356533653225}
   - component: {fileID: 7807557766728533665}
   - component: {fileID: 1015054653361495225}
-  - component: {fileID: 8465932318469083094}
   m_Layer: 5
   m_Name: SettingsMenu
   m_TagString: Untagged
@@ -6858,23 +6871,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1.5
---- !u!114 &8465932318469083094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8810214487490595500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: afb993fb550334bdfa15e21d90478eda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioMixer: {fileID: 24100000, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
-  resolutionsDropdown: {fileID: 6631468839892676963}
-  qualityDropdown: {fileID: 3639542651414140561}
-  fullscreenToggle: {fileID: 7749960506550310875}
-  applyChangesMenu: {fileID: 3804710506889629472}
 --- !u!1 &8867658483301650008
 GameObject:
   m_ObjectHideFlags: 0

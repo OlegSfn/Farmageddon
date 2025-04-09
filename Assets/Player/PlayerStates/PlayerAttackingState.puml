@@ -1,0 +1,17 @@
+@startuml
+class PlayerAttackingState {
+    + <<override>> Name : string <<get>>
+    - <<const>> AttackCooldown : float = 0.01f
+    - _lastAttackTime : float
+    - _canExit : bool
+    + PlayerAttackingState(playerController:PlayerController, animator:Animator, toolAnimator:Animator, rigidbody2D:Rigidbody2D, toolCollider:Collider2D)
+    + <<override>> OnEnter() : void
+    + <<override>> OnUpdate() : void
+    + <<override>> OnAnimationEvent(animationEvent:AnimationEvent) : void
+    - Attack() : void
+    + <<override>> OnExit() : void
+}
+PlayerBaseState <|-- PlayerAttackingState
+PlayerAttackingState --> "toolCollider" Collider2D
+PlayerAttackingState --> "contactFilter" ContactFilter2D
+@enduml

@@ -1,6 +1,6 @@
-using Enemies.FSM.StateMachine.Predicates;
+using StateMachine.Predicates;
 
-namespace Enemies.FSM.StateMachine.Transitions
+namespace StateMachine.Transitions
 {
     /// <summary>
     /// Interface for transitions between states in the state machine

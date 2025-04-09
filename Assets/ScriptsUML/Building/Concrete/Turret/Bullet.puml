@@ -1,0 +1,13 @@
+@startuml
+class Bullet {
+    - _damage : int
+    - _speed : float
+    - _liveTime : float = 5f
+    - Update() : void
+    - OnTriggerEnter2D(other:Collider2D) : void
+    + Initialize(moveDirection:Vector2, damage:int, speed:float, color:Color) : void
+}
+MonoBehaviour <|-- Bullet
+Bullet --> "spriteRenderer" SpriteRenderer
+Bullet --> "_moveDirection" Vector2
+@enduml

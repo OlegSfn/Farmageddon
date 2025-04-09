@@ -1,0 +1,33 @@
+@startuml
+class SettingsManager {
+    - <<const>> SettingsFileName : string = "game_settings.json"
+    - Start() : void
+    - InitializeSettings() : void
+    + SetMasterVolume(volume:float) : void
+    + SetMusicVolume(volume:float) : void
+    + SetSfxVolume(volume:float) : void
+    + SetUIVolume(volume:float) : void
+    + SetQuality(qualityIndex:int) : void
+    + ApplyFullscreenSettings(isFullscreen:bool) : void
+    + ApplyResolutionSettings(resolutionIndex:int) : void
+    + SetVSync(isVSync:bool) : void
+    + SaveSettings() : void
+    + LoadSettings() : void
+    - ApplyLoadedSettings() : void
+}
+class SettingsData {
+    + masterVolume : float
+    + musicVolume : float
+    + sfxVolume : float
+    + uiVolume : float
+    + qualityLevel : int
+    + resolutionIndex : int
+    + isFullscreen : bool
+    + isVSync : bool
+}
+MonoBehaviour <|-- SettingsManager
+SettingsManager --> "Instance" SettingsManager
+SettingsManager --> "audioMixer" AudioMixer
+SettingsManager o-> "CurrentSettings" SettingsData
+SettingsManager +-- SettingsData
+@enduml

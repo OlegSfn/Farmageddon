@@ -29,12 +29,14 @@ namespace Items
             {
                 return;
             }
-            
-            if (Input.GetKeyDown(KeyCode.Mouse0) && !Input.GetKeyDown(KeyCode.LeftAlt))
+
+            if (!Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.LeftAlt))
             {
-                GameManager.Instance.playerHealthController.Heal(healAmount);
-                item.RemoveItems(1);
+                return;
             }
+            
+            GameManager.Instance.playerHealthController.Heal(healAmount);
+            item.RemoveItems(1);
         }
         
         /// <summary>

@@ -32,11 +32,13 @@ namespace Planting
         /// <param name="other">The collider that entered this seedbed's trigger area</param>
         private void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.TryGetComponent(out Crop crop))
+            if (!other.TryGetComponent(out Crop crop))
             {
-                crop.Humidity = 100;
-                crop.Seedbed = this;
+                return;
             }
+            
+            crop.Humidity = 100;
+            crop.Seedbed = this;
         }
     }
 }

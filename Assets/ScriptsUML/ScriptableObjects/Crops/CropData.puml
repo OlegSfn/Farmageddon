@@ -1,0 +1,7 @@
+@startuml
+class CropData {
+    + maxHumidity : int
+}
+ScriptableObject <|-- CropData
+CropData --> "harvestPrefab" GameObject
+@enduml

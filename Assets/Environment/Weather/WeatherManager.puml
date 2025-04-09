@@ -1,0 +1,18 @@
+@startuml
+class WeatherManager {
+    - minRainDuration : float = 5
+    - maxRainDuration : float = 30
+    - minRainInterval : float = 60
+    - maxRainInterval : float = 180
+    - _isRaining : bool
+    - Start() : void
+    - Update() : void
+    - WaterAllCrops() : void
+    - PlayRain() : IEnumerator
+    - StopRain() : void
+    - StartRain() : void
+    - CastNextRain() : IEnumerator
+}
+MonoBehaviour <|-- WeatherManager
+WeatherManager --> "rain" ParticleSystem
+@enduml

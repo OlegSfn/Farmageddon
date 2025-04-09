@@ -19,11 +19,11 @@ namespace Enemies.Waves
         /// Index of the current wave
         /// </summary>
         private int _curWaveIndex;
-        
+
         /// <summary>
         /// Distance from center at which enemies spawn
         /// </summary>
-        private float _radius = 35;
+        private const float Radius = 35;
 
         /// <summary>
         /// Reduces spawn delay between chunks for later waves
@@ -47,12 +47,7 @@ namespace Enemies.Waves
         /// <returns>The wave data to spawn</returns>
         private EnemyWaveData GetWaveToSpawn()
         {
-            if (_curWaveIndex < wavesData.Length)
-            {
-                return wavesData[_curWaveIndex];
-            }
-
-            return wavesData[wavesData.Length - 1];
+            return _curWaveIndex < wavesData.Length ? wavesData[_curWaveIndex] : wavesData[^1];
         }
 
         /// <summary>
@@ -125,7 +120,7 @@ namespace Enemies.Waves
         {
             float angle = Random.Range(0f, 360f);
             Vector3 dir = new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0);
-            Vector3 pos = dir * _radius;
+            Vector3 pos = dir * Radius;
             Instantiate(enemyToSpawn, pos, Quaternion.identity);
         }
     }

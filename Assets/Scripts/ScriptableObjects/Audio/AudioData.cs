@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -45,12 +46,12 @@ namespace ScriptableObjects.Audio
             /// <summary>
             /// Controls whether the sound is 2D (0) or 3D (1) positioned in the world
             /// </summary>
-            [Range(0f, 1f)] public float spatialBlend = 0f;
+            [Range(0f, 1f)] public float spatialBlend;
             
             /// <summary>
             /// Whether the audio should loop continuously
             /// </summary>
-            public bool loop = false;
+            public bool loop;
             
             /// <summary>
             /// Audio mixer group for routing and effects processing
@@ -84,24 +85,18 @@ namespace ScriptableObjects.Audio
         /// <summary>
         /// Builds a lookup cache of all audio groups for efficient access
         /// </summary>
-        public void BuildCache()
+        private void BuildCache()
         {
             _groupCache = new Dictionary<string, AudioGroup>();
         
-            foreach (var group in musicGroups)
+            foreach (var group in musicGroups.Where(group => !string.IsNullOrEmpty(group.groupName)))
             {
-                if (!string.IsNullOrEmpty(group.groupName))
-                {
-                    _groupCache[group.groupName] = group;
-                }
+                _groupCache[group.groupName] = group;
             }
 
-            foreach (var group in sfxGroups)
+            foreach (var group in sfxGroups.Where(group => !string.IsNullOrEmpty(group.groupName)))
             {
-                if (!string.IsNullOrEmpty(group.groupName))
-                {
-                    _groupCache[group.groupName] = group;
-                }
+                _groupCache[group.groupName] = group;
             }
         }
 
@@ -117,7 +112,7 @@ namespace ScriptableObjects.Audio
                 BuildCache();
             }
 
-            if (_groupCache.TryGetValue(groupName, out AudioGroup group))
+            if (_groupCache!.TryGetValue(groupName, out AudioGroup group))
             {
                 return group;
             }

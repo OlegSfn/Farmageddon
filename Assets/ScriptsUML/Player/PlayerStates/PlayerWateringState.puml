@@ -1,0 +1,10 @@
+@startuml
+class PlayerWateringState {
+    + <<override>> Name : string <<get>>
+    + PlayerWateringState(playerController:PlayerController, animator:Animator, toolAnimator:Animator, rigidbody2D:Rigidbody2D)
+    + <<override>> OnEnter() : void
+    + <<override>> OnAnimationEvent(animationEvent:AnimationEvent) : void
+    + <<override>> OnExit() : void
+}
+PlayerBaseState <|-- PlayerWateringState
+@enduml

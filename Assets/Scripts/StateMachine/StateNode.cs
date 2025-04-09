@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using Enemies.FSM.StateMachine.Predicates;
-using Enemies.FSM.StateMachine.Transitions;
+using StateMachine.Predicates;
+using StateMachine.Transitions;
 
-namespace Enemies.FSM.StateMachine
+namespace StateMachine
 {
     /// <summary>
     /// Represents a node in the state machine graph

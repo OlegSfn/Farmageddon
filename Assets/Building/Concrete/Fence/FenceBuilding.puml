@@ -1,0 +1,10 @@
+@startuml
+class FenceBuilding {
+    # <<override>> Awake() : void
+    - UpdateAppearance() : void
+    - UpdateNeighbors() : void
+}
+Building <|-- FenceBuilding
+FenceBuilding --> "spriteRenderer" SpriteRenderer
+FenceBuilding --> "_fenceBuildingData" FenceBuildingData
+@enduml

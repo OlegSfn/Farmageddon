@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using ScriptableObjects;
+using System.Linq;
 using ScriptableObjects.Audio;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -39,12 +39,12 @@ namespace Managers
         /// <summary>
         /// Pool of audio sources for playing sound effects
         /// </summary>
-        private List<AudioSource> _sfxSources = new();
+        private readonly List<AudioSource> _sfxSources = new();
         
         /// <summary>
         /// Dictionary of currently playing looping sounds
         /// </summary>
-        private Dictionary<string, AudioSource> _loopingSounds = new();
+        private readonly Dictionary<string, AudioSource> _loopingSounds = new();
         
         /// <summary>
         /// Name of the currently playing music group
@@ -108,15 +108,17 @@ namespace Managers
             }
 
             // Create ambience source if not assigned in inspector
-            if (ambienceSource == null)
+            if (ambienceSource != null)
             {
-                GameObject ambienceObj = new GameObject("Ambience_Source");
-                ambienceObj.transform.SetParent(transform);
-                
-                ambienceSource = ambienceObj.AddComponent<AudioSource>();
-                ambienceSource.loop = true;
-                ambienceSource.playOnAwake = false;
+                return;
             }
+            
+            GameObject ambienceObj = new GameObject("Ambience_Source");
+            ambienceObj.transform.SetParent(transform);
+                
+            ambienceSource = ambienceObj.AddComponent<AudioSource>();
+            ambienceSource.loop = true;
+            ambienceSource.playOnAwake = false;
         }
 
         /// <summary>
@@ -217,13 +219,13 @@ namespace Managers
             }
 
             AudioClip clip = audioData.GetRandomClip(groupName);
-            if (clip == null)
+            if (clip is null)
             {
                 return;
             }
 
             AudioSource source = GetAvailableSfxSource();
-            if (source == null)
+            if (source is null)
             {
                 return;
             }
@@ -263,13 +265,13 @@ namespace Managers
             }
 
             AudioClip clip = audioData.GetRandomClip(groupName);
-            if (clip == null)
+            if (clip is null)
             {
                 return;
             }
 
             AudioSource source = GetAvailableSfxSource();
-            if (source == null)
+            if (source is null)
             {
                 return;
             }
@@ -296,11 +298,13 @@ namespace Managers
         /// <param name="groupName">Name of the audio group to stop</param>
         public void StopLoopingSound(string groupName)
         {
-            if (_loopingSounds.TryGetValue(groupName, out AudioSource source))
+            if (!_loopingSounds.TryGetValue(groupName, out AudioSource source))
             {
-                source.Stop();
-                _loopingSounds.Remove(groupName);
+                return;
             }
+            
+            source.Stop();
+            _loopingSounds.Remove(groupName);
         }
 
         /// <summary>
@@ -321,12 +325,9 @@ namespace Managers
         /// <returns>An audio source that isn't currently playing, or the oldest source if all are in use</returns>
         private AudioSource GetAvailableSfxSource()
         {
-            foreach (var source in _sfxSources)
+            foreach (var source in _sfxSources.Where(source => !source.isPlaying))
             {
-                if (!source.isPlaying)
-                {
-                    return source;
-                }
+                return source;
             }
 
             // If all sources are playing, return the oldest one
@@ -438,6 +439,22 @@ namespace Managers
         public void StopRainSound()
         {
             StopLoopingSound("Raining");
+        }
+
+        /// <summary>
+        /// Play button click sound
+        /// </summary>
+        public void PlayButtonClickSound()
+        {
+            PlaySound("ButtonClick");
+        }
+        
+        /// <summary>
+        /// Play button hover sound
+        /// </summary>
+        public void PlayButtonHoverSound()
+        {
+            PlaySound("ButtonHover");
         }
     }
 }

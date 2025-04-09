@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Enemies.FSM.StateMachine
+namespace StateMachine
 {
     /// <summary>
     /// Interface for state objects in the Finite State Machine

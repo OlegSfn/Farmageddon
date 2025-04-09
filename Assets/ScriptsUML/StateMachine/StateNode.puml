@@ -1,0 +1,10 @@
+@startuml
+class StateNode {
+    + StateNode(state:IState)
+    + AddTransition(targetState:StateNode, condition:IPredicate) : void
+}
+class "HashSet`1"<T> {
+}
+StateNode --> "State" IState
+StateNode --> "Transitions<Transition>" "HashSet`1"
+@enduml

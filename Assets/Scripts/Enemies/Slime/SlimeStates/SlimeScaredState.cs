@@ -1,4 +1,5 @@
 using System.Collections;
+using Building.Concrete.Scarecrow;
 using UnityEngine;
 using UnityEngine.AI;
 

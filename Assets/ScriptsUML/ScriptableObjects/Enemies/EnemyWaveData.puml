@@ -1,0 +1,15 @@
+@startuml
+class EnemyWaveData {
+    + waveName : string
+}
+struct EnemyWaveChunk {
+    + delayBeforeSpawn : float
+}
+struct EnemiesToSpawn {
+    + count : int
+}
+ScriptableObject <|-- EnemyWaveData
+EnemyWaveData +-- EnemyWaveChunk
+EnemyWaveData +-- EnemiesToSpawn
+EnemiesToSpawn --> "prefabToSpawn" GameObject
+@enduml

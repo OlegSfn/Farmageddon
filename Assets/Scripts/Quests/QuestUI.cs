@@ -95,7 +95,7 @@ namespace Quests
         /// </summary>
         public void UpdateQuestMenuUI()
         {
-            QuestManager questManager = Managers.GameManager.Instance.questManager;
+            QuestManager questManager = GameManager.Instance.questManager;
             var quests = questManager.ActiveQuests;
             
             questMenuTitle.text = $"Quests ({quests.Count(x => x.isCompleted)}/{questManager.maxActiveQuests})";

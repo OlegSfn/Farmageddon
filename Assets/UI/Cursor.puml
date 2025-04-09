@@ -1,0 +1,7 @@
+@startuml
+class Cursor {
+    - LateUpdate() : void
+}
+MonoBehaviour <|-- Cursor
+Cursor --> "cursorImage" Image
+@enduml

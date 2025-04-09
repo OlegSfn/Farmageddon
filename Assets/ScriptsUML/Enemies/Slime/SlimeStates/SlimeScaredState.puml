@@ -1,0 +1,11 @@
+@startuml
+class SlimeScaredState {
+    + <<override>> Name : string <<get>>
+    + SlimeScaredState(slime:Slime, navMeshAgent:NavMeshAgent, animator:Animator)
+    + <<override>> OnEnter() : void
+    + <<override>> OnExit() : void
+    - WalkFromScariestSource() : IEnumerator
+}
+SlimeBaseState <|-- SlimeScaredState
+SlimeScaredState --> "walkFromScariestSourceCoroutine" Coroutine
+@enduml

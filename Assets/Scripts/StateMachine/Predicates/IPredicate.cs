@@ -1,4 +1,4 @@
-namespace Enemies.FSM.StateMachine.Predicates
+namespace StateMachine.Predicates
 {
     /// <summary>
     /// Interface for conditional predicates used in state machine transitions

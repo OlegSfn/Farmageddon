@@ -1,10 +1,12 @@
 using Building;
-using Enemies.Waves;
-using Envinronment.DayNightCycle;
+using Environment.DayNightCycle;
+using Helpers;
+using Player;
 using Quests;
-using UI;
+using UI.Panels;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cursor = UI.Cursor;
 
 namespace Managers
 {
@@ -34,14 +36,9 @@ namespace Managers
         public Cursor cursor;
         
         /// <summary>
-        /// Reference to the enemy waves manager for spawning and controlling enemies
-        /// </summary>
-        public EnemyWavesManager enemyWavesManager;
-        
-        /// <summary>
         /// Reference to the main player controller
         /// </summary>
-        public PlayerContoller playerController;
+        public PlayerController playerController;
         
         /// <summary>
         /// Reference to the player's health controller

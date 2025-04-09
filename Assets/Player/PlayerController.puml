@@ -1,0 +1,30 @@
+@startuml
+class PlayerController {
+    + Speed : float <<get>>
+    + IsWeeding : bool <<get>> <<set>>
+    + IsAttacking : bool <<get>> <<set>>
+    + IsWatering : bool <<get>> <<set>>
+    + IsAlive : bool <<get>>
+    + IsTakingDamage : bool <<get>> <<set>>
+    + CanMove : bool <<get>> <<set>>
+    - Awake() : void
+    - Start() : void
+    - InitStateMachine() : void
+    - FixedUpdate() : void
+    - Update() : void
+    + AnimationEvent(animationEvent:AnimationEvent) : void
+    - ReadInput() : void
+    - OnTriggerEnter2D(other:Collider2D) : void
+    + TakeDamage(hitInfo:HitInfo?, _:int) : void
+    + Die() : void
+}
+MonoBehaviour <|-- PlayerController
+PlayerController --> "ToolAnimator" Animator
+PlayerController --> "toolCollder" Collider2D
+PlayerController --> "Input" Vector2
+PlayerController --> "LookDirection" Vector2
+PlayerController --> "_animator" Animator
+PlayerController --> "_rb" Rigidbody2D
+PlayerController --> "_mainCamera" Camera
+PlayerController --> "_takingDamageState" PlayerTakingDamageState
+@enduml

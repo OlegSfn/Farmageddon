@@ -1,0 +1,6 @@
+@startuml
+class CropBuildingData {
+    + <<override>> CanPlace(manager:TilemapManager, position:Vector2Int) : bool
+}
+BuildingData <|-- CropBuildingData
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class WateringCanData {
+    + distanceMultiplier : float
+    + maxWaterAmount : int
+    + wateringAmount : int
+}
+ScriptableObject <|-- WateringCanData
+@enduml

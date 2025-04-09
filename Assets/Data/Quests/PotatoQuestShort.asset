@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8986cdefb1e244960a4b9696ff1a7043, type: 3}
+  m_Name: PotatoQuestShort
+  m_EditorClassIdentifier: 
+  itemToSell: {fileID: 11400000, guid: 1c6d2c723b9f2463086406c64f554431, type: 2}
+  itemSprite: {fileID: -7833671090200325546, guid: 0c4257da1f1c04edbbc636e6da42d755, type: 3}
+  requiredAmount: 3
+  daysLimit: 3
+  rewardAmount: 30

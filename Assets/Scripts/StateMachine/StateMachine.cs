@@ -1,9 +1,10 @@
 using System.Collections.Generic;
-using Enemies.FSM.StateMachine.Predicates;
-using Enemies.FSM.StateMachine.Transitions;
+using System.Linq;
+using StateMachine.Predicates;
+using StateMachine.Transitions;
 using UnityEngine;
 
-namespace Enemies.FSM.StateMachine
+namespace StateMachine
 {
     /// <summary>
     /// A flexible Finite State Machine implementation for game entity behavior control
@@ -103,23 +104,12 @@ namespace Enemies.FSM.StateMachine
         /// <returns>The first valid transition, or null if none are valid</returns>
         private ITransition GetValidTransition()
         {
-            foreach (var transition in _anyStateTransitions)
+            foreach (var transition in _anyStateTransitions.Where(transition => transition.Condition.IsTrue()))
             {
-                if (transition.Condition.IsTrue())
-                {
-                    return transition;
-                }
+                return transition;
             }
-        
-            foreach (var transition in _currentState.Transitions)
-            {
-                if (transition.Condition.IsTrue())
-                {
-                    return transition;
-                }
-            }
-        
-            return null;
+
+            return _currentState.Transitions.FirstOrDefault(transition => transition.Condition.IsTrue());
         }
 
         /// <summary>

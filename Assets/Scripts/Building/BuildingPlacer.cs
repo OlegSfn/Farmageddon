@@ -1,7 +1,9 @@
 using System.Collections.Generic;
+using System.Linq;
 using Inventory;
 using Managers;
 using ScriptableObjects.Buildings;
+using UI;
 using UnityEngine;
 
 namespace Building
@@ -52,6 +54,11 @@ namespace Building
         /// <param name="cursorPosition">Position to place the building</param>
         protected override void UseItem(Vector3Int cursorPosition)
         {
+            if (!GameManager.Instance.playerController.IsAbleToUseItem)
+            {
+                return;
+            }
+            
             if (item.RemoveItems(1))
             {
                 Destroy(CursorGameObject);
@@ -69,14 +76,11 @@ namespace Building
         {
             bool isCloseToPlayer = (CursorGameObject.transform.position - GameManager.Instance.playerTransform.position).sqrMagnitude < GameManager.Instance.sqrDistanceToUseItems;
             
-            List<Collider2D> colliders = new List<Collider2D>();
+            List<Collider2D> colliders = new();
             CursorCollider.Overlap(ContactFilter, colliders);
-            foreach (var col in colliders)
+            if (colliders.Any(col => !col.isTrigger))
             {
-                if (!col.isTrigger)
-                {
-                    return false;
-                }
+                return false;
             }
             
             Vector2Int cursorPosition = (Vector2Int)GetObjectPosition();

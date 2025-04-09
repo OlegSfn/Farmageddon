@@ -71,16 +71,16 @@ namespace Shop
         /// Maximum available quantity based on inventory or cash
         /// </summary>
         private int _maxItemCount;
-        
+
         /// <summary>
         /// Minimum multiplier for price decreases (daily fluctuations)
         /// </summary>
-        private readonly float _minDecreasePriceMultiplier = 0.8f;
-        
+        private const float MinDecreasePriceMultiplier = 0.8f;
+
         /// <summary>
         /// Maximum multiplier for price increases (daily fluctuations)
         /// </summary>
-        private readonly float _maxIncreasePriceMultiplier = 1.2f;
+        private const float MaxIncreasePriceMultiplier = 1.2f;
         
         /// <summary>
         /// Consecutive days this item has been sold, affects price
@@ -100,7 +100,7 @@ namespace Shop
         /// <summary>
         /// Cooldown between item count changes via keyboard
         /// </summary>
-        private readonly float _itemCountChangeInterval = 0.1f;
+        private const float ItemCountChangeInterval = 0.1f;
         
         /// <summary>
         /// Timer for item count change cooldown
@@ -147,12 +147,12 @@ namespace Shop
             if (Input.GetAxisRaw("Vertical") > 0)
             {
                 ++_itemCount;
-                _itemCountChangeTimer = _itemCountChangeInterval;
+                _itemCountChangeTimer = ItemCountChangeInterval;
             }
             else if (Input.GetAxisRaw("Vertical") < 0)
             {
                 --_itemCount;
-                _itemCountChangeTimer = _itemCountChangeInterval;
+                _itemCountChangeTimer = ItemCountChangeInterval;
             }
             
             _itemCount = Mathf.Clamp(_itemCount, 0, _maxItemCount);
@@ -302,7 +302,7 @@ namespace Shop
         /// </summary>
         private void UpdatePriceForNewDay()
         {
-            float randomPriceMultiplier = Random.Range(_minDecreasePriceMultiplier, _maxIncreasePriceMultiplier);
+            float randomPriceMultiplier = Random.Range(MinDecreasePriceMultiplier, MaxIncreasePriceMultiplier);
             _sellRow = _wasSoldLastDay ? _sellRow + 1 : 0;
             if (!_wasSoldLastDay && _price == 0)
             {

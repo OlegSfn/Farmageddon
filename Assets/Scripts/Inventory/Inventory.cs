@@ -1,5 +1,5 @@
-using System;
 using System.Collections.Generic;
+using System.Linq;
 using Managers;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -20,7 +20,7 @@ namespace Inventory
         /// <summary>
         /// Index of the currently selected inventory slot
         /// </summary>
-        public int activeItemIndex { get; set; }
+        public int activeItemIndex { get; private set; }
     
         /// <summary>
         /// Alpha transparency value used when dragging items
@@ -76,12 +76,14 @@ namespace Inventory
         /// </summary>
         private void HandleMouseScrollSelection()
         {
-            if (Input.mouseScrollDelta != Vector2.zero)
+            if (Input.mouseScrollDelta == Vector2.zero)
             {
-                int index = activeItemIndex + (int)Input.mouseScrollDelta.y;
-                index = Mathf.Clamp(index, 0, inventorySlots.Count - 1);
-                ChangeActiveItem(index);
+                return;
             }
+            
+            int index = activeItemIndex + (int)Input.mouseScrollDelta.y;
+            index = Mathf.Clamp(index, 0, inventorySlots.Count - 1);
+            ChangeActiveItem(index);
         }
         
         /// <summary>
@@ -145,11 +147,13 @@ namespace Inventory
                     quantityToAdd -= quantityToTransfer;
                 }
 
-                if (quantityToAdd <= 0)
+                if (quantityToAdd > 0)
                 {
-                    Destroy(item.gameObject);
-                    return 0;
+                    continue;
                 }
+                
+                Destroy(item.gameObject);
+                return 0;
             }
             
             return quantityToAdd;
@@ -162,24 +166,21 @@ namespace Inventory
         /// <param name="quantity">Quantity to add</param>
         private void AddItemToEmptySlot(InventoryItem item, int quantity)
         {
-            foreach (var inventorySlot in inventorySlots)
+            foreach (var inventorySlot in inventorySlots.Where(inventorySlot => inventorySlot.item == null))
             {
-                if (inventorySlot.item == null)
+                inventorySlot.item = item;
+                item.transform.position = GameManager.Instance.objectsPool.position;
+                inventorySlot.item.Quantity = quantity;
+                ChangeItemsCount(item.ItemName, inventorySlot.item.Quantity);
+                inventorySlot.item.inventorySlot = inventorySlot;
+                inventorySlot.UpdateUI();
+                if (inventorySlot.indexInInventory == activeItemIndex)
                 {
-                    inventorySlot.item = item;
-                    item.transform.position = GameManager.Instance.objectsPool.position;
-                    inventorySlot.item.Quantity = quantity;
-                    ChangeItemsCount(item.ItemName, inventorySlot.item.Quantity);
-                    inventorySlot.item.inventorySlot = inventorySlot;
-                    inventorySlot.UpdateUI();
-                    if (inventorySlot.indexInInventory == activeItemIndex)
-                    {
-                        SetItemLogicActive(true);
-                    }
-                    return;
+                    SetItemLogicActive(true);
                 }
+                return;
             }
-            
+
             // If we got here, inventory is full and item couldn't be added
             // The original item still exists in the world
         }
@@ -243,14 +244,13 @@ namespace Inventory
         /// <param name="isActive">Whether the item logic should be active</param>
         public void SetItemLogicActive(int index, bool isActive)
         {
-            if (inventorySlots[index].item is not null)
+            if (inventorySlots[index].item is null)
             {
-                ILogic logic = inventorySlots[index].item.gameObject.GetComponent<ILogic>();
-                if (logic is not null)
-                {
-                    logic.SetActive(isActive);
-                }
+                return;
             }
+            
+            ILogic logic = inventorySlots[index].item.gameObject.GetComponent<ILogic>();
+            logic?.SetActive(isActive);
         }
         
         /// <summary>
@@ -266,16 +266,18 @@ namespace Inventory
             // Process slots in reverse order (usually consumables are at the end)
             for (int i = inventorySlots.Count-1; i >= 0; --i)
             {
-                if (inventorySlots[i].item is not null && itemName == inventorySlots[i].item.ItemName)
+                if (inventorySlots[i].item is null || itemName != inventorySlots[i].item.ItemName)
                 {
-                    int itemQuantity = inventorySlots[i].item.Quantity;
-                    inventorySlots[i].RemoveFromSlot(Mathf.Min(quantityToRemove, itemQuantity));
-                    quantityToRemove -= itemQuantity;
+                    continue;
+                }
+                
+                int itemQuantity = inventorySlots[i].item.Quantity;
+                inventorySlots[i].RemoveFromSlot(Mathf.Min(quantityToRemove, itemQuantity));
+                quantityToRemove -= itemQuantity;
                     
-                    if (quantityToRemove <= 0)
-                    {
-                        break;
-                    }
+                if (quantityToRemove <= 0)
+                {
+                    break;
                 }
             }
         }

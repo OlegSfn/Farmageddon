@@ -58,7 +58,7 @@ namespace Inventory
         /// </summary>
         public void UpdateUI()
         {
-            if (item == null)
+            if (item is null)
             {
                 ShowEmptySlot();
                 return;
@@ -161,11 +161,13 @@ namespace Inventory
         /// </summary>
         private void EndDragging()
         {
-            if (GameManager.Instance.cursor.cursorImage.sprite == item.Icon)
+            if (GameManager.Instance.cursor.cursorImage.sprite != item.Icon)
             {
-                GameManager.Instance.cursor.cursorImage.sprite = null;
-                GameManager.Instance.cursor.cursorImage.enabled = false;
+                return;
             }
+            
+            GameManager.Instance.cursor.cursorImage.sprite = null;
+            GameManager.Instance.cursor.cursorImage.enabled = false;
         }
 
         /// <summary>

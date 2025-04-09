@@ -1,4 +1,6 @@
+using Inventory;
 using Managers;
+using Player;
 using ScriptableObjects.Items;
 using UnityEngine;
 
@@ -25,16 +27,17 @@ namespace Items
         /// </summary>
         private void Update()
         {
-            if (GameManager.Instance.IsPaused)
+            PlayerController playerController = GameManager.Instance.playerController;
+            if (GameManager.Instance.IsPaused 
+                || !Input.GetKeyDown(KeyCode.Mouse0) 
+                || Input.GetKeyDown(KeyCode.LeftAlt)
+                || !playerController.IsAbleToUseItem)
             {
                 return;
             }
             
-            if (Input.GetKeyDown(KeyCode.Mouse0) && !Input.GetKeyDown(KeyCode.LeftAlt))
-            {
-                GameManager.Instance.playerController.IsAttacking = true;
-                GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
-            }
+            playerController.IsAttacking = true;
+            playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
         }
 
         /// <summary>

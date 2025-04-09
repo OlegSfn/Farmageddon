@@ -43,11 +43,13 @@ namespace Enemies.Slime.SlimeStates
         public override void OnAnimationEvent(AnimationEvent animationEvent)
         {
             base.OnAnimationEvent(animationEvent);
-            if (animationEvent.stringParameter == "Die")
+            if (animationEvent.stringParameter != "Die")
             {
-                Slime.NeedRewardForDying = true;
-                Object.Destroy(Slime.gameObject);
+                return;
             }
+            
+            Slime.NeedRewardForDying = true;
+            Object.Destroy(Slime.gameObject);
         }
     }
 }

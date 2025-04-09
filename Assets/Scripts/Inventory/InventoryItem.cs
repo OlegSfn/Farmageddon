@@ -62,13 +62,14 @@ namespace Inventory
             
             // Otherwise handle direct removal (for items in the world)
             Quantity -= quantityToRemove;
-            if (Quantity <= 0)
+            if (Quantity > 0)
             {
-                Destroy(gameObject);
-                return true;
+                return false;
             }
+            
+            Destroy(gameObject);
+            return true;
 
-            return false;
         }
     
         /// <summary>

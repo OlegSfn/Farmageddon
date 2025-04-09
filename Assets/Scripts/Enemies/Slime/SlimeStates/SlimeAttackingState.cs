@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Helpers;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -96,17 +97,20 @@ namespace Enemies.Slime.SlimeStates
             
             Managers.AudioManager.Instance.PlaySlimeAttackSound(Slime.transform.position);
             
-            List<Collider2D> colliders = new List<Collider2D>();
+            List<Collider2D> colliders = new();
             _attackArea.Overlap(_contactFilter2D, colliders);
 
             foreach (var collider in colliders)
             {
-                if (!collider.CompareTag("Enemy") && collider.TryGetComponent(out HealthController healthController))
+                if (collider.CompareTag("Enemy") ||
+                    !collider.TryGetComponent(out HealthController healthController))
                 {
-                    HitInfo hitInfo = new HitInfo(Slime.Data.damage, Slime.transform.position);
-                    healthController.TakeDamage(hitInfo);
-                    _lastAttackTime = Time.time;
+                    continue;
                 }
+                
+                HitInfo hitInfo = new HitInfo(Slime.Data.damage, Slime.transform.position);
+                healthController.TakeDamage(hitInfo);
+                _lastAttackTime = Time.time;
             }
         }
 
@@ -116,10 +120,13 @@ namespace Enemies.Slime.SlimeStates
         /// <returns>Coroutine enumerator</returns>
         private IEnumerator WalkToTarget()
         {
-            // Casting null to UnityEngine.Object to check if Slime.Target is destroyed.
-            while (Slime.Target != (UnityEngine.Object)null)
+            while (true)
             {
-                NavMeshAgent.SetDestination(Slime.Target.position);
+                // Casting null to UnityEngine.Object to check if Slime.Target is destroyed.
+                if (Slime.Target != (UnityEngine.Object)null)
+                {
+                    NavMeshAgent.SetDestination(Slime.Target.position);
+                }
                 yield return new WaitForSeconds(0.1f);
             }
         }

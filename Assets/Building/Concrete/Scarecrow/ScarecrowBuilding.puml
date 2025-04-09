@@ -1,0 +1,15 @@
+@startuml
+class ScarecrowBuilding {
+    - scareness : int = 3
+    - UpdateScareForAll() : void
+    - OnTriggerEnter2D(other:Collider2D) : void
+    - OnTriggerExit2D(other:Collider2D) : void
+    + GetTransform() : Transform
+    + <<override>> Die() : void
+}
+class "HashSet`1"<T> {
+}
+Building <|-- ScarecrowBuilding
+IScary <|-- ScarecrowBuilding
+ScarecrowBuilding o-> "_scarables<IScarable>" "HashSet`1"
+@enduml

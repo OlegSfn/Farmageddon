@@ -1,9 +1,12 @@
 using System.Collections.Generic;
+using System.Linq;
 using Building;
 using Managers;
 using Planting;
+using Player;
 using ScriptableObjects.Buildings.Concrete;
 using ScriptableObjects.Items;
+using UI;
 using UnityEngine;
 
 namespace Items
@@ -59,14 +62,15 @@ namespace Items
         /// <param name="cursorPosition">Position where the hoe is being used</param>
         protected override void UseItem(Vector3Int cursorPosition)
         {
-            if (GameManager.Instance.IsPaused)
+            PlayerController playerController = GameManager.Instance.playerController;
+            if (GameManager.Instance.IsPaused || !playerController.IsAbleToUseItem)
             {
                 return;
             }
             
-            GameManager.Instance.playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
+            playerController.ToolAnimator.runtimeAnimatorController = animatorOverrideController;
             
-            GameManager.Instance.playerController.IsWeeding = true;
+            playerController.IsWeeding = true;
             
             if (_selectedCrop is not null)
             {
@@ -123,18 +127,10 @@ namespace Items
         /// <returns>True if no obstructions, false if something is blocking</returns>
         private bool CheckForObstructions()
         {
-            List<Collider2D> colliders = new List<Collider2D>();
+            List<Collider2D> colliders = new();
             CursorCollider.Overlap(ContactFilter, colliders);
-            
-            foreach (var col in colliders)
-            {
-                if (!col.isTrigger && !col.CompareTag("Player"))
-                {
-                    return false;
-                }
-            }
-            
-            return true;
+
+            return colliders.All(col => col.isTrigger || col.CompareTag("Player"));
         }
     }
 }

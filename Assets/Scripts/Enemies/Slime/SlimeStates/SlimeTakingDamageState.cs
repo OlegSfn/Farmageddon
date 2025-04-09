@@ -1,3 +1,4 @@
+using Helpers;
 using Managers;
 using UnityEngine;
 using UnityEngine.AI;
@@ -86,11 +87,13 @@ namespace Enemies.Slime.SlimeStates
         public override void OnAnimationEvent(AnimationEvent animationEvent)
         {
             base.OnAnimationEvent(animationEvent);
-            if (animationEvent.stringParameter == "EndTakingDamage")
+            if (animationEvent.stringParameter != "EndTakingDamage")
             {
-                Slime.isTakingDamage = false;
-                NavMeshAgent.isStopped = false;
+                return;
             }
+            
+            Slime.isTakingDamage = false;
+            NavMeshAgent.isStopped = false;
         }
     }
 }

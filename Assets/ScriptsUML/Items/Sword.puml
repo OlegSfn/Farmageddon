@@ -1,0 +1,10 @@
+@startuml
+class Sword {
+    - Update() : void
+    + SetActive(active:bool) : void
+}
+MonoBehaviour <|-- Sword
+ILogic <|-- Sword
+Sword --> "swordData" SwordData
+Sword --> "animatorOverrideController" AnimatorOverrideController
+@enduml
