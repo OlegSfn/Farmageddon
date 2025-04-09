@@ -139,10 +139,29 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
   - groupName: Raining
-    clips: []
-    volume: 1
+    clips:
+    - {fileID: 8300000, guid: 5d386d7608ccd48b29cb37c659f1ceca, type: 3}
+    volume: 0.173
     minPitch: 0.9
     maxPitch: 1.1
     spatialBlend: 0
     loop: 0
     mixerGroup: {fileID: -4313331553498672074, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: ButtonHover
+    clips:
+    - {fileID: 8300000, guid: 80aa420056ca043e5a3c0ea3ab8c3acf, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: 6377140671341040671, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}
+  - groupName: ButtonClick
+    clips:
+    - {fileID: 8300000, guid: 2c86a970bbf1b48edb57aa18a2fe5bd2, type: 3}
+    volume: 1
+    minPitch: 0.9
+    maxPitch: 1.1
+    spatialBlend: 0
+    loop: 0
+    mixerGroup: {fileID: 6377140671341040671, guid: c10ca5915dfca490f8dc66ba8654d759, type: 2}

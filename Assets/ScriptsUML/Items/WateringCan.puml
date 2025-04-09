@@ -1,0 +1,19 @@
+@startuml
+class WateringCan {
+    + isAboveWaterSource : bool
+    - _waterAmount : int
+    - <<const>> CropTag : string = "Crop"
+    - <<const>> WaterSourceTag : string = "WaterSource"
+    # <<override>> Start() : void
+    # <<override>> UseItem(cursorPosition:Vector3Int) : void
+    # <<override>> CheckIfCanUseItem() : bool
+    - IsPlayerWithinRange() : bool
+    - DetectInteractables() : void
+    - RefillWater() : void
+    - WaterCrop() : void
+}
+WorldCursor <|-- WateringCan
+WateringCan --> "data" WateringCanData
+WateringCan --> "animatorOverrideController" AnimatorOverrideController
+WateringCan --> "_selectedCrop" Crop
+@enduml

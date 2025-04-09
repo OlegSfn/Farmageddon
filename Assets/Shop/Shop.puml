@@ -1,0 +1,14 @@
+@startuml
+class Shop {
+    + UpdateUI() : void
+    - PopOutItems() : void
+    - PopInItems() : void
+    - CloseShop() : void
+    + OpenShop() : void
+}
+MonoBehaviour <|-- Shop
+Shop --> "onShopMenuOpened" UnityEvent
+Shop --> "onShopMenuClosed" UnityEvent
+Shop --> "shopInteractor" ColliderInteractor
+Shop --> "shopInteractorHelper" GameObject
+@enduml

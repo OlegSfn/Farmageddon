@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e31760a7e6ebccd42964577bed2f06ae, type: 3}
   m_Name: StoneFence
   m_EditorClassIdentifier: 
-  itemName: Wooden fence
+  itemName: Stone fence
   startBuyPrice: 10
   startSellPrice: 5
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 4382602848770610380, guid: 04b3f0bcff98c4d798835724743d44f3, type: 3}

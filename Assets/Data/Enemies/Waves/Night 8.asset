@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: Night 8
   m_EditorClassIdentifier: 
   waveName: Night 8
-  enemyWaveChunks: []
+  enemyWaveChunks:
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 3852638273480721615, guid: 263bb01aba2c64bffad3cf66606faaf2, type: 3}
+      count: 4
+    - prefabToSpawn: {fileID: 1086052895721598911, guid: 3ce00ff313c624e17a410731daf92d57, type: 3}
+      count: 3
+    delayBeforeSpawn: 0
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 4877324216472262664, guid: 10da771971333424c8c3e1e1d265dfd4, type: 3}
+      count: 3
+    - prefabToSpawn: {fileID: 2550098750578093091, guid: 0d401532ea55545669d20372fe30c881, type: 3}
+      count: 3
+    delayBeforeSpawn: 5

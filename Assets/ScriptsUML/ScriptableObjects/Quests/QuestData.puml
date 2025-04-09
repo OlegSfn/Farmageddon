@@ -1,0 +1,10 @@
+@startuml
+class QuestData {
+    + requiredAmount : int
+    + daysLimit : int
+    + rewardAmount : int
+}
+ScriptableObject <|-- QuestData
+QuestData --> "itemToSell" ShopItemData
+QuestData --> "itemSprite" Sprite
+@enduml

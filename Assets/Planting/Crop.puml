@@ -1,0 +1,18 @@
+@startuml
+class Crop {
+    - growthTime : float
+    - _currentStage : int
+    + Humidity : float <<get>> <<set>>
+    - Start() : void
+    - Update() : void
+    - HandleHumidity() : void
+    - UpdateCropSprite() : void
+    - Grow() : IEnumerator
+    + Die() : void
+    + Harvest() : void
+}
+MonoBehaviour <|-- Crop
+Crop --> "spriteRenderer" SpriteRenderer
+Crop --> "cropData" CropData
+Crop --> "Seedbed" Seedbed
+@enduml

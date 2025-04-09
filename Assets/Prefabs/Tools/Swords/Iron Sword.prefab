@@ -49,7 +49,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unpickableTime: 1
   inventorySlot: {fileID: 0}
-  <ItemName>k__BackingField: Iron Sword
+  <ItemName>k__BackingField: Iron sword
   <MaxStackQuantity>k__BackingField: 1
   <Quantity>k__BackingField: 1
   <Icon>k__BackingField: {fileID: -1614411906201746745, guid: fd0a7c7cf8faa44e89fd1229a52c772d, type: 3}

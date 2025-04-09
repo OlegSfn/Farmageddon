@@ -1,0 +1,14 @@
+@startuml
+class EnemyData {
+    + damage : int
+    + speed : float
+    + attackCooldown : float
+}
+struct PriorityMap {
+    + colTag : string
+    + priority : int
+}
+ScriptableObject <|-- EnemyData
+EnemyData --> "dropItem" GameObject
+EnemyData +-- PriorityMap
+@enduml

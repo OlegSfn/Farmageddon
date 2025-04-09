@@ -1,0 +1,15 @@
+@startuml
+class InventoryItem {
+    - unpickableTime : float = 1f
+    + IsPickable : bool <<get>> = true
+    + ItemName : string <<get>>
+    + MaxStackQuantity : int <<get>> = 1
+    + Quantity : int <<get>> <<set>> = 1
+    + RemoveItems(quantityToRemove:int) : bool
+    + HandleDroppingItem() : IEnumerator
+    + Die() : void
+}
+MonoBehaviour <|-- InventoryItem
+InventoryItem --> "inventorySlot" InventorySlot
+InventoryItem --> "Icon" Sprite
+@enduml

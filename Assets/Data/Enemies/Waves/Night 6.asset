@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: Night 6
   m_EditorClassIdentifier: 
   waveName: Night 6
-  enemyWaveChunks: []
+  enemyWaveChunks:
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 2923091366097195160, guid: 4c9c236211ff74b84a9396602e740e99, type: 3}
+      count: 1
+    - prefabToSpawn: {fileID: 5497278963563467098, guid: c5f37cee10b054305a5323cb55dadea3, type: 3}
+      count: 3
+    - prefabToSpawn: {fileID: 1857691462073083118, guid: 2926bcee133d345f5a528d502e4dca42, type: 3}
+      count: 2
+    delayBeforeSpawn: 0
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 4877324216472262664, guid: 10da771971333424c8c3e1e1d265dfd4, type: 3}
+      count: 2
+    delayBeforeSpawn: 6

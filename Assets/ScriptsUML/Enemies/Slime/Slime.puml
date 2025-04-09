@@ -1,0 +1,45 @@
+@startuml
+class Slime {
+    - _isAlive : bool
+    + NeedRewardForDying : bool <<get>> <<set>>
+    + isTakingDamage : bool <<get>> <<set>>
+    - _totalScare : int
+    - Start() : void
+    - InitNavMeshAgent() : void
+    - InitPriorities() : void
+    - CreatePriorityDictionary(priorities:IEnumerable<EnemyData.PriorityMap>) : Dictionary<string, int>
+    - InitStateMachine() : void
+    - Update() : void
+    - FixedUpdate() : void
+    + AnimationEvent(animationEvent:AnimationEvent) : void
+    + TakeDamage(hitInfo:HitInfo?, _:int) : void
+    + Die() : void
+    - FindTarget() : IEnumerator
+    - GetTarget() : Transform
+    - GetMaxPriorityTarget(colliders:List<Collider2D>, priorities:Dictionary<string, int>) : Transform
+    - UpdateTargetIfBetter(candidateTransform:Transform, candidatePriority:int, currentTarget:Transform, currentPriority:int, currentDistance:float) : void
+    - OnDestroy() : void
+    - DropRewards() : void
+    + UpdateScareFromSource(source:IScary, amount:int) : void
+    + RemoveScareFromSource(source:IScary) : void
+    + GetStrongestScareSource() : IScary
+    - UpdateScareSourceIfStronger(source:IScary, scareAmount:int, distance:float, strongestSource:IScary, maxScare:int, currentDistance:float) : void
+    - CalculateTotalScare() : int
+}
+class "Dictionary`2"<T1,T2> {
+}
+MonoBehaviour <|-- Slime
+IScarable <|-- Slime
+Slime --> "chasingSightArea" Collider2D
+Slime --> "attackSightArea" Collider2D
+Slime --> "attackCollider" Collider2D
+Slime --> "_chasingPriorities<string,int>" "Dictionary`2"
+Slime --> "_attackingPriorities<string,int>" "Dictionary`2"
+Slime --> "_takingDamageState" SlimeTakingDamageState
+Slime --> "_contactFilter2D" ContactFilter2D
+Slime --> "_navMeshAgent" NavMeshAgent
+Slime --> "_animator" Animator
+Slime --> "Data" EnemyData
+Slime --> "Target" Transform
+Slime o-> "_activeScareSources<IScary,int>" "Dictionary`2"
+@enduml

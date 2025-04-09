@@ -1,0 +1,13 @@
+@startuml
+class Lamp {
+    - OnEnable() : void
+    - OnDisable() : void
+    - TurnLightsOn() : void
+    - TurnLightsOff() : void
+}
+MonoBehaviour <|-- Lamp
+Lamp --> "spriteRenderer" SpriteRenderer
+Lamp --> "onLightsSprite" Sprite
+Lamp --> "offLightsSprite" Sprite
+Lamp --> "light2D" Light2D
+@enduml

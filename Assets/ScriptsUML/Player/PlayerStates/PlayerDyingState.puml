@@ -1,0 +1,9 @@
+@startuml
+class PlayerDyingState {
+    + <<override>> Name : string <<get>>
+    + PlayerDyingState(playerController:PlayerController, animator:Animator, toolAnimator:Animator, rigidbody2D:Rigidbody2D)
+    + <<override>> OnEnter() : void
+    + <<override>> OnAnimationEvent(animationEvent:AnimationEvent) : void
+}
+PlayerBaseState <|-- PlayerDyingState
+@enduml

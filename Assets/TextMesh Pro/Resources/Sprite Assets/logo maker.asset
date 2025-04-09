@@ -391,9 +391,9 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 32
       m_Height: 32
-      m_HorizontalBearingX: 0
+      m_HorizontalBearingX: -5.2
       m_HorizontalBearingY: 16
-      m_HorizontalAdvance: 36
+      m_HorizontalAdvance: 26
     m_GlyphRect:
       m_X: 288
       m_Y: 80
@@ -599,8 +599,8 @@ MonoBehaviour:
     m_Metrics:
       m_Width: 32
       m_Height: 32
-      m_HorizontalBearingX: 0
-      m_HorizontalBearingY: 16
+      m_HorizontalBearingX: -6.5
+      m_HorizontalBearingY: 11
       m_HorizontalAdvance: 32
     m_GlyphRect:
       m_X: 256

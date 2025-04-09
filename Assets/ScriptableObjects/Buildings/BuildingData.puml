@@ -1,0 +1,8 @@
+@startuml
+abstract class BuildingData {
+    + <<virtual>> CanPlace(manager:TilemapManager, position:Vector2Int) : bool
+    + <<virtual>> GetOccupiedCells(position:Vector2Int) : IEnumerable<Vector2Int>
+}
+ScriptableObject <|-- BuildingData
+BuildingData o-> "Size" Vector2Int
+@enduml

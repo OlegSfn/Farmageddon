@@ -1,0 +1,14 @@
+@startuml
+class HealthController {
+    + MaxHealth : int <<get>>
+    - _health : int
+    - Awake() : void
+    + TakeDamage(hitInfo:HitInfo) : void
+    + Heal(amount:int) : void
+}
+class "UnityEvent`2"<T1,T2> {
+}
+MonoBehaviour <|-- HealthController
+HealthController --> "onValueChange<HitInfo?,int>" "UnityEvent`2"
+HealthController --> "onDeath" UnityEvent
+@enduml

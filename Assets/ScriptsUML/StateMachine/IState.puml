@@ -1,0 +1,10 @@
+@startuml
+interface IState {
+    + Name : string <<get>>
+    + OnEnter() : void
+    + OnExit() : void
+    + OnUpdate() : void
+    + OnFixedUpdate() : void
+    + OnAnimationEvent(animationEvent:AnimationEvent) : void
+}
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class PlayerWeedingState {
+    + <<override>> Name : string <<get>>
+    + PlayerWeedingState(playerController:PlayerController, animator:Animator, toolAnimator:Animator, rigidbody2D:Rigidbody2D)
+    + <<override>> OnEnter() : void
+    + <<override>> OnAnimationEvent(animationEvent:AnimationEvent) : void
+    + <<override>> OnExit() : void
+}
+PlayerBaseState <|-- PlayerWeedingState
+@enduml

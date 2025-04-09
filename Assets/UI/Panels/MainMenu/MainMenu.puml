@@ -1,0 +1,7 @@
+@startuml
+class MainMenu {
+    + EnterScene(sceneName:string) : void
+    + ExitGame() : void
+}
+MonoBehaviour <|-- MainMenu
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class TurretBuildingData {
+    + fireCooldown : float = 1f
+    + bulletDamage : int
+    + bulletSpeed : float
+}
+BuildingData <|-- TurretBuildingData
+TurretBuildingData --> "bulletPrefab" GameObject
+TurretBuildingData --> "bulletColor" Color
+@enduml

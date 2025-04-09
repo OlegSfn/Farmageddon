@@ -1,0 +1,9 @@
+@startuml
+class ButtonSoundController {
+    + OnPointerEnter(eventData:PointerEventData) : void
+    + OnPointerDown(eventData:PointerEventData) : void
+}
+MonoBehaviour <|-- ButtonSoundController
+IPointerEnterHandler <|-- ButtonSoundController
+IPointerDownHandler <|-- ButtonSoundController
+@enduml

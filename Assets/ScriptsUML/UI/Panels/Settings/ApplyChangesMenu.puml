@@ -1,0 +1,12 @@
+@startuml
+class ApplyChangesMenu {
+    - <<const>> ApplyChangesTimer : int = 15
+    + Open(onApplyChanges:UnityAction, onRevertChanges:UnityAction) : void
+    - Close() : void
+    - TimerCountdown(revertAction:UnityAction) : IEnumerator
+}
+MonoBehaviour <|-- ApplyChangesMenu
+ApplyChangesMenu --> "applyChangesButton" Button
+ApplyChangesMenu --> "revertChangesButton" Button
+ApplyChangesMenu --> "panelsManager" PanelsManager
+@enduml

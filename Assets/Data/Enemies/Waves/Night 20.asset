@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d8895cf711ee54c976bdace7cf7e97, type: 3}
+  m_Name: Night 20
+  m_EditorClassIdentifier: 
+  waveName: Night 20
+  enemyWaveChunks:
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 1857691462073083118, guid: 2926bcee133d345f5a528d502e4dca42, type: 3}
+      count: 3
+    - prefabToSpawn: {fileID: 5497278963563467098, guid: c5f37cee10b054305a5323cb55dadea3, type: 3}
+      count: 7
+    - prefabToSpawn: {fileID: 2550098750578093091, guid: 0d401532ea55545669d20372fe30c881, type: 3}
+      count: 5
+    - prefabToSpawn: {fileID: 4877324216472262664, guid: 10da771971333424c8c3e1e1d265dfd4, type: 3}
+      count: 3
+    delayBeforeSpawn: 0
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 1997221989226664806, guid: 1cd41625e234b4ae49b24299ae662ea1, type: 3}
+      count: 3
+    - prefabToSpawn: {fileID: 5057587880570414424, guid: 944daaebe526248598cccfeba1c19b81, type: 3}
+      count: 3
+    - prefabToSpawn: {fileID: 2550098750578093091, guid: 0d401532ea55545669d20372fe30c881, type: 3}
+      count: 5
+    - prefabToSpawn: {fileID: 4877324216472262664, guid: 10da771971333424c8c3e1e1d265dfd4, type: 3}
+      count: 10
+    - prefabToSpawn: {fileID: 1086052895721598911, guid: 3ce00ff313c624e17a410731daf92d57, type: 3}
+      count: 5
+    delayBeforeSpawn: 7
+  - enemiesToSpawn:
+    - prefabToSpawn: {fileID: 2923091366097195160, guid: 4c9c236211ff74b84a9396602e740e99, type: 3}
+      count: 1
+    - prefabToSpawn: {fileID: 5057587880570414424, guid: 944daaebe526248598cccfeba1c19b81, type: 3}
+      count: 3
+    - prefabToSpawn: {fileID: 2550098750578093091, guid: 0d401532ea55545669d20372fe30c881, type: 3}
+      count: 5
+    - prefabToSpawn: {fileID: 3852638273480721615, guid: 263bb01aba2c64bffad3cf66606faaf2, type: 3}
+      count: 10
+    - prefabToSpawn: {fileID: 1086052895721598911, guid: 3ce00ff313c624e17a410731daf92d57, type: 3}
+      count: 5
+    delayBeforeSpawn: 10

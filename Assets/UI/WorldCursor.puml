@@ -1,0 +1,21 @@
+@startuml
+abstract class WorldCursor {
+    - _canUseItem : bool = true
+    # <<virtual>> Start() : void
+    - Update() : void
+    - FixedUpdate() : void
+    # {abstract} UseItem(cursorPosition:Vector3Int) : void
+    # {abstract} CheckIfCanUseItem() : bool
+    - UpdateUI() : void
+    + <<virtual>> SetActive(active:bool) : void
+    # GetObjectPosition() : Vector3Int
+    - OnDestroy() : void
+}
+MonoBehaviour <|-- WorldCursor
+ILogic <|-- WorldCursor
+WorldCursor --> "cursorPrefab" GameObject
+WorldCursor --> "CursorGameObject" GameObject
+WorldCursor --> "CursorCollider" Collider2D
+WorldCursor --> "ContactFilter" ContactFilter2D
+WorldCursor --> "_mainCamera" Camera
+@enduml

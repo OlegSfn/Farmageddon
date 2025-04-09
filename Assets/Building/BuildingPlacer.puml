@@ -1,0 +1,13 @@
+@startuml
+class BuildingPlacer {
+    # <<override>> Start() : void
+    # <<override>> UseItem(cursorPosition:Vector3Int) : void
+    # <<override>> CheckIfCanUseItem() : bool
+}
+WorldCursor <|-- BuildingPlacer
+BuildingPlacer --> "builtPrefab" GameObject
+BuildingPlacer --> "item" InventoryItem
+BuildingPlacer --> "buildingData" BuildingData
+BuildingPlacer --> "PlacedBuilding" GameObject
+BuildingPlacer --> "TilemapManager" TilemapManager
+@enduml

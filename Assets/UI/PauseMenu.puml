@@ -1,0 +1,11 @@
+@startuml
+class PauseMenu {
+    - <<const>> OpenCloseDelay : float = 0.001f
+    - Start() : void
+    - Update() : void
+    - ClosePauseMenu() : void
+}
+MonoBehaviour <|-- PauseMenu
+PauseMenu --> "pauseMenu" GameObject
+PauseMenu --> "gameManager" GameManager
+@enduml

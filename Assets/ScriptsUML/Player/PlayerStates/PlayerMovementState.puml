@@ -1,0 +1,15 @@
+@startuml
+class PlayerMovementState {
+    + <<override>> Name : string <<get>>
+    - _footstepTimer : float
+    - <<const>> FootstepInterval : float = 0.3f
+    + PlayerMovementState(playerController:PlayerController, animator:Animator, toolAnimator:Animator, rigidbody2D:Rigidbody2D)
+    + <<override>> OnEnter() : void
+    + <<override>> OnUpdate() : void
+    - IsIdle() : bool
+    - HandleIdleState() : void
+    - HandleMovementState() : void
+    + <<override>> OnFixedUpdate() : void
+}
+PlayerBaseState <|-- PlayerMovementState
+@enduml
