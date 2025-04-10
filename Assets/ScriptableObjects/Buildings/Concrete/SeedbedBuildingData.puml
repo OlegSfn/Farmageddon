@@ -1,5 +1,0 @@
-@startuml
-class SeedbedBuildingData {
-}
-BuildingData <|-- SeedbedBuildingData
-@enduml

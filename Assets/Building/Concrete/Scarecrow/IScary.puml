@@ -1,5 +1,0 @@
-@startuml
-interface IScary {
-    + GetTransform() : Transform
-}
-@enduml

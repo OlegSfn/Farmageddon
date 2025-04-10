@@ -1,7 +1,0 @@
-@startuml
-struct HitInfo {
-    + <<readonly>> Damage : int
-    + HitInfo(damage:int, hitPoint:Vector2)
-}
-HitInfo --> "HitPoint" Vector2
-@enduml

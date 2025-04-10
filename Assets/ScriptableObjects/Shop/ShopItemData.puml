@@ -1,9 +1,0 @@
-@startuml
-class ShopItemData {
-    + itemName : string
-    + startBuyPrice : int
-    + startSellPrice : int
-}
-ScriptableObject <|-- ShopItemData
-ShopItemData --> "itemPrefab" GameObject
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-class Seedbed {
-    - Awake() : void
-    - OnTriggerEnter2D(other:Collider2D) : void
-}
-MonoBehaviour <|-- Seedbed
-Seedbed --> "spriteRenderer" SpriteRenderer
-@enduml

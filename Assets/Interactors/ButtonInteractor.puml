@@ -1,8 +1,0 @@
-@startuml
-class ButtonInteractor {
-    - Update() : void
-}
-MonoBehaviour <|-- ButtonInteractor
-ButtonInteractor o-> "interactKey" KeyCode
-ButtonInteractor --> "onInteract" UnityEvent
-@enduml

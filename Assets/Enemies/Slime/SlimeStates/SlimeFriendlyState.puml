@@ -1,9 +1,0 @@
-@startuml
-class SlimeFriendlyState {
-    + <<override>> Name : string <<get>>
-    + SlimeFriendlyState(slime:Slime, navMeshAgent:NavMeshAgent, animator:Animator)
-    + <<override>> OnEnter() : void
-    + <<override>> OnUpdate() : void
-}
-SlimeBaseState <|-- SlimeFriendlyState
-@enduml

@@ -1,6 +1,0 @@
-@startuml
-class SwordData {
-    + damage : int
-}
-ScriptableObject <|-- SwordData
-@enduml
