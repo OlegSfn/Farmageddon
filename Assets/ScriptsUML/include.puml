@@ -1,134 +1,134 @@
 @startuml
 
 ' Inventory
-' !include ./Inventory/InventorySlot.puml
-' !include ./Inventory/InventoryItem.puml
-' !include ./Inventory/Inventory.puml
-' !include ./Inventory/ILogic.puml
-' !include ./UI/Cursor.puml
+!include ./Inventory/InventorySlot.puml
+!include ./Inventory/InventoryItem.puml
+!include ./Inventory/Inventory.puml
+!include ./Inventory/ILogic.puml
+!include ./UI/Cursor.puml
 
 
 ' Managers
-' !include ./Managers/CashManager.puml
-' !include ./Managers/GameManager.puml
+!include ./Managers/CashManager.puml
+!include ./Managers/GameManager.puml
 !include ./Managers/SettingsManager.puml
 
 ' UI
-' !include ./UI/HealthBar.puml
-' !include ./UI/WorldCursor.puml
-' !include ./UI/LiveStopwatch.puml
+!include ./UI/HealthBar.puml
+!include ./UI/WorldCursor.puml
+!include ./UI/LiveStopwatch.puml
 
-' !include ./UI/Panels/PauseMenu/PauseMenu.puml
+!include ./UI/Panels/PauseMenu/PauseMenu.puml
 !include ./UI/Panels/Settings/ApplyChangesMenu.puml
 !include ./UI/Panels/Settings/SettingsUI.puml
-' !include ./UI/Panels/MainMenu/MainMenu.puml
+!include ./UI/Panels/MainMenu/MainMenu.puml
 !include ./UI/Panels/PanelsManager.puml
 
 
 ' FSM
-' !include ./StateMachine/StateNode.puml
-' !include ./StateMachine/IState.puml
-' !include ./StateMachine/StateMachine.puml
-' !include ./StateMachine/Predicates/IPredicate.puml
-' !include ./StateMachine/Predicates/FuncPredicate.puml
-' !include ./StateMachine/Transitions/Transition.puml
-' !include ./StateMachine/Transitions/ITransition.puml
+!include ./StateMachine/StateNode.puml
+!include ./StateMachine/IState.puml
+!include ./StateMachine/StateMachine.puml
+!include ./StateMachine/Predicates/IPredicate.puml
+!include ./StateMachine/Predicates/FuncPredicate.puml
+!include ./StateMachine/Transitions/Transition.puml
+!include ./StateMachine/Transitions/ITransition.puml
 
 
 ' Helpers
-' !include ./Helpers/HitInfo.puml
-' !include ./Helpers/CameraController.puml
-' !include ./Helpers/HealthController.puml
+!include ./Helpers/HitInfo.puml
+!include ./Helpers/CameraController.puml
+!include ./Helpers/HealthController.puml
 
 
 
 ' Player
-' !include ./Player/PlayerController.puml
-' !include ./Player/PlayerStates/PlayerDyingState.puml
-' !include ./Player/PlayerStates/PlayerTakingDamageState.puml
-' !include ./Player/PlayerStates/PlayerBaseState.puml
-' !include ./Player/PlayerStates/PlayerWeedingState.puml
-' !include ./Player/PlayerStates/PlayerAttackingState.puml
-' !include ./Player/PlayerStates/PlayerMovementState.puml
-' !include ./Player/PlayerStates/PlayerWateringState.puml
+!include ./Player/PlayerController.puml
+!include ./Player/PlayerStates/PlayerDyingState.puml
+!include ./Player/PlayerStates/PlayerTakingDamageState.puml
+!include ./Player/PlayerStates/PlayerBaseState.puml
+!include ./Player/PlayerStates/PlayerWeedingState.puml
+!include ./Player/PlayerStates/PlayerAttackingState.puml
+!include ./Player/PlayerStates/PlayerMovementState.puml
+!include ./Player/PlayerStates/PlayerWateringState.puml
 
 
 ' Quests
-' !include ./Quests/QuestManager.puml
-' !include ./Quests/QuestUI.puml
-' !include ./ScriptableObjects/Quests/QuestData.puml
+!include ./Quests/QuestManager.puml
+!include ./Quests/QuestUI.puml
+!include ./ScriptableObjects/Quests/QuestData.puml
 
 
 ' Shop
-' !include ./Shop/ShopItem.puml
-' !include ./Shop/Shop.puml
-' !include ./ScriptableObjects/Shop/ShopItemData.puml
-' !include ./Interactors/ButtonInteractor.puml
-' !include ./Interactors/ColliderInteractor.puml
+!include ./Shop/ShopItem.puml
+!include ./Shop/Shop.puml
+!include ./ScriptableObjects/Shop/ShopItemData.puml
+!include ./Interactors/ButtonInteractor.puml
+!include ./Interactors/ColliderInteractor.puml
 
 
 ' Planting
-' !include ./Planting/Seedbed.puml
-' !include ./Planting/Crop.puml
-' !include ./ScriptableObjects/Crops/CropData.puml
+!include ./Planting/Seedbed.puml
+!include ./Planting/Crop.puml
+!include ./ScriptableObjects/Crops/CropData.puml
 
 
 ' Items
-' !include ./Items/HealItem.puml
-' !include ./Items/Sword.puml
-' !include ./Items/Hoe.puml
-' !include ./Items/WateringCan.puml
-' !include ./ScriptableObjects/Items/WateringCanData.puml
-' !include ./ScriptableObjects/Items/HoeData.puml
-' !include ./ScriptableObjects/Items/SwordData.puml
+!include ./Items/HealItem.puml
+!include ./Items/Sword.puml
+!include ./Items/Hoe.puml
+!include ./Items/WateringCan.puml
+!include ./ScriptableObjects/Items/WateringCanData.puml
+!include ./ScriptableObjects/Items/HoeData.puml
+!include ./ScriptableObjects/Items/SwordData.puml
 
 
 ' Audio
-' !include ./Managers/AudioManager.puml
-' !include ./ScriptableObjects/Audio/AudioData.puml
-' !include ./Helpers/ButtonSoundController.puml
+!include ./Managers/AudioManager.puml
+!include ./ScriptableObjects/Audio/AudioData.puml
+!include ./Helpers/ButtonSoundController.puml
 
 
 ' Environment
-' !include ./Environment/DayNightCycle/DayNightManager.puml
-' !include ./Environment/Weather/WeatherManager.puml
-' !include ./Environment/Lights/Lamp.puml
+!include ./Environment/DayNightCycle/DayNightManager.puml
+!include ./Environment/Weather/WeatherManager.puml
+!include ./Environment/Lights/Lamp.puml
 
 
 ' Buildings
-' !include ./ScriptableObjects/Buildings/BuildingData.puml
-' !include ./ScriptableObjects/Buildings/Concrete/CropBuildingData.puml
-' !include ./ScriptableObjects/Buildings/Concrete/FenceBuildingData.puml
-' !include ./ScriptableObjects/Buildings/Concrete/SimpleBuildingData.puml
-' !include ./ScriptableObjects/Buildings/Concrete/SeedbedBuildingData.puml
-' !include ./ScriptableObjects/Buildings/Concrete/TurretBuildingData.puml
+!include ./ScriptableObjects/Buildings/BuildingData.puml
+!include ./ScriptableObjects/Buildings/Concrete/CropBuildingData.puml
+!include ./ScriptableObjects/Buildings/Concrete/FenceBuildingData.puml
+!include ./ScriptableObjects/Buildings/Concrete/SimpleBuildingData.puml
+!include ./ScriptableObjects/Buildings/Concrete/SeedbedBuildingData.puml
+!include ./ScriptableObjects/Buildings/Concrete/TurretBuildingData.puml
 
-' !include ./Building/Building.puml
-' !include ./Building/TilemapManager.puml
-' !include ./Building/BuildingPlacer.puml
+!include ./Building/Building.puml
+!include ./Building/TilemapManager.puml
+!include ./Building/BuildingPlacer.puml
 
-' !include ./Building/Concrete/Turret/Bullet.puml
-' !include ./Building/Concrete/Turret/TurretBuilding.puml
-' !include ./Building/Concrete/Scarecrow/ScarecrowBuilding.puml
-' !include ./Building/Concrete/Scarecrow/IScary.puml
-' !include ./Building/Concrete/Seeds/SeedsPlacer.puml
-' !include ./Building/Concrete/Fence/FenceBuilding.puml
+!include ./Building/Concrete/Turret/Bullet.puml
+!include ./Building/Concrete/Turret/TurretBuilding.puml
+!include ./Building/Concrete/Scarecrow/ScarecrowBuilding.puml
+!include ./Building/Concrete/Scarecrow/IScary.puml
+!include ./Building/Concrete/Seeds/SeedsPlacer.puml
+!include ./Building/Concrete/Fence/FenceBuilding.puml
 
 
 ' Enemies
-' !include ./Enemies/Slime/Slime.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeDyingState.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeScaredState.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeFriendlyState.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeTakingDamageState.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeBaseState.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeAttackingState.puml
-' !include ./Enemies/Slime/SlimeStates/SlimeWanderingState.puml
-' !include ./Enemies/IScarable.puml
+!include ./Enemies/Slime/Slime.puml
+!include ./Enemies/Slime/SlimeStates/SlimeDyingState.puml
+!include ./Enemies/Slime/SlimeStates/SlimeScaredState.puml
+!include ./Enemies/Slime/SlimeStates/SlimeFriendlyState.puml
+!include ./Enemies/Slime/SlimeStates/SlimeTakingDamageState.puml
+!include ./Enemies/Slime/SlimeStates/SlimeBaseState.puml
+!include ./Enemies/Slime/SlimeStates/SlimeAttackingState.puml
+!include ./Enemies/Slime/SlimeStates/SlimeWanderingState.puml
+!include ./Enemies/IScarable.puml
 
 
 ' Waves
-' !include ./ScriptableObjects/Enemies/EnemyWaveData.puml
-' !include ./ScriptableObjects/Enemies/EnemyData.puml
-' !include ./Enemies/Waves/EnemyWavesManager.puml
+!include ./ScriptableObjects/Enemies/EnemyWaveData.puml
+!include ./ScriptableObjects/Enemies/EnemyData.puml
+!include ./Enemies/Waves/EnemyWavesManager.puml
 @enduml

@@ -1,7 +1,0 @@
-@startuml
-class SeedsPlacer {
-    # <<override>> UseItem(cursorPosition:Vector3Int) : void
-    # <<override>> CheckIfCanUseItem() : bool
-}
-BuildingPlacer <|-- SeedsPlacer
-@enduml

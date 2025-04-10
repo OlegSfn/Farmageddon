@@ -1,7 +1,0 @@
-@startuml
-class CameraController {
-    - LateUpdate() : void
-}
-MonoBehaviour <|-- CameraController
-CameraController --> "target" Transform
-@enduml

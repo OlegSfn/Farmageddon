@@ -1,6 +1,0 @@
-@startuml
-interface ITransition {
-}
-ITransition --> "TargetState" StateNode
-ITransition --> "Condition" IPredicate
-@enduml

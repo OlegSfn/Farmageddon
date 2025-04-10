@@ -1,6 +1,0 @@
-@startuml
-interface IScarable {
-    UpdateScareFromSource(source:IScary, amount:int) : void
-    RemoveScareFromSource(source:IScary) : void
-}
-@enduml

@@ -1,5 +1,0 @@
-@startuml
-interface ILogic {
-    + SetActive(active:bool) : void
-}
-@enduml

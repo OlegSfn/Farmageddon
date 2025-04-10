@@ -1,8 +1,0 @@
-@startuml
-class Transition {
-    + Transition(targetState:StateNode, condition:IPredicate)
-}
-ITransition <|-- Transition
-Transition --> "TargetState" StateNode
-Transition --> "Condition" IPredicate
-@enduml

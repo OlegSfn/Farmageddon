@@ -1,9 +1,0 @@
-@startuml
-class SlimeDyingState {
-    + <<override>> Name : string <<get>>
-    + SlimeDyingState(slime:Slime, navMeshAgent:NavMeshAgent, animator:Animator)
-    + <<override>> OnEnter() : void
-    + <<override>> OnAnimationEvent(animationEvent:AnimationEvent) : void
-}
-SlimeBaseState <|-- SlimeDyingState
-@enduml

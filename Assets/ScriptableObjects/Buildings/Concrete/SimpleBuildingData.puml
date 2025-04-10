@@ -1,5 +1,0 @@
-@startuml
-class SimpleBuildingData {
-}
-BuildingData <|-- SimpleBuildingData
-@enduml
